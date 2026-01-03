@@ -1,0 +1,476 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b054cef4-39e3-49d8-aff0-7ba5a206c187")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 176.53 53.34)
+		(size 38.1 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6f91b1d1-06a0-428d-b546-bc9bd4fa19a0")
+		(property "Sheetname" "Sample Hold 2"
+			(at 176.53 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sample_hold.kicad_sch"
+			(at 176.53 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DACin" input
+			(at 176.53 59.69 180)
+			(uuid "49906091-05de-4c52-b415-5277b5580305")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Hold" input
+			(at 176.53 66.04 180)
+			(uuid "ec8f2339-cc07-4662-bd58-8759d5891a5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Monitor" output
+			(at 214.63 72.39 0)
+			(uuid "f34f0f3d-d174-483c-9ac3-6fcdc6ad7b65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Relay" input
+			(at 176.53 73.66 180)
+			(uuid "4dd45292-5a07-46e5-9408-ea0439fca174")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sample" input
+			(at 176.53 69.85 180)
+			(uuid "bec29b63-32fb-4185-b76d-7876198ec1ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ScanOut" output
+			(at 214.63 60.96 0)
+			(uuid "d98edb5f-2fab-4c1d-90d7-e629d4fa6f7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 135.89)
+		(size 38.1 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "79d139b8-187a-44f5-bd99-1da7793824c6")
+		(property "Sheetname" "18V"
+			(at 53.34 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "v18.kicad_sch"
+			(at 53.34 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 53.34)
+		(size 38.1 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8eaf15be-2df7-401b-a518-33a048754894")
+		(property "Sheetname" "Sample Hold 1"
+			(at 116.84 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sample_hold.kicad_sch"
+			(at 116.84 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DACin" input
+			(at 116.84 59.69 180)
+			(uuid "5742fe97-4a03-4189-93d6-1d065cf633cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Hold" input
+			(at 116.84 66.04 180)
+			(uuid "cf6a6718-aafc-48d2-9719-4d87d435a7ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Monitor" output
+			(at 154.94 72.39 0)
+			(uuid "af606924-7719-40cc-a205-47d4c7f7ade5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Relay" input
+			(at 116.84 73.66 180)
+			(uuid "d3708505-761a-40ed-83eb-f64a0d937df0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sample" input
+			(at 116.84 69.85 180)
+			(uuid "474f0542-2136-465d-9d6f-1bee32fddca5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ScanOut" output
+			(at 154.94 60.96 0)
+			(uuid "46687143-dbb8-4988-971a-93677c02003d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170.18 97.79)
+		(size 48.26 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "98a8b958-69ae-452b-9f02-aef214a697d8")
+		(property "Sheetname" "Low Voltage Power"
+			(at 170.18 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 170.18 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 100.33)
+		(size 34.29 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f2e682f2-52ca-4ed0-8a7d-aeb09fbc9914")
+		(property "Sheetname" "DAC2752"
+			(at 116.84 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dac2752.kicad_sch"
+			(at 116.84 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "COMPA" input
+			(at 116.84 115.57 180)
+			(uuid "02fe43e4-0295-4915-a3c1-0dde38d26e7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "COMPB" input
+			(at 116.84 118.11 180)
+			(uuid "cd3119aa-74a7-4f36-a8ce-31ffe2bf2a67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OutA" output
+			(at 151.13 106.68 0)
+			(uuid "df079a08-5e85-4c13-9bdf-8281006c773b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OutB" output
+			(at 151.13 110.49 0)
+			(uuid "d4bcfb18-fcc7-4e2d-b1d7-b7ff3813b239")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCK" input
+			(at 116.84 104.14 180)
+			(uuid "c75c7ebc-ae78-4140-9d42-4367121322d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDI" input
+			(at 116.84 106.68 180)
+			(uuid "238a64f0-cb23-42ce-b3db-0b47c5afbf23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SRO" output
+			(at 116.84 109.22 180)
+			(uuid "9833d4bf-b0b8-4fa4-84ed-edd9d393300a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{CS}" input
+			(at 116.84 111.76 180)
+			(uuid "542df30f-4f97-4846-8cf4-021334f2f70d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{LDAC}" input
+			(at 151.13 116.84 0)
+			(uuid "b5d41dde-8371-4350-a545-27178e4cd052")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 53.34)
+		(size 38.1 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fd210975-34eb-456f-9075-cf344b0a559b")
+		(property "Sheetname" "Offset Voltage Ladder"
+			(at 49.53 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "offset.kicad_sch"
+			(at 49.53 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

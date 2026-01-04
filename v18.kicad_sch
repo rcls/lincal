@@ -1832,108 +1832,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Parts:PGND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PGND"
-				(at 0 -3.81 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"PGND\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PGND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PGND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Parts:TPS7A3301RGW"
 			(pin_names
 				(offset 0.127)
@@ -2961,6 +2859,179 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GNDPWR"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDPWR"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDPWR_0_1"
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDPWR_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:PWR_FLAG"
 			(power)
 			(pin_numbers
@@ -3204,6 +3275,12 @@
 		(uuid "3b3bb0d7-bff2-4bad-814b-b7468efe8e92")
 	)
 	(junction
+		(at 48.26 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b9ec30f-87cb-4c04-96d2-a279758a053b")
+	)
+	(junction
 		(at 172.72 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3294,6 +3371,12 @@
 		(uuid "7556a683-cd23-4369-9916-423044bce0df")
 	)
 	(junction
+		(at 31.75 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "758e223f-4fe9-4237-811f-a6b6a3eb9f9b")
+	)
+	(junction
 		(at 88.9 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3342,6 +3425,12 @@
 		(uuid "92349372-9983-44af-989c-26db11781922")
 	)
 	(junction
+		(at 41.91 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97f75da6-47cd-4199-a178-813085e55b73")
+	)
+	(junction
 		(at 182.88 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3364,6 +3453,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4d77add-72ec-4e45-bb7f-cdffe7d4f037")
+	)
+	(junction
+		(at 31.75 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a744d0c3-f55d-4d5e-807c-dde41cdbebd7")
 	)
 	(junction
 		(at 228.6 50.8)
@@ -3400,12 +3495,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b576d73d-c22e-49c9-a6cd-7fe5409662c1")
-	)
-	(junction
-		(at 36.83 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b93cdfb5-54ac-4aa3-9aea-c1711394e718")
 	)
 	(junction
 		(at 105.41 60.96)
@@ -3502,6 +3591,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f100f3d5-3e68-42ec-95e5-5ba1528c1154")
+	)
+	(junction
+		(at 48.26 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1b62ce7-2ad4-4399-8a1a-76bb855eb821")
 	)
 	(junction
 		(at 238.76 100.33)
@@ -3615,7 +3710,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 73.66) (xy 25.4 73.66)
+			(xy 29.21 73.66) (xy 30.48 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3685,7 +3780,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 55.88) (xy 52.07 55.88)
+			(xy 48.26 55.88) (xy 52.07 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3735,6 +3830,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 55.88) (xy 39.37 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "234626e6-5ec4-4da4-a3a9-0f2d056f2050")
+	)
+	(wire
+		(pts
 			(xy 222.25 118.11) (xy 248.92 118.11)
 		)
 		(stroke
@@ -3742,16 +3847,6 @@
 			(type default)
 		)
 		(uuid "2413d922-624b-4578-bfaf-12964bf7f007")
-	)
-	(wire
-		(pts
-			(xy 39.37 55.88) (xy 41.91 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24c8cfd6-aec0-485b-a429-9b35d13ec267")
 	)
 	(wire
 		(pts
@@ -3812,16 +3907,6 @@
 			(type default)
 		)
 		(uuid "2eb2b2fd-40dc-4f65-a7ba-e27b6c50f5a4")
-	)
-	(wire
-		(pts
-			(xy 30.48 91.44) (xy 31.75 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f018b91-d784-46a4-a292-fedfbcc0d28e")
 	)
 	(wire
 		(pts
@@ -3925,7 +4010,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 91.44) (xy 41.91 91.44)
+			(xy 39.37 91.44) (xy 40.64 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3985,7 +4070,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 73.66) (xy 36.83 73.66)
+			(xy 38.1 73.66) (xy 41.91 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4085,7 +4170,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 91.44) (xy 52.07 91.44)
+			(xy 48.26 91.44) (xy 52.07 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4182,6 +4267,16 @@
 			(type default)
 		)
 		(uuid "71f1b57c-6059-46c0-a8e4-0fcdc471c696")
+	)
+	(wire
+		(pts
+			(xy 39.37 85.09) (xy 48.26 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "734287cf-7a92-4f25-b9f5-a382ebc988e9")
 	)
 	(wire
 		(pts
@@ -4295,6 +4390,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 73.66) (xy 50.8 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e895a08-983c-4f93-9a51-4bc7476b93fb")
+	)
+	(wire
+		(pts
 			(xy 191.77 50.8) (xy 193.04 50.8)
 		)
 		(stroke
@@ -4335,13 +4440,13 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 55.88) (xy 31.75 55.88)
+			(xy 48.26 85.09) (xy 48.26 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "981c9a82-b0fe-48c2-aa72-2c54094fd9f0")
+		(uuid "99e7697e-8595-4137-8486-fb44da8df5fa")
 	)
 	(wire
 		(pts
@@ -4485,6 +4590,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 50.8) (xy 48.26 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7be5b21-5738-4717-b746-8ae85f5d75ae")
+	)
+	(wire
+		(pts
 			(xy 50.8 58.42) (xy 50.8 73.66)
 		)
 		(stroke
@@ -4545,16 +4660,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 73.66) (xy 50.8 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c32c8d54-c7a5-4b65-a592-dc4a81f58475")
-	)
-	(wire
-		(pts
 			(xy 52.07 76.2) (xy 52.07 78.74)
 		)
 		(stroke
@@ -4592,6 +4697,16 @@
 			(type default)
 		)
 		(uuid "c846507b-bb47-4456-8765-b0680ad4f901")
+	)
+	(wire
+		(pts
+			(xy 48.26 50.8) (xy 48.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb9dc695-fd43-47a1-9e2e-efe36fb2dc60")
 	)
 	(wire
 		(pts
@@ -4665,6 +4780,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 50.8) (xy 31.75 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e48d8dab-1a43-489c-a8c9-30999b432c63")
+	)
+	(wire
+		(pts
 			(xy 93.98 60.96) (xy 105.41 60.96)
 		)
 		(stroke
@@ -4672,6 +4797,16 @@
 			(type default)
 		)
 		(uuid "e69e4a1f-d6da-4968-9d19-d7580e7e9074")
+	)
+	(wire
+		(pts
+			(xy 31.75 85.09) (xy 31.75 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6afdf8f-4319-42fd-9f67-ef1c54cd2c64")
 	)
 	(wire
 		(pts
@@ -4874,7 +5009,7 @@
 		(uuid "54c4b8a8-ef8d-49e3-b57b-b78149680357")
 	)
 	(label "R18in"
-		(at 180.34 43.18 0)
+		(at 181.61 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4972,8 +5107,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Parts:PGND")
-		(at 30.48 91.44 0)
+		(lib_id "power:GNDPWR")
+		(at 31.75 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4981,7 +5116,7 @@
 		(dnp no)
 		(uuid "001cc654-3c3c-4289-a664-419f34bee404")
 		(property "Reference" "#PWR0133"
-			(at 30.48 97.79 0)
+			(at 31.75 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4989,17 +5124,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
-			(at 30.48 95.25 0)
-			(do_not_autoplace yes)
+		(property "Value" "GNDPWR"
+			(at 31.75 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 91.44 0)
+			(at 31.75 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5008,7 +5143,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 91.44 0)
+			(at 31.75 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5016,8 +5151,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"PGND\""
-			(at 30.48 91.44 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 31.75 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5046,7 +5181,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0376fbe8-b6c1-4a5b-90b4-5ff03b52b408")
-		(property "Reference" "L?"
+		(property "Reference" "L54"
 			(at 148.59 44.45 90)
 			(effects
 				(font
@@ -5054,7 +5189,7 @@
 				)
 			)
 		)
-		(property "Value" "L_Ferrite_Power"
+		(property "Value" "100"
 			(at 148.59 40.386 90)
 			(effects
 				(font
@@ -5098,7 +5233,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "L?")
+					(reference "L54")
 					(unit 1)
 				)
 			)
@@ -5113,7 +5248,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0478ebe2-9b51-4547-be02-9ed367cf5ee6")
-		(property "Reference" "TP?"
+		(property "Reference" "TP541"
 			(at 176.53 87.376 0)
 			(effects
 				(font
@@ -5172,7 +5307,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "TP?")
+					(reference "TP541")
 					(unit 1)
 				)
 			)
@@ -5188,7 +5323,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "080b001b-ce29-4472-973a-3cdf5af908f1")
-		(property "Reference" "R?"
+		(property "Reference" "R502"
 			(at 86.868 72.39 90)
 			(effects
 				(font
@@ -5240,7 +5375,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "R?")
+					(reference "R502")
 					(unit 1)
 				)
 			)
@@ -5255,7 +5390,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ac1cb0f-f747-4295-998d-b17bb0e2d2e0")
-		(property "Reference" "R?"
+		(property "Reference" "R503"
 			(at 96.012 64.77 90)
 			(effects
 				(font
@@ -5307,7 +5442,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "R?")
+					(reference "R503")
 					(unit 1)
 				)
 			)
@@ -5322,22 +5457,21 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c4564e1-c774-4092-aebe-2db60781469e")
-		(property "Reference" "C?"
-			(at 33.782 91.313 0)
+		(property "Reference" "C511"
+			(at 39.116 93.091 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "C"
-			(at 37.592 91.313 0)
+			(at 36.576 90.551 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -5376,14 +5510,14 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C511")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Parts:PGND")
+		(lib_id "power:GNDPWR")
 		(at 203.2 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5400,17 +5534,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
-			(at 203.2 121.92 0)
-			(do_not_autoplace yes)
+		(property "Value" "GNDPWR"
+			(at 203.2 121.412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 118.11 0)
+			(at 203.2 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5419,7 +5553,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 118.11 0)
+			(at 203.2 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5427,7 +5561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"PGND\""
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
 			(at 203.2 118.11 0)
 			(effects
 				(font
@@ -5458,7 +5592,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0cd2138b-4843-4604-8bb6-612aec2a8137")
-		(property "Reference" "R?"
+		(property "Reference" "R512"
 			(at 86.868 87.63 90)
 			(effects
 				(font
@@ -5510,7 +5644,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "R?")
+					(reference "R512")
 					(unit 1)
 				)
 			)
@@ -5525,7 +5659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "126220e0-08cf-4174-ae54-06d598ca06ee")
-		(property "Reference" "C?"
+		(property "Reference" "C504"
 			(at 105.537 66.802 0)
 			(effects
 				(font
@@ -5579,7 +5713,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C504")
 					(unit 1)
 				)
 			)
@@ -5594,7 +5728,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19393d36-2531-47e0-9e8d-07f39462ae41")
-		(property "Reference" "U?"
+		(property "Reference" "U51"
 			(at 67.31 66.04 0)
 			(effects
 				(font
@@ -5703,7 +5837,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "U?")
+					(reference "U51")
 					(unit 1)
 				)
 			)
@@ -5718,7 +5852,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "218dfbd2-a82e-440e-a845-4d292a51db0a")
-		(property "Reference" "D?"
+		(property "Reference" "D52"
 			(at 88.9 96.52 0)
 			(effects
 				(font
@@ -5770,7 +5904,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "D?")
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -5785,7 +5919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29c329ec-2d34-43a8-a98b-2d21a6d10d5e")
-		(property "Reference" "R?"
+		(property "Reference" "R542"
 			(at 215.138 114.2999 90)
 			(effects
 				(font
@@ -5846,7 +5980,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "R?")
+					(reference "R542")
 					(unit 1)
 				)
 			)
@@ -5861,7 +5995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2dae1e70-a803-4758-a89d-bcd790b9cef1")
-		(property "Reference" "C?"
+		(property "Reference" "C551"
 			(at 248.92 98.552 0)
 			(effects
 				(font
@@ -5933,7 +6067,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C551")
 					(unit 1)
 				)
 			)
@@ -5948,7 +6082,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ebe1378-af21-442b-b6b9-fffac4bd295d")
-		(property "Reference" "TP?"
+		(property "Reference" "TP542"
 			(at 238.76 87.376 0)
 			(effects
 				(font
@@ -6007,7 +6141,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "TP?")
+					(reference "TP542")
 					(unit 1)
 				)
 			)
@@ -6022,7 +6156,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30022d96-b3b9-49c2-aee5-c1d040132b67")
-		(property "Reference" "C?"
+		(property "Reference" "C550"
 			(at 243.84 98.552 0)
 			(effects
 				(font
@@ -6094,7 +6228,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C550")
 					(unit 1)
 				)
 			)
@@ -6102,23 +6236,23 @@
 	)
 	(symbol
 		(lib_id "Parts:L_Ferrite_Power")
-		(at 29.21 73.66 90)
+		(at 34.29 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "34ca786e-6db8-48aa-9d77-4f3089affa40")
-		(property "Reference" "L?"
-			(at 29.21 74.93 90)
+		(property "Reference" "L53"
+			(at 34.29 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "L_Ferrite_Power"
-			(at 29.21 70.866 90)
+		(property "Value" "100"
+			(at 34.29 70.866 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6126,7 +6260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 73.66 0)
+			(at 34.29 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6135,7 +6269,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 73.66 0)
+			(at 34.29 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,7 +6278,7 @@
 			)
 		)
 		(property "Description" "Inductor with ferrite core"
-			(at 29.21 73.66 0)
+			(at 34.29 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6161,7 +6295,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "L?")
+					(reference "L53")
 					(unit 1)
 				)
 			)
@@ -6176,7 +6310,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c3bc898-9aba-4a55-820d-1418c3898038")
-		(property "Reference" "TP?"
+		(property "Reference" "TP522"
 			(at 238.76 37.592 0)
 			(effects
 				(font
@@ -6235,7 +6369,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "TP?")
+					(reference "TP522")
 					(unit 1)
 				)
 			)
@@ -6250,7 +6384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "452c0ebf-5e0e-42aa-901e-a27b71721444")
-		(property "Reference" "C?"
+		(property "Reference" "C530"
 			(at 248.92 49.022 0)
 			(effects
 				(font
@@ -6322,7 +6456,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C530")
 					(unit 1)
 				)
 			)
@@ -6338,7 +6472,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b8264be-6f87-4ded-9504-164197a281e0")
-		(property "Reference" "R?"
+		(property "Reference" "R514"
 			(at 91.948 95.25 90)
 			(effects
 				(font
@@ -6390,7 +6524,142 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "R?")
+					(reference "R514")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 83.82 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c3446a6-af3a-487d-8d5b-bbc1a2303895")
+		(property "Reference" "#PWR0541"
+			(at 83.82 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 83.82 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 83.82 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92dde144-aacf-4fde-bcf9-634e7096c17a")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
+					(reference "#PWR0541")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 35.56 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "4c7f22a8-007b-4e30-bb47-b3aa422775bb")
+		(property "Reference" "C?"
+			(at 36.576 51.816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C"
+			(at 36.576 49.784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 49.8348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 35.56 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "041541ec-4c7f-41db-95e4-4bfc8c61dc24")
+		)
+		(pin "2"
+			(uuid "00e58bed-3412-435f-8273-69c299644077")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -6405,7 +6674,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ed4d8dd-b6d6-4727-aa6e-af5fe8166a6a")
-		(property "Reference" "C?"
+		(property "Reference" "C529"
 			(at 243.84 49.022 0)
 			(effects
 				(font
@@ -6477,7 +6746,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C529")
 					(unit 1)
 				)
 			)
@@ -6492,7 +6761,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4eff98a5-c479-4385-892d-60f72aec6a71")
-		(property "Reference" "C?"
+		(property "Reference" "C513"
 			(at 105.537 89.662 0)
 			(effects
 				(font
@@ -6546,7 +6815,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C513")
 					(unit 1)
 				)
 			)
@@ -6562,7 +6831,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52202c0b-a300-494e-96fd-cd13ff985ee8")
-		(property "Reference" "C?"
+		(property "Reference" "C543"
 			(at 183.388 98.806 0)
 			(effects
 				(font
@@ -6623,6 +6892,75 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
+					(reference "C543")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 35.56 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "577139f2-2951-4820-803f-cfec55d89596")
+		(property "Reference" "C?"
+			(at 36.576 86.233 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C"
+			(at 36.576 84.201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 84.1248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 35.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ebf3e07-d2c0-4ef3-8743-c1d4ab4ff983")
+		)
+		(pin "2"
+			(uuid "602611b6-ce8b-4ee4-8094-790fc1186f40")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
 					(reference "C?")
 					(unit 1)
 				)
@@ -6636,9 +6974,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5860289a-dac7-4c4c-9085-890356667ce9")
-		(property "Reference" "C?"
+		(property "Reference" "C521"
 			(at 165.227 44.958 0)
 			(effects
 				(font
@@ -6692,7 +7030,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C521")
 					(unit 1)
 				)
 			)
@@ -6707,7 +7045,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5aed8703-b919-4e41-abd6-94c90684987f")
-		(property "Reference" "L?"
+		(property "Reference" "L55"
 			(at 148.59 93.98 90)
 			(effects
 				(font
@@ -6715,7 +7053,7 @@
 				)
 			)
 		)
-		(property "Value" "L_Ferrite_Power"
+		(property "Value" "100"
 			(at 148.59 89.916 90)
 			(effects
 				(font
@@ -6759,7 +7097,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "L?")
+					(reference "L55")
 					(unit 1)
 				)
 			)
@@ -6774,22 +7112,22 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b4f0d91-ce4b-4d65-9e0a-6c03ead109c6")
-		(property "Reference" "C?"
-			(at 33.782 55.753 0)
+		(property "Reference" "C502"
+			(at 36.576 58.166 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "C"
-			(at 37.592 55.753 0)
+			(at 36.576 54.864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -6828,7 +7166,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C502")
 					(unit 1)
 				)
 			)
@@ -6843,7 +7181,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c43cc0d-eb2b-466f-bcaf-c9dfe661ec0b")
-		(property "Reference" "C?"
+		(property "Reference" "C544"
 			(at 190.5 111.252 0)
 			(effects
 				(font
@@ -6913,15 +7251,15 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C544")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Parts:PGND")
-		(at 30.48 55.88 0)
+		(lib_id "power:GNDPWR")
+		(at 31.75 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6929,7 +7267,7 @@
 		(dnp no)
 		(uuid "5d9920f8-87d9-4882-9e78-feffd5682b6b")
 		(property "Reference" "#PWR0132"
-			(at 30.48 62.23 0)
+			(at 31.75 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6937,17 +7275,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
-			(at 30.48 59.69 0)
-			(do_not_autoplace yes)
+		(property "Value" "GNDPWR"
+			(at 31.75 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 55.88 0)
+			(at 31.75 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6956,7 +7294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 55.88 0)
+			(at 31.75 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6964,8 +7302,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"PGND\""
-			(at 30.48 55.88 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 31.75 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6994,7 +7332,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63c43362-c0b6-4a87-9091-4194a1356c8f")
-		(property "Reference" "L?"
+		(property "Reference" "L52"
 			(at 82.55 102.87 90)
 			(effects
 				(font
@@ -7046,7 +7384,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "L?")
+					(reference "L52")
 					(unit 1)
 				)
 			)
@@ -7062,7 +7400,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64355fee-d166-4c0a-9ad5-9f4b5570c745")
-		(property "Reference" "R?"
+		(property "Reference" "R513"
 			(at 91.948 87.63 90)
 			(effects
 				(font
@@ -7114,7 +7452,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "R?")
+					(reference "R513")
 					(unit 1)
 				)
 			)
@@ -7129,7 +7467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "685338ec-63d3-4d12-a0e6-cda663eb8384")
-		(property "Reference" "C?"
+		(property "Reference" "C527"
 			(at 233.68 49.022 0)
 			(effects
 				(font
@@ -7201,7 +7539,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C527")
 					(unit 1)
 				)
 			)
@@ -7216,7 +7554,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d366768-7d95-41f8-b00e-507b798759df")
-		(property "Reference" "C?"
+		(property "Reference" "C512"
 			(at 99.187 85.852 0)
 			(effects
 				(font
@@ -7270,7 +7608,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C512")
 					(unit 1)
 				)
 			)
@@ -7283,9 +7621,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "70edfa83-51c6-47f2-aa9f-c7512b1809cd")
-		(property "Reference" "C?"
+		(property "Reference" "C541"
 			(at 165.227 94.488 0)
 			(effects
 				(font
@@ -7339,7 +7677,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C541")
 					(unit 1)
 				)
 			)
@@ -7355,7 +7693,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a61173c-eaa7-4ed8-a21d-e43f63e06a2a")
-		(property "Reference" "C?"
+		(property "Reference" "C542"
 			(at 170.688 94.234 0)
 			(effects
 				(font
@@ -7425,7 +7763,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C542")
 					(unit 1)
 				)
 			)
@@ -7499,7 +7837,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 45.72 55.88 270)
+		(at 44.45 55.88 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7507,8 +7845,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ea931d2-e87f-4f9e-9167-860d0f053cf3")
-		(property "Reference" "R?"
-			(at 45.72 53.848 90)
+		(property "Reference" "R501"
+			(at 44.45 53.848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7516,7 +7854,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 45.72 55.88 90)
+			(at 44.45 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7524,7 +7862,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 57.658 90)
+			(at 44.45 57.658 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7533,7 +7871,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 55.88 0)
+			(at 44.45 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7542,7 +7880,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 45.72 55.88 0)
+			(at 44.45 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7559,7 +7897,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "R?")
+					(reference "R501")
 					(unit 1)
 				)
 			)
@@ -7567,7 +7905,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 45.72 91.44 270)
+		(at 44.45 91.44 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7575,8 +7913,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81efcc8e-c26a-4f6f-b1a9-612b454daa63")
-		(property "Reference" "R?"
-			(at 45.72 89.408 90)
+		(property "Reference" "R511"
+			(at 44.45 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7584,7 +7922,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 45.72 91.44 90)
+			(at 44.45 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7592,7 +7930,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 93.218 90)
+			(at 44.45 93.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7601,7 +7939,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 91.44 0)
+			(at 44.45 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7610,7 +7948,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 45.72 91.44 0)
+			(at 44.45 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7627,7 +7965,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "R?")
+					(reference "R511")
 					(unit 1)
 				)
 			)
@@ -7642,7 +7980,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "83085327-6584-454e-b06c-3c4dc5e120f9")
-		(property "Reference" "R?"
+		(property "Reference" "R521"
 			(at 187.96 48.768 90)
 			(effects
 				(font
@@ -7703,7 +8041,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "R?")
+					(reference "R521")
 					(unit 1)
 				)
 			)
@@ -7718,7 +8056,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "876ba7fc-6622-4c47-8fcf-b9969902fc01")
-		(property "Reference" "C?"
+		(property "Reference" "C525"
 			(at 222.25 49.022 0)
 			(effects
 				(font
@@ -7781,7 +8119,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C525")
 					(unit 1)
 				)
 			)
@@ -7796,7 +8134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a075e6f-1197-4066-b090-b6d890fc5718")
-		(property "Reference" "C?"
+		(property "Reference" "C526"
 			(at 228.6 49.022 0)
 			(effects
 				(font
@@ -7868,7 +8206,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C526")
 					(unit 1)
 				)
 			)
@@ -7883,7 +8221,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a415dff-4f7b-4f9d-90a7-ce4728dcd678")
-		(property "Reference" "C?"
+		(property "Reference" "C547"
 			(at 228.6 98.552 0)
 			(effects
 				(font
@@ -7955,15 +8293,15 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C547")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Parts:PGND")
-		(at 36.83 81.28 0)
+		(lib_id "power:GNDPWR")
+		(at 41.91 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7971,7 +8309,7 @@
 		(dnp no)
 		(uuid "8cb6cf3d-564c-4197-bb44-c58426fb12a4")
 		(property "Reference" "#PWR0134"
-			(at 36.83 87.63 0)
+			(at 41.91 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7979,17 +8317,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
-			(at 36.83 85.09 0)
-			(do_not_autoplace yes)
+		(property "Value" "GNDPWR"
+			(at 41.91 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 81.28 0)
+			(at 41.91 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7998,7 +8336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 81.28 0)
+			(at 41.91 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8006,8 +8344,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"PGND\""
-			(at 36.83 81.28 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 41.91 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8036,7 +8374,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91793add-2c6b-47ac-84d0-9221ea1cf85f")
-		(property "Reference" "TP?"
+		(property "Reference" "TP521"
 			(at 176.53 37.846 0)
 			(effects
 				(font
@@ -8095,14 +8433,14 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "TP?")
+					(reference "TP521")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Parts:PGND")
+		(lib_id "power:GNDPWR")
 		(at 205.74 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8119,17 +8457,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
-			(at 205.74 80.01 0)
-			(do_not_autoplace yes)
+		(property "Value" "GNDPWR"
+			(at 205.74 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 76.2 0)
+			(at 205.74 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8138,7 +8476,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 76.2 0)
+			(at 205.74 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8146,7 +8484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"PGND\""
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
 			(at 205.74 76.2 0)
 			(effects
 				(font
@@ -8176,7 +8514,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "966c2102-fcf1-4147-ab16-1912368f3b23")
-		(property "Reference" "L?"
+		(property "Reference" "L51"
 			(at 82.55 57.15 90)
 			(effects
 				(font
@@ -8228,7 +8566,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "L?")
+					(reference "L51")
 					(unit 1)
 				)
 			)
@@ -8236,15 +8574,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 172.72 46.99 180)
+		(at 172.72 46.99 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9a7fe2c5-234a-4f04-9115-5eb9c9d3df15")
-		(property "Reference" "C?"
-			(at 170.18 49.022 0)
+		(property "Reference" "C522"
+			(at 175.26 49.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8252,7 +8591,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 170.18 44.958 0)
+			(at 175.26 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8260,7 +8599,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 171.7548 43.18 0)
+			(at 173.6852 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8313,7 +8652,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C522")
 					(unit 1)
 				)
 			)
@@ -8321,15 +8660,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 180.34 46.99 180)
+		(at 180.34 46.99 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9abaaa5d-df31-4939-9bdc-05d71a0a5609")
-		(property "Reference" "C?"
-			(at 177.8 49.022 0)
+		(property "Reference" "C523"
+			(at 182.88 49.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8337,7 +8677,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 177.8 44.958 0)
+			(at 182.88 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8345,7 +8685,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 179.3748 43.18 0)
+			(at 181.3052 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8389,7 +8729,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C523")
 					(unit 1)
 				)
 			)
@@ -8404,7 +8744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c3c86a6-9745-40d9-bc97-f4c78256890c")
-		(property "Reference" "#FLG?"
+		(property "Reference" "#FLG0101"
 			(at 170.18 90.805 0)
 			(effects
 				(font
@@ -8455,7 +8795,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "#FLG?")
+					(reference "#FLG0101")
 					(unit 1)
 				)
 			)
@@ -8470,7 +8810,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9cf4ab47-093e-43c9-a143-31646a47bbb3")
-		(property "Reference" "D?"
+		(property "Reference" "D53"
 			(at 157.48 40.64 0)
 			(effects
 				(font
@@ -8522,7 +8862,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "D?")
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -8537,7 +8877,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2283991-c543-4752-add3-dc69e0a7f0c0")
-		(property "Reference" "C?"
+		(property "Reference" "C528"
 			(at 238.76 49.022 0)
 			(effects
 				(font
@@ -8609,7 +8949,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C528")
 					(unit 1)
 				)
 			)
@@ -8617,7 +8957,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 20.32 73.66 0)
+		(at 29.21 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8625,7 +8965,7 @@
 		(dnp no)
 		(uuid "ab46ca29-4f8b-4c56-8152-2715ba4afce2")
 		(property "Reference" "#PWR0131"
-			(at 20.32 77.47 0)
+			(at 29.21 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8634,7 +8974,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 20.32 70.104 0)
+			(at 29.21 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8642,7 +8982,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 73.66 0)
+			(at 29.21 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8651,7 +8991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 73.66 0)
+			(at 29.21 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8660,7 +9000,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 20.32 73.66 0)
+			(at 29.21 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8689,7 +9029,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab759b83-33c8-4584-92a1-12fc0472a276")
-		(property "Reference" "C?"
+		(property "Reference" "C549"
 			(at 238.76 98.552 0)
 			(effects
 				(font
@@ -8761,7 +9101,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C549")
 					(unit 1)
 				)
 			)
@@ -8776,7 +9116,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abc798dd-b835-4da2-bf76-79387f1656c4")
-		(property "Reference" "R?"
+		(property "Reference" "R522"
 			(at 179.832 53.34 90)
 			(effects
 				(font
@@ -8837,7 +9177,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "R?")
+					(reference "R522")
 					(unit 1)
 				)
 			)
@@ -8852,7 +9192,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae98795a-d798-481d-b075-80ddd30c1722")
-		(property "Reference" "C?"
+		(property "Reference" "C503"
 			(at 43.942 67.183 0)
 			(effects
 				(font
@@ -8906,7 +9246,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C503")
 					(unit 1)
 				)
 			)
@@ -8922,7 +9262,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1ab9b89-0fe8-4bd5-bc74-1a6f715133de")
-		(property "Reference" "C?"
+		(property "Reference" "C524"
 			(at 217.424 74.422 0)
 			(effects
 				(font
@@ -8992,7 +9332,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C524")
 					(unit 1)
 				)
 			)
@@ -9000,15 +9340,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 36.83 77.47 0)
+		(at 41.91 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b8392100-5fd2-400a-8d15-a3c102c05425")
-		(property "Reference" "C?"
-			(at 36.957 75.692 0)
+		(property "Reference" "C501"
+			(at 42.037 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9017,7 +9357,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 36.957 79.502 0)
+			(at 42.037 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9026,7 +9366,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 37.7952 81.28 0)
+			(at 42.8752 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9035,7 +9375,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 77.47 0)
+			(at 41.91 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9044,7 +9384,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 36.83 77.47 0)
+			(at 41.91 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9061,7 +9401,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C501")
 					(unit 1)
 				)
 			)
@@ -9076,7 +9416,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b940b604-5359-4fd4-9973-696f0ca4a83b")
-		(property "Reference" "D?"
+		(property "Reference" "D54"
 			(at 157.48 95.25 0)
 			(effects
 				(font
@@ -9128,14 +9468,14 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "D?")
+					(reference "D54")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Parts:PGND")
+		(lib_id "power:GNDPWR")
 		(at 99.06 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9152,9 +9492,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
-			(at 99.06 95.25 0)
-			(do_not_autoplace yes)
+		(property "Value" "GNDPWR"
+			(at 99.06 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9162,7 +9501,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 91.44 0)
+			(at 99.06 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9171,7 +9510,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 91.44 0)
+			(at 99.06 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9179,7 +9518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"PGND\""
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
 			(at 99.06 91.44 0)
 			(effects
 				(font
@@ -9209,7 +9548,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9f5a5c8-a35e-4415-ae31-c051db5ad023")
-		(property "Reference" "R?"
+		(property "Reference" "R523"
 			(at 179.832 55.88 90)
 			(effects
 				(font
@@ -9270,7 +9609,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "R?")
+					(reference "R523")
 					(unit 1)
 				)
 			)
@@ -9286,7 +9625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c247cefd-9730-45a8-bdbe-c4f4ac0b9035")
-		(property "Reference" "C?"
+		(property "Reference" "C546"
 			(at 224.79 108.712 0)
 			(effects
 				(font
@@ -9347,7 +9686,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C546")
 					(unit 1)
 				)
 			)
@@ -9362,7 +9701,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c501d69d-8396-49ea-8289-b05047a1270f")
-		(property "Reference" "D?"
+		(property "Reference" "D51"
 			(at 88.9 58.42 0)
 			(effects
 				(font
@@ -9414,7 +9753,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "D?")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -9429,7 +9768,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3da2269-3885-48d0-96fe-db0bee9ddd81")
-		(property "Reference" "R?"
+		(property "Reference" "R541"
 			(at 215.138 106.6799 90)
 			(effects
 				(font
@@ -9490,7 +9829,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "R?")
+					(reference "R541")
 					(unit 1)
 				)
 			)
@@ -9505,7 +9844,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9b4b886-97ff-4cd7-9328-db9fa5bca038")
-		(property "Reference" "R?"
+		(property "Reference" "R504"
 			(at 96.012 72.39 90)
 			(effects
 				(font
@@ -9557,7 +9896,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "R?")
+					(reference "R504")
 					(unit 1)
 				)
 			)
@@ -9572,7 +9911,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da037a90-4d4f-4874-bb1f-aabb91b84083")
-		(property "Reference" "C?"
+		(property "Reference" "C545"
 			(at 222.25 98.552 0)
 			(effects
 				(font
@@ -9635,14 +9974,14 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C545")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Parts:PGND")
+		(lib_id "power:GNDPWR")
 		(at 214.63 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9651,7 +9990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df6ac969-4316-4979-89fa-f2d8c0a52ad8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0147"
 			(at 214.63 59.69 0)
 			(effects
 				(font
@@ -9660,17 +9999,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
-			(at 214.63 57.15 0)
-			(do_not_autoplace yes)
+		(property "Value" "GNDPWR"
+			(at 214.503 57.0667 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 53.34 0)
+			(at 214.63 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9679,7 +10018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 53.34 0)
+			(at 214.63 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9687,7 +10026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"PGND\""
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
 			(at 214.63 53.34 0)
 			(effects
 				(font
@@ -9702,14 +10041,14 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "#PWR?")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Parts:PGND")
+		(lib_id "power:GNDPWR")
 		(at 111.76 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9726,17 +10065,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
-			(at 111.76 80.01 0)
-			(do_not_autoplace yes)
+		(property "Value" "GNDPWR"
+			(at 111.76 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 76.2 0)
+			(at 111.76 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9745,7 +10084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 76.2 0)
+			(at 111.76 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9753,7 +10092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"PGND\""
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
 			(at 111.76 76.2 0)
 			(effects
 				(font
@@ -9783,7 +10122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e289e75e-d05a-4af3-ad91-d50a785e3f42")
-		(property "Reference" "U?"
+		(property "Reference" "U52"
 			(at 207.518 59.944 0)
 			(effects
 				(font
@@ -9898,7 +10237,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "U?")
+					(reference "U52")
 					(unit 1)
 				)
 			)
@@ -9913,7 +10252,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4e415bb-946a-40d8-b776-002bc38318dc")
-		(property "Reference" "U?"
+		(property "Reference" "U53"
 			(at 203.2 97.79 0)
 			(effects
 				(font
@@ -10028,14 +10367,14 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "U?")
+					(reference "U53")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Parts:PGND")
+		(lib_id "power:GNDPWR")
 		(at 40.64 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10052,17 +10391,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
-			(at 40.64 71.12 0)
-			(do_not_autoplace yes)
+		(property "Value" "GNDPWR"
+			(at 40.64 70.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 67.31 0)
+			(at 40.64 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10071,7 +10410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 67.31 0)
+			(at 40.64 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10079,7 +10418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"PGND\""
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
 			(at 40.64 67.31 0)
 			(effects
 				(font
@@ -10109,7 +10448,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "e9a43396-942b-48f5-a7cc-70bb3e3db040")
-		(property "Reference" "R?"
+		(property "Reference" "R543"
 			(at 220.218 117.0939 90)
 			(effects
 				(font
@@ -10171,7 +10510,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "R?")
+					(reference "R543")
 					(unit 1)
 				)
 			)
@@ -10186,7 +10525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb34d6ae-4c7a-4353-8453-8be8f2669cdb")
-		(property "Reference" "C?"
+		(property "Reference" "C548"
 			(at 233.68 98.552 0)
 			(effects
 				(font
@@ -10258,7 +10597,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C548")
 					(unit 1)
 				)
 			)
@@ -10339,7 +10678,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed03a203-204d-4c27-9070-8fc1de35d8ea")
-		(property "Reference" "#FLG?"
+		(property "Reference" "#FLG0102"
 			(at 170.18 41.275 0)
 			(effects
 				(font
@@ -10390,7 +10729,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "#FLG?")
+					(reference "#FLG0102")
 					(unit 1)
 				)
 			)

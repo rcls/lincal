@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 54.61 96.52)
+		(size 38.1 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "525413b8-c4e9-4b1d-b0c6-ca0be2e26a7f")
+		(property "Sheetname" "Reference"
+			(at 54.61 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ref.kicad_sch"
+			(at 54.61 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 176.53 53.34)
 		(size 38.1 24.13)
 		(exclude_from_sim no)
@@ -102,7 +144,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187"
-					(page "4")
+					(page "2b")
 				)
 			)
 		)
@@ -144,7 +186,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187"
-					(page "8")
+					(page "5a")
 				)
 			)
 		)
@@ -246,7 +288,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187"
-					(page "3")
+					(page "2a")
 				)
 			)
 		)
@@ -288,7 +330,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187"
-					(page "7")
+					(page "4a")
 				)
 			)
 		)
@@ -420,7 +462,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187"
-					(page "6")
+					(page "3a")
 				)
 			)
 		)
@@ -462,14 +504,14 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187"
-					(page "2")
+					(page "1a")
 				)
 			)
 		)
 	)
 	(sheet_instances
 		(path "/"
-			(page "1")
+			(page "0")
 		)
 	)
 	(embedded_fonts no)

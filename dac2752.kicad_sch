@@ -2718,6 +2718,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "Connect to IOUT2"
+		(exclude_from_sim no)
+		(at 104.9655 81.8459 0)
+		(size 10.6044 4.514)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f1b659b-f9ef-407d-b615-9da4d1b3090c")
+	)
 	(text_box "Measure then short."
 		(exclude_from_sim no)
 		(at 91.44 39.37 0)
@@ -2783,6 +2803,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00405e7c-04c1-4910-994d-501b57e468ee")
+	)
+	(junction
+		(at 127 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ebe70ad-25e5-46f6-8054-7289c17182b0")
 	)
 	(junction
 		(at 97.79 83.82)
@@ -2867,12 +2893,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a42a5e81-7ef0-45a5-82dd-8bb1a91d7b6b")
-	)
-	(junction
-		(at 128.27 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa3f51c6-7e81-46e5-b7af-e6d6ca20f020")
 	)
 	(junction
 		(at 163.83 66.04)
@@ -3254,6 +3274,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 73.66) (xy 130.81 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50fa0d2d-8e9b-4440-86e3-3c90d25ac7ad")
+	)
+	(wire
+		(pts
 			(xy 149.86 76.2) (xy 153.67 76.2)
 		)
 		(stroke
@@ -3531,16 +3561,6 @@
 			(type default)
 		)
 		(uuid "bfd9b4e9-bb9d-4b19-90b8-7dcc94d99bcd")
-	)
-	(wire
-		(pts
-			(xy 128.27 68.58) (xy 128.27 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c383581d-0c08-4345-94d3-8e1b19b3c4ff")
 	)
 	(wire
 		(pts
@@ -6824,6 +6844,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 128.27 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b81e2599-0ad2-4d7d-addf-e17d10b64606")
+		(property "Reference" "#PWR0561"
+			(at 128.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 128.27 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 128.27 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36aa815e-0312-4dee-976f-90a98d3c7745")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/361a423f-d05f-4f8b-bc28-600b62434109"
+					(reference "#PWR0562")
+					(unit 1)
+				)
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/460d889b-fb9b-4b3e-8128-6fba79ce7ab4"
+					(reference "#PWR0563")
+					(unit 1)
+				)
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/aeb3a378-4287-41b1-9e33-8dbd035c4d66"
+					(reference "#PWR0564")
+					(unit 1)
+				)
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/f2e682f2-52ca-4ed0-8a7d-aeb09fbc9914"
+					(reference "#PWR0561")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 97.79 78.74 0)
 		(unit 1)
@@ -7726,6 +7824,85 @@
 				)
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/f2e682f2-52ca-4ed0-8a7d-aeb09fbc9914"
 					(reference "#PWR0265")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 73.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe917cad-3f09-49f6-bc6e-e970ee18e68e")
+		(property "Reference" "#PWR0565"
+			(at 130.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5232e491-9613-4871-b133-2bb34862eadd")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/361a423f-d05f-4f8b-bc28-600b62434109"
+					(reference "#PWR0566")
+					(unit 1)
+				)
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/460d889b-fb9b-4b3e-8128-6fba79ce7ab4"
+					(reference "#PWR0567")
+					(unit 1)
+				)
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/aeb3a378-4287-41b1-9e33-8dbd035c4d66"
+					(reference "#PWR0568")
+					(unit 1)
+				)
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/f2e682f2-52ca-4ed0-8a7d-aeb09fbc9914"
+					(reference "#PWR0565")
 					(unit 1)
 				)
 			)

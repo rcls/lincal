@@ -5060,7 +5060,7 @@
 	)
 	(text "FIXME - looks like we don't actually need 1.8V."
 		(exclude_from_sim no)
-		(at 117.094 160.274 0)
+		(at 135.636 121.666 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5071,7 +5071,7 @@
 	)
 	(text "TODO - LM27761 for -3V3 switcher?"
 		(exclude_from_sim no)
-		(at 176.276 151.638 0)
+		(at 178.816 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5092,7 +5092,7 @@
 	)
 	(text "FIXME - sort out when to use 3.3 D v. A."
 		(exclude_from_sim no)
-		(at 117.094 156.718 0)
+		(at 137.414 86.106 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5184,6 +5184,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e2ca042-6d20-4d46-8662-b0f038d1d2a3")
+	)
+	(junction
+		(at 218.44 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1edc0365-254b-4ece-ad71-f5010bc23994")
 	)
 	(junction
 		(at 204.47 78.74)
@@ -7767,7 +7773,7 @@
 		(dnp no)
 		(uuid "019c720c-5ce9-43ba-a590-3fe756c0ecec")
 		(property "Reference" "C445"
-			(at 210.82 40.64 0)
+			(at 213.36 43.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7775,7 +7781,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 210.947 47.752 0)
+			(at 211.074 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7964,6 +7970,80 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
 					(reference "R472")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 104.14 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a4adf5d-d712-4b4b-b478-90b65a461a71")
+		(property "Reference" "TP45"
+			(at 104.14 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Parts:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 109.22 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 104.14 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 104.14 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d865d2b6-5b1b-45ec-893d-b48e301ab192")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
+					(reference "TP45")
 					(unit 1)
 				)
 			)
@@ -8528,11 +8608,12 @@
 		(dnp no)
 		(uuid "11b39792-f4f8-4e6d-9484-0d0c2256f704")
 		(property "Reference" "C454"
-			(at 204.47 69.85 0)
+			(at 204.724 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1u"
@@ -8893,6 +8974,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 104.14 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a3761b1-44cd-422d-82d6-57d93f8288e6")
+		(property "Reference" "TP41"
+			(at 104.14 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Parts:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 109.22 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 104.14 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 104.14 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad15aaca-92c4-4481-aa52-c547c72f2ac2")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
+					(reference "TP41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 100.33 45.72 0)
 		(mirror y)
@@ -8956,6 +9111,80 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
 					(reference "C404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 104.14 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21693801-f2a8-4cc1-a90d-2787e23e981c")
+		(property "Reference" "TP44"
+			(at 104.14 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Parts:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 109.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 104.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 104.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c427ef87-1e8b-4956-8993-0497bc1c644b")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
+					(reference "TP44")
 					(unit 1)
 				)
 			)
@@ -9099,6 +9328,80 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
 					(reference "C431")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 218.44 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22bb9b0f-3998-4f7a-84d0-891c8b00f5b7")
+		(property "Reference" "TP48"
+			(at 218.44 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 218.44 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Parts:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 223.52 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 218.44 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 218.44 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de28539a-c9ca-4ddf-ad47-5a64f78d35c7")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
+					(reference "TP48")
 					(unit 1)
 				)
 			)
@@ -9642,7 +9945,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 157.607 47.752 0)
+			(at 157.734 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10473,7 +10776,7 @@
 			)
 		)
 		(property "Value" "330p"
-			(at 194.437 43.434 0)
+			(at 194.564 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11394,11 +11697,12 @@
 		(dnp no)
 		(uuid "6f12cc0f-243f-4030-8dda-22a7bc2f0262")
 		(property "Reference" "C455"
-			(at 210.82 69.85 0)
+			(at 211.074 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "47u"
@@ -12092,7 +12396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8338f3da-e9ff-48d0-a646-e41b04157e7e")
-		(property "Reference" "D?"
+		(property "Reference" "D42"
 			(at 245.364 109.982 90)
 			(effects
 				(font
@@ -12144,7 +12448,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
-					(reference "D?")
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -12341,6 +12645,154 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
 					(reference "U42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 242.57 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a5d2207-bcb6-46e9-aa70-95a41eeccd34")
+		(property "Reference" "TP46"
+			(at 242.57 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 242.57 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Parts:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 247.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 242.57 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 242.57 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e382bc5-d281-4bfd-9212-65b6458d6b4b")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
+					(reference "TP46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 104.14 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c4ef65d-5e3a-4b16-8ac0-90af35e9a6b0")
+		(property "Reference" "TP47"
+			(at 104.14 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Parts:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 109.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 104.14 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 104.14 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43a0eda9-0c98-4b3a-97f8-e02db056b7be")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
+					(reference "TP47")
 					(unit 1)
 				)
 			)
@@ -12667,7 +13119,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 162.687 47.752 0)
+			(at 162.814 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14975,6 +15427,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 210.82 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cee2e8e7-e0d0-40ee-9a93-e023a8b395fd")
+		(property "Reference" "TP42"
+			(at 210.82 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Parts:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 215.9 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 210.82 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 210.82 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d852d872-b668-4152-8d4c-7e0b5918b09d")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
+					(reference "TP42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Parts:TPSM863252RDXR")
 		(at 180.34 138.43 0)
 		(unit 1)
@@ -16231,15 +16757,16 @@
 		(dnp no)
 		(uuid "f0b529cd-3c18-42c5-b676-bf87d8070957")
 		(property "Reference" "C444"
-			(at 204.47 40.64 0)
+			(at 207.264 43.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1u"
-			(at 204.597 47.752 0)
+			(at 204.724 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16836,6 +17363,80 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
 					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 210.82 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff908992-10be-4739-a5db-d120c1f48d61")
+		(property "Reference" "TP43"
+			(at 210.82 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 210.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Parts:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 215.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 210.82 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 210.82 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2770153a-d518-49ed-92ec-85ce2e695ead")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
+					(reference "TP43")
 					(unit 1)
 				)
 			)

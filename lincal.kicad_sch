@@ -1315,6 +1315,48 @@
 		)
 	)
 	(sheet
+		(at 179.07 138.43)
+		(size 22.86 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5e75b7d0-06d7-44d3-9715-75151d16c7a9")
+		(property "Sheetname" "CPU"
+			(at 179.07 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cpu.kicad_sch"
+			(at 179.07 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187"
+					(page "9a")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 154.94 58.42)
 		(size 22.86 17.78)
 		(exclude_from_sim no)

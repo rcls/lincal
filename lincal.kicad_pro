@@ -305,7 +305,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 70,
+    "annotate_start_num": 560,
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -523,6 +523,10 @@
     [
       "f6066de6-625c-453e-a76c-ce9a6a5c6264",
       "Auxilary"
+    ],
+    [
+      "5e75b7d0-06d7-44d3-9715-75151d16c7a9",
+      "CPU"
     ]
   ],
   "text_variables": {}

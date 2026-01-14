@@ -7415,7 +7415,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0478ebe2-9b51-4547-be02-9ed367cf5ee6")
-		(property "Reference" "TP541"
+		(property "Reference" "TP53"
 			(at 176.53 87.376 0)
 			(effects
 				(font
@@ -7474,7 +7474,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "TP541")
+					(reference "TP53")
 					(unit 1)
 				)
 			)
@@ -8020,7 +8020,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20da7d0d-8d54-4e9b-b7d6-20ecec8c040e")
-		(property "Reference" "Q?"
+		(property "Reference" "Q51"
 			(at 124.968 106.934 90)
 			(effects
 				(font
@@ -8079,7 +8079,7 @@
 		(instances
 			(project ""
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "Q?")
+					(reference "Q51")
 					(unit 1)
 				)
 			)
@@ -8521,7 +8521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ebe1378-af21-442b-b6b9-fffac4bd295d")
-		(property "Reference" "TP542"
+		(property "Reference" "TP54"
 			(at 238.76 87.376 0)
 			(effects
 				(font
@@ -8580,7 +8580,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "TP542")
+					(reference "TP54")
 					(unit 1)
 				)
 			)
@@ -8749,7 +8749,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3861dd4c-e11e-40fc-aa1d-62fec54034d2")
-		(property "Reference" "R?"
+		(property "Reference" "R561"
 			(at 92.71 108.458 90)
 			(effects
 				(font
@@ -8801,7 +8801,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "R?")
+					(reference "R561")
 					(unit 1)
 				)
 			)
@@ -8816,7 +8816,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c3bc898-9aba-4a55-820d-1418c3898038")
-		(property "Reference" "TP522"
+		(property "Reference" "TP52"
 			(at 238.76 37.592 0)
 			(effects
 				(font
@@ -8875,7 +8875,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "TP522")
+					(reference "TP52")
 					(unit 1)
 				)
 			)
@@ -8978,7 +8978,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "452d4683-1f52-4610-8c58-a7383b23aeea")
-		(property "Reference" "R?"
+		(property "Reference" "R563"
 			(at 116.84 113.792 90)
 			(effects
 				(font
@@ -9030,7 +9030,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "R?")
+					(reference "R563")
 					(unit 1)
 				)
 			)
@@ -9381,7 +9381,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e2a96fe-8b70-4410-986f-5fc3fc8c870b")
-		(property "Reference" "R?"
+		(property "Reference" "R562"
 			(at 92.71 115.062 90)
 			(effects
 				(font
@@ -9433,7 +9433,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "R?")
+					(reference "R562")
 					(unit 1)
 				)
 			)
@@ -9606,19 +9606,21 @@
 		(dnp no)
 		(uuid "52202c0b-a300-494e-96fd-cd13ff985ee8")
 		(property "Reference" "C543"
-			(at 183.388 98.806 0)
+			(at 180.34 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "0u1"
-			(at 183.134 93.98 0)
+			(at 180.34 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -9681,7 +9683,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "547accf3-49a9-4606-95ff-69d4cc014cc5")
-		(property "Reference" "J?"
+		(property "Reference" "J52"
 			(at 167.132 124.206 0)
 			(effects
 				(font
@@ -9734,7 +9736,7 @@
 		(instances
 			(project ""
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "J?")
+					(reference "J52")
 					(unit 1)
 				)
 			)
@@ -10174,7 +10176,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "600f8b8b-d9f6-4cfa-805f-b836849d5744")
-		(property "Reference" "D?"
+		(property "Reference" "D55"
 			(at 107.95 110.49 0)
 			(effects
 				(font
@@ -10229,7 +10231,7 @@
 		(instances
 			(project ""
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "D?")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -10802,19 +10804,21 @@
 		(dnp no)
 		(uuid "7a61173c-eaa7-4ed8-a21d-e43f63e06a2a")
 		(property "Reference" "C542"
-			(at 170.688 94.234 0)
+			(at 172.974 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "10u"
-			(at 170.434 99.06 0)
+			(at 172.72 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -11679,7 +11683,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91793add-2c6b-47ac-84d0-9221ea1cf85f")
-		(property "Reference" "TP521"
+		(property "Reference" "TP51"
 			(at 176.53 37.846 0)
 			(effects
 				(font
@@ -11738,7 +11742,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "TP521")
+					(reference "TP51")
 					(unit 1)
 				)
 			)
@@ -12718,7 +12722,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4a24914-4fdf-46ba-8385-b566476862f6")
-		(property "Reference" "J?"
+		(property "Reference" "J51"
 			(at 73.66 98.552 0)
 			(effects
 				(font
@@ -12815,7 +12819,7 @@
 		(instances
 			(project ""
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "J?")
+					(reference "J51")
 					(unit 1)
 				)
 			)
@@ -13320,7 +13324,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1ef53fe-2f16-4e79-b196-3f11fe187d27")
-		(property "Reference" "Q?"
+		(property "Reference" "Q52"
 			(at 122.174 116.84 0)
 			(effects
 				(font
@@ -13381,7 +13385,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "Q?")
+					(reference "Q52")
 					(unit 1)
 				)
 			)
@@ -13617,7 +13621,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dee9596e-af54-432f-bf41-c2f05babb3d6")
-		(property "Reference" "C?"
+		(property "Reference" "C561"
 			(at 132.207 107.442 0)
 			(effects
 				(font
@@ -13671,7 +13675,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C?")
+					(reference "C561")
 					(unit 1)
 				)
 			)
@@ -14080,7 +14084,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6b21c74-958c-4c9f-89d4-866d002b58dc")
-		(property "Reference" "R?"
+		(property "Reference" "R564"
 			(at 131.572 124.46 90)
 			(effects
 				(font
@@ -14132,7 +14136,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "R?")
+					(reference "R564")
 					(unit 1)
 				)
 			)
@@ -14213,7 +14217,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e959a3a6-92b1-4da0-8877-98cd72b871e5")
-		(property "Reference" "L?"
+		(property "Reference" "L56"
 			(at 96.52 106.68 90)
 			(effects
 				(font
@@ -14265,7 +14269,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "L?")
+					(reference "L56")
 					(unit 1)
 				)
 			)

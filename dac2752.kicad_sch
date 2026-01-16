@@ -4139,7 +4139,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 73.66 74.422 90)
 			(effects
 				(font
@@ -4159,6 +4159,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 73.66 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22978"
+			(at 73.66 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4401,7 +4410,7 @@
 		(at 158.75 53.34 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "16d716aa-fed1-4411-9114-42757e71e8ff")
@@ -4578,7 +4587,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 96.52 50.038 90)
 			(effects
 				(font
@@ -4587,7 +4596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "shunt"
+		(property "Datasheet" "~"
 			(at 96.52 48.26 0)
 			(effects
 				(font
@@ -4598,6 +4607,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 96.52 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 96.52 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4813,7 +4831,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 82.55 79.502 90)
 			(effects
 				(font
@@ -4833,6 +4851,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 82.55 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22978"
+			(at 82.55 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5197,7 +5224,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 48.26 83.058 90)
 			(effects
 				(font
@@ -5217,6 +5244,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 48.26 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23140"
+			(at 48.26 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5277,7 +5313,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 60.96 83.058 90)
 			(effects
 				(font
@@ -5297,6 +5333,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 60.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4216"
+			(at 60.96 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5649,7 +5694,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 158.75 52.578 90)
 			(effects
 				(font
@@ -5658,7 +5703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "shunt"
+		(property "Datasheet" "~"
 			(at 158.75 50.8 0)
 			(effects
 				(font
@@ -5669,6 +5714,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 158.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 158.75 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5728,7 +5782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 167.64 69.342 90)
 			(effects
 				(font
@@ -5748,6 +5802,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 167.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22978"
+			(at 167.64 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5793,7 +5856,7 @@
 		(at 96.52 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "763281b3-0475-4bab-bfc0-0f7fa547ac3a")
@@ -6640,7 +6703,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 133.35 72.898 90)
 			(effects
 				(font
@@ -6649,7 +6712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Thin film or foil?"
+		(property "Datasheet" "Easy swap"
 			(at 133.35 71.12 0)
 			(effects
 				(font
@@ -6660,6 +6723,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 133.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23140"
+			(at 133.35 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6889,7 +6961,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 158.75 67.818 90)
 			(effects
 				(font
@@ -6909,6 +6981,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 158.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22978"
+			(at 158.75 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6975,7 +7056,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.69 50.038 90)
 			(effects
 				(font
@@ -6995,6 +7076,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 59.69 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 59.69 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7124,7 +7214,7 @@
 				)
 			)
 		)
-		(property "Value" "2k5"
+		(property "Value" "2k4"
 			(at 97.79 78.74 90)
 			(effects
 				(font
@@ -7132,7 +7222,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 96.012 78.74 90)
 			(effects
 				(font
@@ -7141,7 +7231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Thin film or foil?"
+		(property "Datasheet" "~"
 			(at 97.79 78.74 0)
 			(effects
 				(font
@@ -7152,6 +7242,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25882"
+			(at 97.79 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7661,7 +7760,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 146.05 72.898 90)
 			(effects
 				(font
@@ -7670,7 +7769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Thin film or foil?"
+		(property "Datasheet" "Easy swap"
 			(at 146.05 71.12 0)
 			(effects
 				(font
@@ -7681,6 +7780,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 146.05 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4216"
+			(at 146.05 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7732,7 +7840,7 @@
 				)
 			)
 		)
-		(property "Value" "1k25"
+		(property "Value" "1k2"
 			(at 97.79 88.9 90)
 			(effects
 				(font
@@ -7740,7 +7848,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 96.012 88.9 90)
 			(effects
 				(font
@@ -7749,7 +7857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Thin film or foil?"
+		(property "Datasheet" "~"
 			(at 97.79 88.9 0)
 			(effects
 				(font
@@ -7760,6 +7868,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 97.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25862"
+			(at 97.79 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)

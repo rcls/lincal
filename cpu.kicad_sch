@@ -4161,16 +4161,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 68.58) (xy 80.01 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d934545-eb62-4618-aaba-74a9b1f19ced")
-	)
-	(wire
-		(pts
 			(xy 116.84 58.42) (xy 110.49 58.42)
 		)
 		(stroke
@@ -4271,23 +4261,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 66.04) (xy 64.77 66.04)
+			(xy 69.85 66.04) (xy 80.01 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "38322909-def7-40dd-bce9-252b4b68126b")
-	)
-	(wire
-		(pts
-			(xy 72.39 71.12) (xy 80.01 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38d38228-cabc-43be-9f4b-83ca215c90b7")
 	)
 	(wire
 		(pts
@@ -4298,16 +4278,6 @@
 			(type default)
 		)
 		(uuid "394ff048-d09a-4317-b62c-ffc31fd4213e")
-	)
-	(wire
-		(pts
-			(xy 72.39 66.04) (xy 80.01 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ecd6c9d-e65c-46ac-a033-a21636e4838b")
 	)
 	(wire
 		(pts
@@ -4441,16 +4411,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 71.12) (xy 64.77 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "679859d0-58b6-4a9d-b3d5-ea77c9cf8cf5")
-	)
-	(wire
-		(pts
 			(xy 139.7 54.61) (xy 137.16 54.61)
 		)
 		(stroke
@@ -4471,7 +4431,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 73.66) (xy 64.77 73.66)
+			(xy 62.23 73.66) (xy 71.12 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4591,7 +4551,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 68.58) (xy 64.77 68.58)
+			(xy 71.12 68.58) (xy 80.01 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4651,6 +4611,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 71.12) (xy 80.01 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9be28727-caf8-4b7c-bcf0-85f282572d3e")
+	)
+	(wire
+		(pts
 			(xy 95.25 36.83) (xy 95.25 43.18)
 		)
 		(stroke
@@ -4681,7 +4651,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 73.66) (xy 80.01 73.66)
+			(xy 78.74 73.66) (xy 80.01 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4808,16 +4778,6 @@
 			(type default)
 		)
 		(uuid "c8637d40-01e5-4bfe-9433-f9dddc0137e8")
-	)
-	(wire
-		(pts
-			(xy 76.2 63.5) (xy 80.01 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8dc9b0b-50b4-47b5-81eb-280371ad8ed5")
 	)
 	(wire
 		(pts
@@ -5019,36 +4979,6 @@
 		)
 		(uuid "02acce1e-003b-44bf-8c81-9ee4d7b16af9")
 	)
-	(label "TDO"
-		(at 76.2 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "157a5241-a814-405c-98b4-27d8ccb0d178")
-	)
-	(label "TMS"
-		(at 76.2 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1da0b9cd-5b7a-4fbd-bfa0-f8f6827c4284")
-	)
-	(label "TDI"
-		(at 76.2 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1e4bcb9b-7573-48fd-bdfb-4f071254da77")
-	)
 	(label "LATCH"
 		(at 132.08 118.11 0)
 		(effects
@@ -5080,7 +5010,7 @@
 		(uuid "41bcedb2-fd85-43c6-9ab9-98832371a318")
 	)
 	(label "SCK"
-		(at 60.96 68.58 0)
+		(at 72.39 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5109,16 +5039,6 @@
 		)
 		(uuid "635a5246-0fb5-45d1-8c2b-c7a66b4080f8")
 	)
-	(label "TCK"
-		(at 76.2 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6797bbec-c767-42fb-af64-cc46610a86ca")
-	)
 	(label "TRIGOUT"
 		(at 63.5 60.96 0)
 		(effects
@@ -5140,7 +5060,7 @@
 		(uuid "ab853575-8e4b-42bb-9158-b920a6792f98")
 	)
 	(label "MOSI"
-		(at 60.96 71.12 0)
+		(at 72.39 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5150,7 +5070,7 @@
 		(uuid "c3957589-c04b-4e40-bcb2-8b57770c79f0")
 	)
 	(label "TRIGIN"
-		(at 58.42 66.04 0)
+		(at 69.85 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5290,7 +5210,7 @@
 	)
 	(hierarchical_label "MOSI"
 		(shape output)
-		(at 59.69 71.12 180)
+		(at 71.12 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5510,7 +5430,7 @@
 	)
 	(hierarchical_label "SCK"
 		(shape output)
-		(at 59.69 68.58 180)
+		(at 71.12 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6716,6 +6636,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 57.15 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "df7bc334-e51c-4181-8b94-5f2bb822238c")
 		)
@@ -6849,6 +6778,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 57.15 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bcade6cd-17f6-4cd1-bc42-e6c0d3d39cca")
 		)
@@ -6869,7 +6807,7 @@
 		(at 175.26 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "48315cb1-8090-402f-816f-e7bf18e48949")
@@ -7111,74 +7049,6 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/5e75b7d0-06d7-44d3-9715-75151d16c7a9"
 					(reference "#PWR0163")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 68.58 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "60610ab0-43a0-42aa-ad54-1ae6f256d529")
-		(property "Reference" "R84"
-			(at 71.12 67.564 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0"
-			(at 68.58 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 68.58 70.358 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 68.58 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7a443c0f-b6c1-4b3f-ac26-bf7451c15933")
-		)
-		(pin "1"
-			(uuid "404f3714-e81f-4b54-813d-346dad10057b")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/5e75b7d0-06d7-44d3-9715-75151d16c7a9"
-					(reference "R84")
 					(unit 1)
 				)
 			)
@@ -7462,7 +7332,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 68.58 73.66 90)
+		(at 74.93 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7470,16 +7340,15 @@
 		(dnp no)
 		(uuid "82a1a4a9-6d97-43d6-88e1-5e4ef4a5aca4")
 		(property "Reference" "R86"
-			(at 71.12 72.644 90)
+			(at 74.93 75.946 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "10k"
-			(at 68.58 73.66 90)
+			(at 74.93 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7487,7 +7356,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 68.58 75.438 90)
+			(at 74.93 75.438 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7496,7 +7365,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 73.66 0)
+			(at 74.93 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7505,7 +7374,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 68.58 73.66 0)
+			(at 74.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 74.93 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7534,7 +7412,7 @@
 		(at 180.34 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8422ed8a-2eed-4f59-8e15-9f12a3ce041b")
@@ -7659,74 +7537,6 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/5e75b7d0-06d7-44d3-9715-75151d16c7a9"
 					(reference "#PWR0708")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 68.58 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8a781b0d-b4ce-44a7-a8a1-af88f1934475")
-		(property "Reference" "R83"
-			(at 71.12 65.024 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0"
-			(at 68.58 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 68.58 67.818 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 68.58 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "43308d96-fe3a-4ead-b939-e8e00a0b6c45")
-		)
-		(pin "1"
-			(uuid "6ae3f8ce-1f70-4b1d-9a46-af93e1f160ed")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/5e75b7d0-06d7-44d3-9715-75151d16c7a9"
-					(reference "R83")
 					(unit 1)
 				)
 			)
@@ -7893,7 +7703,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "94d3539a-d571-4b22-a66f-21bdf4f73eea")
@@ -8370,7 +8180,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 50.8 73.66 0)
+		(at 62.23 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8378,7 +8188,7 @@
 		(dnp no)
 		(uuid "c0fdd47f-1ec1-4c40-a52d-508a5ef4a1e9")
 		(property "Reference" "#PWR0320"
-			(at 50.8 77.47 0)
+			(at 62.23 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8387,7 +8197,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 50.8 70.104 0)
+			(at 62.23 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8395,7 +8205,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 73.66 0)
+			(at 62.23 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8404,7 +8214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 73.66 0)
+			(at 62.23 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8413,7 +8223,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 50.8 73.66 0)
+			(at 62.23 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8895,7 +8705,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d3ad2a78-1709-48af-8da3-7b3f8f929090")
@@ -9003,6 +8813,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 72.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 72.39 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9562,74 +9381,6 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/5e75b7d0-06d7-44d3-9715-75151d16c7a9"
 					(reference "C87")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 68.58 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e8787138-cc41-4cd0-83e6-3c3c2b407f78")
-		(property "Reference" "R85"
-			(at 71.12 70.104 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0"
-			(at 68.58 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 68.58 72.898 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 68.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ca00d415-38df-4e26-bb63-a316eac07200")
-		)
-		(pin "1"
-			(uuid "ae73276e-510f-4633-8e75-da4b9c393b3f")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/5e75b7d0-06d7-44d3-9715-75151d16c7a9"
-					(reference "R85")
 					(unit 1)
 				)
 			)

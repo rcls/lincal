@@ -4221,6 +4221,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C10487"
+			(at 129.54 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8e69c6f0-72b3-4d19-9e5d-1c1461c4ac61")
 		)
@@ -4539,7 +4548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 100.33 33.528 90)
 			(effects
 				(font
@@ -4559,6 +4568,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 100.33 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 100.33 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,7 +4702,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 124.46 34.798 90)
 			(effects
 				(font
@@ -4704,6 +4722,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 124.46 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 124.46 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4950,7 +4977,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 100.33 32.512 90)
 			(effects
 				(font
@@ -4970,6 +4997,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 100.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 100.33 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4997,7 +5033,7 @@
 		(at 165.1 29.21 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "547accf3-49a9-4606-95ff-69d4cc014cc5")
@@ -5716,7 +5752,7 @@
 		(at 81.28 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b4a24914-4fdf-46ba-8385-b566476862f6")
@@ -5874,6 +5910,15 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 132.08 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20917"
 			(at 132.08 41.91 0)
 			(effects
 				(font
@@ -6070,7 +6115,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 135.382 45.72 90)
 			(effects
 				(font
@@ -6090,6 +6135,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 137.16 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 137.16 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)

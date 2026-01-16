@@ -3613,7 +3613,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 196.85 127.762 90)
 			(effects
 				(font
@@ -3622,7 +3622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 196.85 129.54 0)
 			(effects
 				(font
@@ -3633,6 +3633,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 196.85 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 196.85 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4720,7 +4729,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4k99"
 			(at 194.31 99.06 90)
 			(effects
 				(font
@@ -4728,7 +4737,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 194.31 97.282 90)
 			(effects
 				(font
@@ -4748,6 +4757,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 194.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22978"
+			(at 194.31 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4853,7 +4871,7 @@
 				)
 			)
 		)
-		(property "Value" "3K3"
+		(property "Value" "3k3"
 			(at 173.99 68.58 90)
 			(effects
 				(font
@@ -4881,6 +4899,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 173.99 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22978"
+			(at 173.99 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5132,7 +5159,7 @@
 		(at 118.11 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a8cf000f-c893-4d3f-ae57-4587e96580b7")
@@ -5144,7 +5171,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3"
+		(property "Value" "2R2"
 			(at 118.11 68.58 90)
 			(effects
 				(font
@@ -5172,6 +5199,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 118.11 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22939"
+			(at 118.11 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5265,7 +5301,7 @@
 		(at 99.06 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a9cf5607-d6e5-4af7-bf6d-37dadd331690")
@@ -5277,7 +5313,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3"
+		(property "Value" "2R2"
 			(at 99.06 68.58 90)
 			(effects
 				(font
@@ -5305,6 +5341,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 99.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22939"
+			(at 99.06 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5777,7 +5822,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ba6f30ac-a33d-4c80-8560-34b732480256")
@@ -6208,7 +6253,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "dc6a5053-be60-43db-b32f-cb0f73b7efb1")

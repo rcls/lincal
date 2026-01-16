@@ -537,156 +537,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N5819WS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N5819WS"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-323"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?323*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N5819WS_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N5819WS_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Parts:+3V3A"
 			(power)
 			(pin_numbers
@@ -803,6 +653,144 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Parts:1N5819WS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N5819WS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-323"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?323*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N5819WS_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N5819WS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6510,7 +6498,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 102.362 134.62 90)
 			(effects
 				(font
@@ -6530,6 +6518,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 104.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25794"
+			(at 104.14 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6644,7 +6641,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 168.148 142.24 90)
 			(effects
 				(font
@@ -6664,6 +6661,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 166.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 166.37 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6753,7 +6759,7 @@
 	)
 	(symbol
 		(lib_id "Parts:TPS7A8801RTJR")
-		(at 85.09 137.16 0)
+		(at 85.09 109.22 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6761,7 +6767,7 @@
 		(dnp no)
 		(uuid "0a617b47-da5f-4f03-aabb-de6f8a648b9f")
 		(property "Reference" "U42"
-			(at 85.09 134.62 0)
+			(at 85.09 106.68 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6769,7 +6775,7 @@
 			)
 		)
 		(property "Value" "TPS7A8801RTJR"
-			(at 85.09 127 0)
+			(at 85.09 99.06 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6777,7 +6783,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.7x2.7mm"
-			(at 85.09 137.16 0)
+			(at 85.09 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6787,7 +6793,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tps7a88"
-			(at 85.09 137.16 0)
+			(at 85.09 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6797,7 +6803,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 137.16 0)
+			(at 85.09 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6971,7 +6977,7 @@
 				)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "6k8"
 			(at 166.37 53.34 90)
 			(effects
 				(font
@@ -6979,7 +6985,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 168.148 53.34 90)
 			(effects
 				(font
@@ -6999,6 +7005,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 166.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23212"
+			(at 166.37 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7124,7 +7139,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 102.108 83.82 90)
 			(effects
 				(font
@@ -7144,6 +7159,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 100.33 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 100.33 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7191,7 +7215,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 102.362 142.24 90)
 			(effects
 				(font
@@ -7211,6 +7235,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 104.14 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25796"
+			(at 104.14 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7422,6 +7455,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 190.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 190.5 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8183,7 +8225,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 102.362 83.82 90)
 			(effects
 				(font
@@ -8203,6 +8245,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 104.14 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4197"
+			(at 104.14 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8693,7 +8744,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 192.532 45.72 90)
 			(effects
 				(font
@@ -8713,6 +8764,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 194.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23146"
+			(at 194.31 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8760,7 +8820,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 192.532 82.55 90)
 			(effects
 				(font
@@ -8780,6 +8840,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 194.31 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23240"
+			(at 194.31 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8894,7 +8963,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 192.278 53.34 90)
 			(effects
 				(font
@@ -8914,6 +8983,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 190.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22976"
+			(at 190.5 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8962,7 +9040,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 102.108 142.24 90)
 			(effects
 				(font
@@ -8989,6 +9067,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 100.33 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef1bf25d-b7da-4a17-b632-9959c833bca0")
 		)
@@ -8999,6 +9086,71 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
 					(reference "R431")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+6V")
+		(at 53.34 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "404894ea-0cd5-4ee3-af9b-f707ad7629a6")
+		(property "Reference" "#PWR0501"
+			(at 53.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+6V"
+			(at 53.34 127.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
+			(at 53.34 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91c06f3e-780b-449e-a1c9-566609647591")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
@@ -9182,7 +9334,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 102.362 45.72 90)
 			(effects
 				(font
@@ -9202,6 +9354,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 104.14 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25794"
+			(at 104.14 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9446,7 +9607,7 @@
 				)
 			)
 		)
-		(property "Value" "330p"
+		(property "Value" "220p"
 			(at 190.754 43.434 0)
 			(effects
 				(font
@@ -9629,6 +9790,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 195.58 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23150"
+			(at 195.58 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9961,7 +10131,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 192.532 74.93 90)
 			(effects
 				(font
@@ -9981,6 +10151,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 194.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22795"
+			(at 194.31 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10008,7 +10187,7 @@
 		(at 171.45 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5955c58d-18af-436b-8e75-0e136f6d9427")
@@ -10020,7 +10199,7 @@
 				)
 			)
 		)
-		(property "Value" "2u2?"
+		(property "Value" "1u5"
 			(at 171.45 34.925 90)
 			(effects
 				(font
@@ -10028,7 +10207,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 171.45 36.83 0)
 			(effects
 				(font
@@ -10471,7 +10650,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 168.148 134.62 90)
 			(effects
 				(font
@@ -10491,6 +10670,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 166.37 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25768"
+			(at 166.37 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10538,7 +10726,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 102.362 106.68 90)
 			(effects
 				(font
@@ -10558,6 +10746,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 104.14 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25765"
+			(at 104.14 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10605,7 +10802,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 102.362 76.2 90)
 			(effects
 				(font
@@ -10625,6 +10822,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 104.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22984"
+			(at 104.14 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10954,71 +11160,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 53.34 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7fd26b37-0bc2-4aec-82a7-97d3cb3509e8")
-		(property "Reference" "#PWR084"
-			(at 53.34 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 53.34 127.254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 53.34 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d298df1-5b58-4e75-a67c-f7c5d3cd7e9c")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
-					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 104.14 114.3 0)
 		(unit 1)
@@ -11043,7 +11184,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 102.362 114.3 90)
 			(effects
 				(font
@@ -11063,6 +11204,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 104.14 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22813"
+			(at 104.14 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11163,7 +11313,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5819WS")
+		(lib_id "Parts:1N5819WS")
 		(at 220.98 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11208,6 +11358,15 @@
 		)
 		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
 			(at 220.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C191023"
+			(at 220.98 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11310,7 +11469,7 @@
 	)
 	(symbol
 		(lib_id "Parts:TPS7A8801RTJR")
-		(at 85.09 109.22 0)
+		(at 85.09 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11318,7 +11477,7 @@
 		(dnp no)
 		(uuid "8823622a-c097-47bb-afcd-05ed3e89fd14")
 		(property "Reference" "U42"
-			(at 85.09 106.68 0)
+			(at 85.09 76.2 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11326,7 +11485,7 @@
 			)
 		)
 		(property "Value" "TPS7A8801RTJR"
-			(at 85.09 99.06 0)
+			(at 85.09 68.58 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11334,7 +11493,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.7x2.7mm"
-			(at 85.09 109.22 0)
+			(at 85.09 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11344,7 +11503,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tps7a88"
-			(at 85.09 109.22 0)
+			(at 85.09 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11354,7 +11513,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 109.22 0)
+			(at 85.09 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11955,7 +12114,7 @@
 	)
 	(symbol
 		(lib_id "Parts:TPS7A8801RTJR")
-		(at 85.09 78.74 0)
+		(at 85.09 137.16 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11963,7 +12122,7 @@
 		(dnp no)
 		(uuid "9583ab57-338c-465c-80e2-e15984ac761e")
 		(property "Reference" "U41"
-			(at 85.09 76.2 0)
+			(at 85.09 134.62 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11971,7 +12130,7 @@
 			)
 		)
 		(property "Value" "TPS7A8801RTJR"
-			(at 85.09 68.58 0)
+			(at 85.09 127 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11979,7 +12138,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.7x2.7mm"
-			(at 85.09 78.74 0)
+			(at 85.09 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11989,7 +12148,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tps7a88"
-			(at 85.09 78.74 0)
+			(at 85.09 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11999,7 +12158,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 78.74 0)
+			(at 85.09 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12262,7 +12421,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 102.108 114.3 90)
 			(effects
 				(font
@@ -12282,6 +12441,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 100.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 100.33 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13097,7 +13265,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 153.67 101.092 90)
 			(effects
 				(font
@@ -13117,6 +13285,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 153.67 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22936"
+			(at 153.67 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13984,15 +14161,6 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "25V"
-			(at 165.1 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C52923"
 			(at 165.1 114.3 0)
 			(effects
@@ -14684,7 +14852,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5819WS")
+		(lib_id "Parts:1N5819WS")
 		(at 148.59 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14727,6 +14895,15 @@
 			)
 		)
 		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+			(at 148.59 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C191023"
 			(at 148.59 148.59 0)
 			(effects
 				(font
@@ -14841,7 +15018,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 192.532 53.34 90)
 			(effects
 				(font
@@ -14861,6 +15038,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 194.31 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23265"
+			(at 194.31 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15202,6 +15388,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25950"
+			(at 190.5 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15822,7 +16017,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 102.108 54.61 90)
 			(effects
 				(font
@@ -15842,6 +16037,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 100.33 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15956,7 +16160,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 192.278 82.55 90)
 			(effects
 				(font
@@ -15976,6 +16180,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 190.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22984"
+			(at 190.5 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16154,7 +16367,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 102.362 54.61 90)
 			(effects
 				(font
@@ -16174,6 +16387,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 104.14 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22827"
+			(at 104.14 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)

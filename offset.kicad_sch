@@ -5481,14 +5481,15 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 128.27 143.51 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "09e80496-4743-4db9-9e5c-d2cf518afd0a")
 		(property "Reference" "R119"
-			(at 128.27 145.542 90)
+			(at 128.27 141.478 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5504,7 +5505,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 128.27 141.732 90)
+			(at 128.27 145.288 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5890,15 +5891,14 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 172.72 125.73 90)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "24fb5e92-bbea-421f-afb4-56779d7ad932")
 		(property "Reference" "R117"
-			(at 172.72 127.762 90)
+			(at 172.72 123.698 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5914,7 +5914,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 172.72 123.952 90)
+			(at 172.72 127.508 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6926,6 +6926,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 128.27 90.17 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6933,7 +6934,7 @@
 		(dnp no)
 		(uuid "540d58a9-2ee2-4e9f-9d7e-9de270bc69c1")
 		(property "Reference" "R106"
-			(at 128.27 92.202 90)
+			(at 128.27 88.138 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6949,7 +6950,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 128.27 88.392 90)
+			(at 128.27 91.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7179,6 +7180,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 101.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 101.6 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7903,14 +7913,15 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 128.27 100.33 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "85979135-e0b7-4cea-9508-6a9d23011947")
 		(property "Reference" "R118"
-			(at 128.27 102.362 90)
+			(at 128.27 98.298 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7926,7 +7937,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 128.27 98.552 90)
+			(at 128.27 102.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8038,6 +8049,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 128.27 133.35 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8045,7 +8057,7 @@
 		(dnp no)
 		(uuid "8cdbcc2f-5c80-4c56-b569-d0465a9b452c")
 		(property "Reference" "R111"
-			(at 128.27 135.382 90)
+			(at 128.27 131.318 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8061,7 +8073,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 128.27 131.572 90)
+			(at 128.27 135.128 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8107,7 +8119,7 @@
 		(at 172.72 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8db6169b-c2ad-44f4-8068-969fcd91915b")
@@ -8238,6 +8250,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 128.27 123.19 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8245,7 +8258,7 @@
 		(dnp no)
 		(uuid "9044d4b2-7429-4213-b802-5c564ceea5ff")
 		(property "Reference" "R110"
-			(at 128.27 125.222 90)
+			(at 128.27 121.158 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8261,7 +8274,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 128.27 121.412 90)
+			(at 128.27 124.968 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8763,6 +8776,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22807"
+			(at 138.43 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8349d8d4-d0d4-4757-b2e6-34518952c1d3")
 		)
@@ -8890,6 +8912,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 138.43 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4172"
+			(at 138.43 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9496,6 +9527,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25076"
+			(at 69.85 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0d0cd3b2-2506-47f2-81bc-785a4e057db3")
 		)
@@ -9755,6 +9795,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 101.6 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 101.6 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)

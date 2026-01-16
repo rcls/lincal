@@ -270,6 +270,132 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Parts:+3V3A"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3A"
+				(at 0 3.556 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name {dblquote}+3V3A{dblquote}"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3A_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3A_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Parts:LTC2752B_split"
 			(pin_names
 				(offset 0.002)
@@ -996,7 +1122,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin tri_state line
 					(at -12.7 2.54 0)
 					(length 2.54)
 					(name "SRO"
@@ -1015,7 +1141,7 @@
 					)
 				)
 				(pin power_in line
-					(at -12.7 -2.54 0)
+					(at -12.7 -5.08 0)
 					(length 2.54)
 					(name "VDD"
 						(effects
@@ -1033,7 +1159,7 @@
 					)
 				)
 				(pin power_in line
-					(at -12.7 -10.16 0)
+					(at -12.7 -12.7 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1051,7 +1177,7 @@
 					)
 				)
 				(pin power_in line
-					(at -12.7 -10.16 0)
+					(at -12.7 -12.7 0)
 					(length 2.54)
 					(hide yes)
 					(name "GND"
@@ -1070,7 +1196,7 @@
 					)
 				)
 				(pin power_in line
-					(at -12.7 -10.16 0)
+					(at -12.7 -12.7 0)
 					(length 2.54)
 					(hide yes)
 					(name "GND"
@@ -1225,6 +1351,299 @@
 						)
 					)
 					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Parts:L_Ferrite_Power"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L_Ferrite_Power"
+				(at 2.794 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor with ferrite core"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_Ferrite_Power_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.778) (xy 1.016 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0.762) (xy 1.016 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -0.254) (xy 1.016 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 1.016 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -2.286) (xy 1.016 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 3.048)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 2.286) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.27) (xy 1.524 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.254) (xy 1.524 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -0.762) (xy 1.524 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.778) (xy 1.524 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_Ferrite_Power_1_1"
+				(pin power_in line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1475,131 +1894,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GNDPWR"
 			(power)
 			(pin_numbers
@@ -1775,16 +2069,28 @@
 		)
 	)
 	(junction
-		(at 52.07 121.92)
+		(at 49.53 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "22cfea72-d0e5-4801-a1d5-ed0c2c9be165")
+		(uuid "35b53223-4928-4776-9bd5-d3b229e64e05")
+	)
+	(junction
+		(at 43.18 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "556d6534-9291-40ea-b8ba-561dcf796051")
 	)
 	(junction
 		(at 78.74 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56b7546a-c6b3-48c7-9f25-81892d83b6fb")
+	)
+	(junction
+		(at 43.18 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59bbb3a2-bf94-4e6c-bf90-5c48132a1d99")
 	)
 	(junction
 		(at 110.49 106.68)
@@ -1797,6 +2103,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64cc8af2-6d29-49f7-8e25-54a933d39c8d")
+	)
+	(junction
+		(at 43.18 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bb60cb7-a4d9-4165-bbfb-7cf881571ae8")
 	)
 	(junction
 		(at 110.49 121.92)
@@ -1823,10 +2135,10 @@
 		(uuid "9f052484-25f1-4f79-8dad-52477d043507")
 	)
 	(junction
-		(at 52.07 114.3)
+		(at 49.53 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ab3f88af-b097-4cad-a463-4d383cdf3d94")
+		(uuid "b8a057b7-a511-4815-97aa-a802566f0c07")
 	)
 	(junction
 		(at 110.49 60.96)
@@ -1835,10 +2147,22 @@
 		(uuid "cc492de7-2249-47c9-9187-c8cdc2d89743")
 	)
 	(junction
-		(at 52.07 76.2)
+		(at 43.18 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dad21552-cbd5-4ffc-ac45-d35ddf529c6e")
+		(uuid "cdc3cc99-3cff-44b9-90f4-35010ff7feef")
+	)
+	(junction
+		(at 49.53 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e69aef4a-2d1d-4f02-87be-f2c9f2c31125")
+	)
+	(junction
+		(at 49.53 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eed93903-dab5-4a36-ba40-8640b76a9091")
 	)
 	(junction
 		(at 78.74 66.04)
@@ -1852,12 +2176,6 @@
 		(color 0 0 0 0)
 		(uuid "f9032728-07a8-4d67-9810-f79862fb3691")
 	)
-	(junction
-		(at 52.07 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9393bba-8dd0-4761-ac89-d7fede599e31")
-	)
 	(no_connect
 		(at 78.74 104.14)
 		(uuid "388c9cd3-a167-4b33-9652-5c75ae827d14")
@@ -1868,7 +2186,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 106.68) (xy 53.34 106.68)
+			(xy 43.18 71.12) (xy 49.53 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0849faaf-b211-4d50-a437-e3e930427c4a")
+	)
+	(wire
+		(pts
+			(xy 50.8 106.68) (xy 53.34 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1928,17 +2256,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 106.68) (xy 82.55 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33a7f056-1d6e-44d9-8189-3e45b7b1ebee")
-	)
-	(wire
-		(pts
-			(xy 48.26 101.6) (xy 53.34 101.6)
+			(xy 50.8 101.6) (xy 53.34 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1948,33 +2266,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 53.34) (xy 78.74 53.34)
+			(xy 81.28 55.88) (xy 78.74 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3b114a77-0292-4911-8b91-8866ae6864e8")
-	)
-	(wire
-		(pts
-			(xy 78.74 53.34) (xy 78.74 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41358cdf-5fc7-4f48-9579-205f99faac6c")
-	)
-	(wire
-		(pts
-			(xy 52.07 114.3) (xy 53.34 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45985bf8-c11c-45d1-837e-cc170e6f9715")
 	)
 	(wire
 		(pts
@@ -1988,7 +2286,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 63.5) (xy 53.34 63.5)
+			(xy 50.8 63.5) (xy 53.34 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1998,17 +2296,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 99.06) (xy 78.74 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c8b8d28-1561-4d66-ae32-37553b61645f")
-	)
-	(wire
-		(pts
-			(xy 78.74 60.96) (xy 82.55 60.96)
+			(xy 78.74 60.96) (xy 87.63 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2018,23 +2306,33 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 121.92) (xy 53.34 121.92)
+			(xy 49.53 71.12) (xy 53.34 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f964185-d9b0-44a9-a9ba-e056480be23a")
+		(uuid "55d83add-d8b3-499f-a639-5862e47194ab")
 	)
 	(wire
 		(pts
-			(xy 81.28 99.06) (xy 78.74 99.06)
+			(xy 81.28 101.6) (xy 78.74 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5f26e1eb-9f19-4d58-9f97-266e108fa231")
+	)
+	(wire
+		(pts
+			(xy 49.53 116.84) (xy 53.34 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "650898b9-7a72-4a5b-bd76-d59ec7fba2c4")
 	)
 	(wire
 		(pts
@@ -2058,7 +2356,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 104.14) (xy 53.34 104.14)
+			(xy 49.53 78.74) (xy 53.34 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77f1061c-09d0-480b-b93e-69db7dfc0107")
+	)
+	(wire
+		(pts
+			(xy 50.8 104.14) (xy 53.34 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2068,7 +2376,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 60.96) (xy 53.34 60.96)
+			(xy 50.8 60.96) (xy 53.34 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2078,7 +2386,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 58.42) (xy 53.34 58.42)
+			(xy 33.02 116.84) (xy 35.56 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "988ff57b-6b27-4c3b-91ab-be12193fd16c")
+	)
+	(wire
+		(pts
+			(xy 50.8 58.42) (xy 53.34 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2108,17 +2426,17 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 68.58) (xy 53.34 68.58)
+			(xy 34.29 71.12) (xy 35.56 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3a5a9e9-7dc5-4785-8480-90ba8883855a")
+		(uuid "b53e53c0-4a26-4f19-85c5-5457c579ac22")
 	)
 	(wire
 		(pts
-			(xy 48.26 109.22) (xy 53.34 109.22)
+			(xy 50.8 109.22) (xy 53.34 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2128,23 +2446,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 55.88) (xy 53.34 55.88)
+			(xy 50.8 55.88) (xy 53.34 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bae8b50d-8611-43c4-adc6-4f0ce1acde20")
-	)
-	(wire
-		(pts
-			(xy 52.07 76.2) (xy 53.34 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf2b62e7-55e4-43fb-a642-a3d138385162")
 	)
 	(wire
 		(pts
@@ -2155,6 +2463,16 @@
 			(type default)
 		)
 		(uuid "c31882b2-ffca-4b94-9a80-02606ac3ef98")
+	)
+	(wire
+		(pts
+			(xy 78.74 106.68) (xy 87.63 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dce877ee-036f-4c12-a9cb-90d9062c0911")
 	)
 	(wire
 		(pts
@@ -2175,6 +2493,36 @@
 			(type default)
 		)
 		(uuid "e5b18ea7-be89-4982-a834-ad8f92dcb21c")
+	)
+	(wire
+		(pts
+			(xy 43.18 78.74) (xy 49.53 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e86fb876-3e7f-4793-a41c-8918ca332e42")
+	)
+	(wire
+		(pts
+			(xy 49.53 124.46) (xy 53.34 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2308b20-5dda-43fd-80c5-2877bdea31cf")
+	)
+	(wire
+		(pts
+			(xy 43.18 124.46) (xy 49.53 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2c18df7-8abf-4ddd-88ed-0491007897ef")
 	)
 	(wire
 		(pts
@@ -2206,9 +2554,59 @@
 		)
 		(uuid "f7754757-da13-4d04-8227-33fea4ea3091")
 	)
+	(wire
+		(pts
+			(xy 43.18 116.84) (xy 49.53 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff34480e-1c00-4c75-b322-558ecf38b73f")
+	)
+	(label "3V3-2"
+		(at 44.45 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "326cbb3a-7f21-4599-9f2f-95c4d46ba35e")
+	)
+	(label "3V3-1"
+		(at 87.63 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a7422f70-add6-4111-a6e2-ea4b73cfe688")
+	)
+	(label "3V3-2"
+		(at 87.63 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd028d98-c73c-4df6-8b9d-81ec9b97557d")
+	)
+	(label "3V3-1"
+		(at 45.72 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f52a5c8e-a824-4345-a339-11f0540e2eef")
+	)
 	(hierarchical_label "~{CS1}"
 		(shape input)
-		(at 48.26 55.88 180)
+		(at 50.8 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2219,7 +2617,7 @@
 	)
 	(hierarchical_label "SCK"
 		(shape input)
-		(at 48.26 60.96 180)
+		(at 50.8 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2230,7 +2628,7 @@
 	)
 	(hierarchical_label "~{LDAC}"
 		(shape input)
-		(at 81.28 53.34 0)
+		(at 81.28 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2241,7 +2639,7 @@
 	)
 	(hierarchical_label "~{CS2}"
 		(shape input)
-		(at 48.26 101.6 180)
+		(at 50.8 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2252,7 +2650,7 @@
 	)
 	(hierarchical_label "~{LDAC}"
 		(shape input)
-		(at 81.28 99.06 0)
+		(at 81.28 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2263,7 +2661,7 @@
 	)
 	(hierarchical_label "SCK"
 		(shape input)
-		(at 48.26 106.68 180)
+		(at 50.8 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2274,7 +2672,7 @@
 	)
 	(hierarchical_label "SDI"
 		(shape input)
-		(at 48.26 104.14 180)
+		(at 50.8 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2285,7 +2683,7 @@
 	)
 	(hierarchical_label "SDI"
 		(shape input)
-		(at 48.26 58.42 180)
+		(at 50.8 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2296,7 +2694,7 @@
 	)
 	(hierarchical_label "SRO"
 		(shape output)
-		(at 48.26 63.5 180)
+		(at 50.8 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2307,7 +2705,7 @@
 	)
 	(hierarchical_label "SRO"
 		(shape output)
-		(at 48.26 109.22 180)
+		(at 50.8 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2533,7 +2931,7 @@
 		(dnp no)
 		(uuid "38a06c89-8140-45fc-89ea-476dbb86a693")
 		(property "Reference" "C384"
-			(at 119.507 113.03 0)
+			(at 119.38 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2541,8 +2939,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10n"
-			(at 119.761 115.697 0)
+		(property "Value" "0u1"
+			(at 119.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2550,7 +2948,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 120.3452 118.11 0)
 			(effects
 				(font
@@ -2559,7 +2957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0G"
+		(property "Datasheet" "50V"
 			(at 119.38 114.3 0)
 			(effects
 				(font
@@ -2569,6 +2967,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 119.38 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
 			(at 119.38 114.3 0)
 			(effects
 				(font
@@ -2587,6 +2994,72 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e42fba19-ca85-4742-a019-f67d1b8fc682"
 					(reference "C384")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Parts:+3V3A")
+		(at 33.02 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38d3134e-4f2c-43d4-93be-c60e628062db")
+		(property "Reference" "#PWR0732"
+			(at 33.02 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3A"
+			(at 33.02 113.284 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name {dblquote}+3V3A{dblquote}"
+			(at 33.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69c85889-54a1-4dbb-a9a2-044fd651e880")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e42fba19-ca85-4742-a019-f67d1b8fc682"
+					(reference "#PWR0732")
 					(unit 1)
 				)
 			)
@@ -2653,72 +3126,6 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e42fba19-ca85-4742-a019-f67d1b8fc682"
 					(reference "#PWR0345")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 52.07 114.3 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "477c493b-5b95-4ee5-b266-92cfd6e2be22")
-		(property "Reference" "#PWR0341"
-			(at 52.07 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 52.07 110.744 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 52.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b4e71182-66d8-4929-9d3f-019398375e34")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e42fba19-ca85-4742-a019-f67d1b8fc682"
-					(reference "#PWR0341")
 					(unit 1)
 				)
 			)
@@ -2938,8 +3345,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Parts:L_Ferrite_Power")
+		(at 39.37 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dd61603-089e-423a-8eaa-df7af6ef91f4")
+		(property "Reference" "L32"
+			(at 39.37 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600"
+			(at 39.37 114.046 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 39.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor with ferrite core"
+			(at 39.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1002"
+			(at 39.37 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8b7963df-53cc-45c7-9481-4a704d5458ad")
+		)
+		(pin "1"
+			(uuid "8691ed94-eac2-44ab-8c0a-77f7c07a92c3")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e42fba19-ca85-4742-a019-f67d1b8fc682"
+					(reference "L32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
-		(at 52.07 121.92 0)
+		(at 43.18 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2947,7 +3430,7 @@
 		(dnp no)
 		(uuid "6384822e-9110-43bc-9a0c-e255f3153a5a")
 		(property "Reference" "#PWR0342"
-			(at 52.07 128.27 0)
+			(at 43.18 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2956,7 +3439,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 52.07 125.222 0)
+			(at 43.18 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2965,7 +3448,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 123.19 0)
+			(at 43.18 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,7 +3457,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 123.19 0)
+			(at 43.18 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2983,7 +3466,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 52.07 121.92 0)
+			(at 43.18 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,6 +3481,160 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e42fba19-ca85-4742-a019-f67d1b8fc682"
 					(reference "#PWR0342")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Parts:L_Ferrite_Power")
+		(at 39.37 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6702d0ce-42b6-42d6-840b-bc2ec74b04f5")
+		(property "Reference" "L31"
+			(at 39.37 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600"
+			(at 39.37 68.326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 39.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor with ferrite core"
+			(at 39.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1002"
+			(at 39.37 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b6f14ba5-62ca-49b1-a671-9d2ef423f527")
+		)
+		(pin "1"
+			(uuid "1fb712c8-e127-4f45-9e86-546374f9c09a")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e42fba19-ca85-4742-a019-f67d1b8fc682"
+					(reference "L31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 43.18 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6897ac58-d574-43d5-a622-e51a87b8d184")
+		(property "Reference" "C385"
+			(at 43.18 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 43.18 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 44.1452 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "25V"
+			(at 43.18 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 43.18 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96446"
+			(at 43.18 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2810ddf5-407f-4912-87cc-418c611e5932")
+		)
+		(pin "2"
+			(uuid "fdcfa010-0fce-4c2c-926f-8b63599cdec0")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e42fba19-ca85-4742-a019-f67d1b8fc682"
+					(reference "C385")
 					(unit 1)
 				)
 			)
@@ -3145,7 +3782,7 @@
 		(dnp no)
 		(uuid "8f146eda-fba4-463f-a18a-7e29de26bcce")
 		(property "Reference" "C382"
-			(at 119.507 67.31 0)
+			(at 119.38 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3153,8 +3790,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10n"
-			(at 119.761 69.977 0)
+		(property "Value" "0u1"
+			(at 119.38 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3162,7 +3799,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 120.3452 72.39 0)
 			(effects
 				(font
@@ -3171,7 +3808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0G"
+		(property "Datasheet" "50V"
 			(at 119.38 68.58 0)
 			(effects
 				(font
@@ -3181,6 +3818,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 119.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
 			(at 119.38 68.58 0)
 			(effects
 				(font
@@ -3210,7 +3856,7 @@
 		(mirror y)
 		(unit 3)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a1a367ec-2410-4de5-b3e5-82aa0374add5")
@@ -3251,6 +3897,15 @@
 		)
 		(property "Description" ""
 			(at 111.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C881489"
+			(at 110.49 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3303,11 +3958,11 @@
 		(mirror y)
 		(unit 3)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a27ebc57-737d-42f9-9e56-3d9eabc633aa")
-		(property "Reference" "U1"
+		(property "Reference" "U31"
 			(at 110.49 62.484 0)
 			(effects
 				(font
@@ -3351,6 +4006,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C881489"
+			(at 110.49 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7611f663-b7b1-45e5-9cec-932048fead43")
 		)
@@ -3384,7 +4048,7 @@
 			)
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e42fba19-ca85-4742-a019-f67d1b8fc682"
-					(reference "U1")
+					(reference "U31")
 					(unit 3)
 				)
 			)
@@ -3392,8 +4056,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 52.07 72.39 0)
-		(mirror y)
+		(at 49.53 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3401,7 +4064,7 @@
 		(dnp no)
 		(uuid "a467e9c6-efd9-4791-ba0e-a43ff5ad7e70")
 		(property "Reference" "C381"
-			(at 52.07 70.612 0)
+			(at 49.53 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3410,7 +4073,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 52.07 74.422 0)
+			(at 49.53 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3418,8 +4081,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 51.1048 76.2 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 50.4952 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3427,8 +4090,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 52.07 72.39 0)
+		(property "Datasheet" "50V"
+			(at 49.53 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3437,7 +4100,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 52.07 72.39 0)
+			(at 49.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 49.53 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3461,17 +4133,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 52.07 68.58 0)
-		(mirror y)
+		(lib_id "Device:C")
+		(at 43.18 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c6435cf9-f259-4e74-911c-183455f5606d")
-		(property "Reference" "#PWR054"
-			(at 52.07 72.39 0)
+		(uuid "a508f929-3d0d-45ce-b214-d1a4d92544f2")
+		(property "Reference" "C386"
+			(at 43.18 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 43.18 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 44.1452 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3479,16 +4168,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 52.07 65.024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 68.58 0)
+		(property "Datasheet" "25V"
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3496,8 +4177,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 52.07 68.58 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3505,8 +4186,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 52.07 68.58 0)
+		(property "LCSC" "C96446"
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,29 +4196,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "1c4a96ef-6cae-46c5-b8af-76fe6aa274c9")
+			(uuid "132b07c3-2d09-4e9e-80cb-ff5bc6a58920")
+		)
+		(pin "2"
+			(uuid "834c1e69-2ed5-42b5-9ec4-671ffacfc82a")
 		)
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e42fba19-ca85-4742-a019-f67d1b8fc682"
-					(reference "#PWR054")
+					(reference "C386")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 82.55 106.68 0)
-		(mirror y)
+		(lib_id "Parts:+3V3A")
+		(at 34.29 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c671b35d-f653-477d-9bc7-36d263f0a23d")
-		(property "Reference" "#PWR0343"
-			(at 82.55 110.49 0)
+		(uuid "aa32331c-ebac-415c-a2d5-e0db3e7c2304")
+		(property "Reference" "#PWR0731"
+			(at 34.29 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3545,8 +4228,9 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 82.55 103.124 0)
+		(property "Value" "+3V3A"
+			(at 34.29 67.564 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3554,7 +4238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 106.68 0)
+			(at 34.29 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3563,7 +4247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 106.68 0)
+			(at 34.29 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3571,8 +4255,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 82.55 106.68 0)
+		(property "Description" "Power symbol creates a global label with name {dblquote}+3V3A{dblquote}"
+			(at 34.29 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,12 +4265,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a1f0679-0a2d-4332-abfe-3accb4ab9a6c")
+			(uuid "5370c022-4886-486a-bc63-2d9de652fc18")
 		)
 		(instances
-			(project "lincal"
+			(project ""
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e42fba19-ca85-4742-a019-f67d1b8fc682"
-					(reference "#PWR0343")
+					(reference "#PWR0731")
 					(unit 1)
 				)
 			)
@@ -3660,7 +4344,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 52.07 76.2 0)
+		(at 43.18 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3668,7 +4352,7 @@
 		(dnp no)
 		(uuid "ddb6c16e-baca-4916-a206-82d029579c0d")
 		(property "Reference" "#PWR0252"
-			(at 52.07 82.55 0)
+			(at 43.18 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3677,7 +4361,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 52.07 79.502 0)
+			(at 43.18 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3686,7 +4370,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 77.47 0)
+			(at 43.18 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3695,7 +4379,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 77.47 0)
+			(at 43.18 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3704,7 +4388,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 52.07 76.2 0)
+			(at 43.18 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3792,8 +4476,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 52.07 118.11 0)
-		(mirror y)
+		(at 49.53 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3801,7 +4484,7 @@
 		(dnp no)
 		(uuid "e20bf77e-6c9d-46c2-99ea-40e6ff9a8d7d")
 		(property "Reference" "C383"
-			(at 52.07 116.332 0)
+			(at 49.53 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3810,7 +4493,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 52.07 120.142 0)
+			(at 49.53 122.682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3818,8 +4501,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 51.1048 121.92 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 50.4952 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3827,8 +4510,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 52.07 118.11 0)
+		(property "Datasheet" "50V"
+			(at 49.53 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3837,7 +4520,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 52.07 118.11 0)
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 49.53 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3855,72 +4547,6 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e42fba19-ca85-4742-a019-f67d1b8fc682"
 					(reference "C383")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 82.55 60.96 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e830068a-9a14-4bf3-8b7f-b68675235df4")
-		(property "Reference" "#PWR0253"
-			(at 82.55 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 82.55 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 82.55 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db72f0ef-11ed-409c-a309-6cf438abf22b")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e42fba19-ca85-4742-a019-f67d1b8fc682"
-					(reference "#PWR0253")
 					(unit 1)
 				)
 			)

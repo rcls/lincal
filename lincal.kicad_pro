@@ -25,7 +25,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1854200|1308100|c8fe9497-ff8c-4e75-a511-2f5010ee5c01|d49ba8ef-493a-4758-b90d-e14e8ad447c3|/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8|/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8|/b054cef4-39e3-49d8-aff0-7ba5a206c187/f6066de6-625c-453e-a76c-ce9a6a5c6264",
+        "Intentional"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -305,7 +310,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 560,
+    "annotate_start_num": 500,
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -355,7 +360,7 @@
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -367,7 +372,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -382,10 +387,10 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -401,15 +406,9 @@
         },
         {
           "group_by": false,
-          "label": "JLCPCB",
-          "name": "JLCPCB",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
@@ -417,7 +416,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -521,12 +520,12 @@
       "Monitor ADC"
     ],
     [
-      "f6066de6-625c-453e-a76c-ce9a6a5c6264",
-      "Auxilary"
-    ],
-    [
       "5e75b7d0-06d7-44d3-9715-75151d16c7a9",
       "CPU"
+    ],
+    [
+      "f6066de6-625c-453e-a76c-ce9a6a5c6264",
+      "Auxilary"
     ]
   ],
   "text_variables": {}

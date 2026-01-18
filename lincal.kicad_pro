@@ -27,8 +27,20 @@
   "erc": {
     "erc_exclusions": [
       [
+        "pin_to_pin|1689100|762000|871f7c4b-5959-4f03-9595-a916d97b73f7|b189d21a-1e6b-41a3-a2b1-f6e87a9e51f1|/b054cef4-39e3-49d8-aff0-7ba5a206c187/fd210975-34eb-456f-9075-cf344b0a559b|/b054cef4-39e3-49d8-aff0-7ba5a206c187/fd210975-34eb-456f-9075-cf344b0a559b|/b054cef4-39e3-49d8-aff0-7ba5a206c187/525413b8-c4e9-4b1d-b0c6-ca0be2e26a7f",
+        "Intentional"
+      ],
+      [
         "pin_to_pin|1854200|1308100|c8fe9497-ff8c-4e75-a511-2f5010ee5c01|d49ba8ef-493a-4758-b90d-e14e8ad447c3|/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8|/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8|/b054cef4-39e3-49d8-aff0-7ba5a206c187/f6066de6-625c-453e-a76c-ce9a6a5c6264",
         "Intentional"
+      ],
+      [
+        "pin_to_pin|2057400|698500|b8dd1a20-c737-45f8-b74d-2982803caee6|b189d21a-1e6b-41a3-a2b1-f6e87a9e51f1|/b054cef4-39e3-49d8-aff0-7ba5a206c187/8eaf15be-2df7-401b-a518-33a048754894|/b054cef4-39e3-49d8-aff0-7ba5a206c187/8eaf15be-2df7-401b-a518-33a048754894|/b054cef4-39e3-49d8-aff0-7ba5a206c187/525413b8-c4e9-4b1d-b0c6-ca0be2e26a7f",
+        "Intentional"
+      ],
+      [
+        "pin_to_pin|812800|647700|d49ba8ef-493a-4758-b90d-e14e8ad447c3|c8fe9497-ff8c-4e75-a511-2f5010ee5c01|/b054cef4-39e3-49d8-aff0-7ba5a206c187/f6066de6-625c-453e-a76c-ce9a6a5c6264|/b054cef4-39e3-49d8-aff0-7ba5a206c187/f6066de6-625c-453e-a76c-ce9a6a5c6264|/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8",
+        "Negative regulator."
       ]
     ],
     "meta": {
@@ -279,6 +291,12 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "Guarded",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -310,7 +328,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 20,
+    "annotate_start_num": 540,
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -391,6 +409,30 @@
           "label": "LCSC",
           "name": "LCSC",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "R4",
+          "name": "R4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "R3",
+          "name": "R3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "R1",
+          "name": "R1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "R2",
+          "name": "R2",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -398,7 +440,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {

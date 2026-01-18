@@ -704,24 +704,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 12.7 -7.62 180)
 					(length 2.54)
@@ -751,24 +733,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 -12.7 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -994,24 +958,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 12.7 -7.62 180)
 					(length 2.54)
@@ -1041,24 +987,6 @@
 						)
 					)
 					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 -12.7 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1158,6 +1086,25 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -12.7 -12.7 0)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at -12.7 -12.7 0)
 					(length 2.54)
@@ -1176,7 +1123,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -12.7 -12.7 0)
 					(length 2.54)
 					(hide yes)
@@ -1195,7 +1142,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -12.7 -12.7 0)
 					(length 2.54)
 					(hide yes)
@@ -1207,6 +1154,63 @@
 						)
 					)
 					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -12.7 0)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -12.7 0)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -12.7 0)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1654,7 +1658,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Parts:OPA2189D"
+		(symbol "Parts:OPA2189DGK"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1672,15 +1676,15 @@
 					)
 				)
 			)
-			(property "Value" "OPA2189D"
-				(at 3.81 -3.81 0)
+			(property "Value" "OPA2189DGK"
+				(at 4.064 -4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
 				(at -1.27 0 0)
 				(effects
 					(font
@@ -1715,7 +1719,7 @@
 					)
 				)
 			)
-			(symbol "OPA2189D_1_1"
+			(symbol "OPA2189DGK_1_1"
 				(unit_name "A")
 				(polyline
 					(pts
@@ -1784,7 +1788,7 @@
 					)
 				)
 			)
-			(symbol "OPA2189D_2_1"
+			(symbol "OPA2189DGK_2_1"
 				(unit_name "B")
 				(polyline
 					(pts
@@ -1853,7 +1857,7 @@
 					)
 				)
 			)
-			(symbol "OPA2189D_3_1"
+			(symbol "OPA2189DGK_3_1"
 				(unit_name "Power")
 				(pin power_in line
 					(at 0 7.62 270)
@@ -2931,21 +2935,21 @@
 		(dnp no)
 		(uuid "38a06c89-8140-45fc-89ea-476dbb86a693")
 		(property "Reference" "C384"
-			(at 119.38 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0u1"
 			(at 119.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Value" "0u1"
+			(at 119.38 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -3581,7 +3585,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 43.18 77.216 0)
+			(at 43.18 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3782,21 +3786,21 @@
 		(dnp no)
 		(uuid "8f146eda-fba4-463f-a18a-7e29de26bcce")
 		(property "Reference" "C382"
-			(at 119.38 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0u1"
 			(at 119.38 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Value" "0u1"
+			(at 119.38 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -3851,7 +3855,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Parts:OPA2189D")
+		(lib_id "Parts:OPA2189DGK")
 		(at 110.49 114.3 0)
 		(mirror y)
 		(unit 3)
@@ -3869,7 +3873,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OPA2189D"
+		(property "Value" "OPA2189DGK"
 			(at 110.49 114.3 0)
 			(effects
 				(font
@@ -3877,7 +3881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
 			(at 111.76 114.3 0)
 			(effects
 				(font
@@ -3953,7 +3957,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Parts:OPA2189D")
+		(lib_id "Parts:OPA2189DGK")
 		(at 110.49 68.58 0)
 		(mirror y)
 		(unit 3)
@@ -3971,7 +3975,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OPA2189D"
+		(property "Value" "OPA2189DGK"
 			(at 110.49 68.58 0)
 			(effects
 				(font
@@ -3979,7 +3983,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
 			(at 111.76 68.58 0)
 			(effects
 				(font
@@ -4064,16 +4068,16 @@
 		(dnp no)
 		(uuid "a467e9c6-efd9-4791-ba0e-a43ff5ad7e70")
 		(property "Reference" "C381"
-			(at 49.53 73.152 0)
+			(at 49.53 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "0u1"
-			(at 49.53 76.962 0)
+			(at 49.53 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4151,7 +4155,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 43.18 122.936 0)
+			(at 43.18 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,16 +4488,16 @@
 		(dnp no)
 		(uuid "e20bf77e-6c9d-46c2-99ea-40e6ff9a8d7d")
 		(property "Reference" "C383"
-			(at 49.53 118.872 0)
+			(at 49.53 122.682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "0u1"
-			(at 49.53 122.682 0)
+			(at 49.53 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)

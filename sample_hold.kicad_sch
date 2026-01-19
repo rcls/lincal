@@ -10271,7 +10271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Parts:ThermJump"
+		(property "Footprint" "Parts:ThermJump_1"
 			(at 170.18 82.55 0)
 			(effects
 				(font
@@ -11589,12 +11589,11 @@
 			)
 		)
 		(property "Value" "OPA2197D"
-			(at 105.156 31.75 0)
+			(at 101.6 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"

@@ -8240,7 +8240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Parts:PinHeader_1x03_P2.54mm_Vertical"
 			(at 123.19 50.8 0)
 			(effects
 				(font
@@ -9394,7 +9394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Parts:PinHeader_1x02_P2.54mm_Vertical"
 			(at 76.2 88.9 0)
 			(effects
 				(font

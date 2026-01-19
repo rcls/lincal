@@ -1363,7 +1363,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:Texas_RGW0020A_VQFN-20-1EP_5x5mm_P0.65mm_EP3.15x3.15mm_ThermalVias"
+			(property "Footprint" "Package_DFN_QFN:Texas_RGW0020A_VQFN-20-1EP_5x5mm_P0.65mm_EP3.15x3.15mm"
 				(at 1.27 11.43 0)
 				(effects
 					(font
@@ -1555,6 +1555,25 @@
 				(pin passive line
 					(at -5.08 -10.16 90)
 					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 90)
+					(length 2.54)
+					(hide yes)
 					(name "NC"
 						(effects
 							(font
@@ -14203,7 +14222,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_RGW0020A_VQFN-20-1EP_5x5mm_P0.65mm_EP3.15x3.15mm_ThermalVias"
+		(property "Footprint" "Package_DFN_QFN:Texas_RGW0020A_VQFN-20-1EP_5x5mm_P0.65mm_EP3.15x3.15mm"
 			(at 177.8 96.52 0)
 			(effects
 				(font
@@ -14298,6 +14317,9 @@
 		)
 		(pin "9"
 			(uuid "73e03cdb-c5ce-4bd6-9812-8304c808fa91")
+		)
+		(pin "2"
+			(uuid "c63bde1a-111d-4f69-8dbe-9b460f8620cc")
 		)
 		(instances
 			(project "lincal"

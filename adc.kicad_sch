@@ -2380,7 +2380,7 @@
 	)
 	(text_box "≈20kΩ input resistance, mitigate by force-sense routing from amplifier."
 		(exclude_from_sim no)
-		(at 127 43.18 0)
+		(at 133.35 43.18 0)
 		(size 25.4 7.62)
 		(margins 0.254 0.254 0.254 0.254)
 		(stroke
@@ -4974,7 +4974,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e56a438-6b42-4e27-a940-93e34087068c")
-		(property "Reference" "L76"
+		(property "Reference" "L77"
 			(at 177.8 102.87 90)
 			(effects
 				(font
@@ -5035,7 +5035,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e69ade03-efa5-476d-a99a-7096b679a0cf"
-					(reference "L76")
+					(reference "L77")
 					(unit 1)
 				)
 			)
@@ -6676,7 +6676,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a470f2b3-af4a-467b-aa21-1523a482c0c3")
-		(property "Reference" "L761"
+		(property "Reference" "L80"
 			(at 148.336 89.916 90)
 			(effects
 				(font
@@ -6737,7 +6737,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e69ade03-efa5-476d-a99a-7096b679a0cf"
-					(reference "L761")
+					(reference "L80")
 					(unit 1)
 				)
 			)
@@ -6984,7 +6984,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c33c5c0c-ddbd-4981-b89e-a0f354e0e6aa")
-		(property "Reference" "L75"
+		(property "Reference" "L78"
 			(at 205.74 45.72 90)
 			(effects
 				(font
@@ -7045,7 +7045,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e69ade03-efa5-476d-a99a-7096b679a0cf"
-					(reference "L75")
+					(reference "L78")
 					(unit 1)
 				)
 			)
@@ -7587,7 +7587,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e25d7a59-6791-4f88-96ac-f040abc74e39")
-		(property "Reference" "L760"
+		(property "Reference" "L79"
 			(at 148.336 77.47 90)
 			(effects
 				(font
@@ -7648,7 +7648,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e69ade03-efa5-476d-a99a-7096b679a0cf"
-					(reference "L760")
+					(reference "L79")
 					(unit 1)
 				)
 			)

@@ -5740,7 +5740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Parts:PinHeader_1x02_P2.54mm_Vertical"
 			(at 165.1 29.21 0)
 			(effects
 				(font
@@ -6464,7 +6464,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 85.09 41.91 0)
 			(effects
 				(font

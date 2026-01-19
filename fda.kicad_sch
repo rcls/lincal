@@ -10709,7 +10709,7 @@
 				)
 			)
 		)
-		(property "Value" "3k3"
+		(property "Value" "100"
 			(at 110.49 148.59 90)
 			(effects
 				(font
@@ -10726,7 +10726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "0.1%, 10ppm/°C"
+		(property "Datasheet" "~"
 			(at 110.49 148.59 0)
 			(effects
 				(font
@@ -10744,7 +10744,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22978"
+		(property "LCSC" ""
 			(at 110.49 148.59 90)
 			(effects
 				(font

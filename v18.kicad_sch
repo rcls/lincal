@@ -5373,7 +5373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 160.02 44.958 90)
 			(effects
 				(font
@@ -5400,7 +5400,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25794"
+		(property "LCSC" "C22936"
 			(at 160.02 43.18 90)
 			(effects
 				(font
@@ -5612,7 +5612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "50V"
+		(property "Datasheet" "C0G, 50V"
 			(at 64.77 78.74 0)
 			(effects
 				(font
@@ -7283,7 +7283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0G, 50V"
+		(property "Datasheet" "C0G"
 			(at 64.77 43.18 0)
 			(effects
 				(font
@@ -8574,7 +8574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 160.02 94.488 90)
 			(effects
 				(font
@@ -8601,7 +8601,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25794"
+		(property "LCSC" "C22936"
 			(at 160.02 92.71 90)
 			(effects
 				(font

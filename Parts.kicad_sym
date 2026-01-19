@@ -2143,6 +2143,219 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "DG419"
+		(pin_names
+			(offset 0.002)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "DG419D"
+			(at 8.636 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "DG419_0_1"
+			(pin bidirectional line
+				(at -7.62 3.81 0)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 8.89 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -8.89 90)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 7.62 3.81 180)
+				(length 2.54)
+				(name "S1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 7.62 1.27 180)
+				(length 2.54)
+				(name "S2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 7.62 -3.81 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DG419_1_1"
+			(rectangle
+				(start -5.08 6.35)
+				(end 5.08 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -7.62 -1.27 0)
+				(length 2.54)
+				(name "SEL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -3.81 0)
+				(length 2.54)
+				(name "V_{L}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "DGND"
 		(power)
 		(pin_numbers
@@ -11756,7 +11969,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TMUX6219DGK"
+	(symbol "TMUX7219DGK"
 		(pin_names
 			(offset 0.002)
 		)
@@ -11771,7 +11984,7 @@
 				)
 			)
 		)
-		(property "Value" "TMUX6219DGK"
+		(property "Value" "TMUX7219DGK"
 			(at 8.636 7.62 0)
 			(effects
 				(font
@@ -11779,7 +11992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC8_DGK_TEX"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -11789,7 +12002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tmux6219"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tmux7219"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11808,25 +12021,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "PTMUX6219DGKR"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "SOIC8_DGK_TEX SOIC8_DGK_TEX-M SOIC8_DGK_TEX-L"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "TMUX6219DGK_0_1"
+		(symbol "TMUX7219DGK_0_1"
 			(pin bidirectional line
 				(at -7.62 3.81 0)
 				(length 2.54)
@@ -11972,7 +12167,7 @@
 				)
 			)
 		)
-		(symbol "TMUX6219DGK_1_1"
+		(symbol "TMUX7219DGK_1_1"
 			(rectangle
 				(start -5.08 6.35)
 				(end 5.08 -6.35)

@@ -2772,6 +2772,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C682625"
+			(at 66.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "18"
 			(uuid "7f98b3b9-bcc7-4910-b2fa-52736b5e4ab4")
 		)
@@ -3182,6 +3191,15 @@
 		)
 		(property "Description" ""
 			(at 41.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C682625"
+			(at 66.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -7142,7 +7142,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 189.103 140.462 0)
+			(at 189.23 140.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7504,7 +7504,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 189.103 132.842 0)
+			(at 189.23 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8113,7 +8113,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 203.327 106.172 0)
+			(at 203.2 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8345,7 +8345,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 198.247 106.172 0)
+			(at 198.12 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8586,7 +8586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "50V"
+		(property "Datasheet" "C0G, 50V"
 			(at 55.88 99.06 0)
 			(effects
 				(font
@@ -8715,16 +8715,15 @@
 		(dnp no)
 		(uuid "5b5300f5-2f93-475d-80c2-6225338bb098")
 		(property "Reference" "C720"
-			(at 120.65 87.122 90)
+			(at 119.888 93.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "0n1"
-			(at 120.65 93.472 90)
+			(at 119.634 89.154 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8794,7 +8793,7 @@
 		(dnp no)
 		(uuid "5bed6038-49c0-43b3-a9f2-c4171b61d206")
 		(property "Reference" "C739"
-			(at 134.874 158.242 0)
+			(at 134.62 158.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8803,7 +8802,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 134.874 154.178 0)
+			(at 134.62 154.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9304,7 +9303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "50V"
+		(property "Datasheet" "C0G, 50V"
 			(at 80.01 111.76 0)
 			(effects
 				(font
@@ -10091,7 +10090,7 @@
 		(dnp no)
 		(uuid "7eecf261-1d00-4b38-b5cf-96f538c42337")
 		(property "Reference" "U73"
-			(at 191.77 104.14 0)
+			(at 191.77 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10099,11 +10098,12 @@
 			)
 		)
 		(property "Value" "OPA2388DGK"
-			(at 186.436 100.33 0)
+			(at 191.516 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
@@ -10258,7 +10258,7 @@
 		(dnp no)
 		(uuid "854d0d6d-503b-402c-9aba-9a5ba1d12b53")
 		(property "Reference" "C731"
-			(at 104.394 154.432 0)
+			(at 104.14 154.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10267,7 +10267,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 103.886 150.368 0)
+			(at 104.14 150.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10959,7 +10959,7 @@
 			)
 		)
 		(property "Value" "0n1"
-			(at 120.65 121.158 90)
+			(at 119.634 119.126 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11114,7 +11114,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 189.103 71.882 0)
+			(at 189.23 71.882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11352,7 +11352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 87.63 107.95 0)
 			(effects
 				(font
@@ -11480,7 +11480,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 189.103 79.502 0)
+			(at 189.23 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11820,7 +11820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0G, 50V"
+		(property "Datasheet" "C0G"
 			(at 80.01 116.84 0)
 			(effects
 				(font

@@ -5155,7 +5155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0G, 50V"
+		(property "Datasheet" "C0G"
 			(at 106.68 68.58 0)
 			(effects
 				(font
@@ -5561,7 +5561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0G, 50V"
+		(property "Datasheet" "C0G"
 			(at 95.25 90.17 0)
 			(effects
 				(font
@@ -5983,7 +5983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0G, 50V"
+		(property "Datasheet" "C0G"
 			(at 130.81 92.71 0)
 			(effects
 				(font
@@ -6408,7 +6408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0G, 50V"
+		(property "Datasheet" "C0G"
 			(at 95.25 62.23 0)
 			(effects
 				(font
@@ -6556,7 +6556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0G, 50V"
+		(property "Datasheet" "C0G"
 			(at 124.46 81.28 0)
 			(effects
 				(font
@@ -7889,7 +7889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0G, 50V"
+		(property "Datasheet" "C0G"
 			(at 130.81 64.77 0)
 			(effects
 				(font
@@ -8025,7 +8025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0G, 50V"
+		(property "Datasheet" "C0G"
 			(at 106.68 96.52 0)
 			(effects
 				(font

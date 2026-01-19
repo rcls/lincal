@@ -13541,7 +13541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "100mA"
+		(property "Datasheet" "~"
 			(at 156.21 102.87 0)
 			(effects
 				(font

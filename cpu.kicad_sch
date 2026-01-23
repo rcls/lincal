@@ -9935,7 +9935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1A working"
+		(property "Datasheet" "2A / 50mOhm"
 			(at 88.9 31.75 0)
 			(effects
 				(font

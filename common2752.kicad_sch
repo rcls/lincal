@@ -419,7 +419,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
+			(property "Footprint" "Parts:LQFP-48_7x7mm_P0.5mm"
 				(at 0 7.62 0)
 				(effects
 					(font
@@ -660,7 +660,7 @@
 							)
 						)
 					)
-					(number "46"
+					(number "45"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -678,7 +678,7 @@
 							)
 						)
 					)
-					(number "45"
+					(number "46"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -788,7 +788,7 @@
 							)
 						)
 					)
-					(number "31"
+					(number "32"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -806,7 +806,7 @@
 							)
 						)
 					)
-					(number "32"
+					(number "31"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -914,7 +914,7 @@
 							)
 						)
 					)
-					(number "39"
+					(number "40"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -932,7 +932,7 @@
 							)
 						)
 					)
-					(number "40"
+					(number "39"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -961,14 +961,14 @@
 				(pin passive line
 					(at 12.7 -7.62 180)
 					(length 2.54)
-					(name "IOUT2BS"
+					(name "IOUT2BF"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "29"
+					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -979,14 +979,14 @@
 				(pin passive line
 					(at 12.7 -10.16 180)
 					(length 2.54)
-					(name "IOUT2BF"
+					(name "IOUT2BS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "28"
+					(number "29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1684,7 +1684,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
+			(property "Footprint" "Parts:OPA2189"
 				(at -1.27 0 0)
 				(effects
 					(font
@@ -2743,7 +2743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
+		(property "Footprint" "Parts:LQFP-48_7x7mm_P0.5mm"
 			(at 66.04 58.42 0)
 			(effects
 				(font
@@ -3169,7 +3169,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
+		(property "Footprint" "Parts:LQFP-48_7x7mm_P0.5mm"
 			(at 66.04 104.14 0)
 			(effects
 				(font
@@ -3899,7 +3899,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
+		(property "Footprint" "Parts:OPA2189"
 			(at 111.76 114.3 0)
 			(effects
 				(font
@@ -4001,7 +4001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
+		(property "Footprint" "Parts:OPA2189"
 			(at 111.76 68.58 0)
 			(effects
 				(font

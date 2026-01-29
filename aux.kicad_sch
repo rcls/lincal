@@ -1958,9 +1958,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "Parts:LT5400"
-			(pin_numbers
-				(hide yes)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1980,7 +1977,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm"
+			(property "Footprint" "Parts:MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm"
 				(at -6.35 6.35 0)
 				(effects
 					(font
@@ -3836,6 +3833,12 @@
 		(uuid "82c21427-39c2-432d-8b1b-043503e6efc8")
 	)
 	(junction
+		(at 111.76 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85ed8667-fe1c-4b7a-8d2d-72c62b9b68ea")
+	)
+	(junction
 		(at 146.05 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3860,10 +3863,10 @@
 		(uuid "bbc27eea-be8c-4c4b-a05f-7a5856aa16f9")
 	)
 	(junction
-		(at 116.84 63.5)
+		(at 111.76 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c1f9b8f9-8b2e-402f-87c5-8c51908f2ac1")
+		(uuid "c7fe9012-6fe2-465b-95f5-b0dc63c0455a")
 	)
 	(junction
 		(at 73.66 64.77)
@@ -3882,6 +3885,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3811cc0-047d-4b44-af57-24a1a3b15c29")
+	)
+	(junction
+		(at 106.68 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef74223f-be25-4869-8848-12b7f7afa67b")
 	)
 	(junction
 		(at 81.28 64.77)
@@ -3949,13 +3958,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 63.5) (xy 128.27 63.5)
+			(xy 107.95 59.69) (xy 106.68 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0cad1252-a219-40e1-9f52-c7aec7224161")
+		(uuid "0c060ae7-7d20-436e-90a6-f2796ac91d85")
 	)
 	(wire
 		(pts
@@ -4019,6 +4028,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 63.5) (xy 111.76 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "229821bd-b89d-4cd0-a787-4e67c33d3f6b")
+	)
+	(wire
+		(pts
 			(xy 74.93 86.36) (xy 80.01 86.36)
 		)
 		(stroke
@@ -4076,6 +4095,16 @@
 			(type default)
 		)
 		(uuid "40257958-1d6a-469f-acba-3601b6a544e1")
+	)
+	(wire
+		(pts
+			(xy 115.57 59.69) (xy 116.84 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4330a263-2b71-409f-a77a-c8d0f4f0e5d9")
 	)
 	(wire
 		(pts
@@ -4199,6 +4228,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 71.12) (xy 106.68 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c8474a7-b70b-49b8-a933-9dfbf7f5eeb7")
+	)
+	(wire
+		(pts
 			(xy 85.09 74.93) (xy 85.09 77.47)
 		)
 		(stroke
@@ -4256,6 +4295,16 @@
 			(type default)
 		)
 		(uuid "a05ce8ac-5e0a-4390-8b93-4a4c86eaf3d1")
+	)
+	(wire
+		(pts
+			(xy 106.68 76.2) (xy 111.76 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0603b38-544f-4b8e-8e04-d306445b7308")
 	)
 	(wire
 		(pts
@@ -4409,6 +4458,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 59.69) (xy 106.68 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec6ca128-d158-47bf-b26b-20a37a671ae6")
+	)
+	(wire
+		(pts
 			(xy 102.87 44.45) (xy 96.52 44.45)
 		)
 		(stroke
@@ -4439,7 +4498,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 63.5) (xy 116.84 63.5)
+			(xy 111.76 63.5) (xy 128.27 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4475,7 +4534,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -4497,7 +4555,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -4519,7 +4576,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -4657,7 +4713,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VA")
-		(at 116.84 63.5 0)
+		(at 116.84 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4665,7 +4721,7 @@
 		(dnp no)
 		(uuid "19fc8b39-86f8-4e7d-bdd2-a1976cdf2bd6")
 		(property "Reference" "#PWR0205"
-			(at 116.84 67.31 0)
+			(at 116.84 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,7 +4730,7 @@
 			)
 		)
 		(property "Value" "+5VA"
-			(at 116.84 59.944 0)
+			(at 116.84 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4682,7 +4738,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 63.5 0)
+			(at 116.84 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,7 +4747,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 63.5 0)
+			(at 116.84 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4700,7 +4756,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 116.84 63.5 0)
+			(at 116.84 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4814,7 +4870,7 @@
 		(dnp no)
 		(uuid "253a0a04-e00d-43b2-a44d-307f8b4e9e30")
 		(property "Reference" "C851"
-			(at 111.76 65.278 0)
+			(at 111.76 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4822,8 +4878,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0u1"
-			(at 111.76 69.596 0)
+		(property "Value" "1u"
+			(at 111.76 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4840,7 +4896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "50V"
+		(property "Datasheet" "25V"
 			(at 111.76 67.31 0)
 			(effects
 				(font
@@ -4858,7 +4914,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C52923"
 			(at 111.76 67.31 0)
 			(effects
 				(font
@@ -5173,7 +5229,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0u1"
+		(property "Value" "1u"
 			(at 116.84 74.676 0)
 			(effects
 				(font
@@ -5191,7 +5247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "50V"
+		(property "Datasheet" "25V"
 			(at 116.84 72.39 0)
 			(effects
 				(font
@@ -5209,7 +5265,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C52923"
 			(at 116.84 72.39 0)
 			(effects
 				(font
@@ -5610,7 +5666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm"
+		(property "Footprint" "Parts:MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm"
 			(at 86.995 80.01 90)
 			(effects
 				(font
@@ -6448,7 +6504,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4a24914-4fdf-46ba-8385-b566476862f6")
-		(property "Reference" "J85"
+		(property "Reference" "J7"
 			(at 81.28 19.812 0)
 			(effects
 				(font
@@ -6545,7 +6601,84 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/f6066de6-625c-453e-a76c-ce9a6a5c6264"
-					(reference "J85")
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Parts:L_Ferrite_Power")
+		(at 111.76 59.69 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0765d45-28b8-429a-be08-a97f7ff2d955")
+		(property "Reference" "L83"
+			(at 111.76 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600"
+			(at 111.76 56.896 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 111.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "200mA / 450mΩ"
+			(at 111.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor with ferrite core"
+			(at 111.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1002"
+			(at 111.76 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "31f8e889-1bc4-4c62-b347-8cca45be8121")
+		)
+		(pin "1"
+			(uuid "999293a8-d68a-4b8e-8e81-37e38cf78057")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/f6066de6-625c-453e-a76c-ce9a6a5c6264"
+					(reference "L83")
 					(unit 1)
 				)
 			)
@@ -6698,6 +6831,84 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/f6066de6-625c-453e-a76c-ce9a6a5c6264"
 					(reference "#PWR0206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 106.68 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7ceb821-27d3-47ac-b697-0dad8d63c3d3")
+		(property "Reference" "C854"
+			(at 106.68 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 106.68 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 107.6452 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "25V"
+			(at 106.68 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 106.68 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96446"
+			(at 106.68 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6420523c-1268-4603-9b29-c631f2df4304")
+		)
+		(pin "2"
+			(uuid "89c1fca3-93a8-4238-bf36-bb3dddd28118")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/f6066de6-625c-453e-a76c-ce9a6a5c6264"
+					(reference "C854")
 					(unit 1)
 				)
 			)
@@ -6892,7 +7103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "2A / 50mOhm"
+		(property "Datasheet" "2A / 50mΩ"
 			(at 104.14 26.67 0)
 			(effects
 				(font

@@ -1,0 +1,8 @@
+* OPA2388 dual opamp.
+.include spice/opa388.lib
+.subckt LT5400-1 a1 b1 c1 d1 d2 c2 b2 a2 pad
+Ra a1 a2 10k
+Rb b1 b2 10k
+Rc c1 c2 10k
+Rd d1 d2 10k
+.ends

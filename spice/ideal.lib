@@ -1,0 +1,42 @@
+* Ideal amps.
+
+* 16ns Op amp
+.subckt IdealOPAmp in+ in- out  params: icap=3p
+* Input parasitic.
+Cparasite in+ in- {icap}
+* Voltage controlled current source.  1 Amp/Volt.
+Ginput 0 integrator in+ in- 1
+Cintegrator 0 integrator 16n
+* Well defined operating point, limit gain to 3e6.
+Rclamp 0 integrator 3e6
+* Hi frequency lag.
+Elag 0 lag_force 0 integrator 1
+Rlag lag_force lag 1
+Clag lag 0 8n
+* Output
+Eout out 0 lag 0 1
+.ends
+
+* Dual op amp.
+.subckt DualIdealOpAmp  out1 in1- in1+ vs- in2+ in2- out2 vs+ params: icap=3p
+Xop1 in1+ in1- out1 IdealOpAmp icap={icap}
+Xop2 in2+ in2- out2 IdealOpAmp icap={icap}
+.ends
+
+* 1ns FDA.
+.subckt IdealFDA in+ in- vcm out- out+ vs+ vs-
+* Cparasite in+ in- 1p
+* Resistor divider to bias vcm.
+Rvcm+ vs+ vcm 10k
+Rvcm- vs+ vcm 10k
+* Voltage controlled current source. 1 Amp/Volt on differential input.
+Ginput 0 integrator in+ in- 1
+Cintegrator 0 integrator 1n
+* Well defined operating point, limit gain to 1e6.
+Rclamp 0 integrator 1e6
+* Output common mode. VCVS
+Eocm voutmid 0 vcm 0 1
+* Outputs
+Eout+ out+ voutmid integrator 0 0.5
+Eout- voutmid out- integrator 0 0.5
+.ends

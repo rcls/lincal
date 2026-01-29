@@ -1,0 +1,6 @@
+*.kicad_prl
+*.wbk
+*-backups/
+fp-info-cache
+fp-lib-table
+sym-lib-table

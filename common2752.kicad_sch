@@ -3400,7 +3400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "200mA / 450mΩ"
 			(at 39.37 116.84 0)
 			(effects
 				(font
@@ -3542,7 +3542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "200mA / 450mΩ"
 			(at 39.37 71.12 0)
 			(effects
 				(font
@@ -4094,7 +4094,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0u1"
+		(property "Value" "1u"
 			(at 49.53 73.152 0)
 			(effects
 				(font
@@ -4112,7 +4112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "50V"
+		(property "Datasheet" "25V"
 			(at 49.53 74.93 0)
 			(effects
 				(font
@@ -4130,7 +4130,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C52923"
 			(at 49.53 74.93 0)
 			(effects
 				(font
@@ -4514,7 +4514,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0u1"
+		(property "Value" "1u"
 			(at 49.53 118.872 0)
 			(effects
 				(font
@@ -4532,7 +4532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "50V"
+		(property "Datasheet" "25V"
 			(at 49.53 120.65 0)
 			(effects
 				(font
@@ -4550,7 +4550,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C52923"
 			(at 49.53 120.65 0)
 			(effects
 				(font

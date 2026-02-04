@@ -2350,6 +2350,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 71.12) (xy 43.18 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "779df99a-f0a8-481f-93b3-57285665962d")
+	)
+	(wire
+		(pts
 			(xy 78.74 66.04) (xy 78.74 68.58)
 		)
 		(stroke
@@ -2390,7 +2400,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 116.84) (xy 35.56 116.84)
+			(xy 31.75 116.84) (xy 34.29 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2430,7 +2440,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 71.12) (xy 35.56 71.12)
+			(xy 31.75 71.12) (xy 34.29 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2557,6 +2567,16 @@
 			(type default)
 		)
 		(uuid "f7754757-da13-4d04-8227-33fea4ea3091")
+	)
+	(wire
+		(pts
+			(xy 41.91 116.84) (xy 43.18 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa91251c-5b02-46c3-adc8-28cbd08bbbe7")
 	)
 	(wire
 		(pts
@@ -2781,6 +2801,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" ""
+			(at 66.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "18"
 			(uuid "7f98b3b9-bcc7-4910-b2fa-52736b5e4ab4")
 		)
@@ -2997,6 +3026,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" ""
+			(at 119.38 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ed799c2e-5f69-4880-9bbb-8cc91cc387a5")
 		)
@@ -3014,7 +3052,7 @@
 	)
 	(symbol
 		(lib_id "Parts:+3V3A")
-		(at 33.02 116.84 0)
+		(at 31.75 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3022,7 +3060,7 @@
 		(dnp no)
 		(uuid "38d3134e-4f2c-43d4-93be-c60e628062db")
 		(property "Reference" "#PWR0732"
-			(at 33.02 120.65 0)
+			(at 31.75 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3031,7 +3069,7 @@
 			)
 		)
 		(property "Value" "+3V3A"
-			(at 33.02 113.284 0)
+			(at 31.75 113.284 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3040,7 +3078,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 116.84 0)
+			(at 31.75 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3049,7 +3087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 116.84 0)
+			(at 31.75 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3058,7 +3096,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name {dblquote}+3V3A{dblquote}"
-			(at 33.02 116.84 0)
+			(at 31.75 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3199,6 +3237,15 @@
 			)
 		)
 		(property "LCSC" "C682625"
+			(at 66.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
 			(at 66.04 111.76 0)
 			(effects
 				(font
@@ -3368,7 +3415,7 @@
 	)
 	(symbol
 		(lib_id "Parts:L_Ferrite_Power")
-		(at 39.37 116.84 90)
+		(at 38.1 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3376,7 +3423,7 @@
 		(dnp no)
 		(uuid "5dd61603-089e-423a-8eaa-df7af6ef91f4")
 		(property "Reference" "L32"
-			(at 39.37 118.11 90)
+			(at 38.1 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3384,7 +3431,7 @@
 			)
 		)
 		(property "Value" "600"
-			(at 39.37 114.046 90)
+			(at 38.1 114.046 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3392,7 +3439,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 39.37 116.84 0)
+			(at 38.1 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3401,7 +3448,7 @@
 			)
 		)
 		(property "Datasheet" "200mA / 450mΩ"
-			(at 39.37 116.84 0)
+			(at 38.1 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3410,7 +3457,7 @@
 			)
 		)
 		(property "Description" "Inductor with ferrite core"
-			(at 39.37 116.84 0)
+			(at 38.1 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3419,7 +3466,16 @@
 			)
 		)
 		(property "LCSC" "C1002"
-			(at 39.37 116.84 90)
+			(at 38.1 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 38.1 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,7 +3566,7 @@
 	)
 	(symbol
 		(lib_id "Parts:L_Ferrite_Power")
-		(at 39.37 71.12 90)
+		(at 38.1 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3518,7 +3574,7 @@
 		(dnp no)
 		(uuid "6702d0ce-42b6-42d6-840b-bc2ec74b04f5")
 		(property "Reference" "L31"
-			(at 39.37 72.39 90)
+			(at 38.1 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3526,7 +3582,7 @@
 			)
 		)
 		(property "Value" "600"
-			(at 39.37 68.326 90)
+			(at 38.1 68.326 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3534,7 +3590,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 39.37 71.12 0)
+			(at 38.1 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3543,7 +3599,7 @@
 			)
 		)
 		(property "Datasheet" "200mA / 450mΩ"
-			(at 39.37 71.12 0)
+			(at 38.1 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3552,7 +3608,7 @@
 			)
 		)
 		(property "Description" "Inductor with ferrite core"
-			(at 39.37 71.12 0)
+			(at 38.1 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3561,7 +3617,16 @@
 			)
 		)
 		(property "LCSC" "C1002"
-			(at 39.37 71.12 90)
+			(at 38.1 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 38.1 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3639,6 +3704,15 @@
 			)
 		)
 		(property "LCSC" "C96446"
+			(at 43.18 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
 			(at 43.18 74.93 0)
 			(effects
 				(font
@@ -3857,6 +3931,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" ""
+			(at 119.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9b1496ca-ce67-4fcf-b15b-c8aabe85a4d8")
 		)
@@ -3927,6 +4010,15 @@
 			)
 		)
 		(property "LCSC" "C881489"
+			(at 110.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "15"
 			(at 110.49 114.3 0)
 			(effects
 				(font
@@ -4037,6 +4129,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" "15"
+			(at 110.49 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7611f663-b7b1-45e5-9cec-932048fead43")
 		)
@@ -4139,6 +4240,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" ""
+			(at 49.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8463737f-db1c-441f-a479-20edeff48719")
 		)
@@ -4217,6 +4327,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" ""
+			(at 43.18 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "132b07c3-2d09-4e9e-80cb-ff5bc6a58920")
 		)
@@ -4234,7 +4353,7 @@
 	)
 	(symbol
 		(lib_id "Parts:+3V3A")
-		(at 34.29 71.12 0)
+		(at 31.75 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4242,7 +4361,7 @@
 		(dnp no)
 		(uuid "aa32331c-ebac-415c-a2d5-e0db3e7c2304")
 		(property "Reference" "#PWR0731"
-			(at 34.29 74.93 0)
+			(at 31.75 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4251,7 +4370,7 @@
 			)
 		)
 		(property "Value" "+3V3A"
-			(at 34.29 67.564 0)
+			(at 31.75 67.564 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4260,7 +4379,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 71.12 0)
+			(at 31.75 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,7 +4388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 71.12 0)
+			(at 31.75 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4278,7 +4397,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name {dblquote}+3V3A{dblquote}"
-			(at 34.29 71.12 0)
+			(at 31.75 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4551,6 +4670,15 @@
 			)
 		)
 		(property "LCSC" "C52923"
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
 			(at 49.53 120.65 0)
 			(effects
 				(font

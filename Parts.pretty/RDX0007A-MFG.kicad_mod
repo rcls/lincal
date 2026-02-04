@@ -134,15 +134,15 @@
 		(uuid "f785c5b1-ada9-46b4-a8e5-dc9696f514b8")
 	)
 	(fp_rect
-		(start -1.85 -2.2)
-		(end 1.85 2.2)
+		(start -2.15 -2.5)
+		(end 2.15 2.5)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "6648e1ea-fb08-4471-8ceb-f9b1b8a61cc0")
+		(uuid "c5f6b298-2020-48d2-be84-34e16535b108")
 	)
 	(fp_rect
 		(start -1.65 -2)

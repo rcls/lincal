@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -63,7 +63,24 @@
           "width": 0.2395
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|166040732|130063415|75c2a9c8-e410-47db-9be3-71dfcecb77f2|cb5ab3bd-344b-4a8b-ad49-6db1ece064d4",
+          ""
+        ],
+        [
+          "clearance|177440732|194063415|18e7c18c-6826-4357-9885-746f5cde1159|0f7a9394-395b-42ee-80f0-709f1bc4bdcf",
+          ""
+        ],
+        [
+          "courtyards_overlap|298025000|197325000|cda336b7-a100-4cdc-a550-18ef022de209|f2274a27-ac12-434f-bba3-2043268be82b",
+          "Intentional"
+        ],
+        [
+          "courtyards_overlap|299325000|160325000|eee5f335-766e-4e76-b7b1-095717fba6b5|f05ea5a0-1d53-4c14-8142-c9c0c2a5b9bf",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -139,7 +156,7 @@
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
-        "min_text_thickness": 0.125,
+        "min_text_thickness": 0.1,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.125,
         "min_via_annular_width": 0.1,
@@ -593,7 +610,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 720,
+    "annotate_start_num": 70,
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -619,6 +636,12 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Stock",
+          "name": "Stock",
           "show": true
         },
         {

@@ -3400,6 +3400,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "FIXME - can drive capacitance via mux?\n"
+		(exclude_from_sim no)
+		(at 143.256 56.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4103d4f4-fe3a-4c22-8608-0f4b852ebd05")
+	)
 	(text_box "Tie the ladder grounds together with the compensation resistances to cancel currents."
 		(exclude_from_sim no)
 		(at 99.06 90.17 0)
@@ -4891,6 +4901,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" ""
+			(at 81.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7509c238-54bf-41b2-b538-9aa9950fe834")
 		)
@@ -5007,7 +5026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "0.1%, 10ppm"
+		(property "Datasheet" "0.1%, 10ppm/°C"
 			(at 128.27 62.23 0)
 			(effects
 				(font
@@ -5018,6 +5037,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 128.27 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 128.27 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5093,6 +5121,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" "50"
+			(at 128.27 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0d890573-e9c5-41c6-b628-a9e439013502")
 		)
@@ -5142,7 +5179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "0.1%, 10ppm"
+		(property "Datasheet" "0.1%, 10ppm/°C"
 			(at 128.27 110.49 0)
 			(effects
 				(font
@@ -5153,6 +5190,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 128.27 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 128.27 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5436,6 +5482,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" ""
+			(at 179.07 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6551f45d-6f49-4cf1-a2ca-2a8f7de0ff6e")
 		)
@@ -5487,7 +5542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "25V, C0G"
+		(property "Datasheet" "C0G, 25V"
 			(at 95.25 60.96 0)
 			(effects
 				(font
@@ -5506,6 +5561,15 @@
 			)
 		)
 		(property "LCSC" "C307500"
+			(at 95.25 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
 			(at 95.25 60.96 0)
 			(effects
 				(font
@@ -5584,6 +5648,15 @@
 			)
 		)
 		(property "LCSC" "C1021800"
+			(at 180.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "3"
 			(at 180.34 81.28 0)
 			(effects
 				(font
@@ -5844,6 +5917,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" ""
+			(at 81.28 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fc4442e3-334b-4e52-9464-76d1eeaf7f5b")
 		)
@@ -5893,7 +5975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "0.1%, 10ppm"
+		(property "Datasheet" "0.1%, 10ppm/°C"
 			(at 128.27 80.01 0)
 			(effects
 				(font
@@ -5904,6 +5986,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 128.27 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 128.27 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5960,7 +6051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "0.1%, 10ppm"
+		(property "Datasheet" "0.1%, 10ppm/°C"
 			(at 128.27 69.85 0)
 			(effects
 				(font
@@ -5971,6 +6062,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 128.27 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6319,6 +6419,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" "15"
+			(at 92.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "f69e7d2c-7cf5-435c-a464-177e74ea4914")
 		)
@@ -6387,7 +6496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "0.1%, 10ppm"
+		(property "Datasheet" "0.1%, 10ppm/°C"
 			(at 128.27 90.17 0)
 			(effects
 				(font
@@ -6398,6 +6507,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 128.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 128.27 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6548,6 +6666,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" ""
+			(at 97.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "41e836e7-e916-4bef-865c-5426fa02d626")
 		)
@@ -6597,7 +6724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "0.1%, 10ppm"
+		(property "Datasheet" "0.1%, 10ppm/°C"
 			(at 133.35 115.57 0)
 			(effects
 				(font
@@ -6608,6 +6735,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 133.35 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 133.35 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6686,6 +6822,15 @@
 			)
 		)
 		(property "LCSC" "C2876423"
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
 			(at 88.9 132.08 0)
 			(effects
 				(font
@@ -6790,6 +6935,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" ""
+			(at 195.58 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f5ac4303-85ca-4dad-b866-8c6b043d6cd8")
 		)
@@ -6858,6 +7012,15 @@
 			)
 		)
 		(property "LCSC" "C14709"
+			(at 166.37 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
 			(at 166.37 127 90)
 			(effects
 				(font
@@ -7009,6 +7172,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" ""
+			(at 172.72 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8dbde113-c26e-443e-8563-5fdae1017faa")
 		)
@@ -7060,7 +7232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "25V, C0G"
+		(property "Datasheet" "C0G, 25V"
 			(at 95.25 111.76 0)
 			(effects
 				(font
@@ -7079,6 +7251,15 @@
 			)
 		)
 		(property "LCSC" "C307500"
+			(at 95.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
 			(at 95.25 111.76 0)
 			(effects
 				(font
@@ -7163,6 +7344,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" ""
+			(at 166.37 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4bd49c1e-cbfe-4b70-982c-478832b2ebf1")
 		)
@@ -7231,6 +7421,15 @@
 			)
 		)
 		(property "LCSC" "C881489"
+			(at 107.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "15"
 			(at 107.95 110.49 0)
 			(effects
 				(font
@@ -7325,6 +7524,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" "50"
+			(at 128.27 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "35449ec0-c5c3-4902-ac8f-d01f3380998f")
 		)
@@ -7375,7 +7583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "0.1%, 10ppm"
+		(property "Datasheet" "0.1%, 10ppm/°C"
 			(at 128.27 130.81 0)
 			(effects
 				(font
@@ -7386,6 +7594,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 128.27 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 128.27 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7443,7 +7660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "0.1%, 10ppm"
+		(property "Datasheet" "0.1%, 10ppm/°C"
 			(at 128.27 120.65 0)
 			(effects
 				(font
@@ -7454,6 +7671,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 128.27 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7510,7 +7736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "0.1%, 10ppm"
+		(property "Datasheet" "0.1%, 10ppm/°C"
 			(at 133.35 95.25 0)
 			(effects
 				(font
@@ -7521,6 +7747,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 133.35 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 133.35 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7597,6 +7832,15 @@
 			)
 		)
 		(property "LCSC" "C307331"
+			(at 179.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
 			(at 179.07 138.43 0)
 			(effects
 				(font
@@ -8078,6 +8322,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" ""
+			(at 99.06 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0a814641-39ce-4533-8cb0-4d21410b2903")
 		)
@@ -8146,6 +8399,15 @@
 			)
 		)
 		(property "LCSC" "C22807"
+			(at 138.43 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
 			(at 138.43 100.33 90)
 			(effects
 				(font
@@ -8296,6 +8558,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" ""
+			(at 138.43 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7f4d5d4b-c337-4a44-9a23-f49a36f1b2ed")
 		)
@@ -8424,6 +8695,15 @@
 			)
 		)
 		(property "Description" "Dual 36V, Rail-to-Rail Input/Output, High Current, Operational Amplifier, DFN-8"
+			(at 191.77 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "3"
 			(at 191.77 134.62 0)
 			(effects
 				(font
@@ -8589,7 +8869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "0.1%, 10ppm"
+		(property "Datasheet" "0.1%, 10ppm/°C"
 			(at 133.35 74.93 0)
 			(effects
 				(font
@@ -8600,6 +8880,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 133.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 133.35 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8675,6 +8964,15 @@
 			)
 		)
 		(property "LCSC" "C25076"
+			(at 90.17 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
 			(at 90.17 107.95 90)
 			(effects
 				(font
@@ -8760,6 +9058,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" ""
+			(at 172.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "558ce4a0-39ef-4882-a2c8-786273a564bd")
 		)
@@ -8836,6 +9143,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" ""
+			(at 90.17 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0d0cd3b2-2506-47f2-81bc-785a4e057db3")
 		)
@@ -8886,7 +9202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "0.1%, 10ppm"
+		(property "Datasheet" "0.1%, 10ppm/°C"
 			(at 128.27 66.04 0)
 			(effects
 				(font
@@ -8897,6 +9213,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 128.27 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 128.27 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9178,6 +9503,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" "15"
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cca5834e-8e87-4e80-8377-9384a11a3ff6")
 		)
@@ -9245,7 +9579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "0.1%, 10ppm"
+		(property "Datasheet" "0.1%, 10ppm/°C"
 			(at 133.35 135.89 0)
 			(effects
 				(font
@@ -9256,6 +9590,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 133.35 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 133.35 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)

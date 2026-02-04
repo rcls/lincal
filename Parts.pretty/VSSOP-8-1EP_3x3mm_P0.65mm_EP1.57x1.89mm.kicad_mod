@@ -320,7 +320,7 @@
 		(uuid "4df6fa3b-ebb6-41c8-8359-248d8a2c1749")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/HVSSOP-8-1EP_3x3mm_P0.65mm_EP1.57x1.89mm.step"
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -174,7 +174,7 @@
 		(start -2.83 -2.83)
 		(end 2.83 2.83)
 		(stroke
-			(width 0.15)
+			(width 0.05)
 			(type default)
 		)
 		(fill no)

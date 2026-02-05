@@ -311,10 +311,6 @@
         "Intentional"
       ],
       [
-        "pin_to_pin|2057400|698500|b8dd1a20-c737-45f8-b74d-2982803caee6|b189d21a-1e6b-41a3-a2b1-f6e87a9e51f1|/b054cef4-39e3-49d8-aff0-7ba5a206c187/8eaf15be-2df7-401b-a518-33a048754894|/b054cef4-39e3-49d8-aff0-7ba5a206c187/8eaf15be-2df7-401b-a518-33a048754894|/b054cef4-39e3-49d8-aff0-7ba5a206c187/525413b8-c4e9-4b1d-b0c6-ca0be2e26a7f",
-        "Intentional"
-      ],
-      [
         "pin_to_pin|812800|647700|d49ba8ef-493a-4758-b90d-e14e8ad447c3|c8fe9497-ff8c-4e75-a511-2f5010ee5c01|/b054cef4-39e3-49d8-aff0-7ba5a206c187/f6066de6-625c-453e-a76c-ce9a6a5c6264|/b054cef4-39e3-49d8-aff0-7ba5a206c187/f6066de6-625c-453e-a76c-ce9a6a5c6264|/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8",
         "Negative regulator."
       ]
@@ -579,20 +575,7 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/Sample Hold 1/SH": [
-        "Guarded"
-      ],
-      "/Sample Hold 2/SH": [
-        "Guarded"
-      ],
-      "Net-(U21-+)": [
-        "Guarded"
-      ],
-      "Net-(U25-+)": [
-        "Guarded"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -810,14 +793,6 @@
     [
       "fd210975-34eb-456f-9075-cf344b0a559b",
       "Offset Voltage Ladder"
-    ],
-    [
-      "8eaf15be-2df7-401b-a518-33a048754894",
-      "Sample Hold 1"
-    ],
-    [
-      "6f91b1d1-06a0-428d-b546-bc9bd4fa19a0",
-      "Sample Hold 2"
     ],
     [
       "f2e682f2-52ca-4ed0-8a7d-aeb09fbc9914",

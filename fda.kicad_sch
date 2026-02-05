@@ -6856,7 +6856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "50V"
+		(property "Datasheet" "X7R, 50V"
 			(at 179.07 69.85 0)
 			(effects
 				(font
@@ -7354,7 +7354,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1546?"
+		(property "LCSC" "C32949"
 			(at 74.93 149.86 0)
 			(effects
 				(font
@@ -7946,7 +7946,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1546?"
+		(property "LCSC" "C32949"
 			(at 74.93 58.42 0)
 			(effects
 				(font
@@ -8967,7 +8967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "50V"
+		(property "Datasheet" "X7R, 50V"
 			(at 179.07 77.47 0)
 			(effects
 				(font

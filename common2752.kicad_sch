@@ -2999,7 +2999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "50V"
+		(property "Datasheet" "X7R, 50V"
 			(at 119.38 114.3 0)
 			(effects
 				(font
@@ -3904,7 +3904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "50V"
+		(property "Datasheet" "X7R, 50V"
 			(at 119.38 68.58 0)
 			(effects
 				(font

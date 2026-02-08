@@ -375,183 +375,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Conn_Coaxial_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0.254 3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_Coaxial"
-				(at 2.921 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_Coaxial_1_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.778 0)
-					(mid 0.222 -1.8079)
-					(end -1.778 -0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.778 0.508)
-					(mid 0.2221 1.8084)
-					(end 1.778 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Conn_Coaxial_1_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "In"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "Ext"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x02_Pin"
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -919,9 +743,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "Connector:Conn_Coaxial"
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -2546,6 +2367,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "Parts:ISOW7842"
+			(pin_names
+				(offset 0.002)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4092,7 +3916,7 @@
 		(uuid "02feffd5-f55e-455b-87b4-375f00806b34")
 	)
 	(no_connect
-		(at 119.38 107.95)
+		(at 118.11 107.95)
 		(uuid "0b46d210-fce8-4515-b010-334fbe35934b")
 	)
 	(no_connect
@@ -4100,7 +3924,7 @@
 		(uuid "1f85997b-ca2c-4ffa-9cde-f80440ea6704")
 	)
 	(no_connect
-		(at 119.38 113.03)
+		(at 118.11 113.03)
 		(uuid "57b4764d-7b07-492f-8425-194a31de5e74")
 	)
 	(no_connect
@@ -4108,7 +3932,7 @@
 		(uuid "6248ba7a-d526-45b2-be3f-e42ec06faa99")
 	)
 	(no_connect
-		(at 119.38 105.41)
+		(at 118.11 105.41)
 		(uuid "74d2e107-2d71-487d-9e95-8fc4ca0f6f31")
 	)
 	(no_connect
@@ -4116,7 +3940,7 @@
 		(uuid "8e905dfe-6e43-42b9-95c5-1d5c9da93e77")
 	)
 	(no_connect
-		(at 119.38 110.49)
+		(at 118.11 110.49)
 		(uuid "958703f3-405e-4dca-9144-8389b3dc51a7")
 	)
 	(no_connect
@@ -4433,26 +4257,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 123.19) (xy 120.65 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "633334b7-1ae3-4092-8087-f1097e4c2014")
-	)
-	(wire
-		(pts
-			(xy 119.38 118.11) (xy 120.65 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "655060d3-1ba0-49a4-a540-70702895c8b8")
-	)
-	(wire
-		(pts
 			(xy 170.18 115.57) (xy 171.45 115.57)
 		)
 		(stroke
@@ -4540,16 +4344,6 @@
 			(type default)
 		)
 		(uuid "832efd39-44c5-4184-b2a0-9736ab74dfa9")
-	)
-	(wire
-		(pts
-			(xy 119.38 115.57) (xy 120.65 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85fd5fa0-4077-4d30-8006-f966f2068a12")
 	)
 	(wire
 		(pts
@@ -4650,16 +4444,6 @@
 			(type default)
 		)
 		(uuid "98815f27-ff41-47d1-b830-fd4de77a0094")
-	)
-	(wire
-		(pts
-			(xy 119.38 120.65) (xy 120.65 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bce9a5d-58a1-46bf-85b1-8ef075aa3ebe")
 	)
 	(wire
 		(pts
@@ -5278,7 +5062,7 @@
 	)
 	(hierarchical_label "OffsetA0"
 		(shape output)
-		(at 120.65 123.19 0)
+		(at 118.11 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5344,7 +5128,7 @@
 	)
 	(hierarchical_label "SHSel"
 		(shape output)
-		(at 120.65 115.57 0)
+		(at 118.11 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5366,7 +5150,7 @@
 	)
 	(hierarchical_label "OffsetA2"
 		(shape output)
-		(at 120.65 118.11 0)
+		(at 118.11 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5454,7 +5238,7 @@
 	)
 	(hierarchical_label "OffsetA1"
 		(shape output)
-		(at 120.65 120.65 0)
+		(at 118.11 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7483,7 +7267,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Conn_Coaxial_1")
 		(lib_id "Connector:Conn_Coaxial")
 		(at 190.5 62.23 0)
 		(unit 1)
@@ -8106,7 +7889,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 175.26 60.452 90)
 			(effects
 				(font
@@ -8133,7 +7916,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23140"
+		(property "LCSC" "C25105"
 			(at 175.26 62.23 90)
 			(effects
 				(font

@@ -1947,8 +1947,8 @@
 					(start -10.16 13.97)
 					(end 10.16 -13.97)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type background)

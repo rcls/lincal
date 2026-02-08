@@ -569,8 +569,8 @@
 				(start -12.7 20.32)
 				(end 12.7 -20.32)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.254)
+					(type solid)
 				)
 				(fill
 					(type background)
@@ -1013,7 +1013,7 @@
 	)
 	(symbol "ADP5071ACPZ"
 		(pin_names
-			(offset 0.254)
+			(offset 0.002)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1995,8 +1995,8 @@
 				(start -10.16 13.97)
 				(end 10.16 -13.97)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.254)
+					(type solid)
 				)
 				(fill
 					(type background)
@@ -2310,8 +2310,8 @@
 				(start -5.08 6.35)
 				(end 5.08 -6.35)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.254)
+					(type solid)
 				)
 				(fill
 					(type background)
@@ -4212,6 +4212,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "ISOW7842"
+		(pin_names
+			(offset 0.002)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5200,7 +5203,7 @@
 	)
 	(symbol "LTC2752B"
 		(pin_names
-			(offset 0.254)
+			(offset 0.002)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5248,14 +5251,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "LTC2752ACLX#PBF"
@@ -6003,8 +5998,8 @@
 				(start -21.59 21.59)
 				(end 21.59 -21.59)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.254)
+					(type solid)
 				)
 				(fill
 					(type background)
@@ -6240,8 +6235,8 @@
 				(start -10.16 15.24)
 				(end 10.16 -15.24)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.254)
+					(type solid)
 				)
 				(fill
 					(type background)
@@ -6285,7 +6280,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "RINA"
@@ -6303,7 +6298,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "RINA"
@@ -6539,7 +6534,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "RINB"
@@ -6557,7 +6552,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "RINB"
@@ -7421,7 +7416,7 @@
 	)
 	(symbol "MAX4649EKA+"
 		(pin_names
-			(offset 0.254)
+			(offset 0.002)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8336,7 +8331,7 @@
 	)
 	(symbol "MUX36S16"
 		(pin_names
-			(offset 0.254)
+			(offset 0.002)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8409,8 +8404,8 @@
 				(start -12.7 21.59)
 				(end 12.7 -21.59)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.254)
+					(type solid)
 				)
 				(fill
 					(type background)
@@ -10043,7 +10038,7 @@
 	)
 	(symbol "REF70"
 		(pin_names
-			(offset 0.254)
+			(offset 0.002)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10091,14 +10086,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "PREF7025QFKHR"
@@ -10270,8 +10257,8 @@
 				(start -7.62 7.62)
 				(end 7.62 -7.62)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.254)
+					(type solid)
 				)
 				(fill
 					(type background)
@@ -10873,21 +10860,19 @@
 				(hide yes)
 			)
 		)
-		(symbol "TLV1871_0_1"
+		(symbol "TLV1871_1_1"
 			(polyline
 				(pts
 					(xy -7.62 7.62) (xy 7.62 0) (xy -7.62 -7.62) (xy -7.62 7.62)
 				)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.254)
+					(type solid)
 				)
 				(fill
 					(type background)
 				)
 			)
-		)
-		(symbol "TLV1871_1_1"
 			(pin input line
 				(at -10.16 3.81 0)
 				(length 2.54)
@@ -11791,7 +11776,7 @@
 	)
 	(symbol "TMUX6208PWR"
 		(pin_names
-			(offset 0.254)
+			(offset 0.002)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11839,14 +11824,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "PTMUX6208PWR"
@@ -12162,8 +12139,8 @@
 				(start -8.89 13.97)
 				(end 8.89 -13.97)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.254)
+					(type solid)
 				)
 				(fill
 					(type background)
@@ -12375,8 +12352,8 @@
 				(start -5.08 6.35)
 				(end 5.08 -6.35)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.254)
+					(type solid)
 				)
 				(fill
 					(type background)
@@ -12387,7 +12364,7 @@
 	)
 	(symbol "TPS61252DSG"
 		(pin_names
-			(offset 0.127)
+			(offset 0.002)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12633,7 +12610,7 @@
 	)
 	(symbol "TPS7A3301RGW"
 		(pin_names
-			(offset 0.127)
+			(offset 0.002)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13108,7 +13085,7 @@
 	)
 	(symbol "TPS7A4700xRGW"
 		(pin_names
-			(offset 0.127)
+			(offset 0.002)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13573,7 +13550,7 @@
 	)
 	(symbol "TPS7A8801RTJR"
 		(pin_names
-			(offset 0.127)
+			(offset 0.002)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14054,7 +14031,7 @@
 	)
 	(symbol "TPS7A9401"
 		(pin_names
-			(offset 0.127)
+			(offset 0.002)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14330,8 +14307,8 @@
 				(start -7.62 10.16)
 				(end 7.62 -10.16)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.254)
+					(type solid)
 				)
 				(fill
 					(type background)
@@ -14342,7 +14319,7 @@
 	)
 	(symbol "TPSM863252RDXR"
 		(pin_names
-			(offset 0.254)
+			(offset 0.002)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14525,8 +14502,8 @@
 				(start -6.35 8.89)
 				(end 6.35 -8.89)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.254)
+					(type solid)
 				)
 				(fill
 					(type background)
@@ -14554,6 +14531,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "TSB582IQ2T"
+		(pin_names
+			(offset 0.002)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -15169,8 +15149,8 @@
 				(start -7.62 10.16)
 				(end 7.62 -10.16)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.254)
+					(type solid)
 				)
 				(fill
 					(type background)

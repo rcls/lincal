@@ -2263,16 +2263,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "FIXME - can drive capacitance via mux?\n"
-		(exclude_from_sim no)
-		(at 143.256 56.134 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4103d4f4-fe3a-4c22-8608-0f4b852ebd05")
-	)
 	(text_box "Tie the ladder grounds together with the compensation resistances to cancel currents."
 		(exclude_from_sim no)
 		(at 99.06 90.17 0)
@@ -2567,7 +2557,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 59.69) (xy 143.51 59.69)
+			(xy 123.19 59.69) (xy 124.46 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2804,6 +2794,16 @@
 			(type default)
 		)
 		(uuid "8ebf331c-e325-4db7-9b2c-f2adc9ebe313")
+	)
+	(wire
+		(pts
+			(xy 132.08 59.69) (xy 143.51 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fec7e06-fc98-4709-9964-d14d62572f74")
 	)
 	(wire
 		(pts
@@ -3399,12 +3399,12 @@
 		(dnp no)
 		(uuid "0677578b-48f2-4e03-9f5c-a5490cddc859")
 		(property "Reference" "R101"
-			(at 130.81 61.214 90)
+			(at 125.73 63.246 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "604"
@@ -6132,12 +6132,12 @@
 		(dnp no)
 		(uuid "e3f80e99-5684-408a-90e0-0ccec4d4bd3b")
 		(property "Reference" "R102"
-			(at 125.476 65.024 90)
+			(at 130.81 67.056 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "604"
@@ -6571,6 +6571,91 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/fd210975-34eb-456f-9075-cf344b0a559b"
 					(reference "R112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 128.27 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbf17d41-039c-4950-a6fb-379c267207a4")
+		(property "Reference" "R119"
+			(at 128.27 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 128.27 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 128.27 61.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 128.27 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 128.27 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 128.27 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14cc7d2e-385a-4f7b-913c-2fa0dc299aa4")
+		)
+		(pin "2"
+			(uuid "ec9b67ec-e3e2-45bc-b440-9911e3860271")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/fd210975-34eb-456f-9075-cf344b0a559b"
+					(reference "R119")
 					(unit 1)
 				)
 			)

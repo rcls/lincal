@@ -2334,6 +2334,520 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "OPA2197D_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.002)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "OPA2197D"
+				(at 2.54 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Parts:OPA2197"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2197.pdf"
+				(at 6.35 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp rtor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OPA2197D_1_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA2197D_1_2_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA2197D_1_3_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "OPA2197D_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.002)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "OPA2197D"
+				(at 2.54 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Parts:OPA2197"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2197.pdf"
+				(at 6.35 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp rtor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OPA2197D_2_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA2197D_2_2_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA2197D_2_3_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Parts:+18V"
 			(power)
 			(pin_numbers
@@ -3503,7 +4017,7 @@
 				(at -1.27 0 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -3511,7 +4025,7 @@
 				(at 0 5.842 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -5311,7 +5825,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Ground for sample phase. During sample phase, MOSFETs divert current away from AGND.\n\nDuring hold phase, switching isolates the sample cap from PGND non-idealities."
+	(text_box "Ground for sample phase. During sample phase, MOSFETs divert current away from AGND.\n\nDuring hold phase, the sample cap is isolated from PGND non-idealities."
 		(exclude_from_sim no)
 		(at 121.92 97.79 0)
 		(size 31.75 15.2399)
@@ -5373,7 +5887,7 @@
 	)
 	(text_box "Alternative active ground current cancellation.  Replaces MOSFETs to AGND."
 		(exclude_from_sim no)
-		(at 90.17 105.41 0)
+		(at 88.9 104.14 0)
 		(size 24.13 8.89)
 		(margins 0.254 0.254 0.254 0.254)
 		(stroke
@@ -5522,6 +6036,12 @@
 		(uuid "2b5afc74-764a-47c7-9d40-fadb9414809d")
 	)
 	(junction
+		(at 83.82 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30524389-3ee6-4e77-88af-24f85ac27862")
+	)
+	(junction
 		(at 134.62 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5540,12 +6060,6 @@
 		(uuid "3ecf1933-5ddc-4cf6-adae-0e0857895de8")
 	)
 	(junction
-		(at 83.82 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4affb4ac-5f5a-4882-8f0e-be38f794546d")
-	)
-	(junction
 		(at 173.99 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5562,12 +6076,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fc0c746-318f-4a53-bfc6-ab0d52cf8789")
-	)
-	(junction
-		(at 146.05 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a2caf9f-e7fb-4ded-b3b0-d729cb7f0e62")
 	)
 	(junction
 		(at 189.23 77.47)
@@ -5697,7 +6205,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 62.23) (xy 146.05 62.23)
+			(xy 134.62 62.23) (xy 148.59 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6057,16 +6565,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 72.39) (xy 146.05 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ff584bd-b967-42a4-9274-9340f49a9954")
-	)
-	(wire
-		(pts
 			(xy 77.47 97.79) (xy 77.47 99.06)
 		)
 		(stroke
@@ -6104,16 +6602,6 @@
 			(type default)
 		)
 		(uuid "60cee4c2-5b0f-4673-b905-6f9c82dc2d05")
-	)
-	(wire
-		(pts
-			(xy 146.05 62.23) (xy 148.59 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64574cc8-8c36-4525-b271-13c19baab7ec")
 	)
 	(wire
 		(pts
@@ -6254,16 +6742,6 @@
 			(type default)
 		)
 		(uuid "83a6723d-e406-4650-a9fa-d4c0113bc53a")
-	)
-	(wire
-		(pts
-			(xy 146.05 62.23) (xy 146.05 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "872b857f-f4e9-48e7-b71a-d93c2defcac0")
 	)
 	(wire
 		(pts
@@ -6497,7 +6975,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 72.39) (xy 82.55 72.39)
+			(xy 83.82 77.47) (xy 82.55 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6567,7 +7045,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 72.39) (xy 73.66 72.39)
+			(xy 74.93 77.47) (xy 73.66 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6796,7 +7274,7 @@
 		(uuid "46f51e69-a6dd-42a4-96d4-33a6293dd324")
 	)
 	(label "Drive"
-		(at 134.62 62.23 0)
+		(at 138.43 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6858,7 +7336,7 @@
 	)
 	(hierarchical_label "DACin"
 		(shape input)
-		(at 73.66 72.39 180)
+		(at 73.66 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7221,7 +7699,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 78.74 72.39 270)
+		(at 78.74 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7229,7 +7707,7 @@
 		(dnp no)
 		(uuid "12d6ba42-06f2-4e28-9ab9-baefab700552")
 		(property "Reference" "R201"
-			(at 78.74 74.422 90)
+			(at 78.74 79.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7237,7 +7715,7 @@
 			)
 		)
 		(property "Value" "16k"
-			(at 78.74 72.39 90)
+			(at 78.74 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7245,7 +7723,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 78.74 70.612 90)
+			(at 78.74 75.692 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7254,7 +7732,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 72.39 0)
+			(at 78.74 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7263,7 +7741,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 78.74 72.39 0)
+			(at 78.74 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7272,7 +7750,7 @@
 			)
 		)
 		(property "LCSC" "C22818"
-			(at 78.74 72.39 90)
+			(at 78.74 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7281,7 +7759,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 78.74 72.39 90)
+			(at 78.74 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7458,7 +7936,7 @@
 		(dnp no)
 		(uuid "1555ac23-9c7d-477c-91d3-51022f4bb070")
 		(property "Reference" "C208"
-			(at 87.63 26.67 0)
+			(at 87.63 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7483,7 +7961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "50V"
+		(property "Datasheet" "X7R, 50V"
 			(at 87.63 31.75 0)
 			(effects
 				(font
@@ -7662,7 +8140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "50V"
+		(property "Datasheet" "X7R, 50V"
 			(at 87.63 39.37 0)
 			(effects
 				(font
@@ -7718,6 +8196,7 @@
 		)
 	)
 	(symbol
+		(lib_name "OPA2197D_1")
 		(lib_id "Parts:OPA2197D")
 		(at 91.44 69.85 0)
 		(unit 1)
@@ -8083,7 +8562,7 @@
 		(dnp no)
 		(uuid "350f9f51-980f-439d-8ee3-88630defc023")
 		(property "Reference" "C207"
-			(at 102.616 37.592 0)
+			(at 102.87 37.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8109,7 +8588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "50V"
+		(property "Datasheet" "X7R, 50V"
 			(at 102.87 39.37 0)
 			(effects
 				(font
@@ -8344,98 +8823,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 146.05 68.58 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c23be13-0f81-4bcb-a797-dfe73d7a6442")
-		(property "Reference" "C203"
-			(at 146.05 66.548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10n"
-			(at 146.05 70.612 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 147.0152 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "C0G, 25V"
-			(at 146.05 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 146.05 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C307500"
-			(at 146.05 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" ""
-			(at 146.05 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "81b5eade-5a19-4564-ab82-d828acf4bcb3")
-		)
-		(pin "1"
-			(uuid "f03171c8-46e9-4944-9f96-d2212b44f01c")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/6f91b1d1-06a0-428d-b546-bc9bd4fa19a0"
-					(reference "C253")
-					(unit 1)
-				)
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/8eaf15be-2df7-401b-a518-33a048754894"
-					(reference "C203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 129.54 67.31 90)
 		(unit 1)
@@ -8605,16 +8992,16 @@
 		(dnp no)
 		(uuid "533a3b7d-2a0f-40d0-a991-68ef3696be75")
 		(property "Reference" "C202"
-			(at 99.06 75.692 0)
+			(at 99.06 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "0n1"
-			(at 99.06 71.628 0)
+			(at 99.06 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8704,10 +9091,10 @@
 			)
 		)
 		(property "Value" "TCA0372"
-			(at 116.84 64.008 0)
+			(at 118.618 65.278 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -9149,7 +9536,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "712188e2-380b-4993-9b19-7df4a3041c55")
-		(property "Reference" "JP21"
+		(property "Reference" "JP1"
 			(at 170.18 80.518 0)
 			(effects
 				(font
@@ -9211,11 +9598,11 @@
 		(instances
 			(project ""
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/6f91b1d1-06a0-428d-b546-bc9bd4fa19a0"
-					(reference "JP22")
+					(reference "JP2")
 					(unit 1)
 				)
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/8eaf15be-2df7-401b-a518-33a048754894"
-					(reference "JP21")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -10271,7 +10658,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 166.37 73.66 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10284,7 +10670,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10u"
@@ -10293,11 +10679,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Parts:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
-			(at 165.4048 77.47 0)
+			(at 167.3352 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11407,7 +11793,7 @@
 		(dnp no)
 		(uuid "bf19dffe-9ad4-49f1-aa11-bf438e6d3ef0")
 		(property "Reference" "C206"
-			(at 102.616 29.972 0)
+			(at 102.87 29.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11433,7 +11819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "50V"
+		(property "Datasheet" "X7R, 50V"
 			(at 102.87 31.75 0)
 			(effects
 				(font
@@ -11936,6 +12322,7 @@
 		)
 	)
 	(symbol
+		(lib_name "OPA2197D_2")
 		(lib_id "Parts:OPA2197D")
 		(at 106.68 93.98 0)
 		(unit 2)
@@ -12247,76 +12634,6 @@
 				)
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/8eaf15be-2df7-401b-a518-33a048754894"
 					(reference "#PWR0329")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 146.05 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fcb6f3b9-925d-408c-aee5-e9ae625fb23c")
-		(property "Reference" "#PWR0115"
-			(at 146.05 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 146.05 76.962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 146.05 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73764df0-427c-40cb-b65a-32a15c0e87bf")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/6f91b1d1-06a0-428d-b546-bc9bd4fa19a0"
-					(reference "#PWR0116")
-					(unit 1)
-				)
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/8eaf15be-2df7-401b-a518-33a048754894"
-					(reference "#PWR0115")
 					(unit 1)
 				)
 			)

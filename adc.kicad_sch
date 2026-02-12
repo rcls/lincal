@@ -2378,10 +2378,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Margined ≈250µV above ground."
+	(text_box "Margined ≈2mV above ground."
 		(exclude_from_sim no)
 		(at 83.82 78.74 0)
-		(size 19.05 5.08)
+		(size 16.51 5.08)
 		(margins 0.254 0.254 0.254 0.254)
 		(stroke
 			(width 0)
@@ -2398,10 +2398,10 @@
 		)
 		(uuid "6de5b479-2bd3-4004-869d-032ca97a8008")
 	)
-	(text_box "≈20kΩ input resistance, mitigate by force-sense routing from amplifier.\nFly-by order: diodes, AIN, REF."
+	(text_box "≈20kΩ input resistance, mitigate by force-sense routing from amplifier.\nFly-by diodes then REF±."
 		(exclude_from_sim no)
-		(at 130.81 35.56 0)
-		(size 25.4 11.43)
+		(at 130.81 41.91 0)
+		(size 26.67 8.89)
 		(margins 0.254 0.254 0.254 0.254)
 		(stroke
 			(width 0)
@@ -2443,12 +2443,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "018b3f10-dcdb-4500-b4e5-103db652800f")
-	)
-	(junction
-		(at 200.66 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "082f666a-e80d-46b9-83e3-ff8af1ddedd1")
 	)
 	(junction
 		(at 214.63 48.26)
@@ -2583,6 +2577,12 @@
 		(uuid "e31ff3f6-c201-4766-8d7b-36a5edeb6cdc")
 	)
 	(junction
+		(at 203.2 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3f643aa-84b3-4cbb-baf9-60f3b6ee1dc0")
+	)
+	(junction
 		(at 146.05 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2682,7 +2682,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 48.26) (xy 200.66 53.34)
+			(xy 203.2 48.26) (xy 203.2 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2752,7 +2752,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 60.96) (xy 203.2 58.42)
+			(xy 203.2 63.5) (xy 203.2 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2762,13 +2762,23 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 44.45) (xy 209.55 44.45)
+			(xy 213.36 44.45) (xy 212.09 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2d1846ec-0353-48c9-ae64-1d3a050c6c5d")
+	)
+	(wire
+		(pts
+			(xy 203.2 48.26) (xy 214.63 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e4cfaab-d7ac-4ca5-93bc-3bb124359d53")
 	)
 	(wire
 		(pts
@@ -2842,7 +2852,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 53.34) (xy 199.39 53.34)
+			(xy 203.2 53.34) (xy 199.39 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2879,16 +2889,6 @@
 			(type default)
 		)
 		(uuid "4a65c133-6460-483f-963a-6f7bd3d10a8c")
-	)
-	(wire
-		(pts
-			(xy 203.2 53.34) (xy 207.01 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4aa03897-0928-42ce-b535-354ed90a85cf")
 	)
 	(wire
 		(pts
@@ -3052,7 +3052,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 55.88) (xy 203.2 55.88)
+			(xy 199.39 55.88) (xy 207.01 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3082,7 +3082,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 60.96) (xy 207.01 60.96)
+			(xy 203.2 63.5) (xy 207.01 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3192,16 +3192,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 55.88) (xy 203.2 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a98f84ad-ec89-4685-887f-2c4dc7e84e32")
-	)
-	(wire
-		(pts
 			(xy 168.91 82.55) (xy 168.91 81.28)
 		)
 		(stroke
@@ -3212,7 +3202,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 44.45) (xy 200.66 48.26)
+			(xy 203.2 44.45) (xy 203.2 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3229,16 +3219,6 @@
 			(type default)
 		)
 		(uuid "ac3eee49-0ae1-4de2-b6da-988738b7450c")
-	)
-	(wire
-		(pts
-			(xy 200.66 48.26) (xy 214.63 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0c8d729-0824-4c32-b068-82e573879be2")
 	)
 	(wire
 		(pts
@@ -3392,7 +3372,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 44.45) (xy 201.93 44.45)
+			(xy 203.2 44.45) (xy 204.47 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3542,7 +3522,7 @@
 	)
 	(global_label "+3V3A"
 		(shape input)
-		(at 210.82 44.45 0)
+		(at 213.36 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3552,7 +3532,7 @@
 		)
 		(uuid "012a4c78-a4a1-401c-aad8-cab5d44f6a75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.8852 44.45 0)
+			(at 221.4252 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4302,7 +4282,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 207.01 57.15 0)
+		(at 207.01 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4310,7 +4290,7 @@
 		(dnp no)
 		(uuid "2314d9b6-2f57-41fe-855a-a5e910aa9825")
 		(property "Reference" "C775"
-			(at 207.01 59.1819 0)
+			(at 207.01 61.7219 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4319,7 +4299,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 207.01 55.1179 0)
+			(at 207.01 57.6579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4328,7 +4308,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 207.9752 60.96 0)
+			(at 207.9752 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4337,7 +4317,7 @@
 			)
 		)
 		(property "Datasheet" "25V"
-			(at 207.01 57.15 0)
+			(at 207.01 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4346,7 +4326,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 207.01 57.15 0)
+			(at 207.01 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,7 +4335,7 @@
 			)
 		)
 		(property "LCSC" "C52923"
-			(at 207.01 57.15 0)
+			(at 207.01 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4364,7 +4344,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 207.01 57.15 0)
+			(at 207.01 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7246,7 +7226,7 @@
 	)
 	(symbol
 		(lib_id "Parts:L_Ferrite_Power")
-		(at 205.74 44.45 270)
+		(at 208.28 44.45 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7255,7 +7235,7 @@
 		(dnp no)
 		(uuid "c33c5c0c-ddbd-4981-b89e-a0f354e0e6aa")
 		(property "Reference" "L78"
-			(at 205.74 45.72 90)
+			(at 208.28 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7263,7 +7243,7 @@
 			)
 		)
 		(property "Value" "600"
-			(at 205.74 41.656 90)
+			(at 208.28 41.656 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7271,7 +7251,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 205.74 44.45 0)
+			(at 208.28 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7280,7 +7260,7 @@
 			)
 		)
 		(property "Datasheet" "200mA / 450mΩ"
-			(at 205.74 44.45 0)
+			(at 208.28 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7289,7 +7269,7 @@
 			)
 		)
 		(property "Description" "Inductor with ferrite core"
-			(at 205.74 44.45 0)
+			(at 208.28 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7298,7 +7278,7 @@
 			)
 		)
 		(property "LCSC" "C1002"
-			(at 205.74 44.45 90)
+			(at 208.28 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7307,7 +7287,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 205.74 44.45 90)
+			(at 208.28 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)

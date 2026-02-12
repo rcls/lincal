@@ -1957,452 +1957,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Parts:LT5400"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RN"
-				(at 0 7.366 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LT5400-1"
-				(at 5.08 -4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Parts:MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm"
-				(at -6.35 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at -6.35 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at -6.35 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "R1" "10k"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "R2" "10k"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "R3" "10k"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "R4" "10k"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Library" "spice/lt5400.lib"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Name" "LT5400-1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "SUBCKT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=a1 2=b1 3=c1 4=d1 5=d2 6=c2 7=b2 8=a2 9=pad"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LT5400_0_1"
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -2.286 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -2.286 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -2.286 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.286 5.969)
-					(end 2.286 4.191)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.286 3.429)
-					(end 2.286 1.651)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.286 0.889)
-					(end 2.286 -0.889)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.286 -1.651)
-					(end 2.286 -3.429)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LT5400_1_1"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 6.35)
-					(end 2.54 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -6.35 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Parts:L_Ferrite_Power"
 			(pin_numbers
 				(hide yes)
@@ -3770,37 +3324,11 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Price Break"
-		(exclude_from_sim no)
-		(at 73.66 88.9 0)
-		(size 12.7 2.54)
-		(margins 0.254 0.254 0.254 0.254)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bf439f7c-a788-43a4-a805-ca35307f97e8")
-	)
 	(junction
 		(at 139.7 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "160c8967-19f4-4a2d-85bc-813be9c8e886")
-	)
-	(junction
-		(at 74.93 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b6e773d-d268-4a8a-be30-83b04ae3ddbf")
 	)
 	(junction
 		(at 114.3 76.2)
@@ -3815,22 +3343,10 @@
 		(uuid "3c5bc6a3-6863-431f-9071-526b44881ffb")
 	)
 	(junction
-		(at 74.93 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3cb19fb4-bf1c-48d4-95fb-5db0cc73e58b")
-	)
-	(junction
 		(at 96.52 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ec42850-1b08-4842-b550-c83eeb6dda73")
-	)
-	(junction
-		(at 85.09 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "417d3ef9-521e-4727-892d-8c068656cb45")
 	)
 	(junction
 		(at 96.52 26.67)
@@ -3843,12 +3359,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ff290bc-5060-465f-8b39-52c2c2286c5f")
-	)
-	(junction
-		(at 85.09 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "725b11c7-31ed-452f-a68c-30747f151ccf")
 	)
 	(junction
 		(at 129.54 49.53)
@@ -3893,12 +3403,6 @@
 		(uuid "b37c13f9-3f79-4cca-a495-254e8cd80f9d")
 	)
 	(junction
-		(at 85.09 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bbc27eea-be8c-4c4b-a05f-7a5856aa16f9")
-	)
-	(junction
 		(at 111.76 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3917,12 +3421,6 @@
 		(uuid "e0ff4116-be43-4ebd-968c-6174c1a5505b")
 	)
 	(junction
-		(at 80.01 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3811cc0-047d-4b44-af57-24a1a3b15c29")
-	)
-	(junction
 		(at 106.68 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3933,12 +3431,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f67a131a-ff27-42ab-b0cb-1283f39c980b")
-	)
-	(junction
-		(at 74.93 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fdc677a6-4520-414c-a958-692ca23fd87a")
 	)
 	(no_connect
 		(at 96.52 54.61)
@@ -4034,26 +3526,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 80.01) (xy 85.09 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1880e4aa-7387-40a0-bd6e-af721e607f73")
-	)
-	(wire
-		(pts
-			(xy 74.93 74.93) (xy 74.93 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a481369-56f0-45cf-87a7-98adaeefd0b0")
-	)
-	(wire
-		(pts
 			(xy 104.14 34.29) (xy 105.41 34.29)
 		)
 		(stroke
@@ -4071,16 +3543,6 @@
 			(type default)
 		)
 		(uuid "229821bd-b89d-4cd0-a787-4e67c33d3f6b")
-	)
-	(wire
-		(pts
-			(xy 74.93 86.36) (xy 80.01 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aa972cf-5b4a-4f60-898b-e95602d9630f")
 	)
 	(wire
 		(pts
@@ -4111,16 +3573,6 @@
 			(type default)
 		)
 		(uuid "3afa2cad-624e-431f-8dd1-9356c2037597")
-	)
-	(wire
-		(pts
-			(xy 74.93 82.55) (xy 74.93 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b58d3ab-9f17-4007-8dea-dfbeec851654")
 	)
 	(wire
 		(pts
@@ -4194,16 +3646,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 77.47) (xy 85.09 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68e191c9-a961-4e6d-a8cc-430e3bd28c33")
-	)
-	(wire
-		(pts
 			(xy 139.7 26.67) (xy 146.05 26.67)
 		)
 		(stroke
@@ -4274,16 +3716,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 74.93) (xy 85.09 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e5bfbdc-65e1-44de-88ec-780f72a3e63a")
-	)
-	(wire
-		(pts
 			(xy 125.73 73.66) (xy 128.27 73.66)
 		)
 		(stroke
@@ -4341,16 +3773,6 @@
 			(type default)
 		)
 		(uuid "a0603b38-544f-4b8e-8e04-d306445b7308")
-	)
-	(wire
-		(pts
-			(xy 74.93 80.01) (xy 74.93 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1800821-49af-4bf3-9593-89ce0dbce629")
 	)
 	(wire
 		(pts
@@ -4424,16 +3846,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 82.55) (xy 85.09 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5a664b0-dbd4-4fa2-abcd-6fcc731d8728")
-	)
-	(wire
-		(pts
 			(xy 153.67 73.66) (xy 156.21 73.66)
 		)
 		(stroke
@@ -4484,16 +3896,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 86.36) (xy 80.01 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deead0de-9d6b-4cbe-a15c-65f76baab591")
-	)
-	(wire
-		(pts
 			(xy 106.68 59.69) (xy 106.68 63.5)
 		)
 		(stroke
@@ -4541,16 +3943,6 @@
 			(type default)
 		)
 		(uuid "f93da0e1-1600-4ee5-9c1a-9891656f8e3c")
-	)
-	(wire
-		(pts
-			(xy 74.93 77.47) (xy 74.93 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9c4a36e-5196-4022-8cc5-08ae66777c81")
 	)
 	(global_label "USB_D+"
 		(shape bidirectional)
@@ -5725,145 +5117,6 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/f6066de6-625c-453e-a76c-ce9a6a5c6264"
 					(reference "R852")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Parts:LT5400")
-		(at 80.01 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "510d7c0e-422b-476d-b4d1-2fd0f3cae55f")
-		(property "Reference" "RN81"
-			(at 80.01 84.836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LT5400-1"
-			(at 80.01 72.644 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Parts:MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm"
-			(at 86.995 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "0.2ppm/°C matching"
-			(at 81.788 96.774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology"
-			(at 80.01 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1358072"
-			(at 80.01 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "R1" "10k"
-			(at 80.01 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "R2" "10k"
-			(at 80.01 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "R3" "10k"
-			(at 80.01 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "R4" "10k"
-			(at 80.01 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock" ""
-			(at 80.01 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "2437f8cc-4f63-4319-ab5a-48c74c47d93d")
-		)
-		(pin "8"
-			(uuid "d506fcda-818f-4f82-a65b-180fcfa445a7")
-		)
-		(pin "2"
-			(uuid "4a8e45bb-01f5-4525-97d9-2832203256a9")
-		)
-		(pin "5"
-			(uuid "9b6b9b51-1188-4d25-934b-84f471872127")
-		)
-		(pin "3"
-			(uuid "ea66f56e-6029-4425-b491-bebc7138cf60")
-		)
-		(pin "4"
-			(uuid "e7df287d-7b75-4dec-852a-fdc40b2fd929")
-		)
-		(pin "6"
-			(uuid "43a5fa4d-6758-4fe2-8821-a5611095779c")
-		)
-		(pin "1"
-			(uuid "0c81369f-973a-4540-bcd0-550c39bb82fe")
-		)
-		(pin "9"
-			(uuid "9f46ec63-e55c-49a1-8fde-d4014cf950ed")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/f6066de6-625c-453e-a76c-ce9a6a5c6264"
-					(reference "RN81")
 					(unit 1)
 				)
 			)
@@ -7329,72 +6582,6 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/f6066de6-625c-453e-a76c-ce9a6a5c6264"
 					(reference "L86")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 80.01 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f8ea5906-b67e-4991-81e5-a4e303f7ced9")
-		(property "Reference" "#PWR0175"
-			(at 80.01 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 80.01 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 80.01 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d8e48df-80f8-4c16-b5e0-700f5cf73696")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/f6066de6-625c-453e-a76c-ce9a6a5c6264"
-					(reference "#PWR0175")
 					(unit 1)
 				)
 			)

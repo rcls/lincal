@@ -3326,6 +3326,12 @@
 		(uuid "5084040a-fbff-4728-b4c6-8e312fe76be7")
 	)
 	(junction
+		(at 144.78 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56e5dc3a-80a8-46fc-8282-69cae8b11844")
+	)
+	(junction
 		(at 245.11 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3516,6 +3522,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b576d73d-c22e-49c9-a6cd-7fe5409662c1")
+	)
+	(junction
+		(at 148.59 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6630346-1bf1-4684-8bbe-13adee0b7554")
 	)
 	(junction
 		(at 238.76 92.71)
@@ -4187,6 +4199,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 43.18) (xy 170.18 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53bc75f0-2503-4d95-9253-d5696c26c338")
+	)
+	(wire
+		(pts
 			(xy 134.62 52.07) (xy 134.62 48.26)
 		)
 		(stroke
@@ -4417,16 +4439,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 43.18) (xy 146.05 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ae05b60-8307-4632-af46-0a83f344412c")
-	)
-	(wire
-		(pts
 			(xy 81.28 66.04) (xy 81.28 71.12)
 		)
 		(stroke
@@ -4537,6 +4549,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 43.18) (xy 148.59 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d049ef6-de1d-4924-bcfa-ebfde1720dbb")
+	)
+	(wire
+		(pts
 			(xy 71.12 60.96) (xy 77.47 60.96)
 		)
 		(stroke
@@ -4584,16 +4606,6 @@
 			(type default)
 		)
 		(uuid "9c2e9a4f-e016-4227-a1ea-18475d48822c")
-	)
-	(wire
-		(pts
-			(xy 153.67 43.18) (xy 170.18 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d82e437-738c-49bb-b890-f5fa049d0f52")
 	)
 	(wire
 		(pts
@@ -4784,6 +4796,16 @@
 			(type default)
 		)
 		(uuid "bc763e52-32e1-45ed-86e3-cf736a4885a6")
+	)
+	(wire
+		(pts
+			(xy 148.59 43.18) (xy 153.67 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bec09c42-7947-409c-b7a8-92c693953752")
 	)
 	(wire
 		(pts
@@ -5283,7 +5305,7 @@
 	)
 	(symbol
 		(lib_id "Parts:L_Ferrite_Power")
-		(at 149.86 43.18 90)
+		(at 157.48 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5291,7 +5313,7 @@
 		(dnp no)
 		(uuid "0376fbe8-b6c1-4a5b-90b4-5ff03b52b408")
 		(property "Reference" "L54"
-			(at 149.86 44.45 90)
+			(at 157.48 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5299,7 +5321,7 @@
 			)
 		)
 		(property "Value" "600"
-			(at 149.86 40.386 90)
+			(at 157.48 40.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5307,7 +5329,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 149.86 43.18 0)
+			(at 157.48 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5316,7 +5338,7 @@
 			)
 		)
 		(property "Datasheet" "200mA / 450mΩ"
-			(at 149.86 43.18 0)
+			(at 157.48 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5325,7 +5347,7 @@
 			)
 		)
 		(property "Description" "Inductor with ferrite core"
-			(at 149.86 43.18 0)
+			(at 157.48 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5334,7 +5356,7 @@
 			)
 		)
 		(property "LCSC" "C1002"
-			(at 149.86 43.18 90)
+			(at 157.48 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5343,7 +5365,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 149.86 43.18 90)
+			(at 157.48 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6390,7 +6412,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 129.54 58.166 0)
+			(at 129.54 57.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9510,7 +9532,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 170.18 92.71 0)
+		(at 144.78 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9518,7 +9540,7 @@
 		(dnp no)
 		(uuid "9c3c86a6-9745-40d9-bc97-f4c78256890c")
 		(property "Reference" "#FLG0101"
-			(at 170.18 90.805 0)
+			(at 144.78 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9527,7 +9549,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 170.18 88.9 0)
+			(at 144.78 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9536,7 +9558,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 92.71 0)
+			(at 144.78 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9545,7 +9567,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 92.71 0)
+			(at 144.78 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9554,7 +9576,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 170.18 92.71 0)
+			(at 144.78 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9832,7 +9854,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 134.62 76.708 0)
+			(at 134.62 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11837,7 +11859,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 170.18 43.18 0)
+		(at 148.59 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11845,7 +11867,7 @@
 		(dnp no)
 		(uuid "ed03a203-204d-4c27-9070-8fc1de35d8ea")
 		(property "Reference" "#FLG0102"
-			(at 170.18 41.275 0)
+			(at 148.59 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11854,7 +11876,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 170.18 39.37 0)
+			(at 148.59 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11863,7 +11885,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 43.18 0)
+			(at 148.59 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11872,7 +11894,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 43.18 0)
+			(at 148.59 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11881,7 +11903,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 170.18 43.18 0)
+			(at 148.59 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)

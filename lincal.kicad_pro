@@ -592,7 +592,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 549,
+    "annotate_start_num": 710,
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -823,7 +823,7 @@
     ],
     [
       "98a8b958-69ae-452b-9f02-aef214a697d8",
-      "Low Voltage Power"
+      "Low Voltage"
     ],
     [
       "79d139b8-187a-44f5-bd99-1da7793824c6",
@@ -834,8 +834,12 @@
       "Reference"
     ],
     [
+      "26458ede-353b-42f0-8da0-2ad4fe3dc58c",
+      "Mux"
+    ],
+    [
       "b0f71c87-958f-452c-ba10-5bfb9905e5da",
-      "Monitor"
+      "Summer"
     ],
     [
       "91ba7742-b0d4-4498-bde0-79d5f38f349f",

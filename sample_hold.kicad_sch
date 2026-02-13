@@ -2848,7 +2848,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Parts:+18V"
+		(symbol "Parts:+19V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -2869,7 +2869,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+18V"
+			(property "Value" "+19V"
 				(at 0 3.556 0)
 				(do_not_autoplace)
 				(effects
@@ -2896,7 +2896,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name {dblquote}+18V{dblquote}"
+			(property "Description" "Power symbol creates a global label with name \"+19\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2914,7 +2914,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+18V_0_1"
+			(symbol "+19V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2952,7 +2952,7 @@
 					)
 				)
 			)
-			(symbol "+18V_1_1"
+			(symbol "+19V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -9198,7 +9198,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Parts:+18V")
+		(lib_id "Parts:+19V")
 		(at 177.8 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9206,7 +9206,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56776e69-35ba-4a56-a0cd-e793a595bb4b")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR98"
 			(at 177.8 66.04 0)
 			(effects
 				(font
@@ -9215,7 +9215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+18V"
+		(property "Value" "+19V"
 			(at 177.8 58.674 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9242,7 +9242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name {dblquote}+18V{dblquote}"
+		(property "Description" "Power symbol creates a global label with name \"+19\""
 			(at 177.8 62.23 0)
 			(effects
 				(font
@@ -9257,11 +9257,11 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/6f91b1d1-06a0-428d-b546-bc9bd4fa19a0"
-					(reference "#PWR0100")
+					(reference "#PWR100")
 					(unit 1)
 				)
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/8eaf15be-2df7-401b-a518-33a048754894"
-					(reference "#PWR098")
+					(reference "#PWR98")
 					(unit 1)
 				)
 			)
@@ -10215,7 +10215,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Parts:+18V")
+		(lib_id "Parts:+19V")
 		(at 102.87 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10223,7 +10223,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84203cd3-ae0b-482c-9a4c-45b8ffe93164")
-		(property "Reference" "#PWR0328"
+		(property "Reference" "#PWR328"
 			(at 102.87 31.75 0)
 			(effects
 				(font
@@ -10232,7 +10232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+18V"
+		(property "Value" "+19V"
 			(at 102.87 24.384 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10259,7 +10259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name {dblquote}+18V{dblquote}"
+		(property "Description" "Power symbol creates a global label with name \"+19\""
 			(at 102.87 27.94 0)
 			(effects
 				(font
@@ -10274,11 +10274,11 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/6f91b1d1-06a0-428d-b546-bc9bd4fa19a0"
-					(reference "#PWR0330")
+					(reference "#PWR330")
 					(unit 1)
 				)
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/8eaf15be-2df7-401b-a518-33a048754894"
-					(reference "#PWR0328")
+					(reference "#PWR328")
 					(unit 1)
 				)
 			)
@@ -10410,7 +10410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 167.3352 105.41 0)
 			(effects
 				(font
@@ -10419,7 +10419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "C0G, 25V"
 			(at 166.37 101.6 0)
 			(effects
 				(font
@@ -10437,7 +10437,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C307500"
 			(at 166.37 101.6 0)
 			(effects
 				(font
@@ -12500,7 +12500,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Parts:+18V")
+		(lib_id "Parts:+19V")
 		(at 82.55 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12508,7 +12508,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f48a8137-a84e-46e5-9b44-6b02ab56fab1")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR81"
 			(at 82.55 31.75 0)
 			(effects
 				(font
@@ -12517,7 +12517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+18V"
+		(property "Value" "+19V"
 			(at 82.55 24.384 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12544,7 +12544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name {dblquote}+18V{dblquote}"
+		(property "Description" "Power symbol creates a global label with name \"+19\""
 			(at 82.55 27.94 0)
 			(effects
 				(font
@@ -12559,11 +12559,11 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/6f91b1d1-06a0-428d-b546-bc9bd4fa19a0"
-					(reference "#PWR091")
+					(reference "#PWR91")
 					(unit 1)
 				)
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/8eaf15be-2df7-401b-a518-33a048754894"
-					(reference "#PWR081")
+					(reference "#PWR81")
 					(unit 1)
 				)
 			)

@@ -1396,7 +1396,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Parts:+18V"
+		(symbol "Parts:+19V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1417,7 +1417,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+18V"
+			(property "Value" "+19V"
 				(at 0 3.556 0)
 				(do_not_autoplace)
 				(effects
@@ -1444,7 +1444,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name {dblquote}+18V{dblquote}"
+			(property "Description" "Power symbol creates a global label with name \"+19\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1462,7 +1462,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+18V_0_1"
+			(symbol "+19V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1500,7 +1500,7 @@
 					)
 				)
 			)
-			(symbol "+18V_1_1"
+			(symbol "+19V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -3193,7 +3193,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 53.34) (xy 115.57 53.34)
+			(xy 124.46 54.61) (xy 115.57 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3373,7 +3373,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 53.34) (xy 143.51 53.34)
+			(xy 132.08 54.61) (xy 143.51 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3403,7 +3403,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 53.34) (xy 115.57 59.69)
+			(xy 115.57 54.61) (xy 115.57 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4002,7 +4002,7 @@
 		(uuid "00984fbf-0504-4f1e-863e-3c4cec817f3a")
 	)
 	(label "5V"
-		(at 143.51 53.34 180)
+		(at 143.51 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4151,7 +4151,7 @@
 			)
 		)
 	)
-	(global_label "+20V"
+	(global_label "+21V"
 		(shape input)
 		(at 162.56 119.38 180)
 		(effects
@@ -4171,7 +4171,7 @@
 			)
 		)
 	)
-	(global_label "-20V"
+	(global_label "-18V"
 		(shape input)
 		(at 162.56 134.62 180)
 		(effects
@@ -4346,7 +4346,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 128.27 66.548 90)
 			(effects
 				(font
@@ -4560,7 +4560,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Parts:+18V")
+		(lib_id "Parts:+19V")
 		(at 92.71 76.2 0)
 		(mirror y)
 		(unit 1)
@@ -4569,7 +4569,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10dda5a0-e0b0-41e6-9782-50e206db14b2")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR117"
 			(at 92.71 80.01 0)
 			(effects
 				(font
@@ -4578,7 +4578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+18V"
+		(property "Value" "+19V"
 			(at 92.71 72.644 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4605,7 +4605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name {dblquote}+18V{dblquote}"
+		(property "Description" "Power symbol creates a global label with name \"+19\""
 			(at 92.71 76.2 0)
 			(effects
 				(font
@@ -4620,7 +4620,7 @@
 		(instances
 			(project ""
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/fd210975-34eb-456f-9075-cf344b0a559b"
-					(reference "#PWR0117")
+					(reference "#PWR117")
 					(unit 1)
 				)
 			)
@@ -5138,7 +5138,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 128.27 53.34 90)
+		(at 128.27 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5146,7 +5146,7 @@
 		(dnp no)
 		(uuid "49361ab1-133a-4308-8648-a1ec13298045")
 		(property "Reference" "R112"
-			(at 128.27 51.054 90)
+			(at 128.27 52.324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5154,7 +5154,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 128.27 53.34 90)
+			(at 128.27 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5162,7 +5162,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 128.27 55.118 90)
+			(at 128.27 56.388 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5171,7 +5171,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 53.34 0)
+			(at 128.27 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5180,7 +5180,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 128.27 53.34 0)
+			(at 128.27 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5189,7 +5189,7 @@
 			)
 		)
 		(property "LCSC" "C25076"
-			(at 128.27 53.34 90)
+			(at 128.27 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5198,7 +5198,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 128.27 53.34 90)
+			(at 128.27 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6386,7 +6386,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 128.27 98.552 90)
 			(effects
 				(font
@@ -6413,7 +6413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "50"
 			(at 128.27 100.33 90)
 			(effects
 				(font
@@ -7525,7 +7525,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 128.27 61.468 90)
 			(effects
 				(font
@@ -7808,7 +7808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 128.27 71.628 90)
 			(effects
 				(font

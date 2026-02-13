@@ -5,259 +5,6 @@
 	(uuid "60f479a8-0fde-4e15-a8ef-7461105e56a1")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Amplifier_Difference:THS4521IDGK"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "THS4521IDGK"
-				(at 10.16 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ths4521.pdf"
-				(at 0 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Very Low Power, Negative Rail Input, Rail to Rail Output, Fully Differential Amplifier, VSSOP-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "differential amplifier"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "VSSOP*3x3mm*P0.65mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "THS4521IDGK_0_1"
-				(polyline
-					(pts
-						(xy 4.4704 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "THS4521IDGK_1_1"
-				(polyline
-					(pts
-						(xy -7.62 7.62) (xy -7.62 -7.62) (xy 7.62 0) (xy -7.62 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 3.937 2.54)
-					(radius 0.4064)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "~{PD}"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "V_{OCM}"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 2.54)
-					(name "V_{S+}"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 2.54)
-					(name "V_{S-}"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 2.54 180)
-					(length 3.175)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 -2.54 180)
-					(length 3.175)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2066,7 +1813,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Parts:+18V"
+		(symbol "Parts:+19V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -2087,7 +1834,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+18V"
+			(property "Value" "+19V"
 				(at 0 3.556 0)
 				(do_not_autoplace)
 				(effects
@@ -2114,7 +1861,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name {dblquote}+18V{dblquote}"
+			(property "Description" "Power symbol creates a global label with name \"+19\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2132,7 +1879,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+18V_0_1"
+			(symbol "+19V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2170,7 +1917,7 @@
 					)
 				)
 			)
-			(symbol "+18V_1_1"
+			(symbol "+19V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -3285,6 +3032,316 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Parts:THS4521IDGK"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.002)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U74"
+				(at 2.54 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "THS4521IDGK"
+				(at -0.762 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Parts:OPA4521"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ths4521.pdf"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Very Low Power, Negative Rail Input, Rail to Rail Output, Fully Differential Amplifier, VSSOP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C170157"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Library" "spice/ideal.lib"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Name" "IdealFDA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "SUBCKT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=in- 2=vcm 3=vs+ 4=out+ 5=out- 6=vs- 8=in+"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "differential amplifier"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "VSSOP*3x3mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "THS4521IDGK_0_1"
+				(polyline
+					(pts
+						(xy 4.4704 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "THS4521IDGK_1_1"
+				(polyline
+					(pts
+						(xy -7.62 7.62) (xy -7.62 -7.62) (xy 7.62 0) (xy -7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 3.937 2.54)
+					(radius 0.4064)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "~{PD}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "V_{OCM}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 2.54)
+					(name "V_{S+}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 2.54)
+					(name "V_{S-}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 2.54 180)
+					(length 3.175)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 -2.54 180)
+					(length 3.175)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5VA"
 			(power)
 			(pin_numbers
@@ -4050,7 +4107,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 151.13) (xy 139.7 151.13)
+			(xy 134.62 151.13) (xy 149.86 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4217,16 +4274,6 @@
 			(type default)
 		)
 		(uuid "44643a8d-b2b5-4f80-9fbf-42d6a6398504")
-	)
-	(wire
-		(pts
-			(xy 147.32 151.13) (xy 149.86 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "446d5dda-084c-4399-8555-42cddf0ba6b8")
 	)
 	(wire
 		(pts
@@ -6925,7 +6972,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Difference:THS4521IDGK")
+		(lib_id "Parts:THS4521IDGK")
 		(at 125.73 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6949,7 +6996,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Parts:OPA4521"
+		(property "Footprint" "Parts:THS4521"
 			(at 125.73 123.19 0)
 			(effects
 				(font
@@ -7088,7 +7135,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43f92bd1-de08-445e-8cb9-b9d5cd9f857a")
-		(property "Reference" "C726"
+		(property "Reference" "C70"
 			(at 104.14 154.432 0)
 			(effects
 				(font
@@ -7166,7 +7213,7 @@
 			)
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/91ba7742-b0d4-4498-bde0-79d5f38f349f"
-					(reference "C726")
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -9236,7 +9283,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Parts:+18V")
+		(lib_id "Parts:+19V")
 		(at 181.61 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9244,7 +9291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90af27a3-827b-4b90-898d-58463b052bd0")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR148"
 			(at 181.61 69.85 0)
 			(effects
 				(font
@@ -9253,7 +9300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+18V"
+		(property "Value" "+19V"
 			(at 181.61 62.484 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9280,7 +9327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name {dblquote}+18V{dblquote}"
+		(property "Description" "Power symbol creates a global label with name \"+19\""
 			(at 181.61 66.04 0)
 			(effects
 				(font
@@ -9301,7 +9348,7 @@
 			)
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/91ba7742-b0d4-4498-bde0-79d5f38f349f"
-					(reference "#PWR0148")
+					(reference "#PWR148")
 					(unit 1)
 				)
 			)
@@ -11167,91 +11214,6 @@
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/91ba7742-b0d4-4498-bde0-79d5f38f349f"
 					(reference "U706")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 143.51 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f264eac7-29b7-4e63-a674-8d3651710881")
-		(property "Reference" "R741"
-			(at 143.51 149.098 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 143.51 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 143.51 152.908 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 143.51 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25076"
-			(at 143.51 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" ""
-			(at 143.51 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "51faed3e-00ad-4ad2-9fd4-5fa00f43f3a5")
-		)
-		(pin "1"
-			(uuid "bcad4b4a-39f6-423e-b245-d311600d85b2")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/91ba7742-b0d4-4498-bde0-79d5f38f349f"
-					(reference "R741")
-					(unit 1)
 				)
 			)
 		)

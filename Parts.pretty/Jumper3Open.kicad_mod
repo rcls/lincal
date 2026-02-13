@@ -1,0 +1,141 @@
+(footprint "Jumper3Open"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e970c70c-0624-4bba-b49a-c8c5c32c9601")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Jumper3Open"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bf2973b4-4d2b-48d4-9960-7a369983f709")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9c4f1fc-1f91-4ab7-ae46-930138626478")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa450de6-8106-4b50-9f30-82f5ef2c0d2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.25 -0.5)
+		(end 1.25 0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "85b55707-0068-4bb9-aba4-c84db6527fe3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8a951d06-f5a9-416c-994a-76a29b99764d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -0.9 0)
+		(size 0.38 0.38)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.2 -0.35) (xy 0.47 -0.35) (xy 0.19 0) (xy 0.47 0.35) (xy -0.2 0.35)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "781d5315-c75b-4edd-a313-42bf054a896b")
+	)
+	(pad "2" smd custom
+		(at 0 0)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.3 -0.35) (xy -0.58 0) (xy -0.3 0.35) (xy 0.3 0.35) (xy 0.58 0) (xy 0.3 -0.35)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "9bf7b505-9ab6-40bc-b48c-8e8e5a8499ed")
+	)
+	(pad "3" smd custom
+		(at 0.9 0)
+		(size 0.38 0.38)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.47 -0.35) (xy 0.2 -0.35) (xy 0.2 0.35) (xy -0.47 0.35) (xy -0.19 0)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "7ae35604-ac0c-4ab2-a261-7f37b33516b0")
+	)
+	(embedded_fonts no)
+)

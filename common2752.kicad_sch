@@ -144,7 +144,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Parts:+18V"
+		(symbol "Parts:+19V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -165,7 +165,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+18V"
+			(property "Value" "+19V"
 				(at 0 3.556 0)
 				(do_not_autoplace)
 				(effects
@@ -192,7 +192,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name {dblquote}+18V{dblquote}"
+			(property "Description" "Power symbol creates a global label with name \"+19\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -210,7 +210,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+18V_0_1"
+			(symbol "+19V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -248,7 +248,7 @@
 					)
 				)
 			)
-			(symbol "+18V_1_1"
+			(symbol "+19V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -4013,7 +4013,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Parts:+18V")
+		(lib_id "Parts:+19V")
 		(at 104.14 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4021,7 +4021,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "466fc469-772a-481d-88fd-7dee9a65a5fc")
-		(property "Reference" "#PWR0345"
+		(property "Reference" "#PWR345"
 			(at 104.14 110.49 0)
 			(effects
 				(font
@@ -4030,7 +4030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+18V"
+		(property "Value" "+19V"
 			(at 104.14 103.124 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4057,7 +4057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name {dblquote}+18V{dblquote}"
+		(property "Description" "Power symbol creates a global label with name \"+19\""
 			(at 104.14 106.68 0)
 			(effects
 				(font
@@ -4072,7 +4072,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e42fba19-ca85-4742-a019-f67d1b8fc682"
-					(reference "#PWR0345")
+					(reference "#PWR345")
 					(unit 1)
 				)
 			)
@@ -4853,7 +4853,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Parts:+18V")
+		(lib_id "Parts:+19V")
 		(at 104.14 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4861,7 +4861,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8662c539-fa06-4377-b564-d2e517a9871f")
-		(property "Reference" "#PWR0255"
+		(property "Reference" "#PWR255"
 			(at 104.14 64.77 0)
 			(effects
 				(font
@@ -4870,7 +4870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+18V"
+		(property "Value" "+19V"
 			(at 104.14 57.404 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4897,7 +4897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name {dblquote}+18V{dblquote}"
+		(property "Description" "Power symbol creates a global label with name \"+19\""
 			(at 104.14 60.96 0)
 			(effects
 				(font
@@ -4912,7 +4912,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e42fba19-ca85-4742-a019-f67d1b8fc682"
-					(reference "#PWR0255")
+					(reference "#PWR255")
 					(unit 1)
 				)
 			)

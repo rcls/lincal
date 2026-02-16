@@ -375,6 +375,179 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Conn_Coaxial_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Coaxial_1_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.222 -1.8079)
+					(end -1.778 -0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.778 0.508)
+					(mid 0.2221 1.8084)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_1_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
@@ -743,6 +916,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "Connector:Conn_Coaxial"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -3810,7 +3986,7 @@
 		(uuid "45150680-9871-4a17-bf16-d396ed94e1b0")
 	)
 	(junction
-		(at 83.82 113.03)
+		(at 135.89 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b05ae0e-b3f6-460f-a38f-2da334bdc934")
@@ -3965,6 +4141,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 113.03) (xy 139.7 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00ccb99f-4602-4f92-9c60-a878ccc4cf33")
+	)
+	(wire
+		(pts
 			(xy 110.49 71.12) (xy 111.76 71.12)
 		)
 		(stroke
@@ -4115,6 +4301,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 113.03) (xy 96.52 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a80a703-20bd-43b4-97f5-2583eb41244f")
+	)
+	(wire
+		(pts
 			(xy 129.54 128.27) (xy 116.84 128.27)
 		)
 		(stroke
@@ -4195,6 +4391,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 113.03) (xy 149.86 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "411bd0b1-134f-4c90-a8c1-250301b2bb72")
+	)
+	(wire
+		(pts
 			(xy 116.84 113.03) (xy 118.11 113.03)
 		)
 		(stroke
@@ -4255,7 +4461,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 102.87) (xy 83.82 104.14)
+			(xy 135.89 111.76) (xy 135.89 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4595,16 +4801,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 113.03) (xy 142.24 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bda120eb-46a9-4848-b5ab-243ef7450a90")
-	)
-	(wire
-		(pts
 			(xy 142.24 110.49) (xy 149.86 110.49)
 		)
 		(stroke
@@ -4685,7 +4881,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 113.03) (xy 96.52 113.03)
+			(xy 135.89 121.92) (xy 139.7 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4815,7 +5011,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 111.76) (xy 83.82 113.03)
+			(xy 135.89 120.65) (xy 135.89 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4832,16 +5028,6 @@
 			(type default)
 		)
 		(uuid "fdb4f787-14b3-4aca-8aca-c9547f91705a")
-	)
-	(label "~{SRCLR}"
-		(at 88.9 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "02acce1e-003b-44bf-8c81-9ee4d7b16af9")
 	)
 	(label "LATCH"
 		(at 142.24 118.11 0)
@@ -5759,6 +5945,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Parts:+3V3A")
+		(at 83.82 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ab2dee3-903e-41da-bf11-f51395d92841")
+		(property "Reference" "#PWR0502"
+			(at 83.82 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3A"
+			(at 83.82 109.474 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name {dblquote}+3V3A{dblquote}"
+			(at 83.82 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c45a199-10f8-4aea-af9b-ceae0834a88a")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/5e75b7d0-06d7-44d3-9715-75151d16c7a9"
+					(reference "#PWR0502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 146.05 74.93 0)
 		(unit 1)
@@ -6369,7 +6621,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 57.15 33.02 180)
+		(at 57.15 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6393,7 +6645,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 58.928 33.02 90)
+			(at 55.372 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6520,7 +6772,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 57.15 43.18 180)
+		(at 57.15 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6544,7 +6796,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 58.928 43.18 90)
+			(at 55.372 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6875,8 +7127,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 137.16 95.25 0)
-		(mirror y)
+		(at 132.08 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6884,25 +7135,25 @@
 		(dnp no)
 		(uuid "622c047e-eb47-43de-8fae-8620c204e03d")
 		(property "Reference" "C88"
-			(at 137.16 97.282 0)
+			(at 132.08 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "0u1"
-			(at 137.16 93.472 0)
+			(at 132.08 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 136.1948 99.06 0)
+			(at 133.0452 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6911,7 +7162,7 @@
 			)
 		)
 		(property "Datasheet" "X7R, 50V"
-			(at 137.16 95.25 0)
+			(at 132.08 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6920,7 +7171,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 137.16 95.25 0)
+			(at 132.08 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6929,7 +7180,7 @@
 			)
 		)
 		(property "LCSC" "C307331"
-			(at 137.16 95.25 0)
+			(at 132.08 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6938,7 +7189,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 137.16 95.25 0)
+			(at 132.08 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7244,6 +7495,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Conn_Coaxial_1")
 		(lib_id "Connector:Conn_Coaxial")
 		(at 190.5 62.23 0)
 		(unit 1)
@@ -7541,8 +7793,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 132.08 95.25 0)
-		(mirror y)
+		(at 137.16 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7550,25 +7801,25 @@
 		(dnp no)
 		(uuid "8f0f48b0-4b18-48a6-8bcf-1fb455825723")
 		(property "Reference" "C89"
-			(at 132.08 97.282 0)
+			(at 137.16 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "0u1"
-			(at 132.08 93.472 0)
+			(at 137.16 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 131.1148 99.06 0)
+			(at 138.1252 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7577,7 +7828,7 @@
 			)
 		)
 		(property "Datasheet" "X7R, 50V"
-			(at 132.08 95.25 0)
+			(at 137.16 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7586,7 +7837,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 132.08 95.25 0)
+			(at 137.16 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7595,7 +7846,7 @@
 			)
 		)
 		(property "LCSC" "C307331"
-			(at 132.08 95.25 0)
+			(at 137.16 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7604,7 +7855,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 132.08 95.25 0)
+			(at 137.16 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7843,7 +8094,6 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 175.26 62.23 90)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7867,7 +8117,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 175.26 60.452 90)
+			(at 175.26 64.008 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7928,7 +8178,7 @@
 	)
 	(symbol
 		(lib_id "Parts:+3V3A")
-		(at 83.82 102.87 0)
+		(at 135.89 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7936,7 +8186,7 @@
 		(dnp no)
 		(uuid "b6baa324-1551-4a76-8f69-5b2a099c1872")
 		(property "Reference" "#PWR0719"
-			(at 83.82 106.68 0)
+			(at 135.89 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7945,7 +8195,7 @@
 			)
 		)
 		(property "Value" "+3V3A"
-			(at 83.82 99.314 0)
+			(at 135.89 108.204 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7954,7 +8204,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 102.87 0)
+			(at 135.89 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7963,7 +8213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 102.87 0)
+			(at 135.89 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7972,7 +8222,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name {dblquote}+3V3A{dblquote}"
-			(at 83.82 102.87 0)
+			(at 135.89 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7994,7 +8244,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 83.82 120.65 0)
+		(at 135.89 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8002,7 +8252,7 @@
 		(dnp no)
 		(uuid "bb9172c4-b625-4c95-a2c1-8380c0727d17")
 		(property "Reference" "#PWR0314"
-			(at 83.82 127 0)
+			(at 135.89 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8011,7 +8261,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 83.82 123.952 0)
+			(at 135.89 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8020,7 +8270,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 121.92 0)
+			(at 135.89 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8029,7 +8279,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 121.92 0)
+			(at 135.89 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8038,7 +8288,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 83.82 120.65 0)
+			(at 135.89 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8061,7 +8311,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 57.15 52.07 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8069,12 +8318,12 @@
 		(dnp no)
 		(uuid "bf23cb60-2114-4aa9-909f-fe5d0d0d37a3")
 		(property "Reference" "C84"
-			(at 56.896 50.038 0)
+			(at 57.404 50.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1u"
@@ -8083,11 +8332,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 56.1848 55.88 0)
+			(at 58.1152 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8849,15 +9098,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 83.82 107.95 180)
+		(at 135.89 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d4916268-5259-4875-acfe-1e85c24f5c8b")
-		(property "Reference" "R87"
-			(at 81.788 107.95 90)
+		(property "Reference" "R85"
+			(at 133.858 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8865,7 +9114,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 83.82 107.95 90)
+			(at 135.89 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8873,7 +9122,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 85.598 107.95 90)
+			(at 134.112 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8882,7 +9131,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 107.95 0)
+			(at 135.89 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8891,7 +9140,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 83.82 107.95 0)
+			(at 135.89 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8900,7 +9149,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 83.82 107.95 90)
+			(at 135.89 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8909,7 +9158,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 83.82 107.95 90)
+			(at 135.89 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8926,7 +9175,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/5e75b7d0-06d7-44d3-9715-75151d16c7a9"
-					(reference "R87")
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -9433,8 +9682,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 83.82 116.84 0)
-		(mirror y)
+		(at 135.89 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9442,25 +9690,25 @@
 		(dnp no)
 		(uuid "e7dc8add-4139-4c8c-9481-c4ea0137e070")
 		(property "Reference" "C87"
-			(at 83.82 115.062 0)
+			(at 135.89 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "0u1"
-			(at 83.82 118.872 0)
+			(at 135.89 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 82.8548 120.65 0)
+			(at 136.8552 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9469,7 +9717,7 @@
 			)
 		)
 		(property "Datasheet" "X7R, 50V"
-			(at 83.82 116.84 0)
+			(at 135.89 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9478,7 +9726,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 83.82 116.84 0)
+			(at 135.89 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9487,7 +9735,7 @@
 			)
 		)
 		(property "LCSC" "C307331"
-			(at 83.82 116.84 0)
+			(at 135.89 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9496,7 +9744,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 83.82 116.84 0)
+			(at 135.89 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)

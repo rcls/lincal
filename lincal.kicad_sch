@@ -1785,7 +1785,7 @@
 			)
 		)
 	)
-	(global_label "Ref15"
+	(global_label "Ref10V"
 		(shape input)
 		(at 80.01 140.97 0)
 		(effects
@@ -1796,7 +1796,7 @@
 		)
 		(uuid "69f9d816-d6af-46e2-95ed-acdd0bbc8165")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.4665 140.97 0)
+			(at 87.7365 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -4035,6 +4035,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 48.26) (xy 144.78 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "051f82af-c950-4fbe-8608-f6105e0b772a")
+	)
+	(wire
+		(pts
 			(xy 201.93 118.11) (xy 207.01 118.11)
 		)
 		(stroke
@@ -4325,13 +4335,23 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 48.26) (xy 137.16 48.26)
+			(xy 134.62 48.26) (xy 135.89 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3f2a31c9-d3fd-4135-8a5d-fa5433dc9712")
+	)
+	(wire
+		(pts
+			(xy 149.86 86.36) (xy 151.13 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3facd653-8369-439d-afd3-53fe0d181548")
 	)
 	(wire
 		(pts
@@ -4392,6 +4412,16 @@
 			(type default)
 		)
 		(uuid "490922ed-a3d3-4fa2-8a65-99d73866160c")
+	)
+	(wire
+		(pts
+			(xy 142.24 86.36) (xy 139.7 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a73278-98dc-4033-a5f2-471658143b44")
 	)
 	(wire
 		(pts
@@ -5295,16 +5325,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 86.36) (xy 142.24 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef4805cd-9cb2-465f-8311-c1480fd549b7")
-	)
-	(wire
-		(pts
 			(xy 207.01 92.71) (xy 213.36 92.71)
 		)
 		(stroke
@@ -5445,7 +5465,7 @@
 	)
 	(global_label "-18V"
 		(shape output)
-		(at 142.24 86.36 0)
+		(at 151.13 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5454,7 +5474,7 @@
 		)
 		(uuid "513da606-c8a8-46f7-9805-f05db92e0a17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.7812 86.36 0)
+			(at 158.6872 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5465,7 +5485,7 @@
 	)
 	(global_label "+21V"
 		(shape output)
-		(at 137.16 48.26 0)
+		(at 144.78 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5474,7 +5494,7 @@
 		)
 		(uuid "b23e2970-b69b-4048-b482-4dd9c34508f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.7012 48.26 0)
+			(at 152.3372 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6974,6 +6994,91 @@
 	)
 	(symbol
 		(lib_id "Parts:L_Ferrite_Power")
+		(at 146.05 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "317f9ffb-8777-4a12-929d-30a0297294ef")
+		(property "Reference" "L58"
+			(at 146.05 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 146.05 83.566 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 146.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "2A / 50mΩ"
+			(at 146.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor with ferrite core"
+			(at 146.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14709"
+			(at 146.05 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 146.05 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bab57a8f-cf90-4caf-bfe7-de578825e6a0")
+		)
+		(pin "1"
+			(uuid "08e7ab34-f353-4d4f-a30e-c870b87bf1ac")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
+					(reference "L58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Parts:L_Ferrite_Power")
 		(at 64.77 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7199,7 +7304,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 233.68 46.99 180)
+		(at 233.68 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7207,25 +7312,25 @@
 		(dnp no)
 		(uuid "452c0ebf-5e0e-42aa-901e-a27b71721444")
 		(property "Reference" "C530"
-			(at 233.68 49.022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
 			(at 233.68 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 233.68 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 232.7148 43.18 0)
+			(at 234.6452 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7522,7 +7627,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 228.6 46.99 180)
+		(at 228.6 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7530,25 +7635,25 @@
 		(dnp no)
 		(uuid "4ed4d8dd-b6d6-4727-aa6e-af5fe8166a6a")
 		(property "Reference" "C529"
-			(at 228.6 49.022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
 			(at 228.6 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 228.6 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 227.6348 43.18 0)
+			(at 229.5652 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8259,7 +8364,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 218.44 46.99 180)
+		(at 218.44 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8267,25 +8372,25 @@
 		(dnp no)
 		(uuid "685338ec-63d3-4d12-a0e6-cda663eb8384")
 		(property "Reference" "C527"
-			(at 218.44 49.022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
 			(at 218.44 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 218.44 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 217.4748 43.18 0)
+			(at 219.4052 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8678,7 +8783,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ecd51bc-ac55-4fc0-a9e0-421cded16140")
-		(property "Reference" "D58"
+		(property "Reference" "D54"
 			(at 140.97 90.424 0)
 			(effects
 				(font
@@ -8749,7 +8854,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "D58")
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -8842,7 +8947,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 207.01 46.99 180)
+		(at 207.01 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8850,25 +8955,25 @@
 		(dnp no)
 		(uuid "876ba7fc-6622-4c47-8fcf-b9969902fc01")
 		(property "Reference" "C525"
-			(at 207.01 49.022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0u1"
 			(at 207.01 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+		(property "Value" "0u1"
+			(at 207.01 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 206.0448 43.18 0)
+			(at 207.9752 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8929,7 +9034,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 213.36 46.99 180)
+		(at 213.36 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8937,25 +9042,25 @@
 		(dnp no)
 		(uuid "8a075e6f-1197-4066-b090-b6d890fc5718")
 		(property "Reference" "C526"
-			(at 213.36 49.022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
 			(at 213.36 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 213.36 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 212.3948 43.18 0)
+			(at 214.3252 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9778,7 +9883,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 223.52 46.99 180)
+		(at 223.52 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9786,25 +9891,25 @@
 		(dnp no)
 		(uuid "a2283991-c543-4752-add3-dc69e0a7f0c0")
 		(property "Reference" "C528"
-			(at 223.52 49.022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
 			(at 223.52 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 223.52 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 222.5548 43.18 0)
+			(at 224.4852 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10197,7 +10302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "afa27e21-d8db-404e-84c1-8fe2eff482c1")
-		(property "Reference" "D55"
+		(property "Reference" "D56"
 			(at 242.316 46.99 0)
 			(effects
 				(font
@@ -10268,7 +10373,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "D55")
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -10283,7 +10388,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "afb4330d-d069-47ef-a4d8-20fbb4f2c274")
-		(property "Reference" "D56"
+		(property "Reference" "D57"
 			(at 242.316 87.63 0)
 			(effects
 				(font
@@ -10354,7 +10459,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "D56")
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -10754,7 +10859,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 77.47 64.77 180)
+		(at 77.47 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10762,7 +10867,7 @@
 		(dnp no)
 		(uuid "c2401d29-abb3-4457-a1a6-75b1a85762b3")
 		(property "Reference" "C50"
-			(at 77.47 66.802 0)
+			(at 77.47 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10771,7 +10876,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 77.47 62.992 0)
+			(at 77.47 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10780,7 +10885,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 76.5048 60.96 0)
+			(at 78.4352 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11082,6 +11187,91 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
 					(reference "R541")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Parts:L_Ferrite_Power")
+		(at 139.7 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d984e8f4-d5d0-4eec-adc6-f4995766df9d")
+		(property "Reference" "L57"
+			(at 139.7 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 139.7 45.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 139.7 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "2A / 50mΩ"
+			(at 139.7 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor with ferrite core"
+			(at 139.7 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14709"
+			(at 139.7 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 139.7 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba5dc10d-8eb4-4bf5-a701-933ca4bbb4d1")
+		)
+		(pin "1"
+			(uuid "4cbe518d-7efa-434c-861e-ae5539810dc7")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
+					(reference "L57")
 					(unit 1)
 				)
 			)
@@ -12046,7 +12236,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3b50a3a-f8a4-4093-a508-2e2116f0d63b")
-		(property "Reference" "D57"
+		(property "Reference" "D53"
 			(at 140.97 40.894 0)
 			(effects
 				(font
@@ -12117,7 +12307,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "D57")
+					(reference "D53")
 					(unit 1)
 				)
 			)

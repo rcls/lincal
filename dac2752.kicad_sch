@@ -4162,6 +4162,12 @@
 		(uuid "2bb8efc5-bf76-4080-b88d-644c7ecaecca")
 	)
 	(junction
+		(at 144.78 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "393193ae-0251-4f3f-8348-98f3ba2e951e")
+	)
+	(junction
 		(at 170.18 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4184,12 +4190,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66667e11-914e-4b25-a138-c9840aa97a66")
-	)
-	(junction
-		(at 144.78 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ef25dc5-d911-4d25-b171-329beaa295d6")
 	)
 	(junction
 		(at 185.42 118.11)
@@ -4228,12 +4228,6 @@
 		(uuid "b40cd58d-8201-443c-b945-b528ab1a85ee")
 	)
 	(junction
-		(at 144.78 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8939504-cb5d-4d8a-8c7f-9de1ce204a44")
-	)
-	(junction
 		(at 168.91 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4268,6 +4262,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e090f31f-642f-4a09-9ec5-c9f9abd1642c")
+	)
+	(junction
+		(at 144.78 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1de0370-74e8-497b-948f-8f96725df291")
 	)
 	(junction
 		(at 73.66 76.2)
@@ -4405,16 +4405,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 81.28) (xy 194.31 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22d08afd-4761-4a25-912a-99ea19330ff7")
-	)
-	(wire
-		(pts
 			(xy 72.39 73.66) (xy 73.66 73.66)
 		)
 		(stroke
@@ -4475,6 +4465,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 88.9) (xy 153.67 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d019a70-0587-476e-b84b-900f260af60c")
+	)
+	(wire
+		(pts
 			(xy 187.96 125.73) (xy 185.42 125.73)
 		)
 		(stroke
@@ -4492,6 +4492,16 @@
 			(type default)
 		)
 		(uuid "54b5401a-e6c0-4d7b-9597-957fa7cd90d8")
+	)
+	(wire
+		(pts
+			(xy 144.78 81.28) (xy 194.31 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d4c4582-bd2a-4408-b7b6-c6cacfb18b21")
 	)
 	(wire
 		(pts
@@ -4622,16 +4632,6 @@
 			(type default)
 		)
 		(uuid "9f61e314-7d93-4d69-aeaa-2548a9172537")
-	)
-	(wire
-		(pts
-			(xy 144.78 88.9) (xy 153.67 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fd4c25a-b91a-45c8-9622-6fd7ad07fc52")
 	)
 	(wire
 		(pts
@@ -5199,7 +5199,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 170.18 114.3 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5212,7 +5211,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1u"
@@ -5221,11 +5220,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 169.2148 118.11 0)
+			(at 171.1452 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5384,7 +5383,7 @@
 		(dnp no)
 		(uuid "0faf7a73-385c-427c-8184-f35c691072aa")
 		(property "Reference" "R303"
-			(at 82.55 106.172 90)
+			(at 82.55 102.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6558,7 +6557,6 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 57.15 110.49 270)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6566,7 +6564,7 @@
 		(dnp no)
 		(uuid "5f2c1670-5211-4c79-83e3-493a00f3e014")
 		(property "Reference" "R301"
-			(at 57.15 108.458 90)
+			(at 57.15 112.522 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6582,7 +6580,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 57.15 112.268 90)
+			(at 57.15 108.712 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6656,7 +6654,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 185.42 114.3 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6669,7 +6666,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "0u1"
@@ -6678,11 +6675,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 184.4548 118.11 0)
+			(at 186.3852 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6762,7 +6759,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 69.85 110.49 270)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6788,7 +6784,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 66.04 109.5248 0)
+			(at 66.04 111.4552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7242,7 +7238,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 144.78 85.09 180)
+		(at 144.78 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7250,7 +7246,7 @@
 		(dnp no)
 		(uuid "7af0e181-b7bf-450b-9049-30b1aaa4327e")
 		(property "Reference" "C303"
-			(at 144.78 83.058 0)
+			(at 144.78 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7259,7 +7255,7 @@
 			)
 		)
 		(property "Value" "330p"
-			(at 144.78 83.058 0)
+			(at 144.78 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7268,7 +7264,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 143.8148 81.28 0)
+			(at 145.7452 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7439,8 +7435,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 68.58 73.66 270)
-		(mirror x)
+		(at 68.58 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7538,7 +7533,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 170.18 121.92 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7551,7 +7545,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1u"
@@ -7560,11 +7554,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 169.2148 125.73 0)
+			(at 171.1452 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7885,7 +7879,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 153.67 105.41 180)
+		(at 153.67 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7909,7 +7903,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 155.448 105.41 90)
+			(at 151.892 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8161,7 +8155,6 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 173.99 93.98 270)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8185,7 +8178,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 173.99 95.758 90)
+			(at 173.99 92.202 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8265,7 +8258,6 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 68.58 76.2 270)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8289,7 +8281,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 68.58 77.978 90)
+			(at 68.58 74.422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8679,7 +8671,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 161.29 100.33 270)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8705,7 +8696,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 157.48 99.3648 0)
+			(at 157.48 101.2952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8779,7 +8770,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 185.42 121.92 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8792,7 +8782,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "0u1"
@@ -8801,11 +8791,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 184.4548 125.73 0)
+			(at 186.3852 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)

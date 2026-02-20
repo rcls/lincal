@@ -4135,7 +4135,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Hopefullly the feedback capacitor keeps the OPA388 inputs in-range."
+	(text_box "Hopefully the feedback capacitor keeps the OPA388 inputs in-range."
 		(exclude_from_sim no)
 		(at 154.4319 73.2099 0)
 		(size 25.9081 6.8001)

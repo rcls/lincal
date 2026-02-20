@@ -10468,7 +10468,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 200.66 72.39 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10476,15 +10475,6 @@
 		(dnp no)
 		(uuid "b1ab9b89-0fe8-4bd5-bc74-1a6f715133de")
 		(property "Reference" "C524"
-			(at 200.66 74.422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
 			(at 200.66 70.358 0)
 			(effects
 				(font
@@ -10493,8 +10483,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "1u"
+			(at 200.66 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 201.6252 68.58 0)
+			(at 201.6252 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10872,7 +10871,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "0u1"
@@ -10881,7 +10880,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"

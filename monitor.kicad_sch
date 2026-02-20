@@ -6120,7 +6120,7 @@
 	(symbol
 		(lib_id "Parts:OPA2189DGK")
 		(at 209.55 80.01 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
@@ -6221,7 +6221,7 @@
 			(project ""
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/b0f71c87-958f-452c-ba10-5bfb9905e5da"
 					(reference "U78")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
@@ -10364,7 +10364,7 @@
 	(symbol
 		(lib_id "Parts:OPA2189DGK")
 		(at 186.69 87.63 0)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
@@ -10465,22 +10465,22 @@
 			(project ""
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/b0f71c87-958f-452c-ba10-5bfb9905e5da"
 					(reference "U78")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 160.02 132.08 0)
+		(at 160.02 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "dc4819fc-bad0-428c-ac9a-e3a31d28606a")
-		(property "Reference" "C710"
-			(at 160.02 130.302 0)
+		(property "Reference" "C711"
+			(at 160.02 137.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10489,7 +10489,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 160.02 134.112 0)
+			(at 160.02 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10498,7 +10498,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 160.9852 135.89 0)
+			(at 160.9852 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10507,7 +10507,7 @@
 			)
 		)
 		(property "Datasheet" "X7R, 50V"
-			(at 160.02 132.08 0)
+			(at 160.02 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10516,7 +10516,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 160.02 132.08 0)
+			(at 160.02 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10525,7 +10525,7 @@
 			)
 		)
 		(property "LCSC" "C307331"
-			(at 160.02 132.08 0)
+			(at 160.02 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10534,7 +10534,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 160.02 132.08 0)
+			(at 160.02 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10551,7 +10551,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/b0f71c87-958f-452c-ba10-5bfb9905e5da"
-					(reference "C710")
+					(reference "C711")
 					(unit 1)
 				)
 			)
@@ -11437,15 +11437,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 160.02 139.7 0)
+		(at 160.02 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "fdcafe73-1f99-4eee-9300-975867661b75")
-		(property "Reference" "C711"
-			(at 160.02 137.922 0)
+		(property "Reference" "C710"
+			(at 160.02 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11454,7 +11454,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 160.02 141.732 0)
+			(at 160.02 134.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11463,7 +11463,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 160.9852 143.51 0)
+			(at 160.9852 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11472,7 +11472,7 @@
 			)
 		)
 		(property "Datasheet" "X7R, 50V"
-			(at 160.02 139.7 0)
+			(at 160.02 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11481,7 +11481,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 160.02 139.7 0)
+			(at 160.02 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11490,7 +11490,7 @@
 			)
 		)
 		(property "LCSC" "C307331"
-			(at 160.02 139.7 0)
+			(at 160.02 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11499,7 +11499,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 160.02 139.7 0)
+			(at 160.02 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11516,7 +11516,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/b0f71c87-958f-452c-ba10-5bfb9905e5da"
-					(reference "C711")
+					(reference "C710")
 					(unit 1)
 				)
 			)

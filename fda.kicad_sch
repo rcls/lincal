@@ -4519,7 +4519,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 148.59) (xy 118.11 148.59)
+			(xy 115.57 148.59) (xy 118.11 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5479,7 +5479,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 148.59) (xy 105.41 148.59)
+			(xy 104.14 148.59) (xy 107.95 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5551,7 +5551,7 @@
 		(at 96.52 109.22 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify left bottom)
 		)
@@ -5561,7 +5561,7 @@
 		(at 87.63 99.06 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify left bottom)
 		)
@@ -5571,7 +5571,7 @@
 		(at 133.35 116.84 90)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify left bottom)
 		)
@@ -5591,7 +5591,7 @@
 		(at 104.14 106.68 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify left bottom)
 		)
@@ -5601,7 +5601,7 @@
 		(at 133.35 100.33 90)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify left bottom)
 		)
@@ -9882,7 +9882,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 109.22 148.59 90)
+		(at 111.76 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9890,7 +9890,7 @@
 		(dnp no)
 		(uuid "b8f2010d-321c-4d27-b103-8ce8a3eb51be")
 		(property "Reference" "R730"
-			(at 109.22 146.558 90)
+			(at 111.76 146.558 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9898,7 +9898,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 109.22 148.59 90)
+			(at 111.76 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9906,7 +9906,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 109.22 150.368 90)
+			(at 111.76 150.368 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9915,7 +9915,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 148.59 0)
+			(at 111.76 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9924,7 +9924,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 109.22 148.59 0)
+			(at 111.76 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9933,7 +9933,7 @@
 			)
 		)
 		(property "LCSC" "C25076"
-			(at 109.22 148.59 90)
+			(at 111.76 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9942,7 +9942,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 109.22 148.59 90)
+			(at 111.76 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)

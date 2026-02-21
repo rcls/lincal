@@ -3986,6 +3986,12 @@
 		(uuid "45150680-9871-4a17-bf16-d396ed94e1b0")
 	)
 	(junction
+		(at 171.45 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "058859fa-567d-4997-998d-be63516082ba")
+	)
+	(junction
 		(at 135.89 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4056,12 +4062,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a350b1d-2ea6-44ca-a31c-b6bbd4ecdf22")
-	)
-	(junction
-		(at 171.45 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a41d1683-ce83-4a74-8d35-a83d9b80c33f")
 	)
 	(junction
 		(at 171.45 49.53)
@@ -5139,6 +5139,16 @@
 		)
 		(uuid "ca855c64-c6b4-4018-99a1-3bcf2e9508e6")
 	)
+	(label "CPU_EN"
+		(at 59.69 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cec4e1d5-4c79-49bc-8a16-c67c570a9363")
+	)
 	(label "TRIGOUT"
 		(at 137.16 64.77 0)
 		(effects
@@ -5741,6 +5751,72 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/5e75b7d0-06d7-44d3-9715-75151d16c7a9"
 					(reference "SW81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 171.45 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c547dce-e3fd-499e-ac05-33ec7d551af6")
+		(property "Reference" "#PWR086"
+			(at 171.45 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 171.45 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 171.45 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eed93608-21ab-4cfa-8ca7-0123200867b1")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/5e75b7d0-06d7-44d3-9715-75151d16c7a9"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -7634,72 +7710,6 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/5e75b7d0-06d7-44d3-9715-75151d16c7a9"
 					(reference "#PWR0368")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 171.45 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "89f39303-e3e2-4830-9a05-51a5142c2891")
-		(property "Reference" "#PWR0708"
-			(at 171.45 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 171.45 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 171.45 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e04586bc-9d59-44e4-8d2b-7707675bbb95")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/5e75b7d0-06d7-44d3-9715-75151d16c7a9"
-					(reference "#PWR0708")
 					(unit 1)
 				)
 			)

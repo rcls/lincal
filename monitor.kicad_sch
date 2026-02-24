@@ -4623,7 +4623,7 @@
 		)
 		(uuid "5871f918-19c3-4d43-ad06-017187d41d7b")
 	)
-	(text_box "Flyby past summing resistor pins: Output → Resistor → Connector → Feedback."
+	(text_box "Flyby past summing resistor pins: Drive → Resistor → Connection → Sense."
 		(exclude_from_sim no)
 		(at 118.11 102.87 0)
 		(size 29.2099 7.62)

@@ -147,6 +147,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 142.24) (xy 78.74 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1719e964-ea09-4ee8-9774-9faa14b2fc33")
+	)
+	(wire
+		(pts
 			(xy 171.45 110.49) (xy 162.56 110.49)
 		)
 		(stroke
@@ -407,7 +417,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 138.43) (xy 86.36 138.43)
+			(xy 78.74 142.24) (xy 86.36 142.24)
 		)
 		(stroke
 			(width 0)
@@ -437,7 +447,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 140.97) (xy 80.01 140.97)
+			(xy 77.47 138.43) (xy 80.01 138.43)
 		)
 		(stroke
 			(width 0)
@@ -744,6 +754,16 @@
 			(type default)
 		)
 		(uuid "db516718-8afb-43e4-bf7c-fa10c0cbb94c")
+	)
+	(wire
+		(pts
+			(xy 78.74 140.97) (xy 77.47 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e00d0ce9-667f-4875-aa7e-fc7402895e25")
 	)
 	(wire
 		(pts
@@ -1126,7 +1146,7 @@
 		(uuid "4372d363-2bae-4d43-9cd3-b8f20a7a8155")
 	)
 	(label "Scan1"
-		(at 53.34 135.89 0)
+		(at 53.34 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1176,7 +1196,7 @@
 		(uuid "5abd064b-cf6c-410b-b5db-d7ff09e8b719")
 	)
 	(label "DAC2A"
-		(at 53.34 138.43 0)
+		(at 53.34 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1236,7 +1256,7 @@
 		(uuid "68785262-d28e-43ea-a222-283a35514bb0")
 	)
 	(label "DAC1B"
-		(at 86.36 133.35 180)
+		(at 86.36 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1326,7 +1346,7 @@
 		(uuid "8524bc15-b249-49e9-9661-2b418b2676d4")
 	)
 	(label "Offset"
-		(at 86.36 135.89 180)
+		(at 86.36 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1486,7 +1506,7 @@
 		(uuid "c7a8b4d9-fe29-4a9c-a95e-76d650b53f6b")
 	)
 	(label "DAC2B"
-		(at 86.36 138.43 180)
+		(at 86.36 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1546,7 +1566,7 @@
 		(uuid "d59732ad-f5c4-455e-9a8f-8dd5bb56e242")
 	)
 	(label "Scan2"
-		(at 53.34 140.97 0)
+		(at 53.34 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1626,7 +1646,7 @@
 		(uuid "f18937f3-1d96-49f5-9672-a95626e6b59f")
 	)
 	(label "DAC1A"
-		(at 53.34 133.35 0)
+		(at 53.34 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1787,7 +1807,7 @@
 	)
 	(global_label "Ref10V"
 		(shape input)
-		(at 80.01 140.97 0)
+		(at 80.01 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1796,7 +1816,7 @@
 		)
 		(uuid "69f9d816-d6af-46e2-95ed-acdd0bbc8165")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.7365 140.97 0)
+			(at 87.7365 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)

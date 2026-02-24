@@ -4372,7 +4372,7 @@
 		(uuid "0226b5d4-f1f1-48f8-8d62-1e59c3385fcd")
 	)
 	(junction
-		(at 184.15 96.52)
+		(at 184.15 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0509f270-4316-4871-923b-8b7878beb5b1")
@@ -4420,7 +4420,7 @@
 		(uuid "1649ae4e-7700-4ca9-89a7-c610a9d3669c")
 	)
 	(junction
-		(at 173.99 83.82)
+		(at 173.99 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1bcbc155-8671-4506-b1a4-f18c91b4bff8")
@@ -4588,7 +4588,7 @@
 		(uuid "a63ab264-7b11-459f-a534-79f7f732d390")
 	)
 	(junction
-		(at 166.37 83.82)
+		(at 166.37 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa0a561a-6508-483e-b73a-5641701084dd")
@@ -4600,7 +4600,7 @@
 		(uuid "ae31cd1a-561c-4365-a639-c3e1d66b1209")
 	)
 	(junction
-		(at 179.07 90.17)
+		(at 179.07 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0a3ed9e-c14b-40c9-ac71-4fd6b00fa9fe")
@@ -4618,7 +4618,7 @@
 		(uuid "cf928d56-dad6-4c73-9d5e-cae324f7f45c")
 	)
 	(junction
-		(at 156.21 96.52)
+		(at 156.21 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da93b875-0db5-44a5-8747-64e59ecce82c")
@@ -4636,7 +4636,7 @@
 		(uuid "e5adb393-ba45-45c9-b9f6-e1fb95fb141f")
 	)
 	(junction
-		(at 161.29 90.17)
+		(at 161.29 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea0d1b72-0f45-41f5-97e2-3699af9f895f")
@@ -4747,7 +4747,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 90.17) (xy 149.86 90.17)
+			(xy 161.29 87.63) (xy 153.67 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4757,7 +4757,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 83.82) (xy 166.37 83.82)
+			(xy 165.1 81.28) (xy 166.37 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4837,7 +4837,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 83.82) (xy 173.99 96.52)
+			(xy 173.99 81.28) (xy 173.99 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4857,7 +4857,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 96.52) (xy 175.26 96.52)
+			(xy 173.99 93.98) (xy 175.26 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4907,7 +4907,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 96.52) (xy 166.37 96.52)
+			(xy 165.1 93.98) (xy 166.37 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5167,7 +5167,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 83.82) (xy 157.48 83.82)
+			(xy 156.21 81.28) (xy 157.48 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5227,7 +5227,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 83.82) (xy 166.37 96.52)
+			(xy 166.37 81.28) (xy 166.37 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5257,7 +5257,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 83.82) (xy 184.15 83.82)
+			(xy 182.88 81.28) (xy 184.15 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5267,7 +5267,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 90.17) (xy 179.07 91.44)
+			(xy 179.07 87.63) (xy 179.07 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5297,7 +5297,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 88.9) (xy 179.07 90.17)
+			(xy 179.07 86.36) (xy 179.07 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5307,7 +5307,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 78.74) (xy 166.37 83.82)
+			(xy 166.37 76.2) (xy 166.37 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5367,7 +5367,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 90.17) (xy 187.96 90.17)
+			(xy 179.07 87.63) (xy 186.69 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5437,7 +5437,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 83.82) (xy 175.26 83.82)
+			(xy 173.99 81.28) (xy 175.26 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5517,7 +5517,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 66.04) (xy 166.37 71.12)
+			(xy 166.37 66.04) (xy 166.37 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5547,7 +5547,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 83.82) (xy 156.21 96.52)
+			(xy 156.21 81.28) (xy 156.21 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5617,7 +5617,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 96.52) (xy 184.15 96.52)
+			(xy 182.88 93.98) (xy 184.15 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5627,7 +5627,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 88.9) (xy 161.29 90.17)
+			(xy 161.29 86.36) (xy 161.29 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5737,7 +5737,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 83.82) (xy 184.15 96.52)
+			(xy 184.15 81.28) (xy 184.15 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5757,7 +5757,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 96.52) (xy 157.48 96.52)
+			(xy 156.21 93.98) (xy 157.48 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5857,7 +5857,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 90.17) (xy 161.29 91.44)
+			(xy 161.29 87.63) (xy 161.29 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6056,7 +6056,7 @@
 		(uuid "fcac50dd-7e24-4ab3-a4f7-f6d1a0c382dd")
 	)
 	(label "SHGnd"
-		(at 166.37 81.28 180)
+		(at 166.37 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6221,7 +6221,7 @@
 	)
 	(hierarchical_label "HoldGnd"
 		(shape input)
-		(at 187.96 90.17 0)
+		(at 186.69 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6243,7 +6243,7 @@
 	)
 	(hierarchical_label "SampleGnd"
 		(shape input)
-		(at 149.86 90.17 180)
+		(at 153.67 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6542,7 +6542,7 @@
 	)
 	(symbol
 		(lib_id "Parts:AO3400A")
-		(at 161.29 86.36 90)
+		(at 161.29 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6550,7 +6550,7 @@
 		(dnp no)
 		(uuid "084ed76b-5d44-4fe9-9ae0-ed3868cff1b1")
 		(property "Reference" "Q24"
-			(at 161.29 88.646 90)
+			(at 161.29 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6559,7 +6559,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 164.719 86.36 0)
+			(at 164.719 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6569,7 +6569,7 @@
 			)
 		)
 		(property "Footprint" "Parts:SOT-23"
-			(at 163.195 81.28 0)
+			(at 163.195 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6580,7 +6580,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 81.28 0)
+			(at 165.1 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6590,7 +6590,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 161.29 86.36 0)
+			(at 161.29 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6599,7 +6599,7 @@
 			)
 		)
 		(property "LCSC" "C15127"
-			(at 161.29 86.36 0)
+			(at 161.29 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6608,7 +6608,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 161.29 86.36 0)
+			(at 161.29 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9009,7 +9009,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 170.18 83.82 0)
+		(at 170.18 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9017,7 +9017,7 @@
 		(dnp no)
 		(uuid "712188e2-380b-4993-9b19-7df4a3041c55")
 		(property "Reference" "JP1"
-			(at 170.18 81.788 0)
+			(at 170.18 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9025,7 +9025,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 170.18 86.36 0)
+			(at 170.18 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9034,7 +9034,7 @@
 			)
 		)
 		(property "Footprint" "Parts:JumperOpen"
-			(at 170.18 83.82 0)
+			(at 170.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9043,7 +9043,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 83.82 0)
+			(at 170.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9052,7 +9052,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 170.18 83.82 0)
+			(at 170.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9061,7 +9061,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 170.18 83.82 0)
+			(at 170.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9607,7 +9607,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 96.52 0)
+		(at 184.15 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9615,15 +9615,6 @@
 		(dnp no)
 		(uuid "82e22323-544f-46a4-ad24-2457705da64b")
 		(property "Reference" "#PWR035"
-			(at 184.15 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
 			(at 184.15 100.33 0)
 			(effects
 				(font
@@ -9632,8 +9623,17 @@
 				(hide yes)
 			)
 		)
+		(property "Value" "GND"
+			(at 184.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" ""
-			(at 184.15 96.52 0)
+			(at 184.15 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9642,7 +9642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 96.52 0)
+			(at 184.15 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9651,7 +9651,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 96.52 0)
+			(at 184.15 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9677,7 +9677,7 @@
 	)
 	(symbol
 		(lib_id "Parts:AO3400A")
-		(at 161.29 93.98 270)
+		(at 161.29 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9685,7 +9685,7 @@
 		(dnp no)
 		(uuid "82eaafe1-4cad-4290-b43e-d3f18d1edf6f")
 		(property "Reference" "Q25"
-			(at 161.29 91.948 90)
+			(at 161.29 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9694,7 +9694,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 157.988 93.98 0)
+			(at 157.988 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9704,7 +9704,7 @@
 			)
 		)
 		(property "Footprint" "Parts:SOT-23"
-			(at 159.385 99.06 0)
+			(at 159.385 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9715,7 +9715,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 99.06 0)
+			(at 157.48 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9725,7 +9725,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 161.29 93.98 0)
+			(at 161.29 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9734,7 +9734,7 @@
 			)
 		)
 		(property "LCSC" "C15127"
-			(at 161.29 93.98 0)
+			(at 161.29 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9743,7 +9743,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 161.29 93.98 0)
+			(at 161.29 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9775,7 +9775,7 @@
 	)
 	(symbol
 		(lib_id "Parts:AO3400A")
-		(at 179.07 86.36 90)
+		(at 179.07 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9783,7 +9783,7 @@
 		(dnp no)
 		(uuid "83b72c94-3a21-417e-aacb-d4798508dd2d")
 		(property "Reference" "Q26"
-			(at 179.07 88.646 90)
+			(at 179.07 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9792,7 +9792,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 182.372 86.36 0)
+			(at 182.372 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9802,7 +9802,7 @@
 			)
 		)
 		(property "Footprint" "Parts:SOT-23"
-			(at 180.975 81.28 0)
+			(at 180.975 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9813,7 +9813,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 81.28 0)
+			(at 182.88 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9823,7 +9823,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 179.07 86.36 0)
+			(at 179.07 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9832,7 +9832,7 @@
 			)
 		)
 		(property "LCSC" "C15127"
-			(at 179.07 86.36 0)
+			(at 179.07 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9841,7 +9841,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 179.07 86.36 0)
+			(at 179.07 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10223,7 +10223,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 166.37 74.93 0)
+		(at 166.37 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10231,7 +10231,7 @@
 		(dnp no)
 		(uuid "9c0efd46-e21d-497a-a23c-d661d47acd65")
 		(property "Reference" "C201"
-			(at 166.37 72.898 0)
+			(at 166.37 70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10240,7 +10240,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 166.37 76.962 0)
+			(at 166.37 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10249,7 +10249,7 @@
 			)
 		)
 		(property "Footprint" "Parts:C_Rect_L31.5mm_W15.0mm_P27.50mm_Duo"
-			(at 167.3352 78.74 0)
+			(at 167.3352 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10258,7 +10258,7 @@
 			)
 		)
 		(property "Datasheet" "Sample & hold"
-			(at 166.37 74.93 0)
+			(at 166.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10267,7 +10267,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 166.37 74.93 0)
+			(at 166.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10276,7 +10276,7 @@
 			)
 		)
 		(property "Stock" "5"
-			(at 166.37 74.93 0)
+			(at 166.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11309,7 +11309,7 @@
 	)
 	(symbol
 		(lib_id "Parts:AO3400A")
-		(at 179.07 93.98 270)
+		(at 179.07 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11317,7 +11317,7 @@
 		(dnp no)
 		(uuid "ba30ded6-e131-4565-9cf0-6cca18989f93")
 		(property "Reference" "Q27"
-			(at 179.07 91.948 90)
+			(at 179.07 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11326,7 +11326,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 175.641 93.98 0)
+			(at 175.641 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11336,7 +11336,7 @@
 			)
 		)
 		(property "Footprint" "Parts:SOT-23"
-			(at 177.165 99.06 0)
+			(at 177.165 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11347,7 +11347,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 99.06 0)
+			(at 175.26 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11357,7 +11357,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 179.07 93.98 0)
+			(at 179.07 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11366,7 +11366,7 @@
 			)
 		)
 		(property "LCSC" "C15127"
-			(at 179.07 93.98 0)
+			(at 179.07 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11375,7 +11375,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 179.07 93.98 0)
+			(at 179.07 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11477,7 +11477,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 156.21 96.52 0)
+		(at 156.21 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11485,7 +11485,7 @@
 		(dnp no)
 		(uuid "bbc6dff3-03d8-427c-8c2a-46f825f73292")
 		(property "Reference" "#PWR096"
-			(at 156.21 102.87 0)
+			(at 156.21 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11494,7 +11494,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 156.21 99.822 0)
+			(at 156.21 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11503,7 +11503,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 97.79 0)
+			(at 156.21 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11512,7 +11512,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 97.79 0)
+			(at 156.21 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11521,7 +11521,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 156.21 96.52 0)
+			(at 156.21 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)

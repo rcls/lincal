@@ -10474,7 +10474,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "49169073-ab6e-4250-b0f0-0b558ae08a34")
 		(property "Reference" "C443"
 			(at 190.5 40.64 0)
@@ -10493,7 +10493,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 191.4652 49.53 0)
 			(effects
 				(font
@@ -10520,7 +10520,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1530"
+		(property "LCSC" ""
 			(at 190.5 45.72 0)
 			(effects
 				(font

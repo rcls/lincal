@@ -4591,7 +4591,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 68.58) (xy 80.01 68.58)
+			(xy 53.34 68.58) (xy 64.77 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4871,6 +4871,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 68.58) (xy 80.01 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cec3bbdc-90fc-429a-af2f-497043041d9e")
+	)
+	(wire
+		(pts
 			(xy 110.49 81.28) (xy 111.76 81.28)
 		)
 		(stroke
@@ -5070,7 +5080,7 @@
 		(uuid "2a58f26b-911b-4036-b41a-0e74d4903576")
 	)
 	(label "SCK"
-		(at 72.39 68.58 0)
+		(at 54.61 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5098,6 +5108,16 @@
 			(justify left bottom)
 		)
 		(uuid "635a5246-0fb5-45d1-8c2b-c7a66b4080f8")
+	)
+	(label "RX"
+		(at 111.76 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8965579f-ceac-4309-b936-39b2c7070bbe")
 	)
 	(label "SCK"
 		(at 142.24 110.49 0)
@@ -5168,6 +5188,16 @@
 			(justify left bottom)
 		)
 		(uuid "cec4e1d5-4c79-49bc-8a16-c67c570a9363")
+	)
+	(label "TX"
+		(at 111.76 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e05fe552-9774-4db8-b3ff-4db40e3c3490")
 	)
 	(label "TRIGOUT"
 		(at 137.16 64.77 0)
@@ -5442,7 +5472,7 @@
 	)
 	(hierarchical_label "SCK"
 		(shape output)
-		(at 71.12 68.58 180)
+		(at 53.34 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6497,6 +6527,92 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/5e75b7d0-06d7-44d3-9715-75151d16c7a9"
 					(reference "#PWR0288")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 68.58 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "372db073-433f-4ea6-aa9d-82fa1efb7c66")
+		(property "Reference" "R90"
+			(at 65.532 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33"
+			(at 68.58 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 68.58 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 68.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25105"
+			(at 68.58 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 68.58 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d9dbe75-3c8a-4766-acc1-df088eb39d10")
+		)
+		(pin "1"
+			(uuid "10c0f820-6779-4771-b705-5ad408655651")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/5e75b7d0-06d7-44d3-9715-75151d16c7a9"
+					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -9178,7 +9294,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25741"
 			(at 82.55 116.84 90)
 			(effects
 				(font

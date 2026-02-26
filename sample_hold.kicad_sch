@@ -638,7 +638,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
+		(symbol "Jumper:SolderJumper_2_Bridged"
 			(pin_numbers
 				(hide yes)
 			)
@@ -657,7 +657,7 @@
 					)
 				)
 			)
-			(property "Value" "SolderJumper_2_Open"
+			(property "Value" "SolderJumper_2_Bridged"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -683,7 +683,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Solder Jumper, 2-pole, open"
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
 				(at 0 0 0)
 				(effects
 					(font
@@ -701,7 +701,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -710,7 +710,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "SolderJumper_2_Open_0_1"
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy -0.254 1.016) (xy -0.254 -1.016)
@@ -784,7 +795,7 @@
 					)
 				)
 			)
-			(symbol "SolderJumper_2_Open_1_1"
+			(symbol "SolderJumper_2_Bridged_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -6079,7 +6090,7 @@
 		(at 143.51 63.5 0)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.016 1.016)
 			)
 			(justify left bottom)
 		)
@@ -6090,6 +6101,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.1588)
 			)
 			(justify right bottom)
 		)
@@ -6099,7 +6111,7 @@
 		(at 110.49 67.31 0)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.016 1.016)
 			)
 			(justify left bottom)
 		)
@@ -6109,7 +6121,7 @@
 		(at 166.37 66.04 180)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.016 1.016)
 			)
 			(justify right bottom)
 		)
@@ -8256,7 +8268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 106.3752 77.47 0)
 			(effects
 				(font
@@ -8283,7 +8295,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1546"
+		(property "LCSC" ""
 			(at 105.41 73.66 0)
 			(effects
 				(font
@@ -8596,7 +8608,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "150"
 			(at 181.61 66.04 90)
 			(effects
 				(font
@@ -8631,7 +8643,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25076"
 			(at 181.61 66.04 90)
 			(effects
 				(font
@@ -9008,7 +9020,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "Jumper:SolderJumper_2_Bridged")
 		(at 170.18 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9033,7 +9045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Parts:JumperOpen"
+		(property "Footprint" "Parts:JumperClosed"
 			(at 170.18 81.28 0)
 			(effects
 				(font
@@ -9051,7 +9063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, open"
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
 			(at 170.18 81.28 0)
 			(effects
 				(font
@@ -11024,7 +11036,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Parts:OPA828DGN_guard"
+		(property "Footprint" "Parts:OPA828DGN"
 			(at 200.66 73.66 0)
 			(effects
 				(font
@@ -11663,7 +11675,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 211.7852 77.47 0)
 			(effects
 				(font
@@ -11690,7 +11702,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1546"
+		(property "LCSC" ""
 			(at 210.82 73.66 0)
 			(effects
 				(font

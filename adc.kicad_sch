@@ -2541,12 +2541,6 @@
 		(uuid "b186328c-d9e0-42ab-9d28-ca09c94c1d05")
 	)
 	(junction
-		(at 97.79 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd5954ab-501a-4685-bcd5-dd7f907d428b")
-	)
-	(junction
 		(at 127 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2982,16 +2976,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 86.36) (xy 97.79 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7aa3fea0-4942-4b28-b6e3-dca8a7b46d2d")
-	)
-	(wire
-		(pts
 			(xy 156.21 76.2) (xy 161.29 76.2)
 		)
 		(stroke
@@ -3322,7 +3306,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 86.36) (xy 101.6 86.36)
+			(xy 99.06 86.36) (xy 101.6 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3559,26 +3543,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "Ref0V"
-		(shape input)
-		(at 91.44 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "85160b96-6b08-4a1d-91f7-e3b14d2cd577")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.8504 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -5356,93 +5320,6 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e69ade03-efa5-476d-a99a-7096b679a0cf"
 					(reference "C762")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 97.79 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5c46c064-7045-40b8-a4da-55cd62f44ee9")
-		(property "Reference" "C763"
-			(at 97.79 88.392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n"
-			(at 97.79 92.202 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 98.7552 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "C0G, 25V"
-			(at 97.79 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 97.79 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C307500"
-			(at 97.79 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" ""
-			(at 97.79 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f8b7a02-86d2-4a52-9543-ed037f868628")
-		)
-		(pin "2"
-			(uuid "3ed30343-550d-480c-acdf-5bfdf46d8cd6")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e69ade03-efa5-476d-a99a-7096b679a0cf"
-					(reference "C763")
 					(unit 1)
 				)
 			)
@@ -7939,7 +7816,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 93.98 0)
+		(at 99.06 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7947,7 +7824,7 @@
 		(dnp no)
 		(uuid "e625e793-8d50-4503-8802-aa2d9e57bff1")
 		(property "Reference" "#PWR0171"
-			(at 97.79 100.33 0)
+			(at 99.06 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7956,7 +7833,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 97.79 0)
+			(at 99.06 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7965,7 +7842,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 93.98 0)
+			(at 99.06 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7974,7 +7851,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 93.98 0)
+			(at 99.06 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7983,7 +7860,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 93.98 0)
+			(at 99.06 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)

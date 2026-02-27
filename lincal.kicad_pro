@@ -65,12 +65,20 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|298025000|197325000|cda336b7-a100-4cdc-a550-18ef022de209|f2274a27-ac12-434f-bba3-2043268be82b",
-          "Intentional"
+          "courtyards_overlap|192925000|187575000|793dc0c0-b291-438e-9809-fde1f787bc3a|86d9edd8-d1cc-4a43-8211-4edc731739d6",
+          "Alternate links"
         ],
         [
-          "courtyards_overlap|299325000|160325000|eee5f335-766e-4e76-b7b1-095717fba6b5|f05ea5a0-1d53-4c14-8142-c9c0c2a5b9bf",
-          ""
+          "courtyards_overlap|194225000|216475000|8c60e036-5b9a-4953-9e2e-e3f4130aeb2c|a263ba96-1dda-4346-ae74-f67dd10941af",
+          "Alternate links"
+        ],
+        [
+          "courtyards_overlap|200275000|216475000|cda336b7-a100-4cdc-a550-18ef022de209|f2274a27-ac12-434f-bba3-2043268be82b",
+          "Alternate links"
+        ],
+        [
+          "courtyards_overlap|201575000|187575000|eee5f335-766e-4e76-b7b1-095717fba6b5|f05ea5a0-1d53-4c14-8142-c9c0c2a5b9bf",
+          "Alternate links"
         ]
       ],
       "meta": {

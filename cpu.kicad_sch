@@ -4151,6 +4151,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 71.12) (xy 123.19 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049e1546-a93f-405b-92d1-4b96a38dc013")
+	)
+	(wire
+		(pts
 			(xy 110.49 71.12) (xy 111.76 71.12)
 		)
 		(stroke
@@ -4168,6 +4178,16 @@
 			(type default)
 		)
 		(uuid "06802fe6-5f9f-4b9e-9281-308dc9cb1794")
+	)
+	(wire
+		(pts
+			(xy 111.76 68.58) (xy 110.49 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0864fe7c-93ce-4aea-a41b-fbfda7b6df10")
 	)
 	(wire
 		(pts
@@ -4451,6 +4471,26 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 71.12) (xy 80.01 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54d31dba-1d42-4448-a354-be5c5380ef4f")
+	)
+	(wire
+		(pts
+			(xy 119.38 76.2) (xy 123.19 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55cf82d2-a978-4f8e-b8d3-392f86e55463")
+	)
+	(wire
+		(pts
 			(xy 88.9 110.49) (xy 96.52 110.49)
 		)
 		(stroke
@@ -4481,6 +4521,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 68.58) (xy 123.19 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68950ba6-ff9b-4ce5-a940-91df31b6d5fc")
+	)
+	(wire
+		(pts
 			(xy 170.18 115.57) (xy 171.45 115.57)
 		)
 		(stroke
@@ -4491,7 +4541,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 73.66) (xy 71.12 73.66)
+			(xy 43.18 73.66) (xy 71.12 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4531,16 +4581,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 68.58) (xy 111.76 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "797b753e-33f3-4f0d-9c40-238727a63677")
-	)
-	(wire
-		(pts
 			(xy 167.64 62.23) (xy 171.45 62.23)
 		)
 		(stroke
@@ -4548,16 +4588,6 @@
 			(type default)
 		)
 		(uuid "7d0f8e47-888a-4e0f-b054-dcaf7f21ce8f")
-	)
-	(wire
-		(pts
-			(xy 110.49 48.26) (xy 118.11 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "832efd39-44c5-4184-b2a0-9736ab74dfa9")
 	)
 	(wire
 		(pts
@@ -4591,7 +4621,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 68.58) (xy 64.77 68.58)
+			(xy 59.69 68.58) (xy 71.12 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4641,6 +4671,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 48.26) (xy 121.92 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96abf0b7-09a6-404c-8370-bb73a93fb564")
+	)
+	(wire
+		(pts
 			(xy 157.48 46.99) (xy 154.94 46.99)
 		)
 		(stroke
@@ -4661,7 +4701,17 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 71.12) (xy 80.01 71.12)
+			(xy 118.11 50.8) (xy 121.92 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a8a57a-17ba-4706-a6d0-f47ed995a1c2")
+	)
+	(wire
+		(pts
+			(xy 59.69 71.12) (xy 71.12 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4841,6 +4891,26 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 78.74) (xy 123.19 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca82f3f7-01ed-4b85-b813-04933faa41a1")
+	)
+	(wire
+		(pts
+			(xy 119.38 81.28) (xy 123.19 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cabd5621-a33c-48e6-8310-bd7291f4c1b1")
+	)
+	(wire
+		(pts
 			(xy 168.91 72.39) (xy 167.64 72.39)
 		)
 		(stroke
@@ -4871,7 +4941,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 68.58) (xy 80.01 68.58)
+			(xy 78.74 68.58) (xy 80.01 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4898,16 +4968,6 @@
 			(type default)
 		)
 		(uuid "d1efc5cd-5610-47c2-b0a4-414e9d6e2d49")
-	)
-	(wire
-		(pts
-			(xy 110.49 50.8) (xy 118.11 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3cae48a-984b-40a0-bce6-292032294888")
 	)
 	(wire
 		(pts
@@ -4978,6 +5038,16 @@
 			(type default)
 		)
 		(uuid "e02d637f-1dc6-4a6f-a271-5be996423b5f")
+	)
+	(wire
+		(pts
+			(xy 119.38 73.66) (xy 123.19 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e09fa7f9-6e96-49bc-8ca2-22cb145cb9ef")
 	)
 	(wire
 		(pts
@@ -5080,7 +5150,7 @@
 		(uuid "2a58f26b-911b-4036-b41a-0e74d4903576")
 	)
 	(label "SCK"
-		(at 54.61 68.58 0)
+		(at 60.96 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5110,7 +5180,7 @@
 		(uuid "635a5246-0fb5-45d1-8c2b-c7a66b4080f8")
 	)
 	(label "RX"
-		(at 111.76 50.8 0)
+		(at 119.38 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5160,7 +5230,7 @@
 		(uuid "bc62deb2-d97c-41b4-a9cf-2e3bf7df902d")
 	)
 	(label "MOSI"
-		(at 72.39 71.12 0)
+		(at 60.96 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5190,7 +5260,7 @@
 		(uuid "cec4e1d5-4c79-49bc-8a16-c67c570a9363")
 	)
 	(label "TX"
-		(at 111.76 48.26 0)
+		(at 119.38 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5274,7 +5344,7 @@
 	)
 	(hierarchical_label "~{CS2}"
 		(shape output)
-		(at 111.76 68.58 0)
+		(at 123.19 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5285,7 +5355,7 @@
 	)
 	(hierarchical_label "MOSI"
 		(shape output)
-		(at 71.12 71.12 180)
+		(at 59.69 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5329,7 +5399,7 @@
 	)
 	(hierarchical_label "~{CS4}"
 		(shape output)
-		(at 111.76 73.66 0)
+		(at 123.19 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5340,7 +5410,7 @@
 	)
 	(hierarchical_label "~{CS5}"
 		(shape output)
-		(at 111.76 76.2 0)
+		(at 123.19 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5362,7 +5432,7 @@
 	)
 	(hierarchical_label "~{LDAC}"
 		(shape output)
-		(at 111.76 81.28 0)
+		(at 123.19 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5384,7 +5454,7 @@
 	)
 	(hierarchical_label "~{CS3}"
 		(shape output)
-		(at 111.76 71.12 0)
+		(at 123.19 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5406,7 +5476,7 @@
 	)
 	(hierarchical_label "LATCH"
 		(shape output)
-		(at 111.76 78.74 0)
+		(at 123.19 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5472,7 +5542,7 @@
 	)
 	(hierarchical_label "SCK"
 		(shape output)
-		(at 53.34 68.58 180)
+		(at 59.69 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5807,6 +5877,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 115.57 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0833beff-bf89-41ca-b434-32edf93f0714")
+		(property "Reference" "R97"
+			(at 118.364 75.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "33"
+			(at 115.57 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 115.57 77.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25105"
+			(at 115.57 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 115.57 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "35bcd027-3d3b-4cb3-b9d4-f6a3c783839b")
+		)
+		(pin "1"
+			(uuid "5390aca4-bef4-44fe-9523-37ff1cc6a11f")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/5e75b7d0-06d7-44d3-9715-75151d16c7a9"
+					(reference "R97")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 171.45 57.15 0)
 		(unit 1)
@@ -6006,7 +6162,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 118.11 53.34 0)
+		(at 121.92 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6014,7 +6170,7 @@
 		(dnp no)
 		(uuid "167d1062-e10d-4999-a28e-37a8b358862e")
 		(property "Reference" "#PWR0319"
-			(at 118.11 59.69 0)
+			(at 121.92 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6023,7 +6179,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 118.11 56.642 0)
+			(at 121.92 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6032,7 +6188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 54.61 0)
+			(at 121.92 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6041,7 +6197,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 54.61 0)
+			(at 121.92 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6050,7 +6206,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 118.11 53.34 0)
+			(at 121.92 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6335,6 +6491,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 74.93 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ceeda26-ac61-46b9-bc47-d7bfdd057404")
+		(property "Reference" "R93"
+			(at 71.882 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33"
+			(at 74.93 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 74.93 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25105"
+			(at 74.93 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 74.93 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b3b9819f-93f5-4929-bbeb-44e1e2a0baf0")
+		)
+		(pin "1"
+			(uuid "374d735c-cad4-40fd-83f1-56c3fcb09c84")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/5e75b7d0-06d7-44d3-9715-75151d16c7a9"
+					(reference "R93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Parts:+3V3A")
 		(at 134.62 91.44 0)
 		(unit 1)
@@ -6534,7 +6776,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 68.58 68.58 90)
+		(at 74.93 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6542,7 +6784,7 @@
 		(dnp no)
 		(uuid "372db073-433f-4ea6-aa9d-82fa1efb7c66")
 		(property "Reference" "R90"
-			(at 65.532 67.564 90)
+			(at 71.882 67.564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6551,7 +6793,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 68.58 68.58 90)
+			(at 74.93 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6559,7 +6801,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 68.58 70.358 90)
+			(at 74.93 70.358 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6568,7 +6810,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 68.58 0)
+			(at 74.93 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6577,7 +6819,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 68.58 68.58 0)
+			(at 74.93 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6586,7 +6828,7 @@
 			)
 		)
 		(property "LCSC" "C25105"
-			(at 68.58 68.58 90)
+			(at 74.93 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6595,7 +6837,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 68.58 68.58 90)
+			(at 74.93 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7068,6 +7310,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 115.57 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4627e333-d659-4ac0-8738-4715b1e786d0")
+		(property "Reference" "R94"
+			(at 118.364 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "33"
+			(at 115.57 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 115.57 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25105"
+			(at 115.57 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 115.57 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f4e6e468-99f4-4069-915f-3181e2352f16")
+		)
+		(pin "1"
+			(uuid "96a9b981-628a-4e1a-b8b4-c3283b1265d8")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/5e75b7d0-06d7-44d3-9715-75151d16c7a9"
+					(reference "R94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_Coaxial")
 		(at 185.42 64.77 0)
 		(unit 1)
@@ -7267,6 +7595,177 @@
 			(project ""
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/5e75b7d0-06d7-44d3-9715-75151d16c7a9"
 					(reference "U82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ff9d0a9-ce60-493e-92e1-5e8d126ff046")
+		(property "Reference" "R99"
+			(at 118.364 80.264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "33"
+			(at 115.57 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 115.57 83.058 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25105"
+			(at 115.57 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 115.57 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "13b1983c-c04a-41cc-bfdf-b9ee5f1b494b")
+		)
+		(pin "1"
+			(uuid "325fc418-0119-446a-aa6f-cda764952915")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/5e75b7d0-06d7-44d3-9715-75151d16c7a9"
+					(reference "R99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 114.3 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52607ed0-6312-43d8-9842-139248342665")
+		(property "Reference" "R91"
+			(at 114.3 46.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 114.3 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 114.3 50.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 114.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 114.3 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 114.3 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "57926ce6-7aa1-4509-89cb-bb7a9d539c7a")
+		)
+		(pin "1"
+			(uuid "c969d45c-99c6-417e-9528-2bbff223ca83")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/5e75b7d0-06d7-44d3-9715-75151d16c7a9"
+					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -7484,6 +7983,91 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/5e75b7d0-06d7-44d3-9715-75151d16c7a9"
 					(reference "#PWR0303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 114.3 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "696a3b5c-3e4f-4ae1-9bdb-d85f6e5184b7")
+		(property "Reference" "R92"
+			(at 114.3 52.832 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 114.3 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 114.3 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 114.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 114.3 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 114.3 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e4c0c27-88ce-4cf7-afe0-80dafc96a480")
+		)
+		(pin "1"
+			(uuid "153ca75e-8f1b-4c6a-94ac-92dd5efcb3a3")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/5e75b7d0-06d7-44d3-9715-75151d16c7a9"
+					(reference "R92")
 					(unit 1)
 				)
 			)
@@ -7852,6 +8436,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 115.57 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a029588-1a14-4b8c-a594-57a0d8355115")
+		(property "Reference" "R98"
+			(at 118.364 77.724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "33"
+			(at 115.57 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 115.57 80.518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25105"
+			(at 115.57 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 115.57 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aca6a878-f9de-41e6-b152-5c362782ccb3")
+		)
+		(pin "1"
+			(uuid "92105341-5042-40ca-8576-93e196f3499a")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/5e75b7d0-06d7-44d3-9715-75151d16c7a9"
+					(reference "R98")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 99.06 36.83 90)
 		(unit 1)
@@ -8026,7 +8696,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 123.19 50.8 0)
+		(at 127 50.8 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8035,7 +8705,7 @@
 		(dnp no)
 		(uuid "94d3539a-d571-4b22-a66f-21bdf4f73eea")
 		(property "Reference" "J81"
-			(at 123.19 46.736 0)
+			(at 127 46.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8043,7 +8713,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 123.19 55.88 0)
+			(at 127 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8052,7 +8722,7 @@
 			)
 		)
 		(property "Footprint" "Parts:PinHeader_1x03_P2.54mm_Vertical"
-			(at 123.19 50.8 0)
+			(at 127 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8061,7 +8731,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 50.8 0)
+			(at 127 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8070,7 +8740,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 123.19 50.8 0)
+			(at 127 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8079,7 +8749,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 123.19 50.8 0)
+			(at 127 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8389,6 +9059,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 115.57 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7d27059-09ff-4ec6-b1f3-b7a937f085da")
+		(property "Reference" "R96"
+			(at 118.364 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "33"
+			(at 115.57 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 115.57 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25105"
+			(at 115.57 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 115.57 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "50f019fb-8006-40d9-93d1-45ac32f393e7")
+		)
+		(pin "1"
+			(uuid "ac73e3ba-1643-49bc-a6ae-7ca42ccfb506")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/5e75b7d0-06d7-44d3-9715-75151d16c7a9"
+					(reference "R96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 82.55 129.54 0)
 		(unit 1)
@@ -8543,7 +9299,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 62.23 73.66 0)
+		(at 43.18 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8551,7 +9307,7 @@
 		(dnp no)
 		(uuid "c0fdd47f-1ec1-4c40-a52d-508a5ef4a1e9")
 		(property "Reference" "#PWR0320"
-			(at 62.23 77.47 0)
+			(at 43.18 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8560,7 +9316,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 62.23 70.104 0)
+			(at 43.18 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8568,7 +9324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 73.66 0)
+			(at 43.18 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8577,7 +9333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 73.66 0)
+			(at 43.18 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8586,7 +9342,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 62.23 73.66 0)
+			(at 43.18 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9735,6 +10491,92 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/5e75b7d0-06d7-44d3-9715-75151d16c7a9"
 					(reference "L81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1722ec2-4e79-4062-b9ad-d4198c6ae7d1")
+		(property "Reference" "R95"
+			(at 118.364 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "33"
+			(at 115.57 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 115.57 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25105"
+			(at 115.57 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" ""
+			(at 115.57 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb0b5e61-ed0f-4c41-b85c-57c5fc426ef7")
+		)
+		(pin "1"
+			(uuid "509bb34c-d418-40c0-8b69-78ac02ee4837")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/5e75b7d0-06d7-44d3-9715-75151d16c7a9"
+					(reference "R95")
 					(unit 1)
 				)
 			)

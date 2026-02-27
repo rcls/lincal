@@ -8930,7 +8930,7 @@
 			)
 		)
 		(property "Value" "100p"
-			(at 74.93 149.098 0)
+			(at 73.66 152.146 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9523,7 +9523,7 @@
 			)
 		)
 		(property "Value" "100p"
-			(at 74.93 61.722 0)
+			(at 73.66 60.706 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9946,7 +9946,6 @@
 		(lib_name "LT5400_1")
 		(lib_id "Parts:LT5400")
 		(at 77.47 78.74 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9962,7 +9961,7 @@
 			)
 		)
 		(property "Value" "LT5400-1"
-			(at 82.296 83.82 0)
+			(at 82.55 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9970,7 +9969,7 @@
 			)
 		)
 		(property "Footprint" "Parts:MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm"
-			(at 70.485 78.74 90)
+			(at 84.455 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9979,7 +9978,7 @@
 			)
 		)
 		(property "Datasheet" "0.2ppm/°C matching"
-			(at 75.692 95.504 90)
+			(at 79.248 95.504 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10794,7 +10793,6 @@
 	(symbol
 		(lib_id "Parts:LT5400")
 		(at 77.47 132.08 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10818,7 +10816,7 @@
 			)
 		)
 		(property "Footprint" "Parts:MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm"
-			(at 70.485 132.08 90)
+			(at 84.455 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10827,7 +10825,7 @@
 			)
 		)
 		(property "Datasheet" "0.2ppm/°C matching"
-			(at 68.326 133.604 0)
+			(at 86.614 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)

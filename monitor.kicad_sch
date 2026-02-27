@@ -900,312 +900,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L_Ferrite"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L_Ferrite"
-				(at 2.794 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor with ferrite core"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_Ferrite_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 2.286) (xy 1.016 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.27) (xy 1.016 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0.254) (xy 1.016 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -0.762) (xy 1.016 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.778) (xy 1.016 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -2.794) (xy 1.016 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 2.794) (xy 1.524 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 1.778) (xy 1.524 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0.762) (xy 1.524 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -0.254) (xy 1.524 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -1.27) (xy 1.524 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -2.286) (xy 1.524 -2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_Ferrite_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -8106,7 +7800,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Ferrite")
+		(lib_id "Device:R")
 		(at 87.63 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8114,8 +7808,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b67ddf4-b692-40a9-ac5e-c5c6c0e1eb51")
-		(property "Reference" "L71"
-			(at 87.63 71.12 90)
+		(property "Reference" "R704"
+			(at 87.63 67.818 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8123,14 +7817,23 @@
 			)
 		)
 		(property "Value" "100"
-			(at 87.63 67.056 90)
+			(at 87.63 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 87.63 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 87.63 69.85 0)
 			(effects
 				(font
@@ -8139,7 +7842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "2A / 50mΩ"
+		(property "Description" "Resistor"
 			(at 87.63 69.85 0)
 			(effects
 				(font
@@ -8148,16 +7851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor with ferrite core"
-			(at 87.63 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14709"
+		(property "LCSC" "C25076"
 			(at 87.63 69.85 90)
 			(effects
 				(font
@@ -8184,7 +7878,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/b0f71c87-958f-452c-ba10-5bfb9905e5da"
-					(reference "L71")
+					(reference "R704")
 					(unit 1)
 				)
 			)
@@ -9192,7 +8886,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Ferrite")
+		(lib_id "Device:R")
 		(at 123.19 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9200,8 +8894,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a15685be-e780-4d41-be71-866f95b364f6")
-		(property "Reference" "L74"
-			(at 123.19 101.6 90)
+		(property "Reference" "R715"
+			(at 123.19 98.298 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9209,14 +8903,23 @@
 			)
 		)
 		(property "Value" "100"
-			(at 123.19 97.536 90)
+			(at 123.19 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 123.19 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 123.19 100.33 0)
 			(effects
 				(font
@@ -9225,7 +8928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "2A / 50mΩ"
+		(property "Description" "Resistor"
 			(at 123.19 100.33 0)
 			(effects
 				(font
@@ -9234,16 +8937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor with ferrite core"
-			(at 123.19 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14709"
+		(property "LCSC" "C25076"
 			(at 123.19 100.33 90)
 			(effects
 				(font
@@ -9270,7 +8964,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/b0f71c87-958f-452c-ba10-5bfb9905e5da"
-					(reference "L74")
+					(reference "R715")
 					(unit 1)
 				)
 			)
@@ -9386,7 +9080,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Ferrite")
+		(lib_id "Device:R")
 		(at 123.19 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9394,8 +9088,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae3f8b06-d9f5-49d0-ab19-e757dff8e914")
-		(property "Reference" "L73"
-			(at 123.19 67.31 90)
+		(property "Reference" "R714"
+			(at 123.19 64.008 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9403,14 +9097,23 @@
 			)
 		)
 		(property "Value" "100"
-			(at 123.19 63.246 90)
+			(at 123.19 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 123.19 67.818 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 123.19 66.04 0)
 			(effects
 				(font
@@ -9419,7 +9122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "2A / 50mΩ"
+		(property "Description" "Resistor"
 			(at 123.19 66.04 0)
 			(effects
 				(font
@@ -9428,16 +9131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor with ferrite core"
-			(at 123.19 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14709"
+		(property "LCSC" "C25076"
 			(at 123.19 66.04 90)
 			(effects
 				(font
@@ -9464,7 +9158,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/b0f71c87-958f-452c-ba10-5bfb9905e5da"
-					(reference "L73")
+					(reference "R714")
 					(unit 1)
 				)
 			)
@@ -10000,7 +9694,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Ferrite")
+		(lib_id "Device:R")
 		(at 87.63 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10008,8 +9702,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7830ccb-eee1-4a5b-bfc8-27664f3c921b")
-		(property "Reference" "L72"
-			(at 87.63 96.52 90)
+		(property "Reference" "R706"
+			(at 87.63 93.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10017,14 +9711,23 @@
 			)
 		)
 		(property "Value" "100"
-			(at 87.63 92.456 90)
+			(at 87.63 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 87.63 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 87.63 95.25 0)
 			(effects
 				(font
@@ -10033,7 +9736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "2A / 50mΩ"
+		(property "Description" "Resistor"
 			(at 87.63 95.25 0)
 			(effects
 				(font
@@ -10042,16 +9745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor with ferrite core"
-			(at 87.63 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14709"
+		(property "LCSC" "C25076"
 			(at 87.63 95.25 90)
 			(effects
 				(font
@@ -10078,7 +9772,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/b0f71c87-958f-452c-ba10-5bfb9905e5da"
-					(reference "L72")
+					(reference "R706")
 					(unit 1)
 				)
 			)

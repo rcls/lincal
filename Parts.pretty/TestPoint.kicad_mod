@@ -19,7 +19,7 @@
 	(property "Value" "TestPoint"
 		(at 0 1 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "F.SilkS")
 		(uuid "2a2396e1-bc11-44bf-b3d2-cf3d328fa8f4")
 		(effects
 			(font

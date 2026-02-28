@@ -2613,6 +2613,10 @@
 		(uuid "fa538ba7-d4c6-44ce-adb7-f8c2241e9c4b")
 	)
 	(no_connect
+		(at 168.91 55.88)
+		(uuid "36174635-14eb-43bf-b147-128ffebabac4")
+	)
+	(no_connect
 		(at 168.91 68.58)
 		(uuid "3a2f169c-3bca-40c7-b1ae-7aceef70f105")
 	)
@@ -2623,10 +2627,6 @@
 	(no_connect
 		(at 199.39 63.5)
 		(uuid "85c396ab-ba23-4366-9505-f58b94a22859")
-	)
-	(no_connect
-		(at 168.91 50.8)
-		(uuid "873268f5-520d-4371-9964-7a0defc97cc1")
 	)
 	(no_connect
 		(at 199.39 45.72)
@@ -2716,7 +2716,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 55.88) (xy 168.91 55.88)
+			(xy 165.1 50.8) (xy 168.91 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3601,7 +3601,7 @@
 	)
 	(hierarchical_label "IN+"
 		(shape input)
-		(at 165.1 55.88 180)
+		(at 165.1 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6850,7 +6850,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2dbfe30-b9d7-4dbe-9d21-a81907a5c658")
-		(property "Reference" "C772"
+		(property "Reference" "C76"
 			(at 139.7 104.648 0)
 			(effects
 				(font
@@ -6922,7 +6922,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e69ade03-efa5-476d-a99a-7096b679a0cf"
-					(reference "C772")
+					(reference "C76")
 					(unit 1)
 				)
 			)

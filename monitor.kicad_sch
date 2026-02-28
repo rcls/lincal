@@ -5685,6 +5685,16 @@
 		)
 		(uuid "66fa80b7-47af-4674-9ead-9e6bbbf33b8e")
 	)
+	(label "SumOut"
+		(at 214.63 67.31 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "72660d9b-bf19-4fff-a8c4-c42535dec8cd")
+	)
 	(label "BufB"
 		(at 119.38 85.09 0)
 		(effects
@@ -7967,7 +7977,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71f5945e-5ddd-4cfd-bf74-4ce9057269f5")
-		(property "Reference" "R707"
+		(property "Reference" "R73"
 			(at 171.45 85.598 90)
 			(effects
 				(font
@@ -8037,7 +8047,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/b0f71c87-958f-452c-ba10-5bfb9905e5da"
-					(reference "R707")
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -11310,7 +11320,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff32dd2d-8506-48ad-a18f-6d754972f320")
-		(property "Reference" "JP3"
+		(property "Reference" "JP5"
 			(at 198.12 75.184 0)
 			(effects
 				(font
@@ -11372,7 +11382,7 @@
 		(instances
 			(project ""
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/b0f71c87-958f-452c-ba10-5bfb9905e5da"
-					(reference "JP3")
+					(reference "JP5")
 					(unit 1)
 				)
 			)

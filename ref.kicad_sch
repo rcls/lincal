@@ -4725,7 +4725,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Ref15"
 			(at 191.77 52.07 0)
 			(effects
 				(font
@@ -5769,7 +5769,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "RefIn"
 			(at 83.82 46.99 0)
 			(effects
 				(font
@@ -6256,7 +6256,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Raw5"
 			(at 111.76 46.99 0)
 			(effects
 				(font
@@ -7500,7 +7500,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Raw15"
 			(at 143.51 49.53 0)
 			(effects
 				(font
@@ -9303,7 +9303,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "GND"
 			(at 116.84 69.85 0)
 			(effects
 				(font

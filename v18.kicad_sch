@@ -1232,7 +1232,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_CSP:LFCSP-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
+			(property "Footprint" "Parts:LFCSP-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
 				(at 1.27 -25.4 0)
 				(effects
 					(font
@@ -2126,7 +2126,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:Texas_RGW0020A_VQFN-20-1EP_5x5mm_P0.65mm_EP3.15x3.15mm"
+			(property "Footprint" "Parts:Texas_RGW0020A_VQFN-20-1EP_5x5mm_P0.65mm_EP3.15x3.15mm"
 				(at 1.27 11.43 0)
 				(effects
 					(font
@@ -2601,7 +2601,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:Texas_RGW0020A_VQFN-20-1EP_5x5mm_P0.65mm_EP3.15x3.15mm"
+			(property "Footprint" "Parts:Texas_RGW0020A_VQFN-20-1EP_5x5mm_P0.65mm_EP3.15x3.15mm"
 				(at 4.445 21.59 0)
 				(effects
 					(font
@@ -3714,6 +3714,12 @@
 		(uuid "8215a4dd-3b24-478d-9623-bdc7ff16ba08")
 	)
 	(junction
+		(at 128.27 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84b93c26-8090-4c50-92b1-5923b4aece51")
+	)
+	(junction
 		(at 80.01 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4485,7 +4491,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 86.36) (xy 134.62 86.36)
+			(xy 123.19 86.36) (xy 128.27 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5022,6 +5028,16 @@
 			(type default)
 		)
 		(uuid "b57653c7-0d3e-4a8a-998c-e57f21d515b8")
+	)
+	(wire
+		(pts
+			(xy 128.27 86.36) (xy 134.62 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6e63169-e564-4f5f-bbcc-043d1d45940c")
 	)
 	(wire
 		(pts
@@ -5671,7 +5687,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "-18V"
 			(at 134.62 97.79 0)
 			(effects
 				(font
@@ -6400,7 +6416,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:LFCSP-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
+		(property "Footprint" "Parts:LFCSP-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
 			(at 97.79 88.9 0)
 			(effects
 				(font
@@ -6848,7 +6864,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "-16V"
 			(at 223.52 87.63 0)
 			(effects
 				(font
@@ -7179,7 +7195,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "19V"
 			(at 223.52 38.1 0)
 			(effects
 				(font
@@ -8624,6 +8640,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 129.54 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bbd929d-0b4e-4a1b-a95a-5caf9349dbfe")
+		(property "Reference" "#FLG074"
+			(at 129.54 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 129.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 129.54 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57a3c11f-2ea2-4290-bedb-97952a2fc0fd")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
+					(reference "#FLG074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Parts:+19V")
 		(at 240.03 43.18 0)
 		(unit 1)
@@ -9289,7 +9371,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "21V"
 			(at 134.62 38.1 0)
 			(effects
 				(font
@@ -9737,7 +9819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9abaaa5d-df31-4939-9bdc-05d71a0a5609")
-		(property "Reference" "C523"
+		(property "Reference" "C54"
 			(at 170.18 49.022 0)
 			(effects
 				(font
@@ -9809,7 +9891,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "C523")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -11107,6 +11189,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 128.27 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd21c802-56fa-4a5f-859e-19851ffcf8b9")
+		(property "Reference" "#FLG075"
+			(at 128.27 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 128.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 128.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32f50867-700f-4953-84b8-ece7264d88af")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
+					(reference "#FLG075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 201.93 106.68 0)
 		(unit 1)
@@ -11597,7 +11745,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_RGW0020A_VQFN-20-1EP_5x5mm_P0.65mm_EP3.15x3.15mm"
+		(property "Footprint" "Parts:Texas_RGW0020A_VQFN-20-1EP_5x5mm_P0.65mm_EP3.15x3.15mm"
 			(at 192.405 36.83 0)
 			(effects
 				(font
@@ -11739,7 +11887,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_RGW0020A_VQFN-20-1EP_5x5mm_P0.65mm_EP3.15x3.15mm"
+		(property "Footprint" "Parts:Texas_RGW0020A_VQFN-20-1EP_5x5mm_P0.65mm_EP3.15x3.15mm"
 			(at 189.23 86.36 0)
 			(effects
 				(font

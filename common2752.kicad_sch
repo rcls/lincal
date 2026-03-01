@@ -1365,299 +1365,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Parts:L_Ferrite_Power"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L_Ferrite_Power"
-				(at 2.794 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor with ferrite core"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_Ferrite_Power_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.778) (xy 1.016 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0.762) (xy 1.016 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -0.254) (xy 1.016 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy 1.016 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -2.286) (xy 1.016 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 3.048)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 2.286) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 1.27) (xy 1.524 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0.254) (xy 1.524 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -0.762) (xy 1.524 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -1.778) (xy 1.524 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_Ferrite_Power_1_1"
-				(pin power_in line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Parts:OPA2189DGK"
 			(pin_numbers
 				(hide yes)
@@ -2617,22 +2324,10 @@
 		(uuid "4a797c4a-704e-4393-9ed7-45da383b1f4c")
 	)
 	(junction
-		(at 43.18 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "556d6534-9291-40ea-b8ba-561dcf796051")
-	)
-	(junction
 		(at 78.74 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56b7546a-c6b3-48c7-9f25-81892d83b6fb")
-	)
-	(junction
-		(at 43.18 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59bbb3a2-bf94-4e6c-bf90-5c48132a1d99")
 	)
 	(junction
 		(at 104.14 104.14)
@@ -2645,12 +2340,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64cc8af2-6d29-49f7-8e25-54a933d39c8d")
-	)
-	(junction
-		(at 43.18 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6bb60cb7-a4d9-4165-bbfb-7cf881571ae8")
 	)
 	(junction
 		(at 125.73 119.38)
@@ -2701,12 +2390,6 @@
 		(uuid "cc492de7-2249-47c9-9187-c8cdc2d89743")
 	)
 	(junction
-		(at 43.18 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cdc3cc99-3cff-44b9-90f4-35010ff7feef")
-	)
-	(junction
 		(at 49.53 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2737,16 +2420,6 @@
 	(no_connect
 		(at 78.74 58.42)
 		(uuid "8e407bbb-401a-4f01-b3fc-9e541c259aed")
-	)
-	(wire
-		(pts
-			(xy 43.18 71.12) (xy 49.53 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0849faaf-b211-4d50-a437-e3e930427c4a")
 	)
 	(wire
 		(pts
@@ -2880,7 +2553,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 60.96) (xy 87.63 60.96)
+			(xy 78.74 60.96) (xy 82.55 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2950,16 +2623,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 71.12) (xy 43.18 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "779df99a-f0a8-481f-93b3-57285665962d")
-	)
-	(wire
-		(pts
 			(xy 78.74 66.04) (xy 78.74 68.58)
 		)
 		(stroke
@@ -3000,16 +2663,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 116.84) (xy 34.29 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "988ff57b-6b27-4c3b-91ab-be12193fd16c")
-	)
-	(wire
-		(pts
 			(xy 50.8 58.42) (xy 53.34 58.42)
 		)
 		(stroke
@@ -3037,16 +2690,6 @@
 			(type default)
 		)
 		(uuid "a8d1c119-5c3e-4d8f-bfdf-116af2c47ad0")
-	)
-	(wire
-		(pts
-			(xy 31.75 71.12) (xy 34.29 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b53e53c0-4a26-4f19-85c5-5457c579ac22")
 	)
 	(wire
 		(pts
@@ -3080,7 +2723,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 106.68) (xy 87.63 106.68)
+			(xy 78.74 106.68) (xy 82.55 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3110,16 +2753,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 78.74) (xy 49.53 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e86fb876-3e7f-4793-a41c-8918ca332e42")
-	)
-	(wire
-		(pts
 			(xy 49.53 124.46) (xy 53.34 124.46)
 		)
 		(stroke
@@ -3127,16 +2760,6 @@
 			(type default)
 		)
 		(uuid "f2308b20-5dda-43fd-80c5-2877bdea31cf")
-	)
-	(wire
-		(pts
-			(xy 43.18 124.46) (xy 49.53 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2c18df7-8abf-4ddd-88ed-0491007897ef")
 	)
 	(wire
 		(pts
@@ -3177,66 +2800,6 @@
 			(type default)
 		)
 		(uuid "f7754757-da13-4d04-8227-33fea4ea3091")
-	)
-	(wire
-		(pts
-			(xy 41.91 116.84) (xy 43.18 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa91251c-5b02-46c3-adc8-28cbd08bbbe7")
-	)
-	(wire
-		(pts
-			(xy 43.18 116.84) (xy 49.53 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff34480e-1c00-4c75-b322-558ecf38b73f")
-	)
-	(label "3V3-2"
-		(at 44.45 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "326cbb3a-7f21-4599-9f2f-95c4d46ba35e")
-	)
-	(label "3V3-1"
-		(at 87.63 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a7422f70-add6-4111-a6e2-ea4b73cfe688")
-	)
-	(label "3V3-2"
-		(at 87.63 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dd028d98-c73c-4df6-8b9d-81ec9b97557d")
-	)
-	(label "3V3-1"
-		(at 45.72 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f52a5c8e-a824-4345-a339-11f0540e2eef")
 	)
 	(hierarchical_label "~{CS1}"
 		(shape input)
@@ -3947,7 +3510,7 @@
 	)
 	(symbol
 		(lib_id "Parts:+3V3A")
-		(at 31.75 116.84 0)
+		(at 49.53 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3955,7 +3518,7 @@
 		(dnp no)
 		(uuid "38d3134e-4f2c-43d4-93be-c60e628062db")
 		(property "Reference" "#PWR0732"
-			(at 31.75 120.65 0)
+			(at 49.53 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3964,7 +3527,7 @@
 			)
 		)
 		(property "Value" "+3V3A"
-			(at 31.75 113.284 0)
+			(at 49.53 113.284 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3973,7 +3536,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 116.84 0)
+			(at 49.53 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,7 +3545,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 116.84 0)
+			(at 49.53 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,7 +3554,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name {dblquote}+3V3A{dblquote}"
-			(at 31.75 116.84 0)
+			(at 49.53 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4462,93 +4025,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Parts:L_Ferrite_Power")
-		(at 38.1 116.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5dd61603-089e-423a-8eaa-df7af6ef91f4")
-		(property "Reference" "L32"
-			(at 38.1 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "600"
-			(at 38.1 114.046 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 38.1 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "200mA / 450mΩ"
-			(at 38.1 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor with ferrite core"
-			(at 38.1 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1002"
-			(at 38.1 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" ""
-			(at 38.1 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8b7963df-53cc-45c7-9481-4a704d5458ad")
-		)
-		(pin "1"
-			(uuid "8691ed94-eac2-44ab-8c0a-77f7c07a92c3")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e42fba19-ca85-4742-a019-f67d1b8fc682"
-					(reference "L32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
-		(at 43.18 124.46 0)
+		(at 49.53 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4556,7 +4034,7 @@
 		(dnp no)
 		(uuid "6384822e-9110-43bc-9a0c-e255f3153a5a")
 		(property "Reference" "#PWR0342"
-			(at 43.18 130.81 0)
+			(at 49.53 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4565,7 +4043,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 43.18 127.762 0)
+			(at 49.53 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,7 +4052,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 125.73 0)
+			(at 49.53 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4583,7 +4061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 125.73 0)
+			(at 49.53 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4592,7 +4070,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 43.18 124.46 0)
+			(at 49.53 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4613,32 +4091,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Parts:L_Ferrite_Power")
-		(at 38.1 71.12 90)
+		(lib_id "Parts:+3V3A")
+		(at 82.55 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6702d0ce-42b6-42d6-840b-bc2ec74b04f5")
-		(property "Reference" "L31"
-			(at 38.1 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "600"
-			(at 38.1 68.326 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 38.1 71.12 0)
+		(uuid "64c0ca44-621a-452a-b3f9-11ac338771cd")
+		(property "Reference" "#PWR0169"
+			(at 82.55 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,8 +4108,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "200mA / 450mΩ"
-			(at 38.1 71.12 0)
+		(property "Value" "+3V3A"
+			(at 86.614 59.944 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,8 +4126,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor with ferrite core"
-			(at 38.1 71.12 0)
+		(property "Datasheet" ""
+			(at 82.55 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4664,104 +4135,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1002"
-			(at 38.1 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" ""
-			(at 38.1 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b6f14ba5-62ca-49b1-a671-9d2ef423f527")
-		)
-		(pin "1"
-			(uuid "1fb712c8-e127-4f45-9e86-546374f9c09a")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e42fba19-ca85-4742-a019-f67d1b8fc682"
-					(reference "L31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 43.18 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6897ac58-d574-43d5-a622-e51a87b8d184")
-		(property "Reference" "C385"
-			(at 43.18 77.216 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 43.18 72.898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 44.1452 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "25V"
-			(at 43.18 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 43.18 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C96446"
-			(at 43.18 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" ""
-			(at 43.18 74.93 0)
+		(property "Description" "Power symbol creates a global label with name {dblquote}+3V3A{dblquote}"
+			(at 82.55 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4770,15 +4145,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2810ddf5-407f-4912-87cc-418c611e5932")
-		)
-		(pin "2"
-			(uuid "fdcfa010-0fce-4c2c-926f-8b63599cdec0")
+			(uuid "17a95fb0-39bc-40b7-af8a-bc8a1f51c352")
 		)
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e42fba19-ca85-4742-a019-f67d1b8fc682"
-					(reference "C385")
+					(reference "#PWR0169")
 					(unit 1)
 				)
 			)
@@ -5450,34 +4822,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 43.18 120.65 0)
+		(lib_id "Parts:+3V3A")
+		(at 82.55 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a508f929-3d0d-45ce-b214-d1a4d92544f2")
-		(property "Reference" "C386"
-			(at 43.18 122.682 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 43.18 118.364 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 44.1452 124.46 0)
+		(uuid "a63249c4-2eb2-4989-9c96-7dd9ccb19150")
+		(property "Reference" "#PWR0164"
+			(at 82.55 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5485,8 +4839,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "25V"
-			(at 43.18 120.65 0)
+		(property "Value" "+3V3A"
+			(at 86.614 105.664 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5494,8 +4857,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 43.18 120.65 0)
+		(property "Datasheet" ""
+			(at 82.55 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5503,17 +4866,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C96446"
-			(at 43.18 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" ""
-			(at 43.18 120.65 0)
+		(property "Description" "Power symbol creates a global label with name {dblquote}+3V3A{dblquote}"
+			(at 82.55 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5522,15 +4876,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "132b07c3-2d09-4e9e-80cb-ff5bc6a58920")
-		)
-		(pin "2"
-			(uuid "834c1e69-2ed5-42b5-9ec4-671ffacfc82a")
+			(uuid "b434fc76-853f-4b0d-bf2b-55863d6e1ab8")
 		)
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e42fba19-ca85-4742-a019-f67d1b8fc682"
-					(reference "C386")
+					(reference "#PWR0164")
 					(unit 1)
 				)
 			)
@@ -5603,7 +4954,7 @@
 	)
 	(symbol
 		(lib_id "Parts:+3V3A")
-		(at 31.75 71.12 0)
+		(at 49.53 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5611,7 +4962,7 @@
 		(dnp no)
 		(uuid "aa32331c-ebac-415c-a2d5-e0db3e7c2304")
 		(property "Reference" "#PWR0731"
-			(at 31.75 74.93 0)
+			(at 49.53 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5620,7 +4971,7 @@
 			)
 		)
 		(property "Value" "+3V3A"
-			(at 31.75 67.564 0)
+			(at 49.53 67.564 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5629,7 +4980,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 71.12 0)
+			(at 49.53 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5638,7 +4989,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 71.12 0)
+			(at 49.53 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5647,7 +4998,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name {dblquote}+3V3A{dblquote}"
-			(at 31.75 71.12 0)
+			(at 49.53 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6026,7 +5377,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 43.18 78.74 0)
+		(at 49.53 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6034,7 +5385,7 @@
 		(dnp no)
 		(uuid "ddb6c16e-baca-4916-a206-82d029579c0d")
 		(property "Reference" "#PWR0252"
-			(at 43.18 85.09 0)
+			(at 49.53 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6043,7 +5394,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 43.18 82.042 0)
+			(at 49.53 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6052,7 +5403,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 80.01 0)
+			(at 49.53 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6061,7 +5412,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 80.01 0)
+			(at 49.53 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6070,7 +5421,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 43.18 78.74 0)
+			(at 49.53 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)

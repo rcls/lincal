@@ -3528,12 +3528,6 @@
 		(uuid "3ec42850-1b08-4842-b550-c83eeb6dda73")
 	)
 	(junction
-		(at 83.82 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c27b364-d6c2-4935-92e1-48287b393e23")
-	)
-	(junction
 		(at 96.52 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3564,22 +3558,10 @@
 		(uuid "97c03aa1-8676-4046-8977-2baaf56b24ef")
 	)
 	(junction
-		(at 83.82 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9fb71f95-9a9f-4905-817d-0c1fdfde91bd")
-	)
-	(junction
 		(at 96.52 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7a5505b-2aae-449f-ba55-62a128f9d4ea")
-	)
-	(junction
-		(at 90.17 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "acb7ad06-8afb-4cfb-a3be-d2bfc740bc1d")
 	)
 	(junction
 		(at 111.76 26.67)
@@ -3631,16 +3613,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 81.28) (xy 90.17 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07faa9f3-413b-4686-9b1f-c75ee1ef703a")
-	)
-	(wire
-		(pts
 			(xy 111.76 26.67) (xy 111.76 27.94)
 		)
 		(stroke
@@ -3668,16 +3640,6 @@
 			(type default)
 		)
 		(uuid "0abafb6b-5389-49db-8f43-0feec77dce7a")
-	)
-	(wire
-		(pts
-			(xy 83.82 73.66) (xy 90.17 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ba6fa67-8181-4d7f-899d-4a0d32f49022")
 	)
 	(wire
 		(pts
@@ -3758,16 +3720,6 @@
 			(type default)
 		)
 		(uuid "242b87c7-503d-46b8-b2e1-e74696fe8483")
-	)
-	(wire
-		(pts
-			(xy 83.82 81.28) (xy 83.82 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a5a24de-6b9b-45d4-abb9-a659757dd6ee")
 	)
 	(wire
 		(pts
@@ -4031,7 +3983,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 73.66) (xy 83.82 73.66)
+			(xy 77.47 73.66) (xy 96.52 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4078,16 +4030,6 @@
 			(type default)
 		)
 		(uuid "a182f04d-ed02-45d7-b029-e1afd728c879")
-	)
-	(wire
-		(pts
-			(xy 90.17 73.66) (xy 96.52 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a74516aa-e186-43a9-968f-b39e598edc4a")
 	)
 	(wire
 		(pts
@@ -4171,7 +4113,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 90.17) (xy 90.17 90.17)
+			(xy 77.47 90.17) (xy 90.17 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4228,16 +4170,6 @@
 			(type default)
 		)
 		(uuid "d57c8e0e-81da-421f-b096-0aa53c8841f1")
-	)
-	(wire
-		(pts
-			(xy 77.47 90.17) (xy 83.82 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed5698df-0a06-438b-97fe-67020dbaeace")
 	)
 	(wire
 		(pts
@@ -4636,91 +4568,6 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/f6066de6-625c-453e-a76c-ce9a6a5c6264"
 					(reference "Q81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 90.17 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "21770271-9b48-4dc5-a4bb-8d99a083a363")
-		(property "Reference" "R803"
-			(at 88.138 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1"
-			(at 90.17 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 88.392 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 90.17 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 90.17 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" ""
-			(at 90.17 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b627561-6dc2-4c11-8ee1-0c483b342706")
-		)
-		(pin "2"
-			(uuid "9bceb10a-7c1a-41bb-a465-633bf0bfca0c")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/f6066de6-625c-453e-a76c-ce9a6a5c6264"
-					(reference "R803")
 					(unit 1)
 				)
 			)
@@ -5183,91 +5030,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 83.82 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38a7d04c-9ae8-49c2-8eb1-2af3de7db345")
-		(property "Reference" "R802"
-			(at 81.788 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1"
-			(at 83.82 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 82.042 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 83.82 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 83.82 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" ""
-			(at 83.82 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "edc49b9c-9842-42bb-8744-15c7e3c76e5c")
-		)
-		(pin "2"
-			(uuid "da957407-0336-4d46-845d-58273fbc84df")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/f6066de6-625c-453e-a76c-ce9a6a5c6264"
-					(reference "R802")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 144.78 73.66 0)
 		(unit 1)
@@ -5587,93 +5349,6 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/f6066de6-625c-453e-a76c-ce9a6a5c6264"
 					(reference "#PWR0146")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 90.17 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4809cd95-23d3-41d8-b187-49389b75e461")
-		(property "Reference" "C813"
-			(at 90.17 88.392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 90.17 84.328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 91.1352 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "0V"
-			(at 90.17 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 90.17 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 90.17 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" ""
-			(at 90.17 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b46087e3-82f4-430a-92af-1e45aafca829")
-		)
-		(pin "2"
-			(uuid "6f0b7f88-dcb6-49d7-ae55-a2bab9ddf611")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/f6066de6-625c-453e-a76c-ce9a6a5c6264"
-					(reference "C813")
 					(unit 1)
 				)
 			)
@@ -6572,93 +6247,6 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/f6066de6-625c-453e-a76c-ce9a6a5c6264"
 					(reference "R801")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 83.82 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85a48a18-bab8-4e9d-b03e-55fe428fe7ed")
-		(property "Reference" "C812"
-			(at 83.82 88.392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 83.82 84.328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 84.7852 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "0V"
-			(at 83.82 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 83.82 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 83.82 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" ""
-			(at 83.82 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c629c5b-ca85-48d4-85a5-ed5d996c7ab6")
-		)
-		(pin "2"
-			(uuid "9ac286e4-951b-4dd2-b29a-f6b57b0f509f")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/f6066de6-625c-453e-a76c-ce9a6a5c6264"
-					(reference "C812")
 					(unit 1)
 				)
 			)

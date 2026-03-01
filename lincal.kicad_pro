@@ -81,20 +81,12 @@
           "Alternate links"
         ],
         [
-          "silk_over_copper|136364764|180654819|14ed22d6-3787-434f-a048-6674189f8fa1|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "silk_over_copper|153059690|213140000|d020d6ed-efde-43e5-9792-e6a4aa5d2f5c|00000000-0000-0000-0000-000000000000",
           "Intentional"
         ],
         [
           "silk_over_copper|154792811|213137122|23ce43be-e77a-4d07-a8a2-939fb6cddb1e|00000000-0000-0000-0000-000000000000",
           "Intentional"
-        ],
-        [
-          "silk_over_copper|155050000|163640000|c13e8c54-8940-4ded-b6fa-5d92d122bcb0|00000000-0000-0000-0000-000000000000",
-          ""
         ],
         [
           "silk_over_copper|155400000|160120163|079ece79-e6e3-4307-817f-4b8cdcd1cb49|00000000-0000-0000-0000-000000000000",
@@ -126,10 +118,6 @@
         ],
         [
           "silk_over_copper|155700000|215460000|8311a027-de92-4ae7-8dcf-bf5de8bc1e95|00000000-0000-0000-0000-000000000000",
-          "Intentional"
-        ],
-        [
-          "silk_over_copper|158150000|215460000|bd94df0d-b49f-4ffe-9d54-d3a894625dff|00000000-0000-0000-0000-000000000000",
           "Intentional"
         ],
         [
@@ -179,10 +167,6 @@
         [
           "silk_over_copper|165200000|133322500|01c134cd-f0c7-4cdf-8a4f-cdc73472cb4f|00000000-0000-0000-0000-000000000000",
           "Intentional"
-        ],
-        [
-          "silk_over_copper|195290000|141103751|788f23bf-201c-43d6-ba02-843cd5b3ed27|00000000-0000-0000-0000-000000000000",
-          ""
         ],
         [
           "silk_over_copper|195340000|142460000|186df881-6f7b-45d1-a56d-89b4430f9b3b|00000000-0000-0000-0000-000000000000",
@@ -728,7 +712,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 70,
+    "annotate_start_num": 250,
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {

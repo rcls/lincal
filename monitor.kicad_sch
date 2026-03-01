@@ -6577,7 +6577,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22e9de50-6c5f-4f2e-9a85-c440aa07848e")
-		(property "Reference" "C704"
+		(property "Reference" "C78"
 			(at 157.734 96.266 90)
 			(effects
 				(font
@@ -6649,7 +6649,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/b0f71c87-958f-452c-ba10-5bfb9905e5da"
-					(reference "C704")
+					(reference "C78")
 					(unit 1)
 				)
 			)

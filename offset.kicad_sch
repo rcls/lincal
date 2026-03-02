@@ -3417,7 +3417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "Digikey"
 			(at 128.27 64.77 90)
 			(effects
 				(font
@@ -3493,7 +3493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 128.27 140.97 90)
 			(effects
 				(font
@@ -3502,7 +3502,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22967"
 			(at 128.27 140.97 90)
 			(effects
 				(font
@@ -3578,7 +3578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "Digikey"
 			(at 128.27 110.49 90)
 			(effects
 				(font
@@ -3864,7 +3864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 95.25 60.96 0)
 			(effects
 				(font
@@ -3950,7 +3950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "3"
+		(property "Stock" "?"
 			(at 180.34 81.28 0)
 			(effects
 				(font
@@ -4068,7 +4068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "Digikey"
 			(at 128.27 80.01 90)
 			(effects
 				(font
@@ -4153,7 +4153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 128.27 54.61 90)
 			(effects
 				(font
@@ -4465,7 +4465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "Digikey"
 			(at 128.27 90.17 90)
 			(effects
 				(font
@@ -4617,7 +4617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 97.79 83.82 0)
 			(effects
 				(font
@@ -4693,7 +4693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "Digikey"
 			(at 133.35 115.57 90)
 			(effects
 				(font
@@ -4780,7 +4780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 195.58 62.23 0)
 			(effects
 				(font
@@ -4933,7 +4933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 95.25 111.76 0)
 			(effects
 				(font
@@ -5188,7 +5188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "Digikey"
 			(at 128.27 130.81 90)
 			(effects
 				(font
@@ -5264,7 +5264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "Digikey"
 			(at 128.27 120.65 90)
 			(effects
 				(font
@@ -5340,7 +5340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "Digikey"
 			(at 133.35 95.25 90)
 			(effects
 				(font
@@ -5623,7 +5623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 138.43 100.33 90)
 			(effects
 				(font
@@ -5699,7 +5699,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4197"
 			(at 138.43 140.97 90)
 			(effects
 				(font
@@ -5708,7 +5708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 138.43 140.97 90)
 			(effects
 				(font
@@ -5916,7 +5916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "Digikey"
 			(at 133.35 74.93 90)
 			(effects
 				(font
@@ -6001,7 +6001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 90.17 107.95 90)
 			(effects
 				(font
@@ -6077,7 +6077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "Digikey"
 			(at 128.27 59.69 90)
 			(effects
 				(font
@@ -6162,7 +6162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 90.17 57.15 90)
 			(effects
 				(font
@@ -6238,7 +6238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "Digikey"
 			(at 128.27 69.85 90)
 			(effects
 				(font
@@ -6615,7 +6615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "Digikey"
 			(at 133.35 135.89 90)
 			(effects
 				(font

@@ -6394,7 +6394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 177.8 36.83 0)
 			(effects
 				(font
@@ -6487,7 +6487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 106.68 39.37 0)
 			(effects
 				(font
@@ -6582,7 +6582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 161.29 83.82 0)
 			(effects
 				(font
@@ -6674,7 +6674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 85.09 77.47 90)
 			(effects
 				(font
@@ -6834,7 +6834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 78.74 31.75 0)
 			(effects
 				(font
@@ -6887,7 +6887,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 113.03 75.692 90)
 			(effects
 				(font
@@ -6914,7 +6914,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25811"
 			(at 113.03 77.47 90)
 			(effects
 				(font
@@ -6923,7 +6923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 113.03 77.47 90)
 			(effects
 				(font
@@ -7013,7 +7013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 78.74 39.37 0)
 			(effects
 				(font
@@ -7319,7 +7319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 156.21 31.75 0)
 			(effects
 				(font
@@ -7352,7 +7352,7 @@
 		(at 173.99 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1fa03d6b-8184-4367-a73c-5f6d1d2b5d29")
@@ -7393,6 +7393,15 @@
 		)
 		(property "Description" "Depletion-mode N-channel MOSFET gate/source/drain"
 			(at 173.99 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "?"
+			(at 173.99 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7544,7 +7553,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4211"
 			(at 127 90.17 90)
 			(effects
 				(font
@@ -7553,7 +7562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 127 90.17 90)
 			(effects
 				(font
@@ -7644,7 +7653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 74.93 105.41 0)
 			(effects
 				(font
@@ -7841,7 +7850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 96.52 97.79 90)
 			(effects
 				(font
@@ -7930,7 +7939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 170.18 41.91 0)
 			(effects
 				(font
@@ -8011,7 +8020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "Board"
 			(at 92.71 92.71 0)
 			(effects
 				(font
@@ -8100,7 +8109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 138.43 63.5 90)
 			(effects
 				(font
@@ -8223,7 +8232,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 113.03 54.102 90)
 			(effects
 				(font
@@ -8250,7 +8259,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25811"
 			(at 113.03 55.88 90)
 			(effects
 				(font
@@ -8259,7 +8268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 113.03 55.88 90)
 			(effects
 				(font
@@ -8341,7 +8350,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C14858"
 			(at 105.41 73.66 0)
 			(effects
 				(font
@@ -8350,7 +8359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 105.41 73.66 0)
 			(effects
 				(font
@@ -8432,7 +8441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "LCSC?"
 			(at 151.13 74.93 90)
 			(effects
 				(font
@@ -8679,7 +8688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 215.9 78.74 90)
 			(effects
 				(font
@@ -8768,7 +8777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 181.61 66.04 90)
 			(effects
 				(font
@@ -8850,7 +8859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "LCSC?"
 			(at 156.21 63.5 90)
 			(effects
 				(font
@@ -9104,7 +9113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 184.15 41.91 0)
 			(effects
 				(font
@@ -9197,7 +9206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 100.33 31.75 0)
 			(effects
 				(font
@@ -9286,7 +9295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 138.43 69.85 90)
 			(effects
 				(font
@@ -9375,7 +9384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 181.61 31.75 90)
 			(effects
 				(font
@@ -9525,7 +9534,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25819"
 			(at 114.3 97.79 90)
 			(effects
 				(font
@@ -9534,7 +9543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 114.3 97.79 90)
 			(effects
 				(font
@@ -9624,7 +9633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 106.68 31.75 0)
 			(effects
 				(font
@@ -9719,7 +9728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 161.29 91.44 0)
 			(effects
 				(font
@@ -9817,7 +9826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 171.45 83.82 0)
 			(effects
 				(font
@@ -9972,7 +9981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "LCSC?"
 			(at 156.21 41.91 90)
 			(effects
 				(font
@@ -10149,7 +10158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 215.9 68.58 90)
 			(effects
 				(font
@@ -10240,7 +10249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 189.23 31.75 0)
 			(effects
 				(font
@@ -10510,7 +10519,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4190"
 			(at 101.6 92.71 90)
 			(effects
 				(font
@@ -10519,7 +10528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 101.6 92.71 90)
 			(effects
 				(font
@@ -10608,7 +10617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 170.18 27.94 90)
 			(effects
 				(font
@@ -10697,7 +10706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 142.24 41.91 0)
 			(effects
 				(font
@@ -10857,7 +10866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 100.33 39.37 0)
 			(effects
 				(font
@@ -10946,7 +10955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 187.96 45.72 90)
 			(effects
 				(font
@@ -11037,7 +11046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 203.2 68.58 0)
 			(effects
 				(font
@@ -11147,7 +11156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 138.43 58.42 90)
 			(effects
 				(font
@@ -11350,7 +11359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 171.45 91.44 0)
 			(effects
 				(font
@@ -11584,7 +11593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 74.93 97.79 0)
 			(effects
 				(font
@@ -11666,7 +11675,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C14858"
 			(at 210.82 73.66 0)
 			(effects
 				(font
@@ -11675,7 +11684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 210.82 73.66 0)
 			(effects
 				(font
@@ -11764,7 +11773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 138.43 74.93 90)
 			(effects
 				(font
@@ -11859,7 +11868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 134.62 45.72 0)
 			(effects
 				(font
@@ -12143,7 +12152,7 @@
 		(at 189.23 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f75804f1-5075-4c5f-a52b-ffd8768857e3")
@@ -12184,6 +12193,15 @@
 		)
 		(property "Description" "Depletion-mode N-channel MOSFET gate/source/drain"
 			(at 189.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "?"
+			(at 189.23 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -3172,7 +3172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 125.73 115.57 0)
 			(effects
 				(font
@@ -3259,7 +3259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 66.04 66.04 0)
 			(effects
 				(font
@@ -3484,7 +3484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 110.49 111.76 0)
 			(effects
 				(font
@@ -3769,7 +3769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 66.04 111.76 0)
 			(effects
 				(font
@@ -4000,7 +4000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 125.73 107.95 0)
 			(effects
 				(font
@@ -4490,7 +4490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 110.49 66.04 0)
 			(effects
 				(font
@@ -4797,7 +4797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 49.53 74.93 0)
 			(effects
 				(font
@@ -5286,7 +5286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 127 69.85 0)
 			(effects
 				(font
@@ -5570,7 +5570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 49.53 120.65 0)
 			(effects
 				(font
@@ -5657,7 +5657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "JLC"
 			(at 127 62.23 0)
 			(effects
 				(font

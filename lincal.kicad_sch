@@ -237,16 +237,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 105.41) (xy 97.79 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30a7cb83-e507-471d-81db-275730e94798")
-	)
-	(wire
-		(pts
 			(xy 106.68 78.74) (xy 97.79 78.74)
 		)
 		(stroke
@@ -324,16 +314,6 @@
 			(type default)
 		)
 		(uuid "42453b35-2a0e-4205-b693-b08a54a985b0")
-	)
-	(wire
-		(pts
-			(xy 106.68 119.38) (xy 116.84 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44e73588-887a-4f07-a4ae-28d459b6b23a")
 	)
 	(wire
 		(pts
@@ -567,16 +547,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 83.82) (xy 97.79 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98c61e00-06ac-4b49-832f-11047dd4dd69")
-	)
-	(wire
-		(pts
 			(xy 62.23 146.05) (xy 53.34 146.05)
 		)
 		(stroke
@@ -634,16 +604,6 @@
 			(type default)
 		)
 		(uuid "ab12dddc-56d4-4a8c-aa30-d4a568fa4ff6")
-	)
-	(wire
-		(pts
-			(xy 106.68 121.92) (xy 116.84 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae1d52cd-2419-4b93-924f-a3b1912f6b89")
 	)
 	(wire
 		(pts
@@ -1055,16 +1015,6 @@
 		)
 		(uuid "124c9c5a-3fb0-4b70-aa2c-9a285290faf7")
 	)
-	(label "AGNDsh2"
-		(at 116.84 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "15e099e7-8ef5-4fa9-a3d9-cfccd8bd7e65")
-	)
 	(label "Sample2"
 		(at 97.79 102.87 0)
 		(effects
@@ -1345,16 +1295,6 @@
 		)
 		(uuid "6c079869-c417-479e-a077-87939e0c7680")
 	)
-	(label "AGNDsh1"
-		(at 116.84 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6e3bd1b0-9f78-481e-a8c1-430ba21dade6")
-	)
 	(label "OffsetA1"
 		(at 157.48 90.17 0)
 		(effects
@@ -1465,16 +1405,6 @@
 		)
 		(uuid "a33dd6d7-6133-4d5d-8536-98f41c2302cb")
 	)
-	(label "AGNDsh1"
-		(at 97.79 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a4c60492-d8b3-40e3-8a81-1a0fca34cfaf")
-	)
 	(label "SCK"
 		(at 157.48 62.23 0)
 		(effects
@@ -1554,16 +1484,6 @@
 			(justify right bottom)
 		)
 		(uuid "b97a6c45-f62d-4738-ad8f-339ef305ec0e")
-	)
-	(label "AGNDsh2"
-		(at 97.79 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bcf4cb5a-d935-4f27-b121-9de52fb58a82")
 	)
 	(label "Sample1"
 		(at 201.93 57.15 180)
@@ -2313,8 +2233,8 @@
 		)
 	)
 	(sheet
-		(at 91.44 115.57)
-		(size 15.24 7.62)
+		(at 92.71 116.84)
+		(size 15.24 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2328,7 +2248,7 @@
 		)
 		(uuid "525413b8-c4e9-4b1d-b0c6-ca0be2e26a7f")
 		(property "Sheetname" "Reference"
-			(at 91.694 117.602 0)
+			(at 92.964 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2339,32 +2259,12 @@
 			)
 		)
 		(property "Sheetfile" "ref.kicad_sch"
-			(at 91.44 123.7746 0)
+			(at 92.71 122.7586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "AGNDsh1" passive
-			(at 106.68 119.38 0)
-			(uuid "996fbb58-c0d9-4e29-8b93-88304099cb45")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "AGNDsh2" passive
-			(at 106.68 121.92 0)
-			(uuid "75d896ef-0c9b-442f-b0f1-c0d2e3fd9b6d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
@@ -2702,16 +2602,6 @@
 				(justify right)
 			)
 		)
-		(pin "AGND" passive
-			(at 106.68 105.41 180)
-			(uuid "63dd193e-0588-4b01-98bb-5ec0dc2e99f9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187"
@@ -2721,7 +2611,7 @@
 		)
 	)
 	(sheet
-		(at 128.27 116.84)
+		(at 114.3 116.84)
 		(size 13.97 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2736,7 +2626,7 @@
 		)
 		(uuid "79d139b8-187a-44f5-bd99-1da7793824c6")
 		(property "Sheetname" "18V"
-			(at 128.778 118.872 0)
+			(at 114.808 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,7 +2637,7 @@
 			)
 		)
 		(property "Sheetfile" "v18.kicad_sch"
-			(at 128.27 122.7586 0)
+			(at 114.3 122.7586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,16 +2749,6 @@
 				(justify right)
 			)
 		)
-		(pin "AGND" passive
-			(at 106.68 83.82 180)
-			(uuid "e94b41fc-4224-4003-a81c-f4ff6e3ff072")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187"
@@ -2961,7 +2841,7 @@
 		)
 	)
 	(sheet
-		(at 148.59 116.84)
+		(at 134.62 116.84)
 		(size 13.97 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2976,7 +2856,7 @@
 		)
 		(uuid "98a8b958-69ae-452b-9f02-aef214a697d8")
 		(property "Sheetname" "Low Voltage"
-			(at 149.098 119.126 0)
+			(at 135.128 119.126 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2987,7 +2867,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 148.59 122.5046 0)
+			(at 134.62 122.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)

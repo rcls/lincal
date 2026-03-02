@@ -81,12 +81,20 @@
           "Alternate links"
         ],
         [
+          "silk_over_copper|153050000|163640000|46d0da75-0cf7-431b-b373-719fdff23aee|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "silk_over_copper|153059690|213140000|d020d6ed-efde-43e5-9792-e6a4aa5d2f5c|00000000-0000-0000-0000-000000000000",
           "Intentional"
         ],
         [
           "silk_over_copper|154792811|213137122|23ce43be-e77a-4d07-a8a2-939fb6cddb1e|00000000-0000-0000-0000-000000000000",
           "Intentional"
+        ],
+        [
+          "silk_over_copper|154874938|163640000|c13e8c54-8940-4ded-b6fa-5d92d122bcb0|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
           "silk_over_copper|155400000|160120163|079ece79-e6e3-4307-817f-4b8cdcd1cb49|00000000-0000-0000-0000-000000000000",
@@ -712,7 +720,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 250,
+    "annotate_start_num": 810,
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {

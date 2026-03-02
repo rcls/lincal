@@ -3864,12 +3864,6 @@
 		(uuid "19a97737-f6d3-4baa-895c-fe5ddf27ed14")
 	)
 	(junction
-		(at 53.34 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19fd4f0b-b656-48a6-9b7e-8436a41e5315")
-	)
-	(junction
 		(at 161.29 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4000,12 +3994,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "520b163c-8a5a-40fd-8149-b34df5e72f5d")
-	)
-	(junction
-		(at 53.34 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "547f2a9c-6ee6-454a-91b4-39602dcae60b")
 	)
 	(junction
 		(at 166.37 44.45)
@@ -4282,12 +4270,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8abacb8-f7f3-44ee-a779-d03dabd6a1d5")
-	)
-	(junction
-		(at 53.34 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa2bec77-5808-4d65-8229-6280e27eaa5a")
 	)
 	(junction
 		(at 190.5 78.74)
@@ -4782,16 +4764,6 @@
 			(type default)
 		)
 		(uuid "1cb475a9-032f-46b5-9600-90b7547f4c18")
-	)
-	(wire
-		(pts
-			(xy 53.34 41.91) (xy 54.61 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e16677c-2a08-45d2-afd0-25bfefba6c0c")
 	)
 	(wire
 		(pts
@@ -5345,16 +5317,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 102.87) (xy 64.77 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54058c18-bba5-4957-86c3-34519c264ed3")
-	)
-	(wire
-		(pts
 			(xy 207.01 149.86) (xy 207.01 139.7)
 		)
 		(stroke
@@ -5585,7 +5547,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 102.87) (xy 44.45 102.87)
+			(xy 53.34 102.87) (xy 54.61 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5652,16 +5614,6 @@
 			(type default)
 		)
 		(uuid "7ec9ef70-d28a-474d-912e-ef6fe05ef363")
-	)
-	(wire
-		(pts
-			(xy 62.23 72.39) (xy 64.77 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eff5d82-3992-4347-a721-275253cf0838")
 	)
 	(wire
 		(pts
@@ -5845,7 +5797,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 41.91) (xy 44.45 41.91)
+			(xy 53.34 41.91) (xy 54.61 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5925,16 +5877,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 102.87) (xy 54.61 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a215d1c0-6591-454d-adf8-cfe970c2283b")
-	)
-	(wire
-		(pts
 			(xy 207.01 149.86) (xy 213.36 149.86)
 		)
 		(stroke
@@ -5955,7 +5897,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 41.91) (xy 53.34 41.91)
+			(xy 62.23 41.91) (xy 64.77 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6135,16 +6077,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 41.91) (xy 64.77 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc00da4d-a0b4-4389-a1d3-c06b305091f5")
-	)
-	(wire
-		(pts
 			(xy 115.57 102.87) (xy 119.38 102.87)
 		)
 		(stroke
@@ -6206,16 +6138,6 @@
 	(wire
 		(pts
 			(xy 53.34 72.39) (xy 54.61 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca41d076-1200-4100-b9c2-3e5380b02910")
-	)
-	(wire
-		(pts
-			(xy 43.18 72.39) (xy 44.45 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6505,7 +6427,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 102.87) (xy 53.34 102.87)
+			(xy 62.23 102.87) (xy 64.77 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6575,7 +6497,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 72.39) (xy 53.34 72.39)
+			(xy 62.23 72.39) (xy 64.77 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7430,72 +7352,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 53.34 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0cb72179-77b3-4dd4-a7d1-833f8ccac15e")
-		(property "Reference" "#PWR0461"
-			(at 53.34 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 53.34 52.832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 53.34 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0236a87-7de8-4361-8b78-ba56dbb55f6f")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
-					(reference "#PWR0461")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 110.49 137.16 0)
 		(unit 1)
@@ -8068,91 +7924,6 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
 					(reference "L47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Parts:L_Ferrite_Power")
-		(at 58.42 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12bb8d85-9f07-404d-b486-364c70cc6f5f")
-		(property "Reference" "L411"
-			(at 58.42 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "600"
-			(at 58.42 69.596 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 58.42 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "200mA / 450mΩ"
-			(at 58.42 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor with ferrite core"
-			(at 58.42 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1002"
-			(at 58.42 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" ""
-			(at 58.42 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "85421011-2256-40c9-aaa1-86bab08ec683")
-		)
-		(pin "1"
-			(uuid "fcddbcbf-8cf1-45d1-9c71-339d393098f8")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
-					(reference "L411")
 					(unit 1)
 				)
 			)
@@ -9914,91 +9685,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Parts:L_Ferrite_Power")
-		(at 58.42 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "44b7c960-661c-49c0-80b8-f7581dbecdc4")
-		(property "Reference" "L421"
-			(at 58.42 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "600"
-			(at 58.42 100.076 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 58.42 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "200mA / 450mΩ"
-			(at 58.42 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor with ferrite core"
-			(at 58.42 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1002"
-			(at 58.42 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" ""
-			(at 58.42 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "476a6acb-52e3-46c4-846e-aac033df148b")
-		)
-		(pin "1"
-			(uuid "c8fe8f72-5f9c-45e1-b2fb-40d8c0c3fbdf")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
-					(reference "L421")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-2V5")
 		(at 130.81 90.17 0)
 		(mirror x)
@@ -11113,91 +10799,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Parts:L_Ferrite_Power")
-		(at 58.42 41.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "59361c3f-ba55-4747-9446-c5b5078c2717")
-		(property "Reference" "L401"
-			(at 58.42 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "600"
-			(at 58.42 39.116 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 58.42 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "200mA / 450mΩ"
-			(at 58.42 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor with ferrite core"
-			(at 58.42 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1002"
-			(at 58.42 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" ""
-			(at 58.42 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "056ad61b-d1f1-419c-af59-5ae930d8e463")
-		)
-		(pin "1"
-			(uuid "7419df03-c77b-4300-88d4-d7aac6cb6a92")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
-					(reference "L401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 171.45 36.83 90)
 		(unit 1)
@@ -12111,7 +11712,7 @@
 	)
 	(symbol
 		(lib_id "Parts:L_Ferrite_Power")
-		(at 48.26 41.91 90)
+		(at 58.42 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12119,7 +11720,7 @@
 		(dnp no)
 		(uuid "764dbe26-cf63-4733-96ac-bc5059c380cc")
 		(property "Reference" "L40"
-			(at 48.26 43.18 90)
+			(at 58.42 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12127,7 +11728,7 @@
 			)
 		)
 		(property "Value" "600"
-			(at 48.26 39.116 90)
+			(at 58.42 39.116 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12135,7 +11736,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 48.26 41.91 0)
+			(at 58.42 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12144,7 +11745,7 @@
 			)
 		)
 		(property "Datasheet" "200mA / 450mΩ"
-			(at 48.26 41.91 0)
+			(at 58.42 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12153,7 +11754,7 @@
 			)
 		)
 		(property "Description" "Inductor with ferrite core"
-			(at 48.26 41.91 0)
+			(at 58.42 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12162,7 +11763,7 @@
 			)
 		)
 		(property "LCSC" "C1002"
-			(at 48.26 41.91 90)
+			(at 58.42 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12171,7 +11772,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 48.26 41.91 90)
+			(at 58.42 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13730,159 +13331,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 53.34 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "99d5a44b-ce76-42c0-bbdc-cfcda4ddbb36")
-		(property "Reference" "C401"
-			(at 53.34 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 53.34 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 54.3052 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "25V"
-			(at 53.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 53.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C96446"
-			(at 53.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" ""
-			(at 53.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d0d9e59-e58f-4299-bc6c-5c9a86baceed")
-		)
-		(pin "2"
-			(uuid "632d6248-0240-4c74-9eb8-eacffd537a9d")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
-					(reference "C401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 53.34 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "99da542a-b24e-4909-bda4-d6789fc4b492")
-		(property "Reference" "#PWR0463"
-			(at 53.34 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 53.34 113.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 53.34 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e586c591-1cee-4657-90c2-3d5ac145eb12")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
-					(reference "#PWR0463")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 71.12 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14054,74 +13502,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 53.34 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f5eb978-9d9b-4dc2-a8f7-4c170f8f4193")
-		(property "Reference" "#PWR0462"
-			(at 53.34 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 53.34 83.312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 53.34 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3732782a-df31-41c4-88fc-e01357a808c1")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
-					(reference "#PWR0462")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Parts:L_Ferrite_Power")
-		(at 48.26 72.39 90)
+		(at 58.42 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14129,7 +13511,7 @@
 		(dnp no)
 		(uuid "9fbc9c03-129a-48d8-a4a2-a96ca5cabea0")
 		(property "Reference" "L41"
-			(at 48.26 73.66 90)
+			(at 58.42 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14137,7 +13519,7 @@
 			)
 		)
 		(property "Value" "600"
-			(at 48.26 69.596 90)
+			(at 58.42 69.596 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14145,7 +13527,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 48.26 72.39 0)
+			(at 58.42 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14154,7 +13536,7 @@
 			)
 		)
 		(property "Datasheet" "200mA / 450mΩ"
-			(at 48.26 72.39 0)
+			(at 58.42 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14163,7 +13545,7 @@
 			)
 		)
 		(property "Description" "Inductor with ferrite core"
-			(at 48.26 72.39 0)
+			(at 58.42 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14172,7 +13554,7 @@
 			)
 		)
 		(property "LCSC" "C1002"
-			(at 48.26 72.39 90)
+			(at 58.42 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14181,7 +13563,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 48.26 72.39 90)
+			(at 58.42 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14206,7 +13588,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 43.18 72.39 0)
+		(at 53.34 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14214,7 +13596,7 @@
 		(dnp no)
 		(uuid "a406756f-5fdb-45ec-b7f0-f4144c39371d")
 		(property "Reference" "#PWR0109"
-			(at 43.18 76.2 0)
+			(at 53.34 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14223,7 +13605,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 43.18 68.834 0)
+			(at 53.34 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14231,7 +13613,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 72.39 0)
+			(at 53.34 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14240,7 +13622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 72.39 0)
+			(at 53.34 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14249,7 +13631,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 43.18 72.39 0)
+			(at 53.34 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14708,7 +14090,7 @@
 	)
 	(symbol
 		(lib_id "Parts:L_Ferrite_Power")
-		(at 48.26 102.87 90)
+		(at 58.42 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14716,7 +14098,7 @@
 		(dnp no)
 		(uuid "af947524-fbba-4a62-b537-8ababc8a454b")
 		(property "Reference" "L42"
-			(at 48.26 104.14 90)
+			(at 58.42 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14724,7 +14106,7 @@
 			)
 		)
 		(property "Value" "600"
-			(at 48.26 100.076 90)
+			(at 58.42 100.076 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14732,7 +14114,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 48.26 102.87 0)
+			(at 58.42 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14741,7 +14123,7 @@
 			)
 		)
 		(property "Datasheet" "200mA / 450mΩ"
-			(at 48.26 102.87 0)
+			(at 58.42 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14750,7 +14132,7 @@
 			)
 		)
 		(property "Description" "Inductor with ferrite core"
-			(at 48.26 102.87 0)
+			(at 58.42 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14759,7 +14141,7 @@
 			)
 		)
 		(property "LCSC" "C1002"
-			(at 48.26 102.87 90)
+			(at 58.42 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14768,7 +14150,7 @@
 			)
 		)
 		(property "Stock" ""
-			(at 48.26 102.87 90)
+			(at 58.42 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16693,93 +16075,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 53.34 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d9d6cefb-7805-49b1-b883-126792e1d27c")
-		(property "Reference" "C421"
-			(at 53.34 108.712 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 53.34 108.712 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 54.3052 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "25V"
-			(at 53.34 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 53.34 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C96446"
-			(at 53.34 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" ""
-			(at 53.34 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "182d76a7-f632-41e7-9a7f-7e4a6ba0e5e2")
-		)
-		(pin "2"
-			(uuid "b75663e9-c048-42a1-93c9-fc0be34640d2")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
-					(reference "C421")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
 		(at 113.03 140.97 0)
 		(unit 1)
@@ -16925,93 +16220,6 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
 					(reference "D41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 53.34 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dded8b9a-3d84-4615-8faf-78b1fcf7eafa")
-		(property "Reference" "C411"
-			(at 53.34 78.232 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 53.34 78.232 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 54.3052 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "25V"
-			(at 53.34 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 53.34 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C96446"
-			(at 53.34 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" ""
-			(at 53.34 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "045c152a-a1b7-49f2-8b88-9e24c1b34bba")
-		)
-		(pin "2"
-			(uuid "2fcaef5f-81d7-4789-a3fa-522a2aec5bed")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/98a8b958-69ae-452b-9f02-aef214a697d8"
-					(reference "C411")
 					(unit 1)
 				)
 			)
@@ -18126,7 +17334,7 @@
 	)
 	(symbol
 		(lib_id "power:+6V")
-		(at 43.18 41.91 0)
+		(at 53.34 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18134,7 +17342,7 @@
 		(dnp no)
 		(uuid "f0787b76-6c09-4a14-b54c-abd973afa009")
 		(property "Reference" "#PWR061"
-			(at 43.18 45.72 0)
+			(at 53.34 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18143,7 +17351,7 @@
 			)
 		)
 		(property "Value" "+6V"
-			(at 43.18 38.354 0)
+			(at 53.34 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18151,7 +17359,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 41.91 0)
+			(at 53.34 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18160,7 +17368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 41.91 0)
+			(at 53.34 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18169,7 +17377,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+6V\""
-			(at 43.18 41.91 0)
+			(at 53.34 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18817,7 +18025,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 43.18 102.87 0)
+		(at 53.34 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18825,7 +18033,7 @@
 		(dnp no)
 		(uuid "fc8a6d21-98b5-4883-b5d3-8f8bf2a405d0")
 		(property "Reference" "#PWR094"
-			(at 43.18 106.68 0)
+			(at 53.34 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18834,7 +18042,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 43.18 99.314 0)
+			(at 53.34 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18842,7 +18050,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 102.87 0)
+			(at 53.34 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18851,7 +18059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 102.87 0)
+			(at 53.34 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18860,7 +18068,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 43.18 102.87 0)
+			(at 53.34 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)

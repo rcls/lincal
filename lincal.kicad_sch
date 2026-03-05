@@ -1215,7 +1215,7 @@
 		)
 		(uuid "574c5623-2af2-4bfc-a8e1-acbcf6d52d10")
 	)
-	(label "Ref2V16"
+	(label "RefAux"
 		(at 97.79 78.74 0)
 		(effects
 			(font
@@ -1255,7 +1255,7 @@
 		)
 		(uuid "63cca654-1aff-4936-8454-8f2c229e4986")
 	)
-	(label "Ref2V16"
+	(label "RefAux"
 		(at 99.06 149.86 0)
 		(effects
 			(font
@@ -1345,7 +1345,7 @@
 		)
 		(uuid "73b9eefe-dc7f-4da1-8169-74155e5f64f6")
 	)
-	(label "Ref2V16"
+	(label "RefAux"
 		(at 97.79 100.33 0)
 		(effects
 			(font
@@ -1385,7 +1385,7 @@
 		)
 		(uuid "855588d4-4a67-425c-9771-b9e9851ee42b")
 	)
-	(label "Ref2V16"
+	(label "RefAux"
 		(at 198.12 102.87 180)
 		(effects
 			(font

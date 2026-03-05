@@ -1141,8 +1141,8 @@
 		(uuid "2eb44153-d341-4eb7-bece-2fbd6fbe0d55")
 	)
 	(gr_rect
-		(start 72.5 75.4)
-		(end 227.5 73.8)
+		(start 72.5 73.8)
+		(end 227.5 75.4)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -1428,8 +1428,8 @@
 		(uuid "a286c2db-1eb8-43c6-96c6-0843f90e6f1a")
 	)
 	(gr_rect
-		(start 121.15 71.55)
-		(end 124.65 73.8)
+		(start 120.4 71.55)
+		(end 123.9 73.8)
 		(stroke
 			(width 0.1)
 			(type default)

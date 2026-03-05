@@ -60,15 +60,27 @@
       ],
       "drc_exclusions": [
         [
-          "hole_clearance|100000000|67450000|e96afbdc-878c-4e11-b547-29050f22bc73|a3ee8fa6-c1f0-4466-92ca-2e815a77d9c0",
+          "hole_clearance|119850000|67450000|00b5d344-eaf5-4ca0-826f-193744d4d611|55550c68-a26a-44db-83e9-978186943b61",
           ""
         ],
         [
-          "hole_clearance|115000000|67450000|cc120b32-5ffc-4c61-9a37-38abb5e57d62|eea3248a-a337-4444-972f-0fa966a412b1",
+          "hole_clearance|138850000|67450000|7e42ce2c-24c3-499a-b23d-3bce1221b9ce|14a9ebcc-fd19-4ab2-86d7-de3d926d26d9",
           ""
         ],
         [
-          "hole_clearance|85000000|67450000|cb4b32e7-4835-4ba2-903a-587544df07fa|cb0833e3-9dee-4aea-bce0-eba96e59ded6",
+          "hole_clearance|157850000|67450000|931be4a6-1622-4a5a-8e50-4db38c4edcd2|afb18fbb-6900-49af-bd43-70a31fed8953",
+          ""
+        ],
+        [
+          "hole_clearance|176850000|67450000|1c4fe377-e3da-407e-afbf-0066e0e01f98|a7f43758-5b8a-4ab7-8ac9-3294b4f7fb58",
+          ""
+        ],
+        [
+          "hole_clearance|195850000|67450000|4047277b-78ce-4376-9dc6-5b6a6d00bff0|bfcdb452-51dd-4af0-89b8-d35d1d86bc1e",
+          ""
+        ],
+        [
+          "hole_clearance|214850000|67450000|06000ca4-4461-44c4-90ce-2910e74f45d8|c5fcf6bc-7147-4073-885b-5cbecffd61f0",
           ""
         ]
       ],
@@ -477,7 +489,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "end-digi.kicad_pro",
+    "filename": "end-ana.kicad_pro",
     "version": 3
   },
   "net_settings": {

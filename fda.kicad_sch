@@ -3974,6 +3974,12 @@
 		(uuid "d8c6a166-baa1-4032-8f09-ab46f700c219")
 	)
 	(junction
+		(at 195.58 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc45bfc3-52c0-456c-a68c-ff642e4cabc0")
+	)
+	(junction
 		(at 176.53 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4020,6 +4026,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f254ed30-5c14-4528-9ad9-888d7c3c8075")
+	)
+	(junction
+		(at 195.58 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8b145f4-4349-4cd6-99bf-ea75ff988070")
 	)
 	(junction
 		(at 72.39 90.17)
@@ -4689,6 +4701,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 100.33) (xy 200.66 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7884794a-ce9c-43c8-a77e-86e70676b0f4")
+	)
+	(wire
+		(pts
 			(xy 190.5 107.95) (xy 190.5 111.76)
 		)
 		(stroke
@@ -4769,6 +4791,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 107.95) (xy 200.66 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "830fd0ed-b7ea-4190-87b6-3f19b71c5a26")
+	)
+	(wire
+		(pts
 			(xy 114.3 95.25) (xy 114.3 101.6)
 		)
 		(stroke
@@ -4796,6 +4828,16 @@
 			(type default)
 		)
 		(uuid "8b0e416a-e192-497d-8574-63422b60b9dc")
+	)
+	(wire
+		(pts
+			(xy 195.58 96.52) (xy 200.66 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90c76c9e-c98b-4486-b253-4dd03d673b94")
 	)
 	(wire
 		(pts
@@ -5136,6 +5178,16 @@
 			(type default)
 		)
 		(uuid "cd11fa22-4f9f-4443-8f8f-cfcbcca4de81")
+	)
+	(wire
+		(pts
+			(xy 195.58 111.76) (xy 200.66 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf25ca8-01a6-42bc-a6da-869de7615b7e")
 	)
 	(wire
 		(pts
@@ -6464,7 +6516,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "15k"
 			(at 96.52 104.14 90)
 			(effects
 				(font
@@ -6499,7 +6551,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C25756"
 			(at 96.52 104.14 90)
 			(effects
 				(font
@@ -7430,6 +7482,93 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/91ba7742-b0d4-4498-bde0-79d5f38f349f"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 200.66 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a9f241d-bcfb-450b-b8fb-30db9d32dff8")
+		(property "Reference" "C726"
+			(at 200.66 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 200.66 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 201.6252 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "25V"
+			(at 200.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 200.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96446"
+			(at 200.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "JLC"
+			(at 200.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0437bd9a-5280-4eac-bb8e-288596f93272")
+		)
+		(pin "2"
+			(uuid "50d76089-9e85-47bc-b350-a16b55d3bc4a")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/91ba7742-b0d4-4498-bde0-79d5f38f349f"
+					(reference "C726")
 					(unit 1)
 				)
 			)

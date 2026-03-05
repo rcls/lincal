@@ -10606,7 +10606,7 @@
 				)
 			)
 		)
-		(property "Value" "16k"
+		(property "Value" "15k"
 			(at 88.9 123.19 90)
 			(effects
 				(font
@@ -10614,7 +10614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 88.9 121.412 90)
 			(effects
 				(font
@@ -10641,7 +10641,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22818"
+		(property "LCSC" "C25756"
 			(at 88.9 123.19 90)
 			(effects
 				(font

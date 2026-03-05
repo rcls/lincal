@@ -1,0 +1,105 @@
+(footprint "NetTie-circ"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a397d2dd-98c1-4553-9ff9-92c7e5db5f81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "NetTie-circ"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "092587a8-a405-40cf-952b-c351fc97be58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce4d6505-f9b2-4236-b480-4ae09ece61c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a8fa1b7-659c-4cd8-ab47-9ad38a8726ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(net_tie_pad_groups "1,2,3")
+	(fp_rect
+		(start -0.4 -0.6)
+		(end 0.4 0.6)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "9ddd56ab-0147-4608-af28-bd0fa3cf80ac")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7feaf9cb-78f8-4b30-8a02-44c1f93289e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0.65)
+		(size 0.1 0.1)
+		(layers "F.Cu")
+		(thermal_bridge_angle 90)
+		(uuid "336be25d-0a4b-460e-8ae4-8de92130edab")
+	)
+	(pad "2" smd circle
+		(at 0 -0.65)
+		(size 0.1 0.1)
+		(layers "F.Cu")
+		(thermal_bridge_angle 90)
+		(uuid "dfa0f69a-6bb7-4bd7-a3d2-5c8ddec9e757")
+	)
+	(pad "3" thru_hole circle
+		(at 0 0)
+		(size 0.7 0.7)
+		(drill 0.5)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "a1dc31b8-17ad-4787-b8f8-a7446a0c207c")
+	)
+	(embedded_fonts no)
+)

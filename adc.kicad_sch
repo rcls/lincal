@@ -2625,10 +2625,6 @@
 		(uuid "67bd442a-3df1-4087-84ae-321607e0b24d")
 	)
 	(no_connect
-		(at 199.39 63.5)
-		(uuid "85c396ab-ba23-4366-9505-f58b94a22859")
-	)
-	(no_connect
 		(at 199.39 45.72)
 		(uuid "a8c7e48e-8698-4462-9129-d53c5c064bd8")
 	)
@@ -2653,6 +2649,16 @@
 			(type default)
 		)
 		(uuid "004d465f-7b49-42e3-b7a6-8da1b0a804eb")
+	)
+	(wire
+		(pts
+			(xy 204.47 55.88) (xy 199.39 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01f719a0-c9c0-48e7-87fa-7a6572b212b1")
 	)
 	(wire
 		(pts
@@ -2693,6 +2699,16 @@
 			(type default)
 		)
 		(uuid "1429ab44-095b-44a5-ad23-713a0ae92cc7")
+	)
+	(wire
+		(pts
+			(xy 199.39 63.5) (xy 203.2 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15bfa1d1-b89c-439b-89ae-2b7a7e9698d0")
 	)
 	(wire
 		(pts
@@ -2746,7 +2762,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 63.5) (xy 203.2 58.42)
+			(xy 203.2 60.96) (xy 203.2 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2783,6 +2799,16 @@
 			(type default)
 		)
 		(uuid "2fa37ff8-06ed-477d-aa64-92b44af5a01e")
+	)
+	(wire
+		(pts
+			(xy 204.47 53.34) (xy 204.47 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fca48f4-0b01-4b0b-944e-c7997a503fc9")
 	)
 	(wire
 		(pts
@@ -3036,7 +3062,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 55.88) (xy 207.01 55.88)
+			(xy 204.47 53.34) (xy 208.28 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3066,7 +3092,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 63.5) (xy 207.01 63.5)
+			(xy 203.2 60.96) (xy 208.28 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3620,6 +3646,17 @@
 			(justify left)
 		)
 		(uuid "811c5b3b-dbc0-4670-8ce0-dd7032963198")
+	)
+	(hierarchical_label "SYNC"
+		(shape bidirectional)
+		(at 203.2 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a26a95f8-423f-40f4-886c-a9a4170d2222")
 	)
 	(hierarchical_label "DIN"
 		(shape input)
@@ -4246,7 +4283,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 207.01 59.69 0)
+		(at 208.28 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4254,7 +4291,7 @@
 		(dnp no)
 		(uuid "2314d9b6-2f57-41fe-855a-a5e910aa9825")
 		(property "Reference" "C775"
-			(at 207.01 61.7219 0)
+			(at 208.28 59.1819 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4263,7 +4300,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 207.01 57.6579 0)
+			(at 208.28 55.1179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4272,7 +4309,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 207.9752 63.5 0)
+			(at 209.2452 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +4318,7 @@
 			)
 		)
 		(property "Datasheet" "25V"
-			(at 207.01 59.69 0)
+			(at 208.28 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,7 +4327,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 207.01 59.69 0)
+			(at 208.28 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,7 +4336,7 @@
 			)
 		)
 		(property "LCSC" "C52923"
-			(at 207.01 59.69 0)
+			(at 208.28 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +4345,7 @@
 			)
 		)
 		(property "Stock" "JLC"
-			(at 207.01 59.69 0)
+			(at 208.28 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)

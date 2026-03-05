@@ -6630,7 +6630,7 @@
 				)
 			)
 		)
-		(property "Value" "16k"
+		(property "Value" "15k"
 			(at 85.09 77.47 90)
 			(effects
 				(font
@@ -6638,7 +6638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 85.09 75.692 90)
 			(effects
 				(font
@@ -6665,7 +6665,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22818"
+		(property "LCSC" "C25756"
 			(at 85.09 77.47 90)
 			(effects
 				(font
@@ -11639,7 +11639,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0n1"
+		(property "Value" "10n"
 			(at 210.82 75.692 0)
 			(effects
 				(font
@@ -11675,7 +11675,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14858"
+		(property "LCSC" "C307500"
 			(at 210.82 73.66 0)
 			(effects
 				(font

@@ -2652,6 +2652,12 @@
 		(uuid "6be4f8de-86da-4d93-8c38-a42942ca1d29")
 	)
 	(junction
+		(at 83.82 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "743ea7c7-ec27-4454-905e-6287bcaf7340")
+	)
+	(junction
 		(at 83.82 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3054,6 +3060,16 @@
 			(type default)
 		)
 		(uuid "58736db7-9a5e-4397-8c6c-e2ed3fff8d73")
+	)
+	(wire
+		(pts
+			(xy 77.47 59.69) (xy 77.47 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a46f4fb-c91c-4bcb-90a9-94e5390f503e")
 	)
 	(wire
 		(pts
@@ -3497,6 +3513,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 67.31) (xy 83.82 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0776971-3bee-412b-8962-f8fca1aca1b4")
+	)
+	(wire
+		(pts
 			(xy 147.32 85.09) (xy 148.59 85.09)
 		)
 		(stroke
@@ -3659,18 +3685,17 @@
 		(at 114.3 52.07 0)
 		(effects
 			(font
-				(face "Liberation Mono")
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify left bottom)
 		)
 		(uuid "2c351078-f31a-498d-a295-481cab6afcc4")
 	)
-	(label "rin"
+	(label "Rin"
 		(at 80.01 52.07 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify left bottom)
 		)
@@ -3700,8 +3725,7 @@
 		(at 142.24 54.61 180)
 		(effects
 			(font
-				(face "Liberation Mono")
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify right bottom)
 		)
@@ -3711,7 +3735,7 @@
 		(at 154.94 54.61 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify bottom)
 		)
@@ -4689,8 +4713,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ef7b7b3-ee79-4ba4-ba8f-261518268467")
-		(property "Reference" "TP66"
-			(at 191.77 51.816 0)
+		(property "Reference" "Ref15"
+			(at 192.786 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4748,7 +4772,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/525413b8-c4e9-4b1d-b0c6-ca0be2e26a7f"
-					(reference "TP66")
+					(reference "Ref15")
 					(unit 1)
 				)
 			)
@@ -4965,7 +4989,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "150"
 			(at 168.91 54.61 90)
 			(effects
 				(font
@@ -5646,7 +5670,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5820b0d4-95a1-4a20-86e7-da0f738211d5")
-		(property "Reference" "TP61"
+		(property "Reference" "RefIn1"
 			(at 83.82 46.736 0)
 			(effects
 				(font
@@ -5705,7 +5729,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/525413b8-c4e9-4b1d-b0c6-ca0be2e26a7f"
-					(reference "TP61")
+					(reference "RefIn1")
 					(unit 1)
 				)
 			)
@@ -6133,12 +6157,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62640e92-bb1b-4834-bbbd-bbbcccc90df0")
-		(property "Reference" "TP62"
+		(property "Reference" "Raw5"
 			(at 111.76 46.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "Raw5"
@@ -6147,7 +6172,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Parts:TestPoint"
@@ -6192,7 +6216,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/525413b8-c4e9-4b1d-b0c6-ca0be2e26a7f"
-					(reference "TP62")
+					(reference "Raw5")
 					(unit 1)
 				)
 			)
@@ -6477,72 +6501,6 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/525413b8-c4e9-4b1d-b0c6-ca0be2e26a7f"
 					(reference "C67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 77.47 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ae6897c-d5c6-4ba1-8045-820c3d660876")
-		(property "Reference" "#PWR0253"
-			(at 77.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 77.47 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3606a000-ae53-4785-9d48-449155eee69a")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/525413b8-c4e9-4b1d-b0c6-ca0be2e26a7f"
-					(reference "#PWR0253")
 					(unit 1)
 				)
 			)
@@ -7389,7 +7347,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9460b9da-96ab-4914-b07b-a544b28824e9")
-		(property "Reference" "TP64"
+		(property "Reference" "Raw15"
 			(at 143.51 49.276 0)
 			(effects
 				(font
@@ -7448,7 +7406,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/525413b8-c4e9-4b1d-b0c6-ca0be2e26a7f"
-					(reference "TP64")
+					(reference "Raw15")
 					(unit 1)
 				)
 			)
@@ -8089,6 +8047,72 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/525413b8-c4e9-4b1d-b0c6-ca0be2e26a7f"
 					(reference "#FLG076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 83.82 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b196e45a-a48d-4d4e-906e-75fdd520bff5")
+		(property "Reference" "#FLG0811"
+			(at 83.82 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 83.82 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 83.82 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac951584-b8bf-4d68-a9aa-0c3c9d628fd4")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/525413b8-c4e9-4b1d-b0c6-ca0be2e26a7f"
+					(reference "#FLG0811")
 					(unit 1)
 				)
 			)
@@ -8965,7 +8989,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fef259ee-17f6-4265-a899-76a846213a12")
-		(property "Reference" "TP63"
+		(property "Reference" "AGND1"
 			(at 116.84 69.596 0)
 			(effects
 				(font
@@ -8973,7 +8997,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 116.84 69.85 0)
 			(effects
 				(font
@@ -9024,7 +9048,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/525413b8-c4e9-4b1d-b0c6-ca0be2e26a7f"
-					(reference "TP63")
+					(reference "AGND1")
 					(unit 1)
 				)
 			)

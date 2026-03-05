@@ -4351,7 +4351,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 86.36) (xy 151.13 86.36)
+			(xy 148.59 86.36) (xy 149.86 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4421,7 +4421,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 86.36) (xy 139.7 86.36)
+			(xy 140.97 86.36) (xy 139.7 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5481,7 +5481,7 @@
 	)
 	(global_label "-18V"
 		(shape output)
-		(at 151.13 86.36 0)
+		(at 149.86 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5490,7 +5490,7 @@
 		)
 		(uuid "513da606-c8a8-46f7-9805-f05db92e0a17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.6872 86.36 0)
+			(at 157.4172 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5679,12 +5679,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0478ebe2-9b51-4547-be02-9ed367cf5ee6")
-		(property "Reference" "TP53"
+		(property "Reference" "-18V1"
 			(at 134.62 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "-18V"
@@ -5693,7 +5694,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Parts:TestPoint"
@@ -5738,7 +5738,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "TP53")
+					(reference "-18V1")
 					(unit 1)
 				)
 			)
@@ -6856,12 +6856,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ebe1378-af21-442b-b6b9-fffac4bd295d")
-		(property "Reference" "TP54"
+		(property "Reference" "-16V1"
 			(at 223.52 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "-16V"
@@ -6870,7 +6871,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Parts:TestPoint"
@@ -6915,7 +6915,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "TP54")
+					(reference "-16V1")
 					(unit 1)
 				)
 			)
@@ -7010,7 +7010,7 @@
 	)
 	(symbol
 		(lib_id "Parts:L_Ferrite_Power")
-		(at 146.05 86.36 90)
+		(at 144.78 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7018,7 +7018,7 @@
 		(dnp no)
 		(uuid "317f9ffb-8777-4a12-929d-30a0297294ef")
 		(property "Reference" "L58"
-			(at 146.05 87.63 90)
+			(at 144.78 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7026,7 +7026,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 146.05 83.566 90)
+			(at 144.78 83.566 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7034,7 +7034,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 146.05 86.36 0)
+			(at 144.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7043,7 +7043,7 @@
 			)
 		)
 		(property "Datasheet" "2A / 50mΩ"
-			(at 146.05 86.36 0)
+			(at 144.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7052,7 +7052,7 @@
 			)
 		)
 		(property "Description" "Inductor with ferrite core"
-			(at 146.05 86.36 0)
+			(at 144.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7061,7 +7061,7 @@
 			)
 		)
 		(property "LCSC" "C14709"
-			(at 146.05 86.36 90)
+			(at 144.78 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7070,7 +7070,7 @@
 			)
 		)
 		(property "Stock" "JLC"
-			(at 146.05 86.36 90)
+			(at 144.78 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7187,12 +7187,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c3bc898-9aba-4a55-820d-1418c3898038")
-		(property "Reference" "TP52"
+		(property "Reference" "19V1"
 			(at 223.52 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "19V"
@@ -7201,7 +7202,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Parts:TestPoint"
@@ -7246,7 +7246,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "TP52")
+					(reference "19V1")
 					(unit 1)
 				)
 			)
@@ -9363,12 +9363,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91793add-2c6b-47ac-84d0-9221ea1cf85f")
-		(property "Reference" "TP51"
+		(property "Reference" "21V1"
 			(at 134.62 37.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "21V"
@@ -9377,7 +9378,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Parts:TestPoint"
@@ -9422,7 +9422,7 @@
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/79d139b8-187a-44f5-bd99-1da7793824c6"
-					(reference "TP51")
+					(reference "21V1")
 					(unit 1)
 				)
 			)

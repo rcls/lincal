@@ -3893,7 +3893,7 @@
 		(at 180.34 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "29288b81-dc8e-419a-a925-8ca7265ef301")
@@ -3941,7 +3941,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1021800"
+		(property "LCSC" ""
 			(at 180.34 81.28 0)
 			(effects
 				(font
@@ -3950,7 +3950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "?"
+		(property "Stock" "Digikey"
 			(at 180.34 81.28 0)
 			(effects
 				(font

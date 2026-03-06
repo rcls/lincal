@@ -1646,6 +1646,7 @@
 	)
 	(dimension
 		(type orthogonal)
+		(locked yes)
 		(layer "User.1")
 		(uuid "0edad56f-59f5-4b62-af8e-0765fbcd1a2b")
 		(pts
@@ -1671,6 +1672,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "7.6"
+			(locked yes)
 			(at 61.85 65.8 90)
 			(layer "User.1")
 			(uuid "0edad56f-59f5-4b62-af8e-0765fbcd1a2b")
@@ -1804,6 +1806,7 @@
 	)
 	(dimension
 		(type orthogonal)
+		(locked yes)
 		(layer "User.1")
 		(uuid "cd376524-1f41-4a87-b8d5-b74e8081a755")
 		(pts
@@ -1829,6 +1832,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "7.6"
+			(locked yes)
 			(at 61.85 134.2 90)
 			(layer "User.1")
 			(uuid "cd376524-1f41-4a87-b8d5-b74e8081a755")

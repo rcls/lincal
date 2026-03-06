@@ -1712,6 +1712,33 @@
 		(layer "User.1")
 		(uuid "f7849a5d-e861-4baa-a4c3-9c4aec1a4179")
 	)
+	(gr_text "Lin"
+		(at 95 67.45 0)
+		(layer "F.SilkS")
+		(uuid "275d1630-e546-4b05-8cf5-d35ff4048171")
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "Cal"
+		(at 94 67.45 0)
+		(layer "F.SilkS")
+		(uuid "ebe5794a-9cd5-4717-8d29-958d53bc9834")
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left)
+		)
+	)
 	(dimension
 		(type orthogonal)
 		(locked yes)

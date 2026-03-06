@@ -784,7 +784,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 800,
+    "annotate_start_num": 70,
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -925,7 +925,7 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
+      "sort_asc": false,
       "sort_field": "Value"
     },
     "connection_grid_size": 50.0,

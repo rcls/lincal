@@ -19,7 +19,7 @@
 	(property "Value" "TestPoint"
 		(at 0 1 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "F.SilkS" knockout)
 		(uuid "2a2396e1-bc11-44bf-b3d2-cf3d328fa8f4")
 		(effects
 			(font
@@ -71,7 +71,7 @@
 		(at 0 0)
 		(size 1.3 1.3)
 		(drill 0.8)
-		(layers "*.Cu" "*.Paste" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "29943d22-2720-4a8f-9ee9-a543c03c0864")
 	)

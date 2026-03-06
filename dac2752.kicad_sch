@@ -4222,12 +4222,6 @@
 		(uuid "add78ba4-57ab-4361-9259-4074246d24a0")
 	)
 	(junction
-		(at 135.89 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b31cc6c9-b763-4585-ae83-1ee69e0adbc0")
-	)
-	(junction
 		(at 185.42 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4412,6 +4406,16 @@
 			(type default)
 		)
 		(uuid "23b61611-18e7-4b00-b85b-c55c2bf5d61f")
+	)
+	(wire
+		(pts
+			(xy 135.89 93.98) (xy 138.43 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b413c6-b332-4b56-8f59-a48cca711995")
 	)
 	(wire
 		(pts
@@ -4862,16 +4866,6 @@
 			(type default)
 		)
 		(uuid "ef539fc1-0fea-4f37-b098-efe0bd853ec8")
-	)
-	(wire
-		(pts
-			(xy 135.89 93.98) (xy 135.89 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1e663fc-86bf-481c-84e1-581f35e5ed61")
 	)
 	(wire
 		(pts
@@ -7849,6 +7843,84 @@
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/f2e682f2-52ca-4ed0-8a7d-aeb09fbc9914"
 					(reference "U301")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2df409d-9432-4166-a3a2-6d660a94514c")
+		(property "Reference" "#PWR0177"
+			(at 138.43 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e990b990-dc14-4057-9321-cb966377d600")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/361a423f-d05f-4f8b-bc28-600b62434109"
+					(reference "#PWR0179")
+					(unit 1)
+				)
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/460d889b-fb9b-4b3e-8128-6fba79ce7ab4"
+					(reference "#PWR0181")
+					(unit 1)
+				)
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/aeb3a378-4287-41b1-9e33-8dbd035c4d66"
+					(reference "#PWR0183")
+					(unit 1)
+				)
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/f2e682f2-52ca-4ed0-8a7d-aeb09fbc9914"
+					(reference "#PWR0177")
+					(unit 1)
 				)
 			)
 		)

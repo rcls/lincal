@@ -58,20 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "hole_clearance|100000000|67450000|e96afbdc-878c-4e11-b547-29050f22bc73|a3ee8fa6-c1f0-4466-92ca-2e815a77d9c0",
-          ""
-        ],
-        [
-          "hole_clearance|115000000|67450000|cc120b32-5ffc-4c61-9a37-38abb5e57d62|eea3248a-a337-4444-972f-0fa966a412b1",
-          ""
-        ],
-        [
-          "hole_clearance|85000000|67450000|cb4b32e7-4835-4ba2-903a-587544df07fa|cb0833e3-9dee-4aea-bce0-eba96e59ded6",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },

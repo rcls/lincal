@@ -4233,7 +4233,7 @@
 		(uuid "8a350b1d-2ea6-44ca-a31c-b6bbd4ecdf22")
 	)
 	(junction
-		(at 63.5 119.38)
+		(at 63.5 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97d9bc99-991d-4338-aa23-89c939b05b86")
@@ -4310,16 +4310,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 101.6) (xy 53.34 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0048760f-7862-4e1f-8bed-1938e4db1bb5")
-	)
-	(wire
-		(pts
 			(xy 119.38 71.12) (xy 123.19 71.12)
 		)
 		(stroke
@@ -4350,7 +4340,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 97.79) (xy 66.04 97.79)
+			(xy 53.34 101.6) (xy 66.04 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4640,7 +4630,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 119.38) (xy 63.5 119.38)
+			(xy 60.96 120.65) (xy 63.5 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4680,7 +4670,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 116.84) (xy 66.04 119.38)
+			(xy 66.04 119.38) (xy 66.04 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4780,7 +4770,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 119.38) (xy 66.04 119.38)
+			(xy 63.5 120.65) (xy 66.04 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4910,7 +4900,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 101.6) (xy 66.04 97.79)
+			(xy 66.04 104.14) (xy 66.04 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5030,6 +5020,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 104.14) (xy 60.96 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b056c8c7-0cb6-4fb5-98d6-6b979d3635de")
+	)
+	(wire
+		(pts
 			(xy 114.3 123.19) (xy 115.57 123.19)
 		)
 		(stroke
@@ -5080,7 +5080,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 116.84) (xy 60.96 119.38)
+			(xy 60.96 119.38) (xy 60.96 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5479,7 +5479,7 @@
 		(uuid "9ae29efd-46e5-4309-9f68-986bf49b21b4")
 	)
 	(label "White"
-		(at 53.34 101.6 0)
+		(at 53.34 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5559,7 +5559,7 @@
 		(uuid "cec4e1d5-4c79-49bc-8a16-c67c570a9363")
 	)
 	(label "Green"
-		(at 53.34 97.79 0)
+		(at 53.34 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6282,7 +6282,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 66.04 113.03 90)
+		(at 66.04 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6290,7 +6290,7 @@
 		(dnp no)
 		(uuid "095cc5de-aad3-4c5a-874b-0ddf9c0120ef")
 		(property "Reference" "D82"
-			(at 63.5 113.03 0)
+			(at 63.5 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6298,7 +6298,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 68.58 113.03 0)
+			(at 68.58 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6307,7 +6307,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 66.04 113.03 0)
+			(at 66.04 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6316,7 +6316,7 @@
 			)
 		)
 		(property "Datasheet" "Green"
-			(at 66.04 113.03 0)
+			(at 66.04 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6325,7 +6325,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 66.04 113.03 0)
+			(at 66.04 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6334,7 +6334,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 66.04 113.03 0)
+			(at 66.04 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6343,7 +6343,7 @@
 			)
 		)
 		(property "LCSC" "C2297"
-			(at 66.04 113.03 0)
+			(at 66.04 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6352,7 +6352,7 @@
 			)
 		)
 		(property "Stock" "JLC"
-			(at 66.04 113.03 0)
+			(at 66.04 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8251,7 +8251,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 66.04 105.41 0)
+		(at 66.04 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8259,7 +8259,7 @@
 		(dnp no)
 		(uuid "5db78b82-9a12-4df8-8e6a-2e47a2d0fbb9")
 		(property "Reference" "R802"
-			(at 64.008 105.41 90)
+			(at 64.008 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8267,7 +8267,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 66.04 105.41 90)
+			(at 66.04 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8275,7 +8275,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 64.262 105.41 90)
+			(at 64.262 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8284,7 +8284,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 105.41 0)
+			(at 66.04 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8293,7 +8293,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 66.04 105.41 0)
+			(at 66.04 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8302,7 +8302,7 @@
 			)
 		)
 		(property "LCSC" "C4190"
-			(at 66.04 105.41 90)
+			(at 66.04 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8311,7 +8311,7 @@
 			)
 		)
 		(property "Stock" "JLC"
-			(at 66.04 105.41 90)
+			(at 66.04 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8488,7 +8488,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 63.5 119.38 0)
+		(at 63.5 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8496,7 +8496,7 @@
 		(dnp no)
 		(uuid "6698995b-04dc-4159-94ae-f65bd2c18561")
 		(property "Reference" "#PWR0770"
-			(at 63.5 125.73 0)
+			(at 63.5 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8505,7 +8505,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 63.5 122.682 0)
+			(at 63.5 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8514,7 +8514,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 120.65 0)
+			(at 63.5 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8523,7 +8523,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 120.65 0)
+			(at 63.5 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8532,7 +8532,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 63.5 119.38 0)
+			(at 63.5 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8554,7 +8554,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 60.96 113.03 90)
+		(at 60.96 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8562,7 +8562,7 @@
 		(dnp no)
 		(uuid "68c3ffaf-4b42-4c39-ac95-48f94a7d178e")
 		(property "Reference" "D81"
-			(at 58.42 113.03 0)
+			(at 58.42 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8570,7 +8570,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 63.5 113.03 0)
+			(at 63.5 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8579,7 +8579,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 60.96 113.03 0)
+			(at 60.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8588,7 +8588,7 @@
 			)
 		)
 		(property "Datasheet" "White"
-			(at 60.96 113.03 0)
+			(at 60.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8597,7 +8597,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 60.96 113.03 0)
+			(at 60.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8606,7 +8606,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 60.96 113.03 0)
+			(at 60.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8615,7 +8615,7 @@
 			)
 		)
 		(property "LCSC" "C34499"
-			(at 60.96 113.03 0)
+			(at 60.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8624,7 +8624,7 @@
 			)
 		)
 		(property "Stock" "JLC"
-			(at 60.96 113.03 0)
+			(at 60.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8734,7 +8734,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 60.96 105.41 0)
+		(at 60.96 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8742,7 +8742,7 @@
 		(dnp no)
 		(uuid "767a3183-0b7f-4be1-9a83-1753bba0619c")
 		(property "Reference" "R801"
-			(at 58.928 105.41 90)
+			(at 58.928 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8750,7 +8750,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 60.96 105.41 90)
+			(at 60.96 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8758,7 +8758,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 59.182 105.41 90)
+			(at 59.182 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8767,7 +8767,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 105.41 0)
+			(at 60.96 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8776,7 +8776,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 60.96 105.41 0)
+			(at 60.96 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8785,7 +8785,7 @@
 			)
 		)
 		(property "LCSC" "C4190"
-			(at 60.96 105.41 90)
+			(at 60.96 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8794,7 +8794,7 @@
 			)
 		)
 		(property "Stock" "JLC"
-			(at 60.96 105.41 90)
+			(at 60.96 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)

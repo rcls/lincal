@@ -213,10 +213,6 @@
           ""
         ],
         [
-          "silk_over_copper|200705210|149280826|3d34a172-d97e-4aba-a1bf-54c33cfe9b64|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "via_dangling|174200000|102900000|0f3b6680-8a48-48a5-937d-823305cda7d4|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -752,7 +748,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 70,
+    "annotate_start_num": 360,
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {

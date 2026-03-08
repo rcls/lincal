@@ -4135,26 +4135,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Resistor to ground clamps voltage at power up/down, without the parasitic capacitance of diodes. Current is a few µA."
-		(exclude_from_sim no)
-		(at 130.81 118.11 0)
-		(size 27.1781 11.4299)
-		(margins 0.254 0.254 0.254 0.254)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f0f2bb07-be2f-463a-9336-4ae3a12bdffe")
-	)
 	(text_box "Hopefully the feedback capacitor keeps the OPA388 inputs in-range."
 		(exclude_from_sim no)
 		(at 156.9719 73.2099 0)
@@ -4362,6 +4342,16 @@
 			(type default)
 		)
 		(uuid "0becbd71-4191-4014-a98c-d0dac0fe372d")
+	)
+	(wire
+		(pts
+			(xy 142.24 100.33) (xy 142.24 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1097655d-f3f4-412b-b3cc-5731f259e4ad")
 	)
 	(wire
 		(pts
@@ -4825,7 +4815,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 114.3) (xy 139.7 114.3)
+			(xy 135.89 123.19) (xy 139.7 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4865,7 +4855,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 101.6) (xy 135.89 114.3)
+			(xy 135.89 101.6) (xy 135.89 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5160,7 +5150,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 114.3 0)
+		(at 144.78 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5168,7 +5158,7 @@
 		(dnp no)
 		(uuid "0b457687-6c79-4cac-8b5a-e4463fafc49a")
 		(property "Reference" "#PWR0702"
-			(at 144.78 120.65 0)
+			(at 144.78 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5177,7 +5167,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 118.11 0)
+			(at 144.78 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5186,7 +5176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 114.3 0)
+			(at 144.78 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5195,7 +5185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 114.3 0)
+			(at 144.78 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5204,7 +5194,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 114.3 0)
+			(at 144.78 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6375,7 +6365,7 @@
 	(symbol
 		(lib_name "OPA2388DGK_3")
 		(lib_id "Parts:OPA2388DGK")
-		(at 142.24 106.68 270)
+		(at 142.24 115.57 270)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -6384,7 +6374,7 @@
 		(dnp no)
 		(uuid "5dac7969-644d-4053-bf15-633fc0e1bfa3")
 		(property "Reference" "U34"
-			(at 142.24 106.68 0)
+			(at 142.24 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6392,7 +6382,7 @@
 			)
 		)
 		(property "Value" "OPA2388DGK"
-			(at 142.748 115.824 90)
+			(at 142.748 124.714 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6401,7 +6391,7 @@
 			)
 		)
 		(property "Footprint" "Parts:OPA2388"
-			(at 142.24 104.14 0)
+			(at 142.24 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6410,7 +6400,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2388.pdf"
-			(at 146.05 100.33 0)
+			(at 146.05 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6419,7 +6409,7 @@
 			)
 		)
 		(property "Description" "Dual 5V, Precision, Rail-to-Rail Input/Output, Zero-drift, Operational Amplifier, SOIC-8"
-			(at 142.24 106.68 0)
+			(at 142.24 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6428,7 +6418,7 @@
 			)
 		)
 		(property "LCSC" "C1517414"
-			(at 142.24 106.68 0)
+			(at 142.24 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6437,7 +6427,7 @@
 			)
 		)
 		(property "Sim.Library" "spice/opa2388.lib"
-			(at 142.24 106.68 0)
+			(at 142.24 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6446,7 +6436,7 @@
 			)
 		)
 		(property "Sim.Name" "OPA2388"
-			(at 142.24 106.68 0)
+			(at 142.24 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6455,7 +6445,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 142.24 106.68 0)
+			(at 142.24 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6464,7 +6454,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=aout 2=a- 3=a+ 4=v- 5=b+ 6=b- 7=bout 8=v+"
-			(at 142.24 106.68 0)
+			(at 142.24 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6473,7 +6463,7 @@
 			)
 		)
 		(property "Stock" "14"
-			(at 142.24 106.68 0)
+			(at 142.24 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7650,6 +7640,103 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 142.24 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8665fe66-b997-4f8a-bb74-aa4bc2740467")
+		(property "Reference" "R308"
+			(at 140.208 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 142.24 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 140.462 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 142.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 142.24 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "JLC"
+			(at 142.24 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50827aa0-19bd-4889-9869-052950ff8e94")
+		)
+		(pin "2"
+			(uuid "289bcb4e-dab2-4c4c-aa99-4fb96b2c271b")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/361a423f-d05f-4f8b-bc28-600b62434109"
+					(reference "R328")
+					(unit 1)
+				)
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/460d889b-fb9b-4b3e-8128-6fba79ce7ab4"
+					(reference "R348")
+					(unit 1)
+				)
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/aeb3a378-4287-41b1-9e33-8dbd035c4d66"
+					(reference "R368")
+					(unit 1)
+				)
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/f2e682f2-52ca-4ed0-8a7d-aeb09fbc9914"
+					(reference "R308")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 68.58 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7762,7 +7849,7 @@
 				)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "100"
 			(at 147.32 99.06 90)
 			(effects
 				(font
@@ -7770,7 +7857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 147.32 97.282 90)
 			(effects
 				(font
@@ -7797,7 +7884,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22936"
+		(property "LCSC" "C25076"
 			(at 147.32 99.06 90)
 			(effects
 				(font

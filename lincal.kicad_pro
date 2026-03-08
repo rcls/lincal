@@ -189,15 +189,15 @@
           "Intentional"
         ],
         [
-          "silk_over_copper|195263601|139989741|038efb66-a61f-4021-9c2c-b149fa03f89f|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|195290000|141460000|788f23bf-201c-43d6-ba02-843cd5b3ed27|00000000-0000-0000-0000-000000000000",
+          "silk_over_copper|195290000|140003751|788f23bf-201c-43d6-ba02-843cd5b3ed27|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
           "silk_over_copper|195303544|141460000|186df881-6f7b-45d1-a56d-89b4430f9b3b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|195522132|139940000|038efb66-a61f-4021-9c2c-b149fa03f89f|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -748,7 +748,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 20,
+    "annotate_start_num": 360,
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {

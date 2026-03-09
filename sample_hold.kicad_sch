@@ -4366,6 +4366,26 @@
 		)
 		(uuid "092b72dc-4c35-4c57-aabd-fad594dc5647")
 	)
+	(text_box "Bypassing the LDO for the ≈100mA output drive hopefully reduces interference via PMRR."
+		(exclude_from_sim no)
+		(at 120.65 31.75 0)
+		(size 24.13 8.8899)
+		(margins 0.254 0.254 0.254 0.254)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "104a595f-f77d-499d-8523-0630e6fc4f18")
+	)
 	(text_box "Map 0–5V to at least ±15V. Inverting amp avoids DC load on DACref."
 		(exclude_from_sim no)
 		(at 83.82 53.34 0)
@@ -4411,12 +4431,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00941499-9409-4fec-92b8-8d10eb57be4e")
-	)
-	(junction
-		(at 148.59 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "093ff22d-0f2f-43da-bb6e-2dbd48fdb868")
 	)
 	(junction
 		(at 158.75 72.39)
@@ -4659,6 +4673,12 @@
 		(uuid "da93b875-0db5-44a5-8747-64e59ecce82c")
 	)
 	(junction
+		(at 143.51 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e43a59ff-44af-4d20-b7a7-d104d9436ff1")
+	)
+	(junction
 		(at 161.29 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4681,16 +4701,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8158d3f-5f91-49c0-90fb-06d625c4282a")
-	)
-	(wire
-		(pts
-			(xy 143.51 63.5) (xy 148.59 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0374688b-0ec4-4d1d-8403-a679c1b329c1")
 	)
 	(wire
 		(pts
@@ -4804,7 +4814,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 58.42) (xy 165.1 60.96)
+			(xy 158.75 58.42) (xy 158.75 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4934,7 +4944,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 66.04) (xy 163.83 66.04)
+			(xy 166.37 66.04) (xy 158.75 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5494,16 +5504,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 58.42) (xy 148.59 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4913fe8-7787-4479-9bac-a874528ff8fe")
-	)
-	(wire
-		(pts
 			(xy 90.17 77.47) (xy 88.9 77.47)
 		)
 		(stroke
@@ -5704,16 +5704,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 60.96) (xy 163.83 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2238c05-bf4c-4d1b-b9b3-b2a7fffd127e")
-	)
-	(wire
-		(pts
 			(xy 194.31 41.91) (xy 195.58 41.91)
 		)
 		(stroke
@@ -5744,7 +5734,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 58.42) (xy 148.59 58.42)
+			(xy 158.75 58.42) (xy 143.51 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5843,7 +5833,7 @@
 		(uuid "6119a124-2975-4654-8f12-2d7ff0ffac29")
 	)
 	(label "Drive"
-		(at 143.51 63.5 0)
+		(at 148.59 58.42 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -8491,7 +8481,7 @@
 	)
 	(symbol
 		(lib_id "Parts:G6K_Split")
-		(at 156.21 63.5 270)
+		(at 151.13 63.5 270)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8499,7 +8489,7 @@
 		(dnp no)
 		(uuid "60941110-a2ca-4b2a-a9a4-e695526a8530")
 		(property "Reference" "K21"
-			(at 155.448 65.278 90)
+			(at 150.368 65.278 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8507,7 +8497,7 @@
 			)
 		)
 		(property "Value" "G6K-2FY, 5V"
-			(at 156.21 69.596 90)
+			(at 151.13 69.596 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8516,7 +8506,7 @@
 			)
 		)
 		(property "Footprint" "Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y"
-			(at 156.21 63.5 0)
+			(at 151.13 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8526,7 +8516,7 @@
 			)
 		)
 		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf"
-			(at 156.21 63.5 0)
+			(at 151.13 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8535,7 +8525,7 @@
 			)
 		)
 		(property "Description" "Relay Miniature Omron DPDT"
-			(at 156.21 63.5 0)
+			(at 151.13 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8544,7 +8534,7 @@
 			)
 		)
 		(property "Stock" "LCSC?"
-			(at 156.21 63.5 90)
+			(at 151.13 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)

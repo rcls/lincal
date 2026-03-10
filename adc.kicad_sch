@@ -5887,6 +5887,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" "Board"
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e69ade03-efa5-476d-a99a-7096b679a0cf"
@@ -7076,6 +7085,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" "Board"
+			(at 100.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e69ade03-efa5-476d-a99a-7096b679a0cf"
@@ -7877,7 +7895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "?"
+		(property "Stock" "Digikey"
 			(at 186.69 113.03 0)
 			(effects
 				(font

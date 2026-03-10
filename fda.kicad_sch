@@ -3641,16 +3641,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "5k Thevenin source."
-		(exclude_from_sim no)
-		(at 149.098 154.686 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "06a775a2-d496-4085-b01c-2d9542b510f1")
-	)
 	(text_box "Keep Force± nodes small on PCB and cut out ground plane on layer 2."
 		(exclude_from_sim no)
 		(at 124.46 120.142 0)
@@ -6991,42 +6981,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "spice/ideal.lib"
-			(at 125.73 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "IdealFDA"
-			(at 125.73 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 125.73 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=in- 2=vcm 3=vs+ 4=out+ 5=out- 6=vs- 8=in+"
-			(at 125.73 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Stock" "3"
 			(at 125.73 104.14 0)
 			(effects
@@ -7103,7 +7057,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470n"
+		(property "Value" "0u1"
 			(at 104.14 150.622 0)
 			(effects
 				(font
@@ -7121,7 +7075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "10V"
+		(property "Datasheet" "X7R, 50V"
 			(at 104.14 152.4 0)
 			(effects
 				(font
@@ -7139,7 +7093,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C47339"
+		(property "LCSC" "C307331"
 			(at 104.14 152.4 0)
 			(effects
 				(font
@@ -7637,43 +7591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "spice/ideal.lib"
-			(at 173.99 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "DualIdealOpAmp"
-			(at 173.99 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 173.99 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vs- 5=in2+ 6=in2- 7=out2 8=vs+"
-			(at 173.99 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "14"
+		(property "Stock" "14+LCSC"
 			(at 173.99 104.14 0)
 			(effects
 				(font
@@ -8475,43 +8393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "spice/ideal.lib"
-			(at 125.73 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "DualIdealOpAmp"
-			(at 125.73 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 125.73 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vs- 5=in2+ 6=in2- 7=out2 8=vs+"
-			(at 125.73 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "14"
+		(property "Stock" "14+LCSC"
 			(at 125.73 148.59 0)
 			(effects
 				(font
@@ -9462,42 +9344,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "spice/ideal.lib"
-			(at 82.55 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "DualIdealOpAmp"
-			(at 82.55 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 82.55 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vs- 5=in2+ 6=in2- 7=out2 8=vs+"
-			(at 82.55 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Stock" "30"
 			(at 82.55 59.69 0)
 			(effects
@@ -10175,42 +10021,6 @@
 				)
 			)
 		)
-		(property "Sim.Library" "spice/lt5400.lib"
-			(at 77.47 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "LT5400-1"
-			(at 77.47 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 77.47 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=a1 2=b1 3=c1 4=d1 5=d2 6=c2 7=b2 8=a2 9=pad"
-			(at 77.47 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Stock" "JLC"
 			(at 77.47 78.74 0)
 			(effects
@@ -10835,42 +10645,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "spice/ideal.lib"
-			(at 82.55 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "DualIdealOpAmp"
-			(at 82.55 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 82.55 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vs- 5=in2+ 6=in2- 7=out2 8=vs+"
-			(at 82.55 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Stock" "30"
 			(at 82.55 151.13 0)
 			(effects
@@ -11022,42 +10796,6 @@
 				)
 			)
 		)
-		(property "Sim.Library" "spice/lt5400.lib"
-			(at 77.47 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "LT5400-1"
-			(at 77.47 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 77.47 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=a1 2=b1 3=c1 4=d1 5=d2 6=c2 7=b2 8=a2 9=pad"
-			(at 77.47 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Stock" "JLC"
 			(at 77.47 132.08 0)
 			(effects
@@ -11163,42 +10901,6 @@
 			)
 		)
 		(property "LCSC" "C139363"
-			(at 184.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "spice/ideal.lib"
-			(at 184.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "DualIdealOpAmp"
-			(at 184.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 184.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vs- 5=in2+ 6=in2- 7=out2 8=vs+"
 			(at 184.15 73.66 0)
 			(effects
 				(font
@@ -11650,43 +11352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "spice/ideal.lib"
-			(at 80.01 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "DualIdealOpAmp"
-			(at 80.01 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 80.01 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vs- 5=in2+ 6=in2- 7=out2 8=vs+"
-			(at 80.01 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "14"
+		(property "Stock" "14+LCSC"
 			(at 80.01 104.14 0)
 			(effects
 				(font

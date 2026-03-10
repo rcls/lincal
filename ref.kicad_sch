@@ -2705,12 +2705,6 @@
 		(uuid "3b515c83-353c-414e-aede-f94617fc3254")
 	)
 	(junction
-		(at 171.45 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a4fc419-f2c0-4851-8b8c-325426e601de")
-	)
-	(junction
 		(at 177.8 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2886,7 +2880,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 116.84) (xy 140.97 116.84)
+			(xy 138.43 116.84) (xy 139.7 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2926,6 +2920,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 124.46) (xy 148.59 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14a4ab9c-ff7e-4241-a9d0-a72232cc7507")
+	)
+	(wire
+		(pts
 			(xy 95.25 67.31) (xy 97.79 67.31)
 		)
 		(stroke
@@ -2946,7 +2950,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 124.46) (xy 140.97 124.46)
+			(xy 138.43 124.46) (xy 139.7 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3063,16 +3067,6 @@
 			(type default)
 		)
 		(uuid "3695d129-372e-408f-a6c4-e94adc12306b")
-	)
-	(wire
-		(pts
-			(xy 148.59 116.84) (xy 148.59 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d3e5d33-41d9-4cd6-8a71-0fda24c99173")
 	)
 	(wire
 		(pts
@@ -3276,6 +3270,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 124.46) (xy 148.59 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a37391b-1f1b-4c8f-9f52-f4fafa29b077")
+	)
+	(wire
+		(pts
 			(xy 74.93 52.07) (xy 77.47 52.07)
 		)
 		(stroke
@@ -3366,23 +3370,13 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 106.68) (xy 171.45 110.49)
+			(xy 171.45 96.52) (xy 171.45 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "94f78e6e-7329-4e1d-9b3e-54d0c09cf25d")
-	)
-	(wire
-		(pts
-			(xy 179.07 106.68) (xy 180.34 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "953422f1-917a-4422-acfc-9723f049f3f2")
 	)
 	(wire
 		(pts
@@ -3546,6 +3540,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 116.84) (xy 148.59 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4772d3b-83b4-414f-b94e-cf60edcefbf9")
+	)
+	(wire
+		(pts
 			(xy 180.34 95.25) (xy 180.34 96.52)
 		)
 		(stroke
@@ -3643,16 +3647,6 @@
 			(type default)
 		)
 		(uuid "e5713db7-13c6-4a19-956c-cf802f227005")
-	)
-	(wire
-		(pts
-			(xy 171.45 96.52) (xy 171.45 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7f58f4b-5428-46a4-9289-32815bedec63")
 	)
 	(wire
 		(pts
@@ -3969,6 +3963,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 114.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "Board"
 			(at 114.3 101.6 0)
 			(effects
 				(font
@@ -4515,15 +4518,15 @@
 		(dnp no)
 		(uuid "1e6d2dfe-f192-496c-a379-2ddd6fa003b4")
 		(property "Reference" "C71"
-			(at 138.43 122.682 0)
+			(at 138.43 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "330p"
+		(property "Value" "10n"
 			(at 138.43 122.682 0)
 			(effects
 				(font
@@ -4541,7 +4544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0G, 50V"
+		(property "Datasheet" "C0G, 25V"
 			(at 138.43 120.65 0)
 			(effects
 				(font
@@ -4559,7 +4562,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1664"
+		(property "LCSC" "C307500"
 			(at 138.43 120.65 0)
 			(effects
 				(font
@@ -5034,7 +5037,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 144.78 124.46 90)
+		(at 143.51 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5042,15 +5045,15 @@
 		(dnp no)
 		(uuid "31a78a0a-89b6-4821-bf6c-1aa5a4baa56b")
 		(property "Reference" "R72"
-			(at 144.78 126.492 90)
+			(at 143.51 126.492 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "330"
-			(at 144.78 124.46 90)
+		(property "Value" "100"
+			(at 143.51 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5058,7 +5061,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 144.78 126.238 90)
+			(at 143.51 126.238 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,7 +5070,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 124.46 0)
+			(at 143.51 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5076,7 +5079,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 144.78 124.46 0)
+			(at 143.51 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5084,8 +5087,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25104"
-			(at 144.78 124.46 90)
+		(property "LCSC" "C25076"
+			(at 143.51 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5094,7 +5097,7 @@
 			)
 		)
 		(property "Stock" "JLC"
-			(at 144.78 124.46 90)
+			(at 143.51 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5169,7 +5172,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25076"
+		(property "LCSC" "C25082"
 			(at 168.91 54.61 90)
 			(effects
 				(font
@@ -5332,6 +5335,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "Board"
 			(at 124.46 101.6 0)
 			(effects
 				(font
@@ -6482,6 +6494,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" "Board"
+			(at 119.38 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/525413b8-c4e9-4b1d-b0c6-ca0be2e26a7f"
@@ -6559,7 +6580,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 110.49 0)
+		(at 171.45 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6567,7 +6588,7 @@
 		(dnp no)
 		(uuid "75df0f24-cdf0-4073-82dd-42e0bb68796f")
 		(property "Reference" "#PWR072"
-			(at 171.45 116.84 0)
+			(at 171.45 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6576,7 +6597,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 114.3 0)
+			(at 171.45 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6585,7 +6606,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 110.49 0)
+			(at 171.45 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6594,7 +6615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 110.49 0)
+			(at 171.45 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6603,7 +6624,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 110.49 0)
+			(at 171.45 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7238,7 +7259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5"
+		(property "Stock" "3"
 			(at 154.94 59.69 0)
 			(effects
 				(font
@@ -7279,7 +7300,7 @@
 				)
 			)
 		)
-		(property "Value" "OPA828DGN"
+		(property "Value" "OPA828D"
 			(at 183.896 52.832 0)
 			(effects
 				(font
@@ -7324,7 +7345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "LCSC"
 			(at 180.34 57.15 0)
 			(effects
 				(font
@@ -7451,91 +7472,6 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/525413b8-c4e9-4b1d-b0c6-ca0be2e26a7f"
 					(reference "C64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 175.26 106.68 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f2f3d54-e7f5-4bc2-a9d6-a9d0e559c112")
-		(property "Reference" "C70"
-			(at 175.26 103.632 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10n"
-			(at 175.26 109.728 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 171.45 107.6452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "C0G, 25V"
-			(at 175.26 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 175.26 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C307500"
-			(at 175.26 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "JLC"
-			(at 175.26 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1f768bab-7658-40a6-aaf1-dd6fb51f115c")
-		)
-		(pin "1"
-			(uuid "42b23bde-eb23-423f-a8d5-af41c80e6358")
-		)
-		(instances
-			(project "lincal"
-				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/525413b8-c4e9-4b1d-b0c6-ca0be2e26a7f"
-					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -7801,7 +7737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "?"
+		(property "Stock" "LCSC"
 			(at 161.29 52.07 90)
 			(effects
 				(font
@@ -7966,6 +7902,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" "Board"
+			(at 129.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/525413b8-c4e9-4b1d-b0c6-ca0be2e26a7f"
@@ -8064,7 +8009,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 144.78 116.84 90)
+		(at 143.51 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8072,15 +8017,15 @@
 		(dnp no)
 		(uuid "a6e23725-7cd4-462d-8087-bd3b276c9802")
 		(property "Reference" "R70"
-			(at 144.78 114.808 90)
+			(at 143.51 114.808 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10"
-			(at 144.78 116.84 90)
+		(property "Value" "33"
+			(at 143.51 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8088,7 +8033,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 144.78 118.618 90)
+			(at 143.51 118.618 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8097,7 +8042,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 116.84 0)
+			(at 143.51 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8106,7 +8051,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 144.78 116.84 0)
+			(at 143.51 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8114,8 +8059,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25077"
-			(at 144.78 116.84 90)
+		(property "LCSC" "C25105"
+			(at 143.51 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8124,7 +8069,7 @@
 			)
 		)
 		(property "Stock" "JLC"
-			(at 144.78 116.84 90)
+			(at 143.51 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)

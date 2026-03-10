@@ -9303,43 +9303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "spice/opa2388.lib"
-			(at 158.75 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "OPA2388"
-			(at 158.75 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 158.75 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=aout 2=a- 3=a+ 4=v- 5=b+ 6=b- 7=bout 8=v+"
-			(at 158.75 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "14"
+		(property "Stock" "14+LCSC"
 			(at 158.75 87.63 0)
 			(effects
 				(font
@@ -9449,43 +9413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "spice/opa2388.lib"
-			(at 208.28 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "OPA2388"
-			(at 208.28 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 208.28 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=aout 2=a- 3=a+ 4=v- 5=b+ 6=b- 7=bout 8=v+"
-			(at 208.28 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "14"
+		(property "Stock" "14+LCSC"
 			(at 208.28 135.89 0)
 			(effects
 				(font
@@ -10994,43 +10922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "spice/opa2388.lib"
-			(at 209.55 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "OPA2388"
-			(at 209.55 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 209.55 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=aout 2=a- 3=a+ 4=v- 5=b+ 6=b- 7=bout 8=v+"
-			(at 209.55 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "14"
+		(property "Stock" "14+LCSC"
 			(at 209.55 106.68 0)
 			(effects
 				(font

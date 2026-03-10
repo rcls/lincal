@@ -4690,6 +4690,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" "Board"
+			(at 175.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/fd210975-34eb-456f-9075-cf344b0a559b"
@@ -5060,6 +5069,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "Board"
 			(at 180.34 124.46 0)
 			(effects
 				(font

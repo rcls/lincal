@@ -3710,6 +3710,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" "Board"
+			(at 104.14 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e42fba19-ca85-4742-a019-f67d1b8fc682"
@@ -4494,43 +4503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "spice/opa2388.lib"
-			(at 130.81 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "OPA2388"
-			(at 130.81 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 130.81 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=aout 2=a- 3=a+ 4=v- 5=b+ 6=b- 7=bout 8=v+"
-			(at 130.81 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "14"
+		(property "Stock" "14+LCSC"
 			(at 130.81 111.76 0)
 			(effects
 				(font
@@ -4712,6 +4685,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" "Board"
+			(at 99.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/e42fba19-ca85-4742-a019-f67d1b8fc682"
@@ -4766,6 +4748,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 93.98 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "Board"
 			(at 93.98 88.9 0)
 			(effects
 				(font
@@ -5348,43 +5339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "spice/opa2388.lib"
-			(at 132.08 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "OPA2388"
-			(at 132.08 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 132.08 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=aout 2=a- 3=a+ 4=v- 5=b+ 6=b- 7=bout 8=v+"
-			(at 132.08 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "14"
+		(property "Stock" "14+LCSC"
 			(at 132.08 66.04 0)
 			(effects
 				(font
@@ -5995,6 +5950,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "Board"
 			(at 88.9 88.9 0)
 			(effects
 				(font

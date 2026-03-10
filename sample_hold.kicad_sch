@@ -6267,7 +6267,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15127"
+		(property "LCSC" "C20917"
 			(at 161.29 83.82 0)
 			(effects
 				(font
@@ -6789,7 +6789,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C139363"
+		(property "LCSC" ""
 			(at 125.73 58.42 0)
 			(effects
 				(font
@@ -6798,7 +6798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "30"
+		(property "Stock" "LCSC"
 			(at 125.73 58.42 0)
 			(effects
 				(font
@@ -7094,7 +7094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "?"
+		(property "Stock" "LCSC"
 			(at 173.99 68.58 90)
 			(effects
 				(font
@@ -7497,7 +7497,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C139363"
+		(property "LCSC" ""
 			(at 125.73 69.85 0)
 			(effects
 				(font
@@ -7506,7 +7506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "30"
+		(property "Stock" "LCSC"
 			(at 125.73 69.85 0)
 			(effects
 				(font
@@ -7604,7 +7604,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25076"
+		(property "LCSC" "C25082"
 			(at 96.52 97.79 90)
 			(effects
 				(font
@@ -8115,7 +8115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "LCSC?"
+		(property "Stock" "LCSC"
 			(at 151.13 74.93 90)
 			(effects
 				(font
@@ -8442,7 +8442,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25076"
+		(property "LCSC" "C25082"
 			(at 181.61 66.04 90)
 			(effects
 				(font
@@ -8533,7 +8533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "LCSC?"
+		(property "Stock" "LCSC"
 			(at 151.13 63.5 90)
 			(effects
 				(font
@@ -8764,6 +8764,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 204.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "Board"
 			(at 204.47 96.52 0)
 			(effects
 				(font
@@ -9362,7 +9371,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15127"
+		(property "LCSC" "C20917"
 			(at 161.29 91.44 0)
 			(effects
 				(font
@@ -9460,7 +9469,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15127"
+		(property "LCSC" "C20917"
 			(at 171.45 83.82 0)
 			(effects
 				(font
@@ -9624,7 +9633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "LCSC?"
+		(property "Stock" "LCSC"
 			(at 186.69 41.91 90)
 			(effects
 				(font
@@ -10554,7 +10563,7 @@
 				)
 			)
 		)
-		(property "Value" "OPA828DGN"
+		(property "Value" "OPA828D"
 			(at 200.914 64.008 0)
 			(effects
 				(font
@@ -10600,7 +10609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" ""
+		(property "Stock" "LCSC"
 			(at 203.2 68.58 0)
 			(effects
 				(font
@@ -10791,7 +10800,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C139363"
+		(property "LCSC" ""
 			(at 116.84 35.56 0)
 			(effects
 				(font
@@ -10800,7 +10809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "30"
+		(property "Stock" "LCSC"
 			(at 116.84 35.56 0)
 			(effects
 				(font
@@ -10904,7 +10913,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15127"
+		(property "LCSC" "C20917"
 			(at 171.45 91.44 0)
 			(effects
 				(font
@@ -11338,6 +11347,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" "Board"
+			(at 199.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/6f91b1d1-06a0-428d-b546-bc9bd4fa19a0"
@@ -11409,7 +11427,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15127"
+		(property "LCSC" "C20917"
 			(at 170.18 45.72 0)
 			(effects
 				(font
@@ -11820,7 +11838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "?"
+		(property "Stock" "LCSC"
 			(at 189.23 63.5 90)
 			(effects
 				(font

@@ -6333,15 +6333,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 66.04 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C2297"
 			(at 66.04 115.57 0)
 			(effects
@@ -8597,15 +8588,6 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 60.96 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
 			(at 60.96 115.57 0)
 			(effects
 				(font

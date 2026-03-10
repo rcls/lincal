@@ -7860,6 +7860,15 @@
 				(hide yes)
 			)
 		)
+		(property "Stock" "JLC"
+			(at 167.64 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b63cc142-4fd4-45c2-ad49-60f4b291d5ea")
 		)
@@ -8828,7 +8837,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15127"
+		(property "LCSC" "C20917"
 			(at 132.08 40.64 0)
 			(effects
 				(font

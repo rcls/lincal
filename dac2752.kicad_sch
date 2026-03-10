@@ -5563,43 +5563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "spice/opa2388.lib"
-			(at 163.83 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "OPA2388"
-			(at 163.83 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 163.83 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=aout 2=a- 3=a+ 4=v- 5=b+ 6=b- 7=bout 8=v+"
-			(at 163.83 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "14"
+		(property "Stock" "14+LCSC"
 			(at 163.83 91.44 0)
 			(effects
 				(font
@@ -6426,43 +6390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "spice/opa2388.lib"
-			(at 142.24 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "OPA2388"
-			(at 142.24 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 142.24 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=aout 2=a- 3=a+ 4=v- 5=b+ 6=b- 7=bout 8=v+"
-			(at 142.24 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "14"
+		(property "Stock" "14+LCSC"
 			(at 142.24 115.57 0)
 			(effects
 				(font
@@ -8970,43 +8898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "spice/opa2388.lib"
-			(at 69.85 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "OPA2388"
-			(at 69.85 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 69.85 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=aout 2=a- 3=a+ 4=v- 5=b+ 6=b- 7=bout 8=v+"
-			(at 69.85 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "14"
+		(property "Stock" "14+LCSC"
 			(at 69.85 101.6 0)
 			(effects
 				(font
@@ -9567,43 +9459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "spice/opa2388.lib"
-			(at 165.1 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "OPA2388"
-			(at 165.1 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 165.1 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=aout 2=a- 3=a+ 4=v- 5=b+ 6=b- 7=bout 8=v+"
-			(at 165.1 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "14"
+		(property "Stock" "14+LCSC"
 			(at 165.1 118.11 0)
 			(effects
 				(font

@@ -7824,7 +7824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
+		(property "Footprint" "Parts:CP_EIA-3528-12"
 			(at 168.6052 34.29 0)
 			(effects
 				(font
@@ -8597,7 +8597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "Parts:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 85.09 41.91 0)
 			(effects
 				(font

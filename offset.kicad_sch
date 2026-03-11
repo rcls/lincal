@@ -3920,7 +3920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0G, 25V"
+		(property "Datasheet" "C0G, 50V"
 			(at 95.25 60.96 0)
 			(effects
 				(font
@@ -3938,7 +3938,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307500"
+		(property "LCSC" "C389113"
 			(at 95.25 60.96 0)
 			(effects
 				(font
@@ -5131,7 +5131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0G, 25V"
+		(property "Datasheet" "C0G, 50V"
 			(at 95.25 111.76 0)
 			(effects
 				(font
@@ -5149,7 +5149,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307500"
+		(property "LCSC" "C389113"
 			(at 95.25 111.76 0)
 			(effects
 				(font

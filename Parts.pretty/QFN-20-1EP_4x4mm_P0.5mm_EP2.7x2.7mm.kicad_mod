@@ -114,7 +114,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -2.11 -2.11) (xy -2.11 -1.385) (xy -1.385 -2.11)
+			(xy -2.2 -2.2) (xy -2.2 -1.35) (xy -1.35 -2.2)
 		)
 		(stroke
 			(width 0.12)
@@ -524,7 +524,7 @@
 		(uuid "37b1a679-4d3c-4aa8-b562-91e87e55d720")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-20-1EP_4x4mm_P0.5mm_EP2.7x2.7mm.step"
+	(model "${KIPRJMOD}/Parts.pretty/RTJ0020D.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -532,7 +532,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

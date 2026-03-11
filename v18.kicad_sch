@@ -11061,7 +11061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0G, 25V"
+		(property "Datasheet" "C0G, 50V"
 			(at 207.01 106.68 0)
 			(effects
 				(font
@@ -11079,7 +11079,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307500"
+		(property "LCSC" "C389113"
 			(at 207.01 106.68 0)
 			(effects
 				(font
@@ -11772,7 +11772,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C114839"
+		(property "LCSC" "C28286"
 			(at 187.96 58.42 0)
 			(effects
 				(font

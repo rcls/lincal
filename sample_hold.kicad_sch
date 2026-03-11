@@ -8830,7 +8830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0G, 25V"
+		(property "Datasheet" "C0G, 50V"
 			(at 220.98 83.82 0)
 			(effects
 				(font
@@ -8848,7 +8848,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307500"
+		(property "LCSC" "C389113"
 			(at 220.98 83.82 0)
 			(effects
 				(font
@@ -10572,7 +10572,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Parts:SOIC-8_3.9x4.9mm_EP"
+		(property "Footprint" "Parts:SOIC-8_3.9x4.9mm_EP_guardable"
 			(at 200.66 73.66 0)
 			(effects
 				(font
@@ -11150,7 +11150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0G, 25V"
+		(property "Datasheet" "C0G, 50V"
 			(at 210.82 73.66 0)
 			(effects
 				(font
@@ -11168,7 +11168,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307500"
+		(property "LCSC" "C389113"
 			(at 210.82 73.66 0)
 			(effects
 				(font

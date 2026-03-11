@@ -4319,7 +4319,7 @@
 	)
 	(text_box "Flyby past summing resistor pins: Drive → Resistor → Connection → Sense."
 		(exclude_from_sim no)
-		(at 118.11 102.87 0)
+		(at 95.25 102.87 0)
 		(size 29.2099 7.62)
 		(margins 0.254 0.254 0.254 0.254)
 		(stroke
@@ -4410,6 +4410,18 @@
 		(uuid "01dde346-5835-471b-9646-f896c642b476")
 	)
 	(junction
+		(at 83.82 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d928635-16dd-498f-9f36-8502346fe98c")
+	)
+	(junction
+		(at 127 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f4446fc-bd91-4f3f-988f-be81fb66d6f4")
+	)
+	(junction
 		(at 91.44 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4450,6 +4462,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32e9f1c5-fbc0-4543-aa75-05f810028f20")
+	)
+	(junction
+		(at 127 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34777d43-398d-4f84-894c-e099a382fdeb")
 	)
 	(junction
 		(at 217.17 80.01)
@@ -4536,6 +4554,12 @@
 		(uuid "882dfb32-514f-4533-8892-0cee8edd9d3c")
 	)
 	(junction
+		(at 220.98 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f82a860-5a10-4226-856e-965eb6dcc3e0")
+	)
+	(junction
 		(at 213.36 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4608,10 +4632,22 @@
 		(uuid "c15c9d51-c57c-4c14-b8bd-726270b9f3d4")
 	)
 	(junction
+		(at 220.98 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdaaec88-7568-4de4-9222-2f809dad5d47")
+	)
+	(junction
 		(at 124.46 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfa24b06-cfa5-4b5b-831a-e17d196434d6")
+	)
+	(junction
+		(at 83.82 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e064d540-078d-4764-b25d-616feffbebf1")
 	)
 	(junction
 		(at 139.7 120.65)
@@ -4674,6 +4710,16 @@
 			(type default)
 		)
 		(uuid "087cf136-11af-4f25-b456-379ef015217a")
+	)
+	(wire
+		(pts
+			(xy 83.82 95.25) (xy 83.82 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aa32cd9-859c-4c90-abe7-02ca11d283b0")
 	)
 	(wire
 		(pts
@@ -4817,6 +4863,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 62.23) (xy 220.98 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f57a741-7d6e-45d6-8630-506cab0ca992")
+	)
+	(wire
+		(pts
 			(xy 160.02 143.51) (xy 156.21 143.51)
 		)
 		(stroke
@@ -4894,6 +4950,16 @@
 			(type default)
 		)
 		(uuid "3b130a46-39e6-4f47-b1f0-ecede57325eb")
+	)
+	(wire
+		(pts
+			(xy 83.82 69.85) (xy 83.82 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c3b325a-dd73-45f7-80c1-464c366452aa")
 	)
 	(wire
 		(pts
@@ -5247,6 +5313,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 90.17) (xy 220.98 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "975f4f8e-6576-44d4-ae52-9f08c08fe74b")
+	)
+	(wire
+		(pts
 			(xy 139.7 120.65) (xy 139.7 128.27)
 		)
 		(stroke
@@ -5294,6 +5370,16 @@
 			(type default)
 		)
 		(uuid "a53168c4-c140-425f-9ace-d78a824fab71")
+	)
+	(wire
+		(pts
+			(xy 127 60.96) (xy 127 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa75f9a8-d800-4a22-8653-eb13dc29dd01")
 	)
 	(wire
 		(pts
@@ -5574,6 +5660,16 @@
 			(type default)
 		)
 		(uuid "eff28620-b0ff-4b2c-9176-dedaa24858ab")
+	)
+	(wire
+		(pts
+			(xy 127 100.33) (xy 127 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2551f91-0f9b-4748-96e0-82eebfdfeab4")
 	)
 	(wire
 		(pts
@@ -6226,7 +6322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0G, 25V"
+		(property "Datasheet" "C0G, 50V"
 			(at 109.22 76.2 0)
 			(effects
 				(font
@@ -6244,7 +6340,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307500"
+		(property "LCSC" "C389113"
 			(at 109.22 76.2 0)
 			(effects
 				(font
@@ -6312,7 +6408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0G, 25V"
+		(property "Datasheet" "C0G, 50V"
 			(at 124.46 92.71 0)
 			(effects
 				(font
@@ -6330,7 +6426,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307500"
+		(property "LCSC" "C389113"
 			(at 124.46 92.71 90)
 			(effects
 				(font
@@ -6563,6 +6659,80 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/b0f71c87-958f-452c-ba10-5bfb9905e5da"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_01x01_Socket_2")
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 78.74 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fc97aa0-5c39-40e1-a3f3-44215307a690")
+		(property "Reference" "J12"
+			(at 81.28 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B"
+			(at 81.28 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Parts:TestPoint"
+			(at 78.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 78.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "Board"
+			(at 78.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f76a021-0003-4f60-bd2a-788f243e9c67")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/b0f71c87-958f-452c-ba10-5bfb9905e5da"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -6893,6 +7063,80 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/b0f71c87-958f-452c-ba10-5bfb9905e5da"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_01x01_Socket_5")
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 132.08 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e9c3060-0853-4286-8cea-390922b21b3d")
+		(property "Reference" "J13"
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Abuf"
+			(at 129.54 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Parts:TestPoint"
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "Board"
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "139257d2-af15-4194-b3b3-187c0ce94032")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/b0f71c87-958f-452c-ba10-5bfb9905e5da"
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -7349,6 +7593,81 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/b0f71c87-958f-452c-ba10-5bfb9905e5da"
 					(reference "#PWR294")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_01x01_Socket_4")
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 226.06 90.17 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e0d16e1-3f1c-4bd6-b5af-97d266f00fc6")
+		(property "Reference" "J16"
+			(at 222.758 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Gnd"
+			(at 223.012 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Parts:TestPoint"
+			(at 226.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 226.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "Board"
+			(at 226.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c385c41c-acc2-429e-a1da-97edba0e3aa6")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/b0f71c87-958f-452c-ba10-5bfb9905e5da"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -8401,6 +8720,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 132.08 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f3aeea1-15a1-4560-8d53-0712bd56f16f")
+		(property "Reference" "J14"
+			(at 129.794 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Bbuf"
+			(at 129.54 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Parts:TestPoint"
+			(at 132.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 132.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "Board"
+			(at 132.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "612bc024-5c40-4d75-bca5-53655ac34c98")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/b0f71c87-958f-452c-ba10-5bfb9905e5da"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Parts:-16V")
 		(at 179.07 143.51 0)
 		(unit 1)
@@ -8633,6 +9025,81 @@
 			(project "lincal"
 				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/b0f71c87-958f-452c-ba10-5bfb9905e5da"
 					(reference "C712")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_01x01_Socket_1")
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 226.06 62.23 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "959d8e5b-5d01-4c7f-a0d2-31b123533b9d")
+		(property "Reference" "J15"
+			(at 222.758 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Sum"
+			(at 223.012 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Parts:TestPoint"
+			(at 226.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 226.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "Board"
+			(at 226.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14c38beb-7afb-402d-adf7-bfbe2ac709fb")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/b0f71c87-958f-452c-ba10-5bfb9905e5da"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -9528,6 +9995,80 @@
 		)
 	)
 	(symbol
+		(lib_name "Conn_01x01_Socket_3")
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 78.74 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c46fb5f7-8ad6-4cc6-a5b3-8e993592b79a")
+		(property "Reference" "J11"
+			(at 81.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "A"
+			(at 81.28 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Parts:TestPoint"
+			(at 78.74 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 78.74 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "Board"
+			(at 78.74 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ef37a4b-1c3d-429b-929e-8a0032eb7451")
+		)
+		(instances
+			(project "lincal"
+				(path "/b054cef4-39e3-49d8-aff0-7ba5a206c187/b0f71c87-958f-452c-ba10-5bfb9905e5da"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "OPA2197D_2")
 		(lib_id "Parts:OPA2197D")
 		(at 101.6 120.65 0)
@@ -9751,7 +10292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0G, 25V"
+		(property "Datasheet" "C0G, 50V"
 			(at 109.22 88.9 0)
 			(effects
 				(font
@@ -9769,7 +10310,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307500"
+		(property "LCSC" "C389113"
 			(at 109.22 88.9 0)
 			(effects
 				(font
@@ -10705,7 +11246,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 125.222 71.374 90)
+			(at 125.476 71.374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10722,7 +11263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0G, 25V"
+		(property "Datasheet" "C0G, 50V"
 			(at 124.46 72.39 0)
 			(effects
 				(font
@@ -10740,7 +11281,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307500"
+		(property "LCSC" "C389113"
 			(at 124.46 72.39 90)
 			(effects
 				(font

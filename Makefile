@@ -1,6 +1,6 @@
 
 KICAD_PRO:=$(wildcard *.kicad_pro)
-PROJECTS=$(KICAD_PRO:%.kicad_pro=%)
+PROJECTS=lincal end-ana end-digi
 
 all: $(PROJECTS:%=%.all)
 

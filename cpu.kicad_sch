@@ -7408,7 +7408,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "22u"
 			(at 137.16 48.768 0)
 			(effects
 				(font
@@ -7417,7 +7417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 138.1252 54.61 0)
 			(effects
 				(font
@@ -7444,7 +7444,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C96446"
+		(property "LCSC" "C45783"
 			(at 137.16 50.8 0)
 			(effects
 				(font
@@ -11325,7 +11325,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "22u"
 			(at 176.53 51.562 0)
 			(effects
 				(font
@@ -11334,7 +11334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 177.4952 57.15 0)
 			(effects
 				(font
@@ -11361,7 +11361,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C96446"
+		(property "LCSC" "C45783"
 			(at 176.53 53.34 0)
 			(effects
 				(font
